@@ -1,0 +1,83 @@
+$colorCategories: (
+  primary: (
+    brand-blue: (
+      900: #122252,
+      800: #15275f,
+      700: #182d6d,
+      600: #1b327a,
+      500: #1e3888,
+      400: #354c94,
+      300: #4b60a0,
+      200: #7888b8,
+      100: #bcc3db
+    ),
+    brand-green: (
+      900: #2b6571,
+      800: #327684,
+      700: #398697,
+      600: #4097aa,
+      500: #47a8bd,
+      400: #59b1c4,
+      300: #7ec2d1,
+      200: #a3d4de,
+      100: #c8e5eb
+    )
+  ),
+  secondary: (
+    secondary-yellow: (
+      900: #938a3b,
+      800: #aca145,
+      700: #c4b84f,
+      600: #ddcf59,
+      500: #f5e663,
+      400: #f6e973,
+      300: #f7eb82,
+      200: #f8ee92,
+      100: #f9f0a1
+    ),
+    secondary-orange: (
+      900: #99683f,
+      800: #b3794a,
+      700: #cc8a54,
+      600: #e69c5f,
+      500: #ffad69,
+      400: #ffb578,
+      300: #ffbd87,
+      200: #ffc696,
+      100: #ffcea5
+    ),
+    secondary-red: (
+      900: #5e222b,
+      800: #6d2732,
+      700: #7d2d3a,
+      600: #8c3241,
+      500: #9c3848,
+      400: #a64c5a,
+      300: #b0606d,
+      200: #ba747f,
+      100: #c48891
+    )
+  ),
+  semantic: (
+    critical: (
+      dark: #a52a1e,
+      base: #ce3426,
+      light: #d85d51
+    ),
+    warning: (
+      dark: #cc9a06,
+      base: #ffc107,
+      light: #ffcd39
+    ),
+    success: (
+      dark: #116633,
+      base: #157f40,
+      light: #5ba579
+    ),
+    info: (
+      dark: #0b4b99,
+      base: #106bda,
+      light: #88b5ed
+    )
+  )
+);
