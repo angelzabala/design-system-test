@@ -67,8 +67,14 @@
   --semantic-neutral-200: #cccccc;
   --semantic-neutral-100: #e6e6e6;
   --semantic-neutral-abswhite: #ffffff;
+}
+
+:root {
   --shadow-level-1: 0px 0px 8px rgba(0, 0, 0, 0.12);
   --shadow-level-2: 0px 0px 15px rgba(0, 0, 0, 0.24);
+}
+
+:root {
   --z-index-100: 100;
   --z-index-200: 200;
   --z-index-300: 300;
@@ -78,6 +84,9 @@
   --z-index-700: 700;
   --z-index-800: 800;
   --z-index-900: 900;
+}
+
+:root {
   --min-vw: 15.625rem;
   --max-vw: 160rem;
   --visual-spacing-corrector: 0.25rem;
@@ -86,6 +95,37 @@
   --bp-md-spacing: 1.5rem;
   --bp-sm-spacing: 1rem;
   --bp-xs-spacing: 0.5rem;
+}
+
+:root {
+  --bp-xl-spacing-clamp: clamp(
+    0.5rem,
+    0.2294372294rem + 1.7316017316vw,
+    3rem
+  );
+  --bp-lg-spacing-clamp: clamp(
+    0.5rem,
+    0.3376623377rem + 1.038961039vw,
+    2rem
+  );
+  --bp-md-spacing-clamp: clamp(
+    0.5rem,
+    0.3917748918rem + 0.6926406926vw,
+    1.5rem
+  );
+  --bp-sm-spacing-clamp: clamp(
+    0.5rem,
+    0.4458874459rem + 0.3463203463vw,
+    1rem
+  );
+  --bp-xs-spacing-clamp: clamp(
+    0.5rem,
+    0.5rem + 0vw,
+    0.5rem
+  );
+}
+
+:root {
   --ff-main: "Montserrat";
   --ff-complementary: "Barlow";
   --fs-letter-sizing-1: 4.75rem;

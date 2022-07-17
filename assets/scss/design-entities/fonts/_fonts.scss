@@ -1,4 +1,4 @@
-@use '../../utils/fluid-type-mixin' as *;
+@use '../../utils/fluid-type-function' as *;
 @use '../spacing/spacing' as *;
 @use './font_types' as *;
 @use './font-faces' as *;
@@ -12,7 +12,8 @@
     line-height: map-get($fontTypeMap, lineHeight);
   }
   .ft-#{$fontType}-clamp {
-    @include fluid-type(
+    font-size: map-get($fontTypeMap, min-size);
+    font-size: fluidType(
       $min-vw,
       $max-vw,
       map-get($fontTypeMap, min-size),

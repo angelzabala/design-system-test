@@ -57,6 +57,8 @@ $fontLineHeights: (
   lineheight-5: 2
 );
 
+
+//customize font types according to the design system needs
 $fontTypes: (
   header-1: (
     family: map-get($fontFamilies, complementary),

@@ -1,6 +1,7 @@
 @use '../design-entities/spacing/spacing' as *;
 @use '../design-entities/colors/colors' as *;
-@use './fluid-type-spacing-mixin' as *;
+@use '../design-entities/fonts/fonts' as *;
+@use './fluid-type-function' as *;
 @use './z-indexes' as *;
 @use './shadows' as *;
 
@@ -25,14 +26,84 @@
   .bp-#{$breakpoint}-padding {
     padding: map-get($breakpointMap, spacing);
   }
+  .bp-#{$breakpoint}-margin-clamp {
+    margin: #{fluidType($min-vw, $max-vw, $min-spacing, map-get($breakpointMap, spacing))};
+  }
+  .bp-#{$breakpoint}-padding-clamp {
+    padding: #{fluidType($min-vw, $max-vw, $min-spacing, map-get($breakpointMap, spacing))};
+  }
 }
 
-@include fluid-type-spacing(
-  $min-vw,
-  $max-vw,
-  $min-spacing,
-  $max-spacing
-);
+@each $breakpoint, $breakpointMap in $breakpoints {
+  .mt-#{$breakpoint}-clamp{
+    margin-top: $min-spacing;
+    margin-top: #{fluidType($min-vw, $max-vw, $min-spacing, map-get($breakpointMap, spacing))};
+  }
+  .mr-#{$breakpoint}-clamp{
+    margin-right: $min-spacing;
+    margin-right: #{fluidType($min-vw, $max-vw, $min-spacing, map-get($breakpointMap, spacing))};
+  }
+  .mb-#{$breakpoint}-clamp{
+    margin-bottom: $min-spacing;
+    margin-bottom: #{fluidType($min-vw, $max-vw, $min-spacing, map-get($breakpointMap, spacing))};
+  }
+  .ml-#{$breakpoint}-clamp{
+    margin-left: $min-spacing;
+    margin-left: #{fluidType($min-vw, $max-vw, $min-spacing, map-get($breakpointMap, spacing))};
+  }
+  .mx-#{$breakpoint}-clamp{
+    margin-left: $min-spacing;
+    margin-left: #{fluidType($min-vw, $max-vw, $min-spacing, map-get($breakpointMap, spacing))};
+    margin-right: $min-spacing;
+    margin-right: #{fluidType($min-vw, $max-vw, $min-spacing, map-get($breakpointMap, spacing))};
+  }
+  .my-#{$breakpoint}-clamp{
+    margin-top: $min-spacing;
+    margin-top: #{fluidType($min-vw, $max-vw, $min-spacing, map-get($breakpointMap, spacing))};
+    margin-bottom: $min-spacing;
+    margin-bottom: #{fluidType($min-vw, $max-vw, $min-spacing, map-get($breakpointMap, spacing))};
+  }
+
+  .pt-#{$breakpoint}-clamp{
+    padding-top: $min-spacing;
+    padding-top: #{fluidType($min-vw, $max-vw, $min-spacing, map-get($breakpointMap, spacing))};
+  }
+  .pr-#{$breakpoint}-clamp{
+    padding-right: $min-spacing;
+    padding-right: #{fluidType($min-vw, $max-vw, $min-spacing, map-get($breakpointMap, spacing))};
+  }
+  .pb-#{$breakpoint}-clamp{
+    padding-bottom: $min-spacing;
+    padding-bottom: #{fluidType($min-vw, $max-vw, $min-spacing, map-get($breakpointMap, spacing))};
+  }
+  .pl-#{$breakpoint}-clamp{
+    padding-left: $min-spacing;
+    padding-left: #{fluidType($min-vw, $max-vw, $min-spacing, map-get($breakpointMap, spacing))};
+  }
+  .px-#{$breakpoint}-clamp{
+    padding-left: $min-spacing;
+    padding-left: #{fluidType($min-vw, $max-vw, $min-spacing, map-get($breakpointMap, spacing))};
+    padding-right: $min-spacing;
+    padding-right: #{fluidType($min-vw, $max-vw, $min-spacing, map-get($breakpointMap, spacing))};
+  }
+  .py-#{$breakpoint}-clamp{
+    padding-top: $min-spacing;
+    padding-top: #{fluidType($min-vw, $max-vw, $min-spacing, map-get($breakpointMap, spacing))};
+    padding-bottom: $min-spacing;
+    padding-bottom: #{fluidType($min-vw, $max-vw, $min-spacing, map-get($breakpointMap, spacing))};
+  }
+}
+
+.spacing-clamp-based-margin{
+  margin: $min-spacing; // Fallback for older browsers
+  margin: fluidType($min-vw, $max-vw, $min-spacing, $max-spacing);
+}
+
+.spacing-clamp-based-padding{
+  padding: $min-spacing; // Fallback for older browsers
+  padding: fluidType($min-vw, $max-vw, $min-spacing, $max-spacing);
+}
+
 
 @each $level, $value in $shadows {
   .shadow-#{$level}{
@@ -405,4 +476,26 @@
   .z-index-#{$level} {
     z-index: #{$value};
   }
+}
+
+//soft especificity
+*.mt-0{
+  margin-top: 0;
+}
+*.mr-0{
+  margin-right: 0;
+}
+*.mb-0{
+  margin-bottom: 0;
+}
+*.ml-0{
+  margin-left: 0;
+}
+*.mx-0{
+  margin-right: 0;
+  margin-left: 0;
+}
+*.my-0{
+  margin-top: 0;
+  margin-bottom: 0;
 }
