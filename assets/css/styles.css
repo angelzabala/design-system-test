@@ -32,5 +32,8 @@
     font-size: 16px;
   }
 }
+*:focus-visible, *:focus, *:active, *:visited {
+  outline: 0;
+}
 
 /*# sourceMappingURL=styles.css.map */
