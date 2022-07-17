@@ -7,65 +7,70 @@
 @use './utils/shadows' as *;
 @use './utils/z-indexes' as *;
 
-
-:root {
-  @each $category, $categoryValues in $colorCategories {
-    @each $type, $shades in $categoryValues {
+@each $category, $categoryValues in $colorCategories {
+  @each $type, $shades in $categoryValues {
+    :root {
       @each $shade, $value in $shades {
         --#{$category}-#{$type}-#{$shade}: #{$value};
       }
     }
   }
 }
-:root{
+:root {
   @each $level, $value in $shadows {
     --shadow-#{$level}: #{$value};
   }
 }
-
-:root{
+:root {
   @each $level, $value in $z-indexes {
     --z-index-#{$level}: #{$value};
   }
 }
-
-:root{
+:root {
   --min-vw: #{$min-vw};
   --max-vw: #{$max-vw};
   --visual-spacing-corrector: #{$visualCorrector};
-  
+
   @each $breakpoint, $breakpointMap in $breakpoints {
     --bp-#{$breakpoint}-spacing: #{map-get($breakpointMap, spacing)};
   }
 }
-
-:root{
+:root {
   @each $breakpoint, $breakpointMap in $breakpoints {
-    --bp-#{$breakpoint}-spacing-clamp: #{fluidType($min-vw, $max-vw, $min-spacing, map-get($breakpointMap, spacing))};
+    --bp-#{$breakpoint}-spacing-clamp: #{fluidType(
+        $min-vw,
+        $max-vw,
+        $min-spacing,
+        map-get($breakpointMap, spacing)
+      )};
   }
 }
-
-:root{
+:root {
   @each $fontFamily, $value in $fontFamilies {
     --ff-#{$fontFamily}: '#{$value}';
   }
-  
-  @each $fontSize, $value in $fontSizes { 
+}
+:root {
+  @each $fontSize, $value in $fontSizes {
     --fs-#{$fontSize}: #{$value};
   }
-  
+}
+:root {
   @each $letterSpacing, $value in $letterSpacings {
     --ls-#{$letterSpacing}: #{$value};
   }
-  
+}
+:root {
   @each $fontStyle, $value in $fontStyles {
     --fst-#{$fontStyle}: '#{$value}';
   }
-  
+}
+:root {
   @each $fontWeight, $value in $fontWeights {
     --fw-#{$fontWeight}: #{$value};
   }
-  
+}
+:root {
   @each $fontLineHeight, $value in $fontLineHeights {
     --lh-#{$fontLineHeight}: #{$value};
   }
