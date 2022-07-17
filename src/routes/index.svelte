@@ -1,4 +1,4 @@
-<div>
-    <h1>Welcome to SvelteKit</h1>
-    <p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
-</div>
+<p class="ft-header-1 ft-header-1-clamp
+bp-xl-margin-clamp bp-xl-padding-clamp bg-clr-semantic-warning-base">
+    hello there
+</p> 
