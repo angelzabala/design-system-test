@@ -1,32 +1,57 @@
+@use '../design-entities/spacing/spacing' as *;
 @use '../design-entities/colors/colors' as *;
+@use './fluid-type-spacing-mixin' as *;
 @use './z-indexes' as *;
+@use './shadows' as *;
+
 
 @each $category, $categoryValues in $colorCategories {
-  @each $type, $shades in $categoryValues{
-    @each $shade, $value in $shades{
-      .clr-#{$category}-#{$type}-#{$shade}{
-        color: #{$value}; 
+  @each $type, $shades in $categoryValues {
+    @each $shade, $value in $shades {
+      .clr-#{$category}-#{$type}-#{$shade} {
+        color: #{$value};
       }
-      .bg-clr-#{$category}-#{$type}-#{$shade}{
-        background-color: #{$value}; 
+      .bg-clr-#{$category}-#{$type}-#{$shade} {
+        background-color: #{$value};
       }
     }
   }
 }
 
+@each $breakpoint, $breakpointMap in $breakpoints {
+  .bp-#{$breakpoint}-margin {
+    margin: map-get($breakpointMap, spacing);
+  }
+  .bp-#{$breakpoint}-padding {
+    padding: map-get($breakpointMap, spacing);
+  }
+}
+
+@include fluid-type-spacing(
+  $min-vw,
+  $max-vw,
+  $min-spacing,
+  $max-spacing
+);
+
+@each $level, $value in $shadows {
+  .shadow-#{$level}{
+    box-shadow: #{$value}; 
+  }
+}
 
 /* Read only utility */
 .sr-only {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    white-space: nowrap; /* added line */
-    border: 0;
-  }
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap; /* added line */
+  border: 0;
+}
 
 .flex {
   display: flex;
@@ -73,83 +98,83 @@
 }
 
 .overflow-auto {
-  overflow: auto ;
+  overflow: auto;
 }
 
 .overflow-hidden {
-  overflow: hidden ;
+  overflow: hidden;
 }
 
 .overflow-visible {
-  overflow: visible ;
+  overflow: visible;
 }
 
 .overflow-scroll {
-  overflow: scroll ;
+  overflow: scroll;
 }
 
 .d-inline {
-  display: inline ;
+  display: inline;
 }
 
 .d-inline-block {
-  display: inline-block ;
+  display: inline-block;
 }
 
 .d-block {
-  display: block ;
+  display: block;
 }
 
 .d-grid {
-  display: grid ;
+  display: grid;
 }
 
 .d-table {
-  display: table ;
+  display: table;
 }
 
 .d-table-row {
-  display: table-row ;
+  display: table-row;
 }
 
 .d-table-cell {
-  display: table-cell ;
+  display: table-cell;
 }
 .shadow-none {
-  box-shadow: none ;
+  box-shadow: none;
 }
 
 .position-static {
-  position: static ;
+  position: static;
 }
 
 .position-relative {
-  position: relative ;
+  position: relative;
 }
 
 .position-absolute {
-  position: absolute ;
+  position: absolute;
 }
 
 .position-fixed {
-  position: fixed ;
+  position: fixed;
 }
 
 .position-sticky {
-  position: -webkit-sticky ;
-  position: sticky ;
+  position: -webkit-sticky;
+  position: sticky;
 }
 
 .translate-middle {
-  transform: translate(-50%, -50%) ;
+  transform: translate(-50%, -50%);
 }
 
 .translate-middle-x {
-  transform: translateX(-50%) ;
+  transform: translateX(-50%);
 }
 
 .translate-middle-y {
-  transform: translateY(-50%) ;
+  transform: translateY(-50%);
 }
 
 .d-flex {
@@ -368,16 +393,16 @@
   align-self: stretch;
 }
 
-.place-content-center{
+.place-content-center {
   place-content: center;
 }
 
-.place-items-center{
+.place-items-center {
   place-items: center;
 }
 
-@each $level, $value in $z-indexes{
-  .z-index-#{$level}{
+@each $level, $value in $z-indexes {
+  .z-index-#{$level} {
     z-index: #{$value};
   }
 }

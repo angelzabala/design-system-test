@@ -1,0 +1,36 @@
+* {
+  font-family: var(--ff-main);
+}
+
+@media only screen and (min-width: 2560px) {
+  html {
+    font-size: 0.8333vw !important;
+  }
+}
+@media only screen and (max-width: 2560px) {
+  html {
+    font-size: 64px;
+  }
+}
+@media only screen and (max-width: 1920px) {
+  html {
+    font-size: 24px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  html {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  html {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

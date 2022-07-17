@@ -1,0 +1,102 @@
+$fontFamilies: (
+  main: 'Montserrat',
+  secondary: 'Bebas Neue',
+  complementary: 'Barlow'
+);
+
+$fontSizes: (
+  /*76px*/ letter-sizing-1: 4.75rem,
+  /*60px*/ letter-sizing-2: 3.75rem,
+  /*48px*/ letter-sizing-3: 3rem,
+  /*36px*/ letter-sizing-4: 2.25rem,
+  /*34px*/ letter-sizing-5: 2.125rem,
+  /*24px*/ letter-sizing-6: 1.5rem,
+  /*20px*/ letter-sizing-7: 1.25rem,
+  /*18px*/ letter-sizing-8: 1.125rem,
+  /*16px*/ letter-sizing-9: 1rem,
+  /*14px*/ letter-sizing-10: 0.875rem
+);
+
+$letterSpacings: (
+  letter-spacing-n1: -0.5px,
+  letter-spacing-0: 0,
+  letter-spacing-1: 0.15px,
+  letter-spacing-2: 0.25px,
+  letter-spacing-3: 0.4px,
+  letter-spacing-4: 0.5px,
+  letter-spacing-5: 0.75px,
+  letter-spacing-6: 0.1px
+);
+
+$fontStyles: (
+  italic: 'italic',
+  oblique: 'oblique',
+  normal: 'normal'
+);
+
+$fontWeights: (
+  100: 100,
+  200: 200,
+  300: 300,
+  400: 400,
+  500: 500,
+  600: 600,
+  700: 700,
+  800: 800,
+  900: 900,
+  light: 300,
+  regular: 400,
+  medium: 500,
+  bold: 600
+);
+
+$fontLineHeights: (
+  lineheight-1: 1,
+  lineheight-2: 1.25,
+  lineheight-3: 1.5,
+  lineheight-4: 1.75,
+  lineheight-5: 2
+);
+
+$fontTypes: (
+  header-1: (
+    family: map-get($fontFamilies, main),
+    max-size: map-get($fontSizes, letter-sizing-1),
+    min-size: map-get($fontSizes, letter-sizing-8),
+    spacing: map-get($letterSpacings, letter-spacing-4),
+    weight: map-get($fontWeights, bold),
+    lineHeight: map-get($fontLineHeights, lineheight-2)
+  ),
+  header-2: (
+    family: map-get($fontFamilies, main),
+    max-size: map-get($fontSizes, letter-sizing-2),
+    min-size: map-get($fontSizes, letter-sizing-8),
+    spacing: map-get($letterSpacings, letter-spacing-3),
+    weight: map-get($fontWeights, italic),
+    lineHeight: map-get($fontLineHeights, lineheight-2)
+  ),
+  header-3: (
+    family: map-get($fontFamilies, secondary),
+    max-size: map-get($fontSizes, letter-sizing-3),
+    min-size: map-get($fontSizes, letter-sizing-9),
+    spacing: map-get($letterSpacings, letter-spacing-2),
+    weight: map-get($fontWeights, normal),
+    lineHeight: map-get($fontLineHeights, lineheight-2)
+  ),
+  parragraph: (
+    family: map-get($fontFamilies, secondary),
+    max-size: map-get($fontSizes, letter-sizing-4),
+    min-size: map-get($fontSizes, letter-sizing-9),
+    spacing: map-get($letterSpacings, letter-spacing-1),
+    weight: map-get($fontWeights, bold),
+    lineHeight: map-get($fontLineHeights, lineheight-2)
+  ),
+  small: (
+    family: map-get($fontFamilies, complementary),
+    max-size: map-get($fontSizes, letter-sizing-5),
+    min-size: map-get($fontSizes, letter-sizing-10),
+    spacing: map-get($letterSpacings, letter-spacing-0),
+    weight: map-get($fontWeights, normal),
+    lineHeight: map-get($fontLineHeights, lineheight-2)
+  )
+);

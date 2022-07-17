@@ -1,0 +1,58 @@
+@use '../../utils/fluid-type-mixin' as *;
+@use '../spacing/spacing' as *;
+@use './font_types' as *;
+@use './font-faces' as *;
+
+@each $fontType, $fontTypeMap in $fontTypes{
+  .ft-#{$fontType} { 
+    font-family: map-get($fontTypeMap, family);
+    font-size: map-get($fontTypeMap, max-size);
+    letter-spacing: map-get($fontTypeMap, spacing);
+    font-weight: map-get($fontTypeMap, weight);
+    line-height: map-get($fontTypeMap, lineHeight);
+  }
+  .ft-#{$fontType}-clamp {
+    @include fluid-type(
+      $min-vw,
+      $max-vw,
+      map-get($fontTypeMap, min-size),
+      map-get($fontTypeMap, max-size)
+    );
+  }
+} 
+
+@each $fontFamily, $value in $fontFamilies{
+  .ff-#{$fontFamily}{
+    font-family: "#{$value}";
+  }
+}
+
+@each $fontSize, $value in $fontSizes{
+  .fs-#{$fontSize}{
+    font-size: #{$value};
+  }
+}
+
+@each $letterSpacing, $value in $letterSpacings{
+  .ls-#{$letterSpacing}{
+    letter-spacing: #{$value};
+  }
+}
+
+@each $fontStyle, $value in $fontStyles{
+  .fst-#{$fontStyle}{
+    font-style: "#{$value}";
+  }
+}
+
+@each $fontWeight, $value in $fontWeights{
+  .fw-#{$fontWeight}{
+    font-weight: #{$value};
+  }
+}
+
+@each $fontLineHeight, $value in $fontLineHeights{
+  .lh-#{$fontLineHeight}{
+    line-height: #{$value};
+  }
+}

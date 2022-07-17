@@ -1,0 +1,20 @@
+@use './design-entities/spacing/spacing' as *;
+
+* {
+  font-family: var(--ff-main);
+}
+
+@media only screen and (min-width: #{$max-vw-px}) {
+  html {
+    font-size: #{$fontVwBigScreens} !important;
+  }
+}
+
+
+@each $breakpoint, $breakpointMap in $breakpoints{
+    @media only screen and (max-width: map-get($breakpointMap, value)) {
+        html {
+            font-size: map-get($breakpointMap, htmlFontSize);
+        }
+    }
+}

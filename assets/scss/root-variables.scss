@@ -1,0 +1,56 @@
+@use './design-entities/fonts/font_types' as *;
+@use './design-entities/spacing/spacing' as *;
+@use 'design-entities/colors/colors' as *;
+
+@use './utils/shadows' as *;
+@use './utils/z-indexes' as *;
+
+:root {
+  @each $category, $categoryValues in $colorCategories {
+    @each $type, $shades in $categoryValues {
+      @each $shade, $value in $shades {
+        --#{$category}-#{$type}-#{$shade}: #{$value};
+      }
+    }
+  }
+
+  @each $level, $value in $shadows {
+    --shadow-#{$level}: #{$value};
+  }
+
+  @each $level, $value in $z-indexes {
+    --z-index-#{$level}: #{$value};
+  }
+
+  --min-vw: #{$min-vw};
+  --max-vw: #{$max-vw};
+  --visual-spacing-corrector: #{$visualCorrector};
+
+  @each $breakpoint, $breakpointMap in $breakpoints {
+    --bp-#{$breakpoint}-spacing: #{map-get($breakpointMap, spacing)};
+  }
+
+  @each $fontFamily, $value in $fontFamilies {
+    --ff-#{$fontFamily}: '#{$value}';
+  }
+
+  @each $fontSize, $value in $fontSizes { 
+    --fs-#{$fontSize}: #{$value};
+  }
+
+  @each $letterSpacing, $value in $letterSpacings {
+    --ls-#{$letterSpacing}: #{$value};
+  }
+
+  @each $fontStyle, $value in $fontStyles {
+    --fst-#{$fontStyle}: '#{$value}';
+  }
+
+  @each $fontWeight, $value in $fontWeights {
+    --fw-#{$fontWeight}: #{$value};
+  }
+
+  @each $fontLineHeight, $value in $fontLineHeights {
+    --lh-#{$fontLineHeight}: #{$value};
+  }
+}

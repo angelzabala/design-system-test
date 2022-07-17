@@ -1,0 +1,39 @@
+$breakpoints: (
+  xl: (
+    value: 2560px,
+    spacing: 3rem,
+    htmlFontSize: 64px,
+  ),
+  lg: (
+    value: 1920px,
+    spacing: 2rem,
+    htmlFontSize: 24px,
+  ),
+  md: (
+    value: 1200px,
+    spacing: 1.5rem,
+    htmlFontSize: 16px,
+  ),
+  sm: (
+    value: 767px,
+    spacing: 1rem,
+    htmlFontSize: 14px,
+  ),
+  xs: (
+    value: 480px,
+    spacing: 0.5rem,
+    htmlFontSize: 14px,
+  )
+);
+
+//user for clamp values
+$min-vw: 15.625rem; //250px
+$max-vw: 160rem; //2560px
+$max-vw-px: 2560px; //160rem;
+
+$min-spacing: 0.5rem;
+$max-spacing: 3rem;
+
+$fontVwBigScreens: 0.8333vw;
+//used to adjust spacing in margin or paddings 
+$visualCorrector: 0.25rem;

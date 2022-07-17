@@ -454,6 +454,173 @@
   background-color: #88b5ed;
 }
 
+.clr-semantic-neutral-absblack {
+  color: #000000;
+}
+
+.bg-clr-semantic-neutral-absblack {
+  background-color: #000000;
+}
+
+.clr-semantic-neutral-900 {
+  color: #1a1a1a;
+}
+
+.bg-clr-semantic-neutral-900 {
+  background-color: #1a1a1a;
+}
+
+.clr-semantic-neutral-800 {
+  color: #333333;
+}
+
+.bg-clr-semantic-neutral-800 {
+  background-color: #333333;
+}
+
+.clr-semantic-neutral-700 {
+  color: #4d4d4d;
+}
+
+.bg-clr-semantic-neutral-700 {
+  background-color: #4d4d4d;
+}
+
+.clr-semantic-neutral-600 {
+  color: #666666;
+}
+
+.bg-clr-semantic-neutral-600 {
+  background-color: #666666;
+}
+
+.clr-semantic-neutral-500 {
+  color: #808080;
+}
+
+.bg-clr-semantic-neutral-500 {
+  background-color: #808080;
+}
+
+.clr-semantic-neutral-400 {
+  color: #999999;
+}
+
+.bg-clr-semantic-neutral-400 {
+  background-color: #999999;
+}
+
+.clr-semantic-neutral-300 {
+  color: #b3b3b3;
+}
+
+.bg-clr-semantic-neutral-300 {
+  background-color: #b3b3b3;
+}
+
+.clr-semantic-neutral-200 {
+  color: #cccccc;
+}
+
+.bg-clr-semantic-neutral-200 {
+  background-color: #cccccc;
+}
+
+.clr-semantic-neutral-100 {
+  color: #e6e6e6;
+}
+
+.bg-clr-semantic-neutral-100 {
+  background-color: #e6e6e6;
+}
+
+.clr-semantic-neutral-abswhite {
+  color: #ffffff;
+}
+
+.bg-clr-semantic-neutral-abswhite {
+  background-color: #ffffff;
+}
+
+.bp-xl-margin {
+  margin: 3rem;
+}
+
+.bp-xl-padding {
+  padding: 3rem;
+}
+
+.bp-lg-margin {
+  margin: 2rem;
+}
+
+.bp-lg-padding {
+  padding: 2rem;
+}
+
+.bp-md-margin {
+  margin: 1.5rem;
+}
+
+.bp-md-padding {
+  padding: 1.5rem;
+}
+
+.bp-sm-margin {
+  margin: 1rem;
+}
+
+.bp-sm-padding {
+  padding: 1rem;
+}
+
+.bp-xs-margin {
+  margin: 0.5rem;
+}
+
+.bp-xs-padding {
+  padding: 0.5rem;
+}
+
+:root {
+  --clamp-based-margin: clamp(
+    0.5rem,
+    0.2294372294rem + 1.7316017316vw,
+    3rem
+  );
+  --clamp-based-padding: clamp(
+    0.5rem,
+    0.2294372294rem + 1.7316017316vw,
+    3rem
+  );
+}
+
+.spacing-clamp-based-margin {
+  margin: 0.5rem;
+  margin: clamp(
+      0.5rem,
+      0.2294372294rem + 1.7316017316vw,
+      3rem
+    );
+}
+
+.spacing-clamp-based-padding {
+  padding: 0.5rem;
+  padding: clamp(
+      0.5rem,
+      0.2294372294rem + 1.7316017316vw,
+      3rem
+    );
+}
+
+.shadow-level-1 {
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12);
+}
+
+.shadow-level-2 {
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.24);
+}
+
 /* Read only utility */
 .sr-only {
   position: absolute;

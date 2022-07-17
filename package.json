@@ -12,7 +12,7 @@
 		"check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
 		"lint": "prettier --check --plugin-search-dir=. . && eslint .",
 		"format": "prettier --write --plugin-search-dir=. .",
-		"sass-dev": "sass --watch --update --style=expanded assets/scss:assets/css",
+		"sass-dev": "sass --watch --update --style=expanded assets/scss:assets/css", 
 		"sass-prod": "sass --no-source-map --style=compressed assets/scss:assets/css"
 	},
 	"devDependencies": {
