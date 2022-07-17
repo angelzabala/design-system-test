@@ -125,6 +125,14 @@
 }
 
 :root {
+  --bp-xl: 2560px;
+  --bp-lg: 1920px;
+  --bp-md: 1200px;
+  --bp-sm: 767px;
+  --bp-xs: 480px;
+}
+
+:root {
   --bp-xl-spacing-clamp: clamp(
     0.5rem,
     0.2294372294rem + 1.7316017316vw,

@@ -37,6 +37,12 @@
 }
 :root {
   @each $breakpoint, $breakpointMap in $breakpoints {
+    --bp-#{$breakpoint}: #{map-get($breakpointMap, value)};
+  }
+}
+
+:root {
+  @each $breakpoint, $breakpointMap in $breakpoints {
     --bp-#{$breakpoint}-spacing-clamp: #{fluidType(
         $min-vw,
         $max-vw,
