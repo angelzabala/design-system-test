@@ -1,5 +1,5 @@
-$min-spacing: 0.5rem;
-$max-spacing: 3rem;
+$min-spacing: 0.25rem; //8px
+$max-spacing: 3rem; //48px
 $max-vw-px: 2560px; //160rem;
 
 //user for clamp values
@@ -7,7 +7,7 @@ $min-vw: 15.625rem; //250px
 $max-vw: 160rem; //2560px
 
 $fontVwBigScreens: 0.8333vw;
-//used to adjust spacing in margin or paddings 
+//used to adjust spacing in margin or paddings
 $visualCorrector: 0.25rem;
 
 //can have as many as you want following the same object structure
@@ -15,28 +15,26 @@ $breakpoints: (
   xl: (
     value: $max-vw-px,
     spacing: $max-spacing,
-    htmlFontSize: 16px,
+    htmlFontSize: 16px
   ),
   lg: (
     value: 1920px,
     spacing: 2rem,
-    htmlFontSize: 16px,
+    htmlFontSize: 16px
   ),
   md: (
     value: 1200px,
     spacing: 1.5rem,
-    htmlFontSize: 16px,
+    htmlFontSize: 16px
   ),
   sm: (
     value: 767px,
     spacing: 1rem,
-    htmlFontSize: 16px,
+    htmlFontSize: 16px
   ),
   xs: (
     value: 480px,
     spacing: $min-spacing,
-    htmlFontSize: 16px,
+    htmlFontSize: 16px
   )
 );
-
-

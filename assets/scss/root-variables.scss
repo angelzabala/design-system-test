@@ -7,6 +7,48 @@
 @use './utils/shadows' as *;
 @use './utils/z-indexes' as *;
 
+:root {
+  @each $letterSpacing, $value in $letterSpacings {
+    --ls-#{$letterSpacing}: #{$value};
+  }
+}
+:root {
+  @each $fontStyle, $value in $fontStyles {
+    --fst-#{$fontStyle}: '#{$value}';
+  }
+}
+:root {
+  @each $fontWeight, $value in $fontWeights {
+    --fw-#{$fontWeight}: #{$value};
+  }
+}
+:root {
+  @each $fontLineHeight, $value in $fontLineHeights {
+    --lh-#{$fontLineHeight}: #{$value};
+  }
+}
+:root {
+  @each $fontFamily, $value in $fontFamilies {
+    --ff-#{$fontFamily}: '#{$value}';
+  }
+}
+:root {
+  @each $level, $value in $z-indexes {
+    --z-index-#{$level}: #{$value};
+  }
+}
+:root {
+  @each $level, $value in $shadows {
+    --shadow-#{$level}: #{$value};
+  }
+}
+
+:root {
+  @each $fontSize, $value in $fontSizes {
+    --fs-#{$fontSize}: #{$value};
+  }
+}
+
 @each $category, $categoryValues in $colorCategories {
   @each $type, $shades in $categoryValues {
     :root {
@@ -16,16 +58,7 @@
     }
   }
 }
-:root {
-  @each $level, $value in $shadows {
-    --shadow-#{$level}: #{$value};
-  }
-}
-:root {
-  @each $level, $value in $z-indexes {
-    --z-index-#{$level}: #{$value};
-  }
-}
+
 :root {
   --min-vw: #{$min-vw};
   --max-vw: #{$max-vw};
@@ -49,35 +82,5 @@
         $min-spacing,
         map-get($breakpointMap, spacing)
       )};
-  }
-}
-:root {
-  @each $fontFamily, $value in $fontFamilies {
-    --ff-#{$fontFamily}: '#{$value}';
-  }
-}
-:root {
-  @each $fontSize, $value in $fontSizes {
-    --fs-#{$fontSize}: #{$value};
-  }
-}
-:root {
-  @each $letterSpacing, $value in $letterSpacings {
-    --ls-#{$letterSpacing}: #{$value};
-  }
-}
-:root {
-  @each $fontStyle, $value in $fontStyles {
-    --fst-#{$fontStyle}: '#{$value}';
-  }
-}
-:root {
-  @each $fontWeight, $value in $fontWeights {
-    --fw-#{$fontWeight}: #{$value};
-  }
-}
-:root {
-  @each $fontLineHeight, $value in $fontLineHeights {
-    --lh-#{$fontLineHeight}: #{$value};
   }
 }
