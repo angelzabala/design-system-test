@@ -363,4 +363,10 @@
   border-width: 5px;
 }
 
+.rounded {
+  border-radius: 50%;
+  aspect-ratio: 1;
+  height: auto;
+}
+
 /*# sourceMappingURL=utility-classes.css.map */
