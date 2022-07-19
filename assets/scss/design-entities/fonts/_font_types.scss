@@ -73,7 +73,7 @@ $fontTypes: (
     max-size: map-get($fontSizes, letter-sizing-2),
     min-size: map-get($fontSizes, letter-sizing-8),
     spacing: map-get($letterSpacings, letter-spacing-3),
-    weight: map-get($fontWeights, italic),
+    weight: map-get($fontWeights, medium),
     lineHeight: map-get($fontLineHeights, lineheight-2)
   ),
   header-3: (
@@ -81,7 +81,7 @@ $fontTypes: (
     max-size: map-get($fontSizes, letter-sizing-3),
     min-size: map-get($fontSizes, letter-sizing-9),
     spacing: map-get($letterSpacings, letter-spacing-2),
-    weight: map-get($fontWeights, normal),
+    weight: map-get($fontWeights, regular),
     lineHeight: map-get($fontLineHeights, lineheight-2)
   ),
   parragraph: (
@@ -97,7 +97,9 @@ $fontTypes: (
     max-size: map-get($fontSizes, letter-sizing-5),
     min-size: map-get($fontSizes, letter-sizing-10),
     spacing: map-get($letterSpacings, letter-spacing-0),
-    weight: map-get($fontWeights, normal),
+    weight: map-get($fontWeights, regular),
     lineHeight: map-get($fontLineHeights, lineheight-2)
   )
 );
+
+$minSupportedFs: map-get($fontSizes , letter-sizing-10);

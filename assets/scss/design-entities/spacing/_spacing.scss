@@ -1,5 +1,9 @@
+//user for clamp values
 $min-spacing: 0.25rem; //8px
 $max-spacing: 3rem; //48px
+
+//user for clamp values
+$min-vw-px: 250px; //15.625rem;
 $max-vw-px: 2560px; //160rem;
 
 //user for clamp values
@@ -8,33 +12,49 @@ $max-vw: 160rem; //2560px
 
 $fontVwBigScreens: 0.8333vw;
 //used to adjust spacing in margin or paddings
-$visualCorrector: 0.25rem;
+$visualCorrector: 0.125rem;
 
-//can have as many as you want following the same object structure
+//create grid columns
+$gridColumns: 12;
+
+//user for setting a breakpoint with max-width for small screens
+$smallestBreakpoint: 480px;
+
+//can have as many as you want following the same object structure from the biggest to the smalles breakpoint
 $breakpoints: (
   xl: (
     value: $max-vw-px,
     spacing: $max-spacing,
-    htmlFontSize: 16px
+    min-bp-spacing: 2rem,
+    htmlFontSize: 16px,
+    RecommendedColumns: 12
   ),
   lg: (
     value: 1920px,
     spacing: 2rem,
-    htmlFontSize: 16px
+    min-bp-spacing: 1.5rem,
+    htmlFontSize: 16px,
+    RecommendedColumns: 12
   ),
   md: (
     value: 1200px,
     spacing: 1.5rem,
-    htmlFontSize: 16px
+    min-bp-spacing: 1rem,
+    htmlFontSize: 16px,
+    RecommendedColumns: 8
   ),
   sm: (
     value: 767px,
     spacing: 1rem,
-    htmlFontSize: 16px
+    min-bp-spacing: $min-spacing,
+    htmlFontSize: 16px,
+    RecommendedColumns: 4
   ),
   xs: (
-    value: 480px,
+    value: $smallestBreakpoint,
     spacing: $min-spacing,
-    htmlFontSize: 16px
+    min-bp-spacing: 0.25rem,
+    htmlFontSize: 16px,
+    RecommendedColumns: 4
   )
 );

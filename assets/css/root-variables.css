@@ -63,15 +63,65 @@
 
 :root {
   --fs-letter-sizing-1: 4.75rem;
+  --fs-letter-sizing-1-c: clamp(
+    0.875rem,
+    0.4556277056rem + 2.683982684vw,
+    4.75rem
+  );
   --fs-letter-sizing-2: 3.75rem;
+  --fs-letter-sizing-2-c: clamp(
+    0.875rem,
+    0.5638528139rem + 1.9913419913vw,
+    3.75rem
+  );
   --fs-letter-sizing-3: 3rem;
+  --fs-letter-sizing-3-c: clamp(
+    0.875rem,
+    0.645021645rem + 1.4718614719vw,
+    3rem
+  );
   --fs-letter-sizing-4: 2.25rem;
+  --fs-letter-sizing-4-c: clamp(
+    0.875rem,
+    0.7261904762rem + 0.9523809524vw,
+    2.25rem
+  );
   --fs-letter-sizing-5: 2.125rem;
+  --fs-letter-sizing-5-c: clamp(
+    0.875rem,
+    0.7397186147rem + 0.8658008658vw,
+    2.125rem
+  );
   --fs-letter-sizing-6: 1.5rem;
+  --fs-letter-sizing-6-c: clamp(
+    0.875rem,
+    0.8073593074rem + 0.4329004329vw,
+    1.5rem
+  );
   --fs-letter-sizing-7: 1.25rem;
+  --fs-letter-sizing-7-c: clamp(
+    0.875rem,
+    0.8344155844rem + 0.2597402597vw,
+    1.25rem
+  );
   --fs-letter-sizing-8: 1.125rem;
+  --fs-letter-sizing-8-c: clamp(
+    0.875rem,
+    0.8479437229rem + 0.1731601732vw,
+    1.125rem
+  );
   --fs-letter-sizing-9: 1rem;
+  --fs-letter-sizing-9-c: clamp(
+    0.875rem,
+    0.8614718615rem + 0.0865800866vw,
+    1rem
+  );
   --fs-letter-sizing-10: 0.875rem;
+  --fs-letter-sizing-10-c: clamp(
+    0.875rem,
+    0.875rem + 0vw,
+    0.875rem
+  );
 }
 
 :root {
@@ -87,15 +137,15 @@
 }
 
 :root {
-  --secondary-yellow-900: #713f12;
-  --secondary-yellow-800: #854d0e;
-  --secondary-yellow-700: #a16207;
-  --secondary-yellow-600: #ca8a04;
-  --secondary-yellow-500: #eab308;
-  --secondary-yellow-400: #facc15;
-  --secondary-yellow-300: #fde047;
-  --secondary-yellow-200: #fde68a;
-  --secondary-yellow-100: #fef3c7;
+  --secondary-brand-yellow-900: #713f12;
+  --secondary-brand-yellow-800: #854d0e;
+  --secondary-brand-yellow-700: #a16207;
+  --secondary-brand-yellow-600: #ca8a04;
+  --secondary-brand-yellow-500: #eab308;
+  --secondary-brand-yellow-400: #facc15;
+  --secondary-brand-yellow-300: #fde047;
+  --secondary-brand-yellow-200: #fde68a;
+  --secondary-brand-yellow-100: #fef3c7;
 }
 
 :root {
@@ -123,23 +173,23 @@
 }
 
 :root {
-  --gray-shade-absblack: #000000;
-  --gray-shade-900: #0f172a;
-  --gray-shade-800: #1e293b;
-  --gray-shade-700: #334155;
-  --gray-shade-600: #475569;
-  --gray-shade-500: #64748b;
-  --gray-shade-400: #94a3b8;
-  --gray-shade-300: #cbd5e1;
-  --gray-shade-200: #e2e8f0;
-  --gray-shade-100: #f1f5f9;
-  --gray-shade-abswhite: #ffffff;
+  --grayscale-shade-absblack: #000000;
+  --grayscale-shade-900: #0f172a;
+  --grayscale-shade-800: #1e293b;
+  --grayscale-shade-700: #334155;
+  --grayscale-shade-600: #475569;
+  --grayscale-shade-500: #64748b;
+  --grayscale-shade-400: #94a3b8;
+  --grayscale-shade-300: #cbd5e1;
+  --grayscale-shade-200: #e2e8f0;
+  --grayscale-shade-100: #f1f5f9;
+  --grayscale-shade-abswhite: #ffffff;
 }
 
 :root {
   --min-vw: 15.625rem;
   --max-vw: 160rem;
-  --visual-spacing-corrector: 0.25rem;
+  --visual-spacing-corrector: 0.125rem;
   --bp-xl-spacing: 3rem;
   --bp-lg-spacing: 2rem;
   --bp-md-spacing: 1.5rem;
@@ -156,27 +206,55 @@
 }
 
 :root {
-  --bp-xl-spacing-clamp: clamp(
+  --bp-xl-spacing-cshrink: clamp(
     0.25rem,
     -0.0476190476rem + 1.9047619048vw,
     3rem
   );
-  --bp-lg-spacing-clamp: clamp(
+  --bp-lg-spacing-cshrink: clamp(
     0.25rem,
     0.0606060606rem + 1.2121212121vw,
     2rem
   );
-  --bp-md-spacing-clamp: clamp(
+  --bp-md-spacing-cshrink: clamp(
     0.25rem,
     0.1147186147rem + 0.8658008658vw,
     1.5rem
   );
-  --bp-sm-spacing-clamp: clamp(
+  --bp-sm-spacing-cshrink: clamp(
     0.25rem,
     0.1688311688rem + 0.5194805195vw,
     1rem
   );
-  --bp-xs-spacing-clamp: clamp(
+  --bp-xs-spacing-cshrink: clamp(
+    0.25rem,
+    0.25rem + 0vw,
+    0.25rem
+  );
+}
+
+:root {
+  --bp-xl-spacing-c: clamp(
+    2rem,
+    1.8917748918rem + 0.6926406926vw,
+    3rem
+  );
+  --bp-lg-spacing-c: clamp(
+    1.5rem,
+    1.4458874459rem + 0.3463203463vw,
+    2rem
+  );
+  --bp-md-spacing-c: clamp(
+    1rem,
+    0.9458874459rem + 0.3463203463vw,
+    1.5rem
+  );
+  --bp-sm-spacing-c: clamp(
+    0.25rem,
+    0.1688311688rem + 0.5194805195vw,
+    1rem
+  );
+  --bp-xs-spacing-c: clamp(
     0.25rem,
     0.25rem + 0vw,
     0.25rem

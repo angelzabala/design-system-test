@@ -1,9 +1,99 @@
 @use '../design-entities/spacing/spacing' as *;
 @use '../design-entities/colors/colors' as *;
+
+@use '../design-entities/fonts/font-faces' as *;
+@use '../design-entities/fonts/font_types' as *;
 @use '../design-entities/fonts/fonts' as *;
+
+@use './reverse-list-function' as *;
 @use './fluid-type-function' as *;
 @use './z-indexes' as *;
 @use './shadows' as *;
+
+
+@each $breakpoint, $breakpointMap in reverse($breakpoints) {
+  @media only screen and (min-width: map-get($breakpointMap, value)) {
+    @each $fontType, $fontTypeMap in $fontTypes {
+      .#{$breakpoint}-ft-#{$fontType} {
+        font-family: map-get($fontTypeMap, family);
+        font-size: map-get($fontTypeMap, max-size);
+        letter-spacing: map-get($fontTypeMap, spacing);
+        font-weight: map-get($fontTypeMap, weight);
+        line-height: map-get($fontTypeMap, lineHeight);
+      }
+      .#{$breakpoint}-ft-#{$fontType}-c {
+        font-size: map-get($fontTypeMap, min-size);
+        font-size: fluidType(
+          $min-vw,
+          $max-vw,
+          map-get($fontTypeMap, min-size),
+          map-get($fontTypeMap, max-size)
+        );
+      }
+    }
+
+    @each $fontFamily, $value in $fontFamilies {
+      .#{$breakpoint}-ff-#{$fontFamily} {
+        font-family: '#{$value}';
+      }
+    }
+
+    @each $letterSpacing, $value in $letterSpacings {
+      .#{$breakpoint}-ls-#{$letterSpacing} {
+        letter-spacing: #{$value};
+      }
+    }
+
+    @each $fontStyle, $value in $fontStyles {
+      .#{$breakpoint}-fst-#{$fontStyle} {
+        font-style: '#{$value}';
+      }
+    }
+
+    @each $fontWeight, $value in $fontWeights {
+      .#{$breakpoint}-fw-#{$fontWeight} {
+        font-weight: #{$value};
+      }
+    }
+
+    @each $fontLineHeight, $value in $fontLineHeights {
+      .#{$breakpoint}-lh-#{$fontLineHeight} {
+        line-height: #{$value};
+      }
+    }
+
+    @each $category, $categoryValues in $colorCategories {
+      @each $type, $shades in $categoryValues {
+        @each $shade, $value in $shades {
+          .#{$breakpoint}-clr-#{$category}-#{$type}-#{$shade} {
+            color: #{$value};
+          }
+          .#{$breakpoint}-bg-clr-#{$category}-#{$type}-#{$shade} {
+            background-color: #{$value};
+          }
+          .#{$breakpoint}-clr-#{$category}-#{$type}-#{$shade}-active:active,
+          .#{$breakpoint}-clr-#{$category}-#{$type}-#{$shade}-hover:hover,
+          .#{$breakpoint}-clr-#{$category}-#{$type}-#{$shade}-focus:focus,
+          .#{$breakpoint}-clr-#{$category}-#{$type}-#{$shade}-visited:visited,
+          .#{$breakpoint}-clr-#{$category}-#{$type}-#{$shade}-focus-within,
+          .#{$breakpoint}-clr-#{$category}-#{$type}-#{$shade}-focus-visible:focus-visible,
+          .#{$breakpoint}-clr-#{$category}-#{$type}-#{$shade}-target:target {
+            color: #{$value};
+          }
+          .#{$breakpoint}-bg-clr-#{$category}-#{$type}-#{$shade}-active:active,
+          .#{$breakpoint}-bg-clr-#{$category}-#{$type}-#{$shade}-hover:hover,
+          .#{$breakpoint}-bg-clr-#{$category}-#{$type}-#{$shade}-focus:focus,
+          .#{$breakpoint}-bg-clr-#{$category}-#{$type}-#{$shade}-visited:visited,
+          .#{$breakpoint}-bg-clr-#{$category}-#{$type}-#{$shade}-focus-within,
+          .#{$breakpoint}-bg-clr-#{$category}-#{$type}-#{$shade}-focus-visible:focus-visible,
+          .#{$breakpoint}-bg-clr-#{$category}-#{$type}-#{$shade}-target:target {
+            background-color: #{$value};
+          }
+        }
+      }
+    }
+  }
+}
 
 @each $category, $categoryValues in $colorCategories {
   @each $type, $shades in $categoryValues {
@@ -12,6 +102,24 @@
         color: #{$value};
       }
       .bg-clr-#{$category}-#{$type}-#{$shade} {
+        background-color: #{$value};
+      }
+      .clr-#{$category}-#{$type}-#{$shade}-active:active,
+      .clr-#{$category}-#{$type}-#{$shade}-hover:hover,
+      .clr-#{$category}-#{$type}-#{$shade}-focus:focus,
+      .clr-#{$category}-#{$type}-#{$shade}-visited:visited,
+      .clr-#{$category}-#{$type}-#{$shade}-focus-within,
+      .clr-#{$category}-#{$type}-#{$shade}-focus-visible:focus-visible,
+      .clr-#{$category}-#{$type}-#{$shade}-target:target {
+        color: #{$value};
+      }
+      .bg-clr-#{$category}-#{$type}-#{$shade}-active:active,
+      .bg-clr-#{$category}-#{$type}-#{$shade}-hover:hover,
+      .bg-clr-#{$category}-#{$type}-#{$shade}-focus:focus,
+      .bg-clr-#{$category}-#{$type}-#{$shade}-visited:visited,
+      .bg-clr-#{$category}-#{$type}-#{$shade}-focus-within,
+      .bg-clr-#{$category}-#{$type}-#{$shade}-focus-visible:focus-visible,
+      .bg-clr-#{$category}-#{$type}-#{$shade}-target:target {
         background-color: #{$value};
       }
     }
@@ -45,12 +153,12 @@
 
 .flex {
   display: flex;
-  row-gap: var(--row-gap, 0.75);
-  column-gap: var(--column-gap, 0.75);
+  row-gap: var(--row-gap, 0.75rem);
+  column-gap: var(--column-gap, 0.75rem);
 }
 
 .grid {
   display: grid;
-  row-gap: var(--row-gap, 0.75);
-  column-gap: var(--column-gap, 0.75);
+  row-gap: var(--row-gap, 0.75rem);
+  column-gap: var(--column-gap, 0.75rem);
 }

@@ -5,18 +5,18 @@
 <div class="vw-100 vh-100 bg-clr-semantic-neutral-abswhite" id="application-layout">
   <layout class="layout-grid d-grid">
     <navbar
-      class="shadow-level-1 d-grid align-items-center justify-content-between px-xl-clamp py-xs-clamp"
-      style="--row-gap: var(--bp-md-spacing-clamp); --column-gap: var(--bp-md-spacing-clamp);"
+      class="shadow-level-1 d-grid align-items-center justify-content-between px-xl-c py-xs-c"
+      style="--row-gap: var(--bp-md-spacing-c); --column-gap: var(--bp-md-spacing-c);"
     >
-      <navbarTitle class="flex ft-parragraph-clamp"> Custom Route </navbarTitle>
+      <navbarTitle class="flex ft-parragraph-c"> Custom Route </navbarTitle>
       <buttonsSection class="flex">
         <button
-          class="ft-parragraph-clamp flex  no-wrap border-0 bg-clr-semantic-warning-base flex-grow-1"
+          class="ft-parragraph-c flex  no-wrap border-0 bg-clr-secondary-brand-yellow-500 flex-grow-1"
         >
           second entry
         </button>
         <button
-          class="ft-parragraph-clamp flex no-wrap  border-0 bg-clr-semantic-warning-base flex-grow-1"
+          class="ft-parragraph-c flex no-wrap  border-0 bg-clr-secondary-brand-yellow-500 flex-grow-1"
         >
           third entry
         </button>
@@ -25,17 +25,3 @@
     <slot />
   </layout>
 </div>
-
-<style lang="scss">
-  navbar {
-    grid-template-columns: 1fr auto;
-  }
-  @media only screen and (max-width: 767px) {
-    navbar {
-      grid-template-columns: 1fr;
-    }
-    buttonsSection {
-      flex-direction: column;
-    }
-  }
-</style>

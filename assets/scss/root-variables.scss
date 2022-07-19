@@ -46,6 +46,12 @@
 :root {
   @each $fontSize, $value in $fontSizes {
     --fs-#{$fontSize}: #{$value};
+    --fs-#{$fontSize}-c: #{fluidType(
+      $min-vw,
+      $max-vw,
+      $minSupportedFs,
+      $value
+    )};
   }
 }
 
@@ -68,6 +74,7 @@
     --bp-#{$breakpoint}-spacing: #{map-get($breakpointMap, spacing)};
   }
 }
+
 :root {
   @each $breakpoint, $breakpointMap in $breakpoints {
     --bp-#{$breakpoint}: #{map-get($breakpointMap, value)};
@@ -76,7 +83,7 @@
 
 :root {
   @each $breakpoint, $breakpointMap in $breakpoints {
-    --bp-#{$breakpoint}-spacing-clamp: #{fluidType(
+    --bp-#{$breakpoint}-spacing-cshrink: #{fluidType(
         $min-vw,
         $max-vw,
         $min-spacing,
@@ -84,3 +91,15 @@
       )};
   }
 }
+
+:root {
+  @each $breakpoint, $breakpointMap in $breakpoints {
+    --bp-#{$breakpoint}-spacing-c: #{fluidType(
+        $min-vw,
+        $max-vw,
+        map-get($breakpointMap, min-bp-spacing),
+        map-get($breakpointMap, spacing)
+      )};
+  }
+}
+

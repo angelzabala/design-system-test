@@ -11,7 +11,7 @@
     font-weight: map-get($fontTypeMap, weight);
     line-height: map-get($fontTypeMap, lineHeight);
   }
-  .ft-#{$fontType}-clamp {
+  .ft-#{$fontType}-c {
     font-size: map-get($fontTypeMap, min-size);
     font-size: fluidType(
       $min-vw,
@@ -25,12 +25,6 @@
 @each $fontFamily, $value in $fontFamilies{
   .ff-#{$fontFamily}{
     font-family: "#{$value}";
-  }
-}
-
-@each $fontSize, $value in $fontSizes{
-  .fs-#{$fontSize}{
-    font-size: #{$value};
   }
 }
 

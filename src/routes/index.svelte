@@ -1,4 +1,6 @@
-<p class="ft-header-1 ft-header-1-clamp
-bp-xl-margin-clamp bp-xl-padding-clamp bg-clr-semantic-warning-base">
+<style>
+</style>
+
+<p class="ft-header-1 ft-header-1-c bg-clr-secondary-brand-yellow-500">
     hello there
 </p> 
