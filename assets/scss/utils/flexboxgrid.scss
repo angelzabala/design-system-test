@@ -441,6 +441,43 @@
   @if (map-get($breakpointMap, value) == $smallestBreakpoint) {
     @media only screen and (max-width: map-get($breakpointMap, value)) {
       @each $innerBreakpoint, $innerBreakpointMap in $breakpoints {
+
+        .row-#{$innerBreakpoint}-gap-for-#{$breakpoint}{
+          row-gap: map-get($innerBreakpointMap, spacing);
+        }
+        .col-#{$innerBreakpoint}-gap-for-#{$breakpoint}{
+          column-gap: map-get($innerBreakpointMap, spacing);
+        }
+
+        .row-#{$innerBreakpoint}-gap-cshrink-for-#{$breakpoint}{
+          row-gap: fluidType($min-vw, $max-vw, $min-spacing, map-get($innerBreakpointMap, spacing));
+        }
+        .col-#{$innerBreakpoint}-gap-cshrink-for-#{$breakpoint}{
+          column-gap: fluidType($min-vw, $max-vw, $min-spacing, map-get($innerBreakpointMap, spacing));
+        }
+
+        .row-#{$innerBreakpoint}-gap-c-for-#{$breakpoint}{
+          row-gap: fluidType(
+            $min-vw,
+            $max-vw,
+            map-get($innerBreakpointMap, min-bp-spacing),
+            map-get($innerBreakpointMap, spacing)
+          );
+        }
+        .col-#{$innerBreakpoint}-gap-c-for-#{$breakpoint}{
+          column-gap: fluidType(
+            $min-vw,
+            $max-vw,
+            map-get($innerBreakpointMap, min-bp-spacing), 
+            map-get($innerBreakpointMap, spacing)
+          );
+        }
+
+
+        .bp-#{$innerBreakpoint}-m-cshrink-for-#{$breakpoint} {
+          margin: fluidType($min-vw, $max-vw, $min-spacing, map-get($innerBreakpointMap, spacing));
+        }
+
         .bp-#{$innerBreakpoint}-m-for-#{$breakpoint} {
           margin: map-get($innerBreakpointMap, spacing);
         }
@@ -1138,6 +1175,281 @@
     }
   } @else {
     @media only screen and (min-width: map-get($breakpointMap, value)) {
+      @each $innerBreakpoint, $innerBreakpointMap in $breakpoints {
+
+        .row-#{$innerBreakpoint}-gap-for-#{$breakpoint}{
+          row-gap: map-get($innerBreakpointMap, spacing);
+        }
+        .col-#{$innerBreakpoint}-gap-for-#{$breakpoint}{
+          column-gap: map-get($innerBreakpointMap, spacing);
+        }
+
+        .row-#{$innerBreakpoint}-gap-cshrink-for-#{$breakpoint}{
+          row-gap: fluidType($min-vw, $max-vw, $min-spacing, map-get($innerBreakpointMap, spacing));
+        }
+        .col-#{$innerBreakpoint}-gap-cshrink-for-#{$breakpoint}{
+          column-gap: fluidType($min-vw, $max-vw, $min-spacing, map-get($innerBreakpointMap, spacing));
+        }
+
+        .row-#{$innerBreakpoint}-gap-c-for-#{$breakpoint}{
+          row-gap: fluidType(
+            $min-vw,
+            $max-vw,
+            map-get($innerBreakpointMap, min-bp-spacing),
+            map-get($innerBreakpointMap, spacing)
+          );
+        }
+        .col-#{$innerBreakpoint}-gap-c-for-#{$breakpoint}{
+          column-gap: fluidType(
+            $min-vw,
+            $max-vw,
+            map-get($innerBreakpointMap, min-bp-spacing), 
+            map-get($innerBreakpointMap, spacing)
+          );
+        }
+
+
+        .bp-#{$innerBreakpoint}-m-cshrink-for-#{$breakpoint} {
+          margin: fluidType($min-vw, $max-vw, $min-spacing, map-get($innerBreakpointMap, spacing));
+        }
+
+        .bp-#{$innerBreakpoint}-m-for-#{$breakpoint} {
+          margin: map-get($innerBreakpointMap, spacing);
+        }
+        .bp-#{$innerBreakpoint}-mt-for-#{$breakpoint} {
+          margin-top: map-get($innerBreakpointMap, spacing);
+        }
+        .bp-#{$innerBreakpoint}-mr-for-#{$breakpoint} {
+          margin-right: map-get($innerBreakpointMap, spacing);
+        }
+        .bp-#{$innerBreakpoint}-mb-for-#{$breakpoint} {
+          margin-bottom: map-get($innerBreakpointMap, spacing);
+        }
+        .bp-#{$innerBreakpoint}-ml-for-#{$breakpoint} {
+          margin-left: map-get($innerBreakpointMap, spacing);
+        }
+        .bp-#{$innerBreakpoint}-mx-for-#{$breakpoint} {
+          margin-top: map-get($innerBreakpointMap, spacing);
+          margin-bottom: map-get($innerBreakpointMap, spacing);
+        }
+        .bp-#{$innerBreakpoint}-my-for-#{$breakpoint} {
+          margin-left: map-get($innerBreakpointMap, spacing);
+          margin-right: map-get($innerBreakpointMap, spacing);
+        }
+
+
+        .bp-#{$innerBreakpoint}-p-for-#{$breakpoint} {
+          padding: map-get($innerBreakpointMap, spacing);
+        }
+        .bp-#{$innerBreakpoint}-pt-for-#{$breakpoint} {
+          padding-top: map-get($innerBreakpointMap, spacing);
+        }
+        .bp-#{$innerBreakpoint}-pr-for-#{$breakpoint} {
+          padding-right: map-get($innerBreakpointMap, spacing);
+        }
+        .bp-#{$innerBreakpoint}-pb-for-#{$breakpoint} {
+          padding-bottom: map-get($innerBreakpointMap, spacing);
+        }
+        .bp-#{$innerBreakpoint}-pl-for-#{$breakpoint} {
+          padding-left: map-get($innerBreakpointMap, spacing);
+        }
+        .bp-#{$innerBreakpoint}-px-for-#{$breakpoint} {
+          padding-top: map-get($innerBreakpointMap, spacing);
+          padding-bottom: map-get($innerBreakpointMap, spacing);
+        }
+        .bp-#{$innerBreakpoint}-py-for-#{$breakpoint} {
+          padding-left: map-get($innerBreakpointMap, spacing);
+          padding-right: map-get($innerBreakpointMap, spacing);
+        }
+
+
+        .bp-#{$innerBreakpoint}-m-cshrink-for-#{$breakpoint} {
+          margin: fluidType($min-vw, $max-vw, $min-spacing, map-get($innerBreakpointMap, spacing));
+        }
+        .bp-#{$innerBreakpoint}-mt-cshrink-for-#{$breakpoint} {
+          margin-top: fluidType($min-vw, $max-vw, $min-spacing, map-get($innerBreakpointMap, spacing));
+        }
+        .bp-#{$innerBreakpoint}-mr-cshrink-for-#{$breakpoint} {
+          margin-right: fluidType($min-vw, $max-vw, $min-spacing, map-get($innerBreakpointMap, spacing));
+        }
+        .bp-#{$innerBreakpoint}-mb-cshrink-for-#{$breakpoint} {
+          margin-bottom: fluidType($min-vw, $max-vw, $min-spacing, map-get($innerBreakpointMap, spacing));
+        }
+        .bp-#{$innerBreakpoint}-ml-cshrink-for-#{$breakpoint} {
+          margin-left: fluidType($min-vw, $max-vw, $min-spacing, map-get($innerBreakpointMap, spacing));
+        }
+        .bp-#{$innerBreakpoint}-mx-cshrink-for-#{$breakpoint} {
+          margin-top: fluidType($min-vw, $max-vw, $min-spacing, map-get($innerBreakpointMap, spacing));
+          margin-bottom: fluidType($min-vw, $max-vw, $min-spacing, map-get($innerBreakpointMap, spacing));
+        }
+        .bp-#{$innerBreakpoint}-my-cshrink-for-#{$breakpoint} {
+          margin-left: fluidType($min-vw, $max-vw, $min-spacing, map-get($innerBreakpointMap, spacing));
+          margin-right: fluidType($min-vw, $max-vw, $min-spacing, map-get($innerBreakpointMap, spacing));
+        }
+       
+
+        .bp-#{$innerBreakpoint}-p-cshrink-for-#{$breakpoint} {
+          padding: fluidType($min-vw, $max-vw, $min-spacing, map-get($innerBreakpointMap, spacing));
+        }
+        .bp-#{$innerBreakpoint}-pt-cshrink-for-#{$breakpoint} {
+          padding-top: fluidType($min-vw, $max-vw, $min-spacing, map-get($innerBreakpointMap, spacing));
+        }
+        .bp-#{$innerBreakpoint}-pr-cshrink-for-#{$breakpoint} {
+          padding-right: fluidType($min-vw, $max-vw, $min-spacing, map-get($innerBreakpointMap, spacing));
+        }
+        .bp-#{$innerBreakpoint}-pb-cshrink-for-#{$breakpoint} {
+          padding-bottom: fluidType($min-vw, $max-vw, $min-spacing, map-get($innerBreakpointMap, spacing));
+        }
+        .bp-#{$innerBreakpoint}-pl-cshrink-for-#{$breakpoint} {
+          padding-left: fluidType($min-vw, $max-vw, $min-spacing, map-get($innerBreakpointMap, spacing));
+        }
+        .bp-#{$innerBreakpoint}-px-cshrink-for-#{$breakpoint} {
+          padding-top: fluidType($min-vw, $max-vw, $min-spacing, map-get($innerBreakpointMap, spacing));
+          padding-bottom: fluidType($min-vw, $max-vw, $min-spacing, map-get($innerBreakpointMap, spacing));
+        }
+        .bp-#{$innerBreakpoint}-py-cshrink-for-#{$breakpoint} {
+          padding-left: fluidType($min-vw, $max-vw, $min-spacing, map-get($innerBreakpointMap, spacing));
+          padding-right: fluidType($min-vw, $max-vw, $min-spacing, map-get($innerBreakpointMap, spacing));
+        }
+
+        .bp-#{$innerBreakpoint}-m-c-for-#{$breakpoint} {
+          margin: fluidType(
+            $min-vw,
+            $max-vw,
+            map-get($innerBreakpointMap, min-bp-spacing),
+            map-get($innerBreakpointMap, spacing)
+          );
+        }
+        .bp-#{$innerBreakpoint}-mt-c-for-#{$breakpoint} {
+          margin-top: fluidType(
+            $min-vw,
+            $max-vw,
+            map-get($innerBreakpointMap, min-bp-spacing),
+            map-get($innerBreakpointMap, spacing)
+          );
+        }
+        .bp-#{$innerBreakpoint}-mr-c-for-#{$breakpoint} {
+          margin-right: fluidType(
+            $min-vw,
+            $max-vw,
+            map-get($innerBreakpointMap, min-bp-spacing),
+            map-get($innerBreakpointMap, spacing)
+          );
+        }
+        .bp-#{$innerBreakpoint}-mb-c-for-#{$breakpoint} {
+          margin-bottom: fluidType(
+            $min-vw,
+            $max-vw,
+            map-get($innerBreakpointMap, min-bp-spacing),
+            map-get($innerBreakpointMap, spacing)
+          );
+        }
+        .bp-#{$innerBreakpoint}-ml-c-for-#{$breakpoint} {
+          margin-left: fluidType(
+            $min-vw,
+            $max-vw,
+            map-get($innerBreakpointMap, min-bp-spacing),
+            map-get($innerBreakpointMap, spacing)
+          );
+        }
+        .bp-#{$innerBreakpoint}-mx-c-for-#{$breakpoint} {
+          margin-top: fluidType(
+            $min-vw,
+            $max-vw,
+            map-get($innerBreakpointMap, min-bp-spacing),
+            map-get($innerBreakpointMap, spacing)
+          );
+          margin-bottom: fluidType(
+            $min-vw,
+            $max-vw,
+            map-get($innerBreakpointMap, min-bp-spacing),
+            map-get($innerBreakpointMap, spacing)
+          );
+        }
+        .bp-#{$innerBreakpoint}-my-c-for-#{$breakpoint} {
+          margin-left: fluidType(
+            $min-vw,
+            $max-vw,
+            map-get($innerBreakpointMap, min-bp-spacing),
+            map-get($innerBreakpointMap, spacing)
+          );
+          margin-right: fluidType(
+            $min-vw,
+            $max-vw,
+            map-get($innerBreakpointMap, min-bp-spacing),
+            map-get($innerBreakpointMap, spacing)
+          );
+        }
+
+        .bp-#{$innerBreakpoint}-p-c-for-#{$breakpoint} {
+          padding: fluidType(
+            $min-vw,
+            $max-vw,
+            map-get($innerBreakpointMap, min-bp-spacing),
+            map-get($innerBreakpointMap, spacing)
+          );
+        }
+        .bp-#{$innerBreakpoint}-pt-c-for-#{$breakpoint} {
+          padding-top: fluidType(
+            $min-vw,
+            $max-vw,
+            map-get($innerBreakpointMap, min-bp-spacing),
+            map-get($innerBreakpointMap, spacing)
+          );
+        }
+        .bp-#{$innerBreakpoint}-pr-c-for-#{$breakpoint} {
+          padding-right: fluidType(
+            $min-vw,
+            $max-vw,
+            map-get($innerBreakpointMap, min-bp-spacing),
+            map-get($innerBreakpointMap, spacing)
+          );
+        }
+        .bp-#{$innerBreakpoint}-pb-c-for-#{$breakpoint} {
+          padding-bottom: fluidType(
+            $min-vw,
+            $max-vw,
+            map-get($innerBreakpointMap, min-bp-spacing),
+            map-get($innerBreakpointMap, spacing)
+          );
+        }
+        .bp-#{$innerBreakpoint}-pl-c-for-#{$breakpoint} {
+          padding-left: fluidType(
+            $min-vw,
+            $max-vw,
+            map-get($innerBreakpointMap, min-bp-spacing),
+            map-get($innerBreakpointMap, spacing)
+          );
+        }
+        .bp-#{$innerBreakpoint}-px-c-for-#{$breakpoint} {
+          padding-top: fluidType(
+            $min-vw,
+            $max-vw,
+            map-get($innerBreakpointMap, min-bp-spacing),
+            map-get($innerBreakpointMap, spacing)
+          );
+          padding-bottom: fluidType(
+            $min-vw,
+            $max-vw,
+            map-get($innerBreakpointMap, min-bp-spacing),
+            map-get($innerBreakpointMap, spacing)
+          );
+        }
+        .bp-#{$innerBreakpoint}-py-c-for-#{$breakpoint} {
+          padding-left: fluidType(
+            $min-vw,
+            $max-vw,
+            map-get($innerBreakpointMap, min-bp-spacing),
+            map-get($innerBreakpointMap, spacing)
+          );
+          padding-right: fluidType(
+            $min-vw,
+            $max-vw,
+            map-get($innerBreakpointMap, min-bp-spacing),
+            map-get($innerBreakpointMap, spacing)
+          );
+        }
+      }
       .row-#{$breakpoint} {
         box-sizing: border-box;
         display: -webkit-box;
