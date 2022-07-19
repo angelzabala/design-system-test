@@ -442,6 +442,13 @@
     @media only screen and (max-width: map-get($breakpointMap, value)) {
       @each $innerBreakpoint, $innerBreakpointMap in $breakpoints {
 
+        .row-#{$innerBreakpoint}-gap-0-for-#{$breakpoint}{
+          row-gap: 0;
+        }
+        .col-#{$innerBreakpoint}-gap-0-for-#{$breakpoint}{
+          column-gap: 0;
+        }
+
         .row-#{$innerBreakpoint}-gap-for-#{$breakpoint}{
           row-gap: map-get($innerBreakpointMap, spacing);
         }
@@ -1176,6 +1183,13 @@
   } @else {
     @media only screen and (min-width: map-get($breakpointMap, value)) {
       @each $innerBreakpoint, $innerBreakpointMap in $breakpoints {
+
+        .row-#{$innerBreakpoint}-gap-0-for-#{$breakpoint}{
+          row-gap: 0;
+        }
+        .col-#{$innerBreakpoint}-gap-0-for-#{$breakpoint}{
+          column-gap: 0;
+        }
 
         .row-#{$innerBreakpoint}-gap-for-#{$breakpoint}{
           row-gap: map-get($innerBreakpointMap, spacing);

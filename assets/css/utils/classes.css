@@ -7187,14 +7187,10 @@
 
 .flex {
   display: flex;
-  row-gap: var(--row-gap, 0.75rem);
-  column-gap: var(--column-gap, 0.75rem);
 }
 
 .grid {
   display: grid;
-  row-gap: var(--row-gap, 0.75rem);
-  column-gap: var(--column-gap, 0.75rem);
 }
 
 /*# sourceMappingURL=classes.css.map */
