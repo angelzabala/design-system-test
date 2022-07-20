@@ -14,14 +14,14 @@
   @if (map-get($breakpointMap, value) != $smallestBreakpoint) {
     @media only screen and (min-width: map-get($breakpointMap, value)) {
       @each $fontType, $fontTypeMap in $fontTypes {
-        .#{$breakpoint}-ft-#{$fontType} {
+        .ft-#{$fontType}-#{$breakpoint} {
           font-family: map-get($fontTypeMap, family);
           font-size: map-get($fontTypeMap, max-size);
           letter-spacing: map-get($fontTypeMap, spacing);
           font-weight: map-get($fontTypeMap, weight);
           line-height: map-get($fontTypeMap, lineHeight);
         }
-        .#{$breakpoint}-ft-#{$fontType}-c {
+        .ft-#{$fontType}-c-#{$breakpoint} {
           font-size: map-get($fontTypeMap, min-size);
           font-size: fluidType(
             $min-vw,
@@ -33,51 +33,51 @@
       }
 
       @each $fontFamily, $value in $fontFamilies {
-        .#{$breakpoint}-ff-#{$fontFamily} {
+        .ff-#{$fontFamily}-#{$breakpoint} {
           font-family: '#{$value}';
         }
       }
 
       @each $fontSize, $value in $fontSizes {
-        .#{$breakpoint}-fs-#{$fontSize} {
+        .fs-#{$fontSize}-#{$breakpoint} {
           font-size: #{$value};
         }
       }
 
       @each $letterSpacing, $value in $letterSpacings {
-        .#{$breakpoint}-ls-#{$letterSpacing} {
+        .ls-#{$letterSpacing}-#{$breakpoint} {
           letter-spacing: #{$value};
         }
       }
 
       @each $fontStyle, $value in $fontStyles {
-        .#{$breakpoint}-fst-#{$fontStyle} {
+        .fst-#{$fontStyle}-#{$breakpoint} {
           font-style: '#{$value}';
         }
       }
 
       @each $fontWeight, $value in $fontWeights {
-        .#{$breakpoint}-fw-#{$fontWeight} {
+        .fw-#{$fontWeight}-#{$breakpoint} {
           font-weight: #{$value};
         }
       }
 
       @each $fontLineHeight, $value in $fontLineHeights {
-        .#{$breakpoint}-lh-#{$fontLineHeight} {
+        .lh-#{$fontLineHeight}-#{$breakpoint} {
           line-height: #{$value};
         }
       }
     }
   } @else {
     @each $fontType, $fontTypeMap in $fontTypes {
-      .#{$breakpoint}-ft-#{$fontType} {
+      .ft-#{$fontType}-#{$breakpoint} {
         font-family: map-get($fontTypeMap, family);
         font-size: map-get($fontTypeMap, max-size);
         letter-spacing: map-get($fontTypeMap, spacing);
         font-weight: map-get($fontTypeMap, weight);
         line-height: map-get($fontTypeMap, lineHeight);
       }
-      .#{$breakpoint}-ft-#{$fontType}-c {
+      .ft-#{$fontType}-c-#{$breakpoint} {
         font-size: map-get($fontTypeMap, min-size);
         font-size: fluidType(
           $min-vw,
@@ -89,31 +89,31 @@
     }
 
     @each $fontFamily, $value in $fontFamilies {
-      .#{$breakpoint}-ff-#{$fontFamily} {
+      .ff-#{$fontFamily}-#{$breakpoint} {
         font-family: '#{$value}';
       }
     }
 
     @each $fontSize, $value in $fontSizes {
-      .#{$breakpoint}-fs-#{$fontSize} {
+      .fs-#{$fontSize}-#{$breakpoint} {
         font-size: #{$value};
       }
     }
 
     @each $letterSpacing, $value in $letterSpacings {
-      .#{$breakpoint}-ls-#{$letterSpacing} {
+      .ls-#{$letterSpacing}-#{$breakpoint} {
         letter-spacing: #{$value};
       }
     }
 
     @each $fontStyle, $value in $fontStyles {
-      .#{$breakpoint}-fst-#{$fontStyle} {
+      .fst-#{$fontStyle}-#{$breakpoint} {
         font-style: '#{$value}';
       }
     }
 
     @each $fontWeight, $value in $fontWeights {
-      .#{$breakpoint}-fw-#{$fontWeight} {
+      .fw-#{$fontWeight}-#{$breakpoint} {
         font-weight: #{$value};
       }
     }

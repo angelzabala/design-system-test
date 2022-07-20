@@ -250,7 +250,7 @@
   line-height: 2;
 }
 
-.xs-ft-header-1 {
+.ft-header-1-xs {
   font-family: "Barlow";
   font-size: 4.75rem;
   letter-spacing: 0.5px;
@@ -258,7 +258,7 @@
   line-height: 1.25;
 }
 
-.xs-ft-header-1-c {
+.ft-header-1-c-xs {
   font-size: 1.125rem;
   font-size: clamp(
     1.125rem,
@@ -267,7 +267,7 @@
   );
 }
 
-.xs-ft-header-2 {
+.ft-header-2-xs {
   font-family: "Barlow";
   font-size: 3.75rem;
   letter-spacing: 0.4px;
@@ -275,7 +275,7 @@
   line-height: 1.25;
 }
 
-.xs-ft-header-2-c {
+.ft-header-2-c-xs {
   font-size: 1.125rem;
   font-size: clamp(
     1.125rem,
@@ -284,7 +284,7 @@
   );
 }
 
-.xs-ft-header-3 {
+.ft-header-3-xs {
   font-family: "Barlow";
   font-size: 3rem;
   letter-spacing: 0.25px;
@@ -292,7 +292,7 @@
   line-height: 1.25;
 }
 
-.xs-ft-header-3-c {
+.ft-header-3-c-xs {
   font-size: 1rem;
   font-size: clamp(
     1rem,
@@ -301,7 +301,7 @@
   );
 }
 
-.xs-ft-parragraph {
+.ft-parragraph-xs {
   font-family: "Montserrat";
   font-size: 2.25rem;
   letter-spacing: 0.15px;
@@ -309,7 +309,7 @@
   line-height: 1.25;
 }
 
-.xs-ft-parragraph-c {
+.ft-parragraph-c-xs {
   font-size: 1rem;
   font-size: clamp(
     1rem,
@@ -318,7 +318,7 @@
   );
 }
 
-.xs-ft-small {
+.ft-small-xs {
   font-family: "Montserrat";
   font-size: 2.125rem;
   letter-spacing: 0;
@@ -326,7 +326,7 @@
   line-height: 1.25;
 }
 
-.xs-ft-small-c {
+.ft-small-c-xs {
   font-size: 0.875rem;
   font-size: clamp(
     0.875rem,
@@ -335,147 +335,147 @@
   );
 }
 
-.xs-ff-main {
+.ff-main-xs {
   font-family: "Montserrat";
 }
 
-.xs-ff-complementary {
+.ff-complementary-xs {
   font-family: "Barlow";
 }
 
-.xs-fs-letter-sizing-1 {
+.fs-letter-sizing-1-xs {
   font-size: 4.75rem;
 }
 
-.xs-fs-letter-sizing-2 {
+.fs-letter-sizing-2-xs {
   font-size: 3.75rem;
 }
 
-.xs-fs-letter-sizing-3 {
+.fs-letter-sizing-3-xs {
   font-size: 3rem;
 }
 
-.xs-fs-letter-sizing-4 {
+.fs-letter-sizing-4-xs {
   font-size: 2.25rem;
 }
 
-.xs-fs-letter-sizing-5 {
+.fs-letter-sizing-5-xs {
   font-size: 2.125rem;
 }
 
-.xs-fs-letter-sizing-6 {
+.fs-letter-sizing-6-xs {
   font-size: 1.5rem;
 }
 
-.xs-fs-letter-sizing-7 {
+.fs-letter-sizing-7-xs {
   font-size: 1.25rem;
 }
 
-.xs-fs-letter-sizing-8 {
+.fs-letter-sizing-8-xs {
   font-size: 1.125rem;
 }
 
-.xs-fs-letter-sizing-9 {
+.fs-letter-sizing-9-xs {
   font-size: 1rem;
 }
 
-.xs-fs-letter-sizing-10 {
+.fs-letter-sizing-10-xs {
   font-size: 0.875rem;
 }
 
-.xs-ls-letter-spacing-n1 {
+.ls-letter-spacing-n1-xs {
   letter-spacing: -0.5px;
 }
 
-.xs-ls-letter-spacing-0 {
+.ls-letter-spacing-0-xs {
   letter-spacing: 0;
 }
 
-.xs-ls-letter-spacing-1 {
+.ls-letter-spacing-1-xs {
   letter-spacing: 0.15px;
 }
 
-.xs-ls-letter-spacing-2 {
+.ls-letter-spacing-2-xs {
   letter-spacing: 0.25px;
 }
 
-.xs-ls-letter-spacing-3 {
+.ls-letter-spacing-3-xs {
   letter-spacing: 0.4px;
 }
 
-.xs-ls-letter-spacing-4 {
+.ls-letter-spacing-4-xs {
   letter-spacing: 0.5px;
 }
 
-.xs-ls-letter-spacing-5 {
+.ls-letter-spacing-5-xs {
   letter-spacing: 0.75px;
 }
 
-.xs-ls-letter-spacing-6 {
+.ls-letter-spacing-6-xs {
   letter-spacing: 0.1px;
 }
 
-.xs-fst-italic {
+.fst-italic-xs {
   font-style: "italic";
 }
 
-.xs-fst-oblique {
+.fst-oblique-xs {
   font-style: "oblique";
 }
 
-.xs-fst-normal {
+.fst-normal-xs {
   font-style: "normal";
 }
 
-.xs-fw-100 {
+.fw-100-xs {
   font-weight: 100;
 }
 
-.xs-fw-200 {
+.fw-200-xs {
   font-weight: 200;
 }
 
-.xs-fw-300 {
+.fw-300-xs {
   font-weight: 300;
 }
 
-.xs-fw-400 {
+.fw-400-xs {
   font-weight: 400;
 }
 
-.xs-fw-500 {
+.fw-500-xs {
   font-weight: 500;
 }
 
-.xs-fw-600 {
+.fw-600-xs {
   font-weight: 600;
 }
 
-.xs-fw-700 {
+.fw-700-xs {
   font-weight: 700;
 }
 
-.xs-fw-800 {
+.fw-800-xs {
   font-weight: 800;
 }
 
-.xs-fw-900 {
+.fw-900-xs {
   font-weight: 900;
 }
 
-.xs-fw-light {
+.fw-light-xs {
   font-weight: 300;
 }
 
-.xs-fw-regular {
+.fw-regular-xs {
   font-weight: 400;
 }
 
-.xs-fw-medium {
+.fw-medium-xs {
   font-weight: 500;
 }
 
-.xs-fw-bold {
+.fw-bold-xs {
   font-weight: 600;
 }
 
@@ -500,14 +500,14 @@
 }
 
 @media only screen and (min-width: 767px) {
-  .sm-ft-header-1 {
+  .ft-header-1-sm {
     font-family: "Barlow";
     font-size: 4.75rem;
     letter-spacing: 0.5px;
     font-weight: 600;
     line-height: 1.25;
   }
-  .sm-ft-header-1-c {
+  .ft-header-1-c-sm {
     font-size: 1.125rem;
     font-size: clamp(
     1.125rem,
@@ -515,14 +515,14 @@
     4.75rem
   );
   }
-  .sm-ft-header-2 {
+  .ft-header-2-sm {
     font-family: "Barlow";
     font-size: 3.75rem;
     letter-spacing: 0.4px;
     font-weight: 500;
     line-height: 1.25;
   }
-  .sm-ft-header-2-c {
+  .ft-header-2-c-sm {
     font-size: 1.125rem;
     font-size: clamp(
     1.125rem,
@@ -530,14 +530,14 @@
     3.75rem
   );
   }
-  .sm-ft-header-3 {
+  .ft-header-3-sm {
     font-family: "Barlow";
     font-size: 3rem;
     letter-spacing: 0.25px;
     font-weight: 400;
     line-height: 1.25;
   }
-  .sm-ft-header-3-c {
+  .ft-header-3-c-sm {
     font-size: 1rem;
     font-size: clamp(
     1rem,
@@ -545,14 +545,14 @@
     3rem
   );
   }
-  .sm-ft-parragraph {
+  .ft-parragraph-sm {
     font-family: "Montserrat";
     font-size: 2.25rem;
     letter-spacing: 0.15px;
     font-weight: 600;
     line-height: 1.25;
   }
-  .sm-ft-parragraph-c {
+  .ft-parragraph-c-sm {
     font-size: 1rem;
     font-size: clamp(
     1rem,
@@ -560,14 +560,14 @@
     2.25rem
   );
   }
-  .sm-ft-small {
+  .ft-small-sm {
     font-family: "Montserrat";
     font-size: 2.125rem;
     letter-spacing: 0;
     font-weight: 400;
     line-height: 1.25;
   }
-  .sm-ft-small-c {
+  .ft-small-c-sm {
     font-size: 0.875rem;
     font-size: clamp(
     0.875rem,
@@ -575,139 +575,139 @@
     2.125rem
   );
   }
-  .sm-ff-main {
+  .ff-main-sm {
     font-family: "Montserrat";
   }
-  .sm-ff-complementary {
+  .ff-complementary-sm {
     font-family: "Barlow";
   }
-  .sm-fs-letter-sizing-1 {
+  .fs-letter-sizing-1-sm {
     font-size: 4.75rem;
   }
-  .sm-fs-letter-sizing-2 {
+  .fs-letter-sizing-2-sm {
     font-size: 3.75rem;
   }
-  .sm-fs-letter-sizing-3 {
+  .fs-letter-sizing-3-sm {
     font-size: 3rem;
   }
-  .sm-fs-letter-sizing-4 {
+  .fs-letter-sizing-4-sm {
     font-size: 2.25rem;
   }
-  .sm-fs-letter-sizing-5 {
+  .fs-letter-sizing-5-sm {
     font-size: 2.125rem;
   }
-  .sm-fs-letter-sizing-6 {
+  .fs-letter-sizing-6-sm {
     font-size: 1.5rem;
   }
-  .sm-fs-letter-sizing-7 {
+  .fs-letter-sizing-7-sm {
     font-size: 1.25rem;
   }
-  .sm-fs-letter-sizing-8 {
+  .fs-letter-sizing-8-sm {
     font-size: 1.125rem;
   }
-  .sm-fs-letter-sizing-9 {
+  .fs-letter-sizing-9-sm {
     font-size: 1rem;
   }
-  .sm-fs-letter-sizing-10 {
+  .fs-letter-sizing-10-sm {
     font-size: 0.875rem;
   }
-  .sm-ls-letter-spacing-n1 {
+  .ls-letter-spacing-n1-sm {
     letter-spacing: -0.5px;
   }
-  .sm-ls-letter-spacing-0 {
+  .ls-letter-spacing-0-sm {
     letter-spacing: 0;
   }
-  .sm-ls-letter-spacing-1 {
+  .ls-letter-spacing-1-sm {
     letter-spacing: 0.15px;
   }
-  .sm-ls-letter-spacing-2 {
+  .ls-letter-spacing-2-sm {
     letter-spacing: 0.25px;
   }
-  .sm-ls-letter-spacing-3 {
+  .ls-letter-spacing-3-sm {
     letter-spacing: 0.4px;
   }
-  .sm-ls-letter-spacing-4 {
+  .ls-letter-spacing-4-sm {
     letter-spacing: 0.5px;
   }
-  .sm-ls-letter-spacing-5 {
+  .ls-letter-spacing-5-sm {
     letter-spacing: 0.75px;
   }
-  .sm-ls-letter-spacing-6 {
+  .ls-letter-spacing-6-sm {
     letter-spacing: 0.1px;
   }
-  .sm-fst-italic {
+  .fst-italic-sm {
     font-style: "italic";
   }
-  .sm-fst-oblique {
+  .fst-oblique-sm {
     font-style: "oblique";
   }
-  .sm-fst-normal {
+  .fst-normal-sm {
     font-style: "normal";
   }
-  .sm-fw-100 {
+  .fw-100-sm {
     font-weight: 100;
   }
-  .sm-fw-200 {
+  .fw-200-sm {
     font-weight: 200;
   }
-  .sm-fw-300 {
+  .fw-300-sm {
     font-weight: 300;
   }
-  .sm-fw-400 {
+  .fw-400-sm {
     font-weight: 400;
   }
-  .sm-fw-500 {
+  .fw-500-sm {
     font-weight: 500;
   }
-  .sm-fw-600 {
+  .fw-600-sm {
     font-weight: 600;
   }
-  .sm-fw-700 {
+  .fw-700-sm {
     font-weight: 700;
   }
-  .sm-fw-800 {
+  .fw-800-sm {
     font-weight: 800;
   }
-  .sm-fw-900 {
+  .fw-900-sm {
     font-weight: 900;
   }
-  .sm-fw-light {
+  .fw-light-sm {
     font-weight: 300;
   }
-  .sm-fw-regular {
+  .fw-regular-sm {
     font-weight: 400;
   }
-  .sm-fw-medium {
+  .fw-medium-sm {
     font-weight: 500;
   }
-  .sm-fw-bold {
+  .fw-bold-sm {
     font-weight: 600;
   }
-  .sm-lh-lineheight-1 {
+  .lh-lineheight-1-sm {
     line-height: 1;
   }
-  .sm-lh-lineheight-2 {
+  .lh-lineheight-2-sm {
     line-height: 1.25;
   }
-  .sm-lh-lineheight-3 {
+  .lh-lineheight-3-sm {
     line-height: 1.5;
   }
-  .sm-lh-lineheight-4 {
+  .lh-lineheight-4-sm {
     line-height: 1.75;
   }
-  .sm-lh-lineheight-5 {
+  .lh-lineheight-5-sm {
     line-height: 2;
   }
 }
 @media only screen and (min-width: 1200px) {
-  .md-ft-header-1 {
+  .ft-header-1-md {
     font-family: "Barlow";
     font-size: 4.75rem;
     letter-spacing: 0.5px;
     font-weight: 600;
     line-height: 1.25;
   }
-  .md-ft-header-1-c {
+  .ft-header-1-c-md {
     font-size: 1.125rem;
     font-size: clamp(
     1.125rem,
@@ -715,14 +715,14 @@
     4.75rem
   );
   }
-  .md-ft-header-2 {
+  .ft-header-2-md {
     font-family: "Barlow";
     font-size: 3.75rem;
     letter-spacing: 0.4px;
     font-weight: 500;
     line-height: 1.25;
   }
-  .md-ft-header-2-c {
+  .ft-header-2-c-md {
     font-size: 1.125rem;
     font-size: clamp(
     1.125rem,
@@ -730,14 +730,14 @@
     3.75rem
   );
   }
-  .md-ft-header-3 {
+  .ft-header-3-md {
     font-family: "Barlow";
     font-size: 3rem;
     letter-spacing: 0.25px;
     font-weight: 400;
     line-height: 1.25;
   }
-  .md-ft-header-3-c {
+  .ft-header-3-c-md {
     font-size: 1rem;
     font-size: clamp(
     1rem,
@@ -745,14 +745,14 @@
     3rem
   );
   }
-  .md-ft-parragraph {
+  .ft-parragraph-md {
     font-family: "Montserrat";
     font-size: 2.25rem;
     letter-spacing: 0.15px;
     font-weight: 600;
     line-height: 1.25;
   }
-  .md-ft-parragraph-c {
+  .ft-parragraph-c-md {
     font-size: 1rem;
     font-size: clamp(
     1rem,
@@ -760,14 +760,14 @@
     2.25rem
   );
   }
-  .md-ft-small {
+  .ft-small-md {
     font-family: "Montserrat";
     font-size: 2.125rem;
     letter-spacing: 0;
     font-weight: 400;
     line-height: 1.25;
   }
-  .md-ft-small-c {
+  .ft-small-c-md {
     font-size: 0.875rem;
     font-size: clamp(
     0.875rem,
@@ -775,139 +775,139 @@
     2.125rem
   );
   }
-  .md-ff-main {
+  .ff-main-md {
     font-family: "Montserrat";
   }
-  .md-ff-complementary {
+  .ff-complementary-md {
     font-family: "Barlow";
   }
-  .md-fs-letter-sizing-1 {
+  .fs-letter-sizing-1-md {
     font-size: 4.75rem;
   }
-  .md-fs-letter-sizing-2 {
+  .fs-letter-sizing-2-md {
     font-size: 3.75rem;
   }
-  .md-fs-letter-sizing-3 {
+  .fs-letter-sizing-3-md {
     font-size: 3rem;
   }
-  .md-fs-letter-sizing-4 {
+  .fs-letter-sizing-4-md {
     font-size: 2.25rem;
   }
-  .md-fs-letter-sizing-5 {
+  .fs-letter-sizing-5-md {
     font-size: 2.125rem;
   }
-  .md-fs-letter-sizing-6 {
+  .fs-letter-sizing-6-md {
     font-size: 1.5rem;
   }
-  .md-fs-letter-sizing-7 {
+  .fs-letter-sizing-7-md {
     font-size: 1.25rem;
   }
-  .md-fs-letter-sizing-8 {
+  .fs-letter-sizing-8-md {
     font-size: 1.125rem;
   }
-  .md-fs-letter-sizing-9 {
+  .fs-letter-sizing-9-md {
     font-size: 1rem;
   }
-  .md-fs-letter-sizing-10 {
+  .fs-letter-sizing-10-md {
     font-size: 0.875rem;
   }
-  .md-ls-letter-spacing-n1 {
+  .ls-letter-spacing-n1-md {
     letter-spacing: -0.5px;
   }
-  .md-ls-letter-spacing-0 {
+  .ls-letter-spacing-0-md {
     letter-spacing: 0;
   }
-  .md-ls-letter-spacing-1 {
+  .ls-letter-spacing-1-md {
     letter-spacing: 0.15px;
   }
-  .md-ls-letter-spacing-2 {
+  .ls-letter-spacing-2-md {
     letter-spacing: 0.25px;
   }
-  .md-ls-letter-spacing-3 {
+  .ls-letter-spacing-3-md {
     letter-spacing: 0.4px;
   }
-  .md-ls-letter-spacing-4 {
+  .ls-letter-spacing-4-md {
     letter-spacing: 0.5px;
   }
-  .md-ls-letter-spacing-5 {
+  .ls-letter-spacing-5-md {
     letter-spacing: 0.75px;
   }
-  .md-ls-letter-spacing-6 {
+  .ls-letter-spacing-6-md {
     letter-spacing: 0.1px;
   }
-  .md-fst-italic {
+  .fst-italic-md {
     font-style: "italic";
   }
-  .md-fst-oblique {
+  .fst-oblique-md {
     font-style: "oblique";
   }
-  .md-fst-normal {
+  .fst-normal-md {
     font-style: "normal";
   }
-  .md-fw-100 {
+  .fw-100-md {
     font-weight: 100;
   }
-  .md-fw-200 {
+  .fw-200-md {
     font-weight: 200;
   }
-  .md-fw-300 {
+  .fw-300-md {
     font-weight: 300;
   }
-  .md-fw-400 {
+  .fw-400-md {
     font-weight: 400;
   }
-  .md-fw-500 {
+  .fw-500-md {
     font-weight: 500;
   }
-  .md-fw-600 {
+  .fw-600-md {
     font-weight: 600;
   }
-  .md-fw-700 {
+  .fw-700-md {
     font-weight: 700;
   }
-  .md-fw-800 {
+  .fw-800-md {
     font-weight: 800;
   }
-  .md-fw-900 {
+  .fw-900-md {
     font-weight: 900;
   }
-  .md-fw-light {
+  .fw-light-md {
     font-weight: 300;
   }
-  .md-fw-regular {
+  .fw-regular-md {
     font-weight: 400;
   }
-  .md-fw-medium {
+  .fw-medium-md {
     font-weight: 500;
   }
-  .md-fw-bold {
+  .fw-bold-md {
     font-weight: 600;
   }
-  .md-lh-lineheight-1 {
+  .lh-lineheight-1-md {
     line-height: 1;
   }
-  .md-lh-lineheight-2 {
+  .lh-lineheight-2-md {
     line-height: 1.25;
   }
-  .md-lh-lineheight-3 {
+  .lh-lineheight-3-md {
     line-height: 1.5;
   }
-  .md-lh-lineheight-4 {
+  .lh-lineheight-4-md {
     line-height: 1.75;
   }
-  .md-lh-lineheight-5 {
+  .lh-lineheight-5-md {
     line-height: 2;
   }
 }
 @media only screen and (min-width: 1920px) {
-  .lg-ft-header-1 {
+  .ft-header-1-lg {
     font-family: "Barlow";
     font-size: 4.75rem;
     letter-spacing: 0.5px;
     font-weight: 600;
     line-height: 1.25;
   }
-  .lg-ft-header-1-c {
+  .ft-header-1-c-lg {
     font-size: 1.125rem;
     font-size: clamp(
     1.125rem,
@@ -915,14 +915,14 @@
     4.75rem
   );
   }
-  .lg-ft-header-2 {
+  .ft-header-2-lg {
     font-family: "Barlow";
     font-size: 3.75rem;
     letter-spacing: 0.4px;
     font-weight: 500;
     line-height: 1.25;
   }
-  .lg-ft-header-2-c {
+  .ft-header-2-c-lg {
     font-size: 1.125rem;
     font-size: clamp(
     1.125rem,
@@ -930,14 +930,14 @@
     3.75rem
   );
   }
-  .lg-ft-header-3 {
+  .ft-header-3-lg {
     font-family: "Barlow";
     font-size: 3rem;
     letter-spacing: 0.25px;
     font-weight: 400;
     line-height: 1.25;
   }
-  .lg-ft-header-3-c {
+  .ft-header-3-c-lg {
     font-size: 1rem;
     font-size: clamp(
     1rem,
@@ -945,14 +945,14 @@
     3rem
   );
   }
-  .lg-ft-parragraph {
+  .ft-parragraph-lg {
     font-family: "Montserrat";
     font-size: 2.25rem;
     letter-spacing: 0.15px;
     font-weight: 600;
     line-height: 1.25;
   }
-  .lg-ft-parragraph-c {
+  .ft-parragraph-c-lg {
     font-size: 1rem;
     font-size: clamp(
     1rem,
@@ -960,14 +960,14 @@
     2.25rem
   );
   }
-  .lg-ft-small {
+  .ft-small-lg {
     font-family: "Montserrat";
     font-size: 2.125rem;
     letter-spacing: 0;
     font-weight: 400;
     line-height: 1.25;
   }
-  .lg-ft-small-c {
+  .ft-small-c-lg {
     font-size: 0.875rem;
     font-size: clamp(
     0.875rem,
@@ -975,139 +975,139 @@
     2.125rem
   );
   }
-  .lg-ff-main {
+  .ff-main-lg {
     font-family: "Montserrat";
   }
-  .lg-ff-complementary {
+  .ff-complementary-lg {
     font-family: "Barlow";
   }
-  .lg-fs-letter-sizing-1 {
+  .fs-letter-sizing-1-lg {
     font-size: 4.75rem;
   }
-  .lg-fs-letter-sizing-2 {
+  .fs-letter-sizing-2-lg {
     font-size: 3.75rem;
   }
-  .lg-fs-letter-sizing-3 {
+  .fs-letter-sizing-3-lg {
     font-size: 3rem;
   }
-  .lg-fs-letter-sizing-4 {
+  .fs-letter-sizing-4-lg {
     font-size: 2.25rem;
   }
-  .lg-fs-letter-sizing-5 {
+  .fs-letter-sizing-5-lg {
     font-size: 2.125rem;
   }
-  .lg-fs-letter-sizing-6 {
+  .fs-letter-sizing-6-lg {
     font-size: 1.5rem;
   }
-  .lg-fs-letter-sizing-7 {
+  .fs-letter-sizing-7-lg {
     font-size: 1.25rem;
   }
-  .lg-fs-letter-sizing-8 {
+  .fs-letter-sizing-8-lg {
     font-size: 1.125rem;
   }
-  .lg-fs-letter-sizing-9 {
+  .fs-letter-sizing-9-lg {
     font-size: 1rem;
   }
-  .lg-fs-letter-sizing-10 {
+  .fs-letter-sizing-10-lg {
     font-size: 0.875rem;
   }
-  .lg-ls-letter-spacing-n1 {
+  .ls-letter-spacing-n1-lg {
     letter-spacing: -0.5px;
   }
-  .lg-ls-letter-spacing-0 {
+  .ls-letter-spacing-0-lg {
     letter-spacing: 0;
   }
-  .lg-ls-letter-spacing-1 {
+  .ls-letter-spacing-1-lg {
     letter-spacing: 0.15px;
   }
-  .lg-ls-letter-spacing-2 {
+  .ls-letter-spacing-2-lg {
     letter-spacing: 0.25px;
   }
-  .lg-ls-letter-spacing-3 {
+  .ls-letter-spacing-3-lg {
     letter-spacing: 0.4px;
   }
-  .lg-ls-letter-spacing-4 {
+  .ls-letter-spacing-4-lg {
     letter-spacing: 0.5px;
   }
-  .lg-ls-letter-spacing-5 {
+  .ls-letter-spacing-5-lg {
     letter-spacing: 0.75px;
   }
-  .lg-ls-letter-spacing-6 {
+  .ls-letter-spacing-6-lg {
     letter-spacing: 0.1px;
   }
-  .lg-fst-italic {
+  .fst-italic-lg {
     font-style: "italic";
   }
-  .lg-fst-oblique {
+  .fst-oblique-lg {
     font-style: "oblique";
   }
-  .lg-fst-normal {
+  .fst-normal-lg {
     font-style: "normal";
   }
-  .lg-fw-100 {
+  .fw-100-lg {
     font-weight: 100;
   }
-  .lg-fw-200 {
+  .fw-200-lg {
     font-weight: 200;
   }
-  .lg-fw-300 {
+  .fw-300-lg {
     font-weight: 300;
   }
-  .lg-fw-400 {
+  .fw-400-lg {
     font-weight: 400;
   }
-  .lg-fw-500 {
+  .fw-500-lg {
     font-weight: 500;
   }
-  .lg-fw-600 {
+  .fw-600-lg {
     font-weight: 600;
   }
-  .lg-fw-700 {
+  .fw-700-lg {
     font-weight: 700;
   }
-  .lg-fw-800 {
+  .fw-800-lg {
     font-weight: 800;
   }
-  .lg-fw-900 {
+  .fw-900-lg {
     font-weight: 900;
   }
-  .lg-fw-light {
+  .fw-light-lg {
     font-weight: 300;
   }
-  .lg-fw-regular {
+  .fw-regular-lg {
     font-weight: 400;
   }
-  .lg-fw-medium {
+  .fw-medium-lg {
     font-weight: 500;
   }
-  .lg-fw-bold {
+  .fw-bold-lg {
     font-weight: 600;
   }
-  .lg-lh-lineheight-1 {
+  .lh-lineheight-1-lg {
     line-height: 1;
   }
-  .lg-lh-lineheight-2 {
+  .lh-lineheight-2-lg {
     line-height: 1.25;
   }
-  .lg-lh-lineheight-3 {
+  .lh-lineheight-3-lg {
     line-height: 1.5;
   }
-  .lg-lh-lineheight-4 {
+  .lh-lineheight-4-lg {
     line-height: 1.75;
   }
-  .lg-lh-lineheight-5 {
+  .lh-lineheight-5-lg {
     line-height: 2;
   }
 }
 @media only screen and (min-width: 2560px) {
-  .xl-ft-header-1 {
+  .ft-header-1-xl {
     font-family: "Barlow";
     font-size: 4.75rem;
     letter-spacing: 0.5px;
     font-weight: 600;
     line-height: 1.25;
   }
-  .xl-ft-header-1-c {
+  .ft-header-1-c-xl {
     font-size: 1.125rem;
     font-size: clamp(
     1.125rem,
@@ -1115,14 +1115,14 @@
     4.75rem
   );
   }
-  .xl-ft-header-2 {
+  .ft-header-2-xl {
     font-family: "Barlow";
     font-size: 3.75rem;
     letter-spacing: 0.4px;
     font-weight: 500;
     line-height: 1.25;
   }
-  .xl-ft-header-2-c {
+  .ft-header-2-c-xl {
     font-size: 1.125rem;
     font-size: clamp(
     1.125rem,
@@ -1130,14 +1130,14 @@
     3.75rem
   );
   }
-  .xl-ft-header-3 {
+  .ft-header-3-xl {
     font-family: "Barlow";
     font-size: 3rem;
     letter-spacing: 0.25px;
     font-weight: 400;
     line-height: 1.25;
   }
-  .xl-ft-header-3-c {
+  .ft-header-3-c-xl {
     font-size: 1rem;
     font-size: clamp(
     1rem,
@@ -1145,14 +1145,14 @@
     3rem
   );
   }
-  .xl-ft-parragraph {
+  .ft-parragraph-xl {
     font-family: "Montserrat";
     font-size: 2.25rem;
     letter-spacing: 0.15px;
     font-weight: 600;
     line-height: 1.25;
   }
-  .xl-ft-parragraph-c {
+  .ft-parragraph-c-xl {
     font-size: 1rem;
     font-size: clamp(
     1rem,
@@ -1160,14 +1160,14 @@
     2.25rem
   );
   }
-  .xl-ft-small {
+  .ft-small-xl {
     font-family: "Montserrat";
     font-size: 2.125rem;
     letter-spacing: 0;
     font-weight: 400;
     line-height: 1.25;
   }
-  .xl-ft-small-c {
+  .ft-small-c-xl {
     font-size: 0.875rem;
     font-size: clamp(
     0.875rem,
@@ -1175,127 +1175,127 @@
     2.125rem
   );
   }
-  .xl-ff-main {
+  .ff-main-xl {
     font-family: "Montserrat";
   }
-  .xl-ff-complementary {
+  .ff-complementary-xl {
     font-family: "Barlow";
   }
-  .xl-fs-letter-sizing-1 {
+  .fs-letter-sizing-1-xl {
     font-size: 4.75rem;
   }
-  .xl-fs-letter-sizing-2 {
+  .fs-letter-sizing-2-xl {
     font-size: 3.75rem;
   }
-  .xl-fs-letter-sizing-3 {
+  .fs-letter-sizing-3-xl {
     font-size: 3rem;
   }
-  .xl-fs-letter-sizing-4 {
+  .fs-letter-sizing-4-xl {
     font-size: 2.25rem;
   }
-  .xl-fs-letter-sizing-5 {
+  .fs-letter-sizing-5-xl {
     font-size: 2.125rem;
   }
-  .xl-fs-letter-sizing-6 {
+  .fs-letter-sizing-6-xl {
     font-size: 1.5rem;
   }
-  .xl-fs-letter-sizing-7 {
+  .fs-letter-sizing-7-xl {
     font-size: 1.25rem;
   }
-  .xl-fs-letter-sizing-8 {
+  .fs-letter-sizing-8-xl {
     font-size: 1.125rem;
   }
-  .xl-fs-letter-sizing-9 {
+  .fs-letter-sizing-9-xl {
     font-size: 1rem;
   }
-  .xl-fs-letter-sizing-10 {
+  .fs-letter-sizing-10-xl {
     font-size: 0.875rem;
   }
-  .xl-ls-letter-spacing-n1 {
+  .ls-letter-spacing-n1-xl {
     letter-spacing: -0.5px;
   }
-  .xl-ls-letter-spacing-0 {
+  .ls-letter-spacing-0-xl {
     letter-spacing: 0;
   }
-  .xl-ls-letter-spacing-1 {
+  .ls-letter-spacing-1-xl {
     letter-spacing: 0.15px;
   }
-  .xl-ls-letter-spacing-2 {
+  .ls-letter-spacing-2-xl {
     letter-spacing: 0.25px;
   }
-  .xl-ls-letter-spacing-3 {
+  .ls-letter-spacing-3-xl {
     letter-spacing: 0.4px;
   }
-  .xl-ls-letter-spacing-4 {
+  .ls-letter-spacing-4-xl {
     letter-spacing: 0.5px;
   }
-  .xl-ls-letter-spacing-5 {
+  .ls-letter-spacing-5-xl {
     letter-spacing: 0.75px;
   }
-  .xl-ls-letter-spacing-6 {
+  .ls-letter-spacing-6-xl {
     letter-spacing: 0.1px;
   }
-  .xl-fst-italic {
+  .fst-italic-xl {
     font-style: "italic";
   }
-  .xl-fst-oblique {
+  .fst-oblique-xl {
     font-style: "oblique";
   }
-  .xl-fst-normal {
+  .fst-normal-xl {
     font-style: "normal";
   }
-  .xl-fw-100 {
+  .fw-100-xl {
     font-weight: 100;
   }
-  .xl-fw-200 {
+  .fw-200-xl {
     font-weight: 200;
   }
-  .xl-fw-300 {
+  .fw-300-xl {
     font-weight: 300;
   }
-  .xl-fw-400 {
+  .fw-400-xl {
     font-weight: 400;
   }
-  .xl-fw-500 {
+  .fw-500-xl {
     font-weight: 500;
   }
-  .xl-fw-600 {
+  .fw-600-xl {
     font-weight: 600;
   }
-  .xl-fw-700 {
+  .fw-700-xl {
     font-weight: 700;
   }
-  .xl-fw-800 {
+  .fw-800-xl {
     font-weight: 800;
   }
-  .xl-fw-900 {
+  .fw-900-xl {
     font-weight: 900;
   }
-  .xl-fw-light {
+  .fw-light-xl {
     font-weight: 300;
   }
-  .xl-fw-regular {
+  .fw-regular-xl {
     font-weight: 400;
   }
-  .xl-fw-medium {
+  .fw-medium-xl {
     font-weight: 500;
   }
-  .xl-fw-bold {
+  .fw-bold-xl {
     font-weight: 600;
   }
-  .xl-lh-lineheight-1 {
+  .lh-lineheight-1-xl {
     line-height: 1;
   }
-  .xl-lh-lineheight-2 {
+  .lh-lineheight-2-xl {
     line-height: 1.25;
   }
-  .xl-lh-lineheight-3 {
+  .lh-lineheight-3-xl {
     line-height: 1.5;
   }
-  .xl-lh-lineheight-4 {
+  .lh-lineheight-4-xl {
     line-height: 1.75;
   }
-  .xl-lh-lineheight-5 {
+  .lh-lineheight-5-xl {
     line-height: 2;
   }
 }
