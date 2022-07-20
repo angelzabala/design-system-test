@@ -1,3 +1,11 @@
+//
+/// z-indexes are very important elements who usually get left behind until you need it
+/// provide appropiate values for them and dont make them crash
+/// @example generated classes/variables
+///   --z-index-#{$level}: #{$value} => --z-index-100: 100;
+///   .z-index-#{$level} => .z-index-100;
+/// 
+
 $z-indexes: (
   100: 100,
   200: 200,

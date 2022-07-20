@@ -12,31 +12,37 @@
     --ls-#{$letterSpacing}: #{$value};
   }
 }
+
 :root {
   @each $fontStyle, $value in $fontStyles {
     --fst-#{$fontStyle}: '#{$value}';
   }
 }
+
 :root {
   @each $fontWeight, $value in $fontWeights {
     --fw-#{$fontWeight}: #{$value};
   }
 }
+
 :root {
   @each $fontLineHeight, $value in $fontLineHeights {
     --lh-#{$fontLineHeight}: #{$value};
   }
 }
+
 :root {
   @each $fontFamily, $value in $fontFamilies {
     --ff-#{$fontFamily}: '#{$value}';
   }
 }
+
 :root {
   @each $level, $value in $z-indexes {
     --z-index-#{$level}: #{$value};
   }
 }
+
 :root {
   @each $level, $value in $shadows {
     --shadow-#{$level}: #{$value};

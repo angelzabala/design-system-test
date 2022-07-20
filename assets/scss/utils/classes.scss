@@ -10,9 +10,96 @@
 @use './z-indexes' as *;
 @use './shadows' as *;
 
-
 @each $breakpoint, $breakpointMap in reverse($breakpoints) {
-  @media only screen and (min-width: map-get($breakpointMap, value)) {
+  @if (map-get($breakpointMap, value) != $smallestBreakpoint) {
+    @media only screen and (min-width: map-get($breakpointMap, value)) {
+      @each $fontType, $fontTypeMap in $fontTypes {
+        .#{$breakpoint}-ft-#{$fontType} {
+          font-family: map-get($fontTypeMap, family);
+          font-size: map-get($fontTypeMap, max-size);
+          letter-spacing: map-get($fontTypeMap, spacing);
+          font-weight: map-get($fontTypeMap, weight);
+          line-height: map-get($fontTypeMap, lineHeight);
+        }
+        .#{$breakpoint}-ft-#{$fontType}-c {
+          font-size: map-get($fontTypeMap, min-size);
+          font-size: fluidType(
+            $min-vw,
+            $max-vw,
+            map-get($fontTypeMap, min-size),
+            map-get($fontTypeMap, max-size)
+          );
+        }
+      }
+
+      @each $fontFamily, $value in $fontFamilies {
+        .#{$breakpoint}-ff-#{$fontFamily} {
+          font-family: '#{$value}';
+        }
+      }
+
+      @each $fontSize, $value in $fontSizes {
+        .#{$breakpoint}-fs-#{$fontSize} {
+          font-size: #{$value};
+        }
+      }
+
+      @each $letterSpacing, $value in $letterSpacings {
+        .#{$breakpoint}-ls-#{$letterSpacing} {
+          letter-spacing: #{$value};
+        }
+      }
+
+      @each $fontStyle, $value in $fontStyles {
+        .#{$breakpoint}-fst-#{$fontStyle} {
+          font-style: '#{$value}';
+        }
+      }
+
+      @each $fontWeight, $value in $fontWeights {
+        .#{$breakpoint}-fw-#{$fontWeight} {
+          font-weight: #{$value};
+        }
+      }
+
+      @each $fontLineHeight, $value in $fontLineHeights {
+        .#{$breakpoint}-lh-#{$fontLineHeight} {
+          line-height: #{$value};
+        }
+      }
+
+      @each $category, $categoryValues in $colorCategories {
+        @each $type, $shades in $categoryValues {
+          @each $shade, $value in $shades {
+            .#{$breakpoint}-clr-#{$category}-#{$type}-#{$shade} {
+              color: #{$value};
+            }
+            .#{$breakpoint}-bg-clr-#{$category}-#{$type}-#{$shade} {
+              background-color: #{$value};
+            }
+            .#{$breakpoint}-clr-#{$category}-#{$type}-#{$shade}-active:active,
+            .#{$breakpoint}-clr-#{$category}-#{$type}-#{$shade}-hover:hover,
+            .#{$breakpoint}-clr-#{$category}-#{$type}-#{$shade}-focus:focus,
+            .#{$breakpoint}-clr-#{$category}-#{$type}-#{$shade}-visited:visited,
+            .#{$breakpoint}-clr-#{$category}-#{$type}-#{$shade}-focus-within,
+            .#{$breakpoint}-clr-#{$category}-#{$type}-#{$shade}-focus-visible:focus-visible,
+            .#{$breakpoint}-clr-#{$category}-#{$type}-#{$shade}-target:target {
+              color: #{$value};
+            }
+            .#{$breakpoint}-bg-clr-#{$category}-#{$type}-#{$shade}-active:active,
+            .#{$breakpoint}-bg-clr-#{$category}-#{$type}-#{$shade}-hover:hover,
+            .#{$breakpoint}-bg-clr-#{$category}-#{$type}-#{$shade}-focus:focus,
+            .#{$breakpoint}-bg-clr-#{$category}-#{$type}-#{$shade}-visited:visited,
+            .#{$breakpoint}-bg-clr-#{$category}-#{$type}-#{$shade}-focus-within,
+            .#{$breakpoint}-bg-clr-#{$category}-#{$type}-#{$shade}-focus-visible:focus-visible,
+            .#{$breakpoint}-bg-clr-#{$category}-#{$type}-#{$shade}-target:target {
+              background-color: #{$value};
+            }
+          }
+        }
+      }
+    }
+  } @else {
     @each $fontType, $fontTypeMap in $fontTypes {
       .#{$breakpoint}-ft-#{$fontType} {
         font-family: map-get($fontTypeMap, family);
@@ -35,6 +122,12 @@
     @each $fontFamily, $value in $fontFamilies {
       .#{$breakpoint}-ff-#{$fontFamily} {
         font-family: '#{$value}';
+      }
+    }
+
+    @each $fontSize, $value in $fontSizes {
+      .#{$breakpoint}-fs-#{$fontSize} {
+        font-size: #{$value};
       }
     }
 

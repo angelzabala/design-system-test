@@ -86,6 +86,46 @@
   );
 }
 
+.fs-letter-sizing-1 {
+  font-size: 4.75rem;
+}
+
+.fs-letter-sizing-2 {
+  font-size: 3.75rem;
+}
+
+.fs-letter-sizing-3 {
+  font-size: 3rem;
+}
+
+.fs-letter-sizing-4 {
+  font-size: 2.25rem;
+}
+
+.fs-letter-sizing-5 {
+  font-size: 2.125rem;
+}
+
+.fs-letter-sizing-6 {
+  font-size: 1.5rem;
+}
+
+.fs-letter-sizing-7 {
+  font-size: 1.25rem;
+}
+
+.fs-letter-sizing-8 {
+  font-size: 1.125rem;
+}
+
+.fs-letter-sizing-9 {
+  font-size: 1rem;
+}
+
+.fs-letter-sizing-10 {
+  font-size: 0.875rem;
+}
+
 .ff-main {
   font-family: "Montserrat";
 }
@@ -210,1160 +250,1403 @@
   line-height: 2;
 }
 
-@media only screen and (min-width: 480px) {
-  .xs-ft-header-1 {
-    font-family: "Barlow";
-    font-size: 4.75rem;
-    letter-spacing: 0.5px;
-    font-weight: 600;
-    line-height: 1.25;
-  }
-  .xs-ft-header-1-c {
-    font-size: 1.125rem;
-    font-size: clamp(
+.xs-ft-header-1 {
+  font-family: "Barlow";
+  font-size: 4.75rem;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.xs-ft-header-1-c {
+  font-size: 1.125rem;
+  font-size: clamp(
     1.125rem,
     0.7326839827rem + 2.5108225108vw,
     4.75rem
   );
-  }
-  .xs-ft-header-2 {
-    font-family: "Barlow";
-    font-size: 3.75rem;
-    letter-spacing: 0.4px;
-    font-weight: 500;
-    line-height: 1.25;
-  }
-  .xs-ft-header-2-c {
-    font-size: 1.125rem;
-    font-size: clamp(
+}
+
+.xs-ft-header-2 {
+  font-family: "Barlow";
+  font-size: 3.75rem;
+  letter-spacing: 0.4px;
+  font-weight: 500;
+  line-height: 1.25;
+}
+
+.xs-ft-header-2-c {
+  font-size: 1.125rem;
+  font-size: clamp(
     1.125rem,
     0.8409090909rem + 1.8181818182vw,
     3.75rem
   );
-  }
-  .xs-ft-header-3 {
-    font-family: "Barlow";
-    font-size: 3rem;
-    letter-spacing: 0.25px;
-    font-weight: 400;
-    line-height: 1.25;
-  }
-  .xs-ft-header-3-c {
-    font-size: 1rem;
-    font-size: clamp(
+}
+
+.xs-ft-header-3 {
+  font-family: "Barlow";
+  font-size: 3rem;
+  letter-spacing: 0.25px;
+  font-weight: 400;
+  line-height: 1.25;
+}
+
+.xs-ft-header-3-c {
+  font-size: 1rem;
+  font-size: clamp(
     1rem,
     0.7835497835rem + 1.3852813853vw,
     3rem
   );
-  }
-  .xs-ft-parragraph {
-    font-family: "Montserrat";
-    font-size: 2.25rem;
-    letter-spacing: 0.15px;
-    font-weight: 600;
-    line-height: 1.25;
-  }
-  .xs-ft-parragraph-c {
-    font-size: 1rem;
-    font-size: clamp(
+}
+
+.xs-ft-parragraph {
+  font-family: "Montserrat";
+  font-size: 2.25rem;
+  letter-spacing: 0.15px;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.xs-ft-parragraph-c {
+  font-size: 1rem;
+  font-size: clamp(
     1rem,
     0.8647186147rem + 0.8658008658vw,
     2.25rem
   );
-  }
-  .xs-ft-small {
-    font-family: "Montserrat";
-    font-size: 2.125rem;
-    letter-spacing: 0;
-    font-weight: 400;
-    line-height: 1.25;
-  }
-  .xs-ft-small-c {
-    font-size: 0.875rem;
-    font-size: clamp(
+}
+
+.xs-ft-small {
+  font-family: "Montserrat";
+  font-size: 2.125rem;
+  letter-spacing: 0;
+  font-weight: 400;
+  line-height: 1.25;
+}
+
+.xs-ft-small-c {
+  font-size: 0.875rem;
+  font-size: clamp(
     0.875rem,
     0.7397186147rem + 0.8658008658vw,
     2.125rem
   );
-  }
-  .xs-ff-main {
-    font-family: "Montserrat";
-  }
-  .xs-ff-complementary {
-    font-family: "Barlow";
-  }
-  .xs-ls-letter-spacing-n1 {
-    letter-spacing: -0.5px;
-  }
-  .xs-ls-letter-spacing-0 {
-    letter-spacing: 0;
-  }
-  .xs-ls-letter-spacing-1 {
-    letter-spacing: 0.15px;
-  }
-  .xs-ls-letter-spacing-2 {
-    letter-spacing: 0.25px;
-  }
-  .xs-ls-letter-spacing-3 {
-    letter-spacing: 0.4px;
-  }
-  .xs-ls-letter-spacing-4 {
-    letter-spacing: 0.5px;
-  }
-  .xs-ls-letter-spacing-5 {
-    letter-spacing: 0.75px;
-  }
-  .xs-ls-letter-spacing-6 {
-    letter-spacing: 0.1px;
-  }
-  .xs-fst-italic {
-    font-style: "italic";
-  }
-  .xs-fst-oblique {
-    font-style: "oblique";
-  }
-  .xs-fst-normal {
-    font-style: "normal";
-  }
-  .xs-fw-100 {
-    font-weight: 100;
-  }
-  .xs-fw-200 {
-    font-weight: 200;
-  }
-  .xs-fw-300 {
-    font-weight: 300;
-  }
-  .xs-fw-400 {
-    font-weight: 400;
-  }
-  .xs-fw-500 {
-    font-weight: 500;
-  }
-  .xs-fw-600 {
-    font-weight: 600;
-  }
-  .xs-fw-700 {
-    font-weight: 700;
-  }
-  .xs-fw-800 {
-    font-weight: 800;
-  }
-  .xs-fw-900 {
-    font-weight: 900;
-  }
-  .xs-fw-light {
-    font-weight: 300;
-  }
-  .xs-fw-regular {
-    font-weight: 400;
-  }
-  .xs-fw-medium {
-    font-weight: 500;
-  }
-  .xs-fw-bold {
-    font-weight: 600;
-  }
-  .xs-lh-lineheight-1 {
-    line-height: 1;
-  }
-  .xs-lh-lineheight-2 {
-    line-height: 1.25;
-  }
-  .xs-lh-lineheight-3 {
-    line-height: 1.5;
-  }
-  .xs-lh-lineheight-4 {
-    line-height: 1.75;
-  }
-  .xs-lh-lineheight-5 {
-    line-height: 2;
-  }
-  .xs-clr-primary-brand-blue-900 {
-    color: #122252;
-  }
-  .xs-bg-clr-primary-brand-blue-900 {
-    background-color: #122252;
-  }
-  .xs-clr-primary-brand-blue-900-active:active,
+}
+
+.xs-ff-main {
+  font-family: "Montserrat";
+}
+
+.xs-ff-complementary {
+  font-family: "Barlow";
+}
+
+.xs-fs-letter-sizing-1 {
+  font-size: 4.75rem;
+}
+
+.xs-fs-letter-sizing-2 {
+  font-size: 3.75rem;
+}
+
+.xs-fs-letter-sizing-3 {
+  font-size: 3rem;
+}
+
+.xs-fs-letter-sizing-4 {
+  font-size: 2.25rem;
+}
+
+.xs-fs-letter-sizing-5 {
+  font-size: 2.125rem;
+}
+
+.xs-fs-letter-sizing-6 {
+  font-size: 1.5rem;
+}
+
+.xs-fs-letter-sizing-7 {
+  font-size: 1.25rem;
+}
+
+.xs-fs-letter-sizing-8 {
+  font-size: 1.125rem;
+}
+
+.xs-fs-letter-sizing-9 {
+  font-size: 1rem;
+}
+
+.xs-fs-letter-sizing-10 {
+  font-size: 0.875rem;
+}
+
+.xs-ls-letter-spacing-n1 {
+  letter-spacing: -0.5px;
+}
+
+.xs-ls-letter-spacing-0 {
+  letter-spacing: 0;
+}
+
+.xs-ls-letter-spacing-1 {
+  letter-spacing: 0.15px;
+}
+
+.xs-ls-letter-spacing-2 {
+  letter-spacing: 0.25px;
+}
+
+.xs-ls-letter-spacing-3 {
+  letter-spacing: 0.4px;
+}
+
+.xs-ls-letter-spacing-4 {
+  letter-spacing: 0.5px;
+}
+
+.xs-ls-letter-spacing-5 {
+  letter-spacing: 0.75px;
+}
+
+.xs-ls-letter-spacing-6 {
+  letter-spacing: 0.1px;
+}
+
+.xs-fst-italic {
+  font-style: "italic";
+}
+
+.xs-fst-oblique {
+  font-style: "oblique";
+}
+
+.xs-fst-normal {
+  font-style: "normal";
+}
+
+.xs-fw-100 {
+  font-weight: 100;
+}
+
+.xs-fw-200 {
+  font-weight: 200;
+}
+
+.xs-fw-300 {
+  font-weight: 300;
+}
+
+.xs-fw-400 {
+  font-weight: 400;
+}
+
+.xs-fw-500 {
+  font-weight: 500;
+}
+
+.xs-fw-600 {
+  font-weight: 600;
+}
+
+.xs-fw-700 {
+  font-weight: 700;
+}
+
+.xs-fw-800 {
+  font-weight: 800;
+}
+
+.xs-fw-900 {
+  font-weight: 900;
+}
+
+.xs-fw-light {
+  font-weight: 300;
+}
+
+.xs-fw-regular {
+  font-weight: 400;
+}
+
+.xs-fw-medium {
+  font-weight: 500;
+}
+
+.xs-fw-bold {
+  font-weight: 600;
+}
+
+.xs-lh-lineheight-1 {
+  line-height: 1;
+}
+
+.xs-lh-lineheight-2 {
+  line-height: 1.25;
+}
+
+.xs-lh-lineheight-3 {
+  line-height: 1.5;
+}
+
+.xs-lh-lineheight-4 {
+  line-height: 1.75;
+}
+
+.xs-lh-lineheight-5 {
+  line-height: 2;
+}
+
+.xs-clr-primary-brand-blue-900 {
+  color: #122252;
+}
+
+.xs-bg-clr-primary-brand-blue-900 {
+  background-color: #122252;
+}
+
+.xs-clr-primary-brand-blue-900-active:active,
 .xs-clr-primary-brand-blue-900-hover:hover,
 .xs-clr-primary-brand-blue-900-focus:focus,
 .xs-clr-primary-brand-blue-900-visited:visited,
 .xs-clr-primary-brand-blue-900-focus-within,
 .xs-clr-primary-brand-blue-900-focus-visible:focus-visible,
 .xs-clr-primary-brand-blue-900-target:target {
-    color: #122252;
-  }
-  .xs-bg-clr-primary-brand-blue-900-active:active,
+  color: #122252;
+}
+
+.xs-bg-clr-primary-brand-blue-900-active:active,
 .xs-bg-clr-primary-brand-blue-900-hover:hover,
 .xs-bg-clr-primary-brand-blue-900-focus:focus,
 .xs-bg-clr-primary-brand-blue-900-visited:visited,
 .xs-bg-clr-primary-brand-blue-900-focus-within,
 .xs-bg-clr-primary-brand-blue-900-focus-visible:focus-visible,
 .xs-bg-clr-primary-brand-blue-900-target:target {
-    background-color: #122252;
-  }
-  .xs-clr-primary-brand-blue-800 {
-    color: #15275f;
-  }
-  .xs-bg-clr-primary-brand-blue-800 {
-    background-color: #15275f;
-  }
-  .xs-clr-primary-brand-blue-800-active:active,
+  background-color: #122252;
+}
+
+.xs-clr-primary-brand-blue-800 {
+  color: #15275f;
+}
+
+.xs-bg-clr-primary-brand-blue-800 {
+  background-color: #15275f;
+}
+
+.xs-clr-primary-brand-blue-800-active:active,
 .xs-clr-primary-brand-blue-800-hover:hover,
 .xs-clr-primary-brand-blue-800-focus:focus,
 .xs-clr-primary-brand-blue-800-visited:visited,
 .xs-clr-primary-brand-blue-800-focus-within,
 .xs-clr-primary-brand-blue-800-focus-visible:focus-visible,
 .xs-clr-primary-brand-blue-800-target:target {
-    color: #15275f;
-  }
-  .xs-bg-clr-primary-brand-blue-800-active:active,
+  color: #15275f;
+}
+
+.xs-bg-clr-primary-brand-blue-800-active:active,
 .xs-bg-clr-primary-brand-blue-800-hover:hover,
 .xs-bg-clr-primary-brand-blue-800-focus:focus,
 .xs-bg-clr-primary-brand-blue-800-visited:visited,
 .xs-bg-clr-primary-brand-blue-800-focus-within,
 .xs-bg-clr-primary-brand-blue-800-focus-visible:focus-visible,
 .xs-bg-clr-primary-brand-blue-800-target:target {
-    background-color: #15275f;
-  }
-  .xs-clr-primary-brand-blue-700 {
-    color: #182d6d;
-  }
-  .xs-bg-clr-primary-brand-blue-700 {
-    background-color: #182d6d;
-  }
-  .xs-clr-primary-brand-blue-700-active:active,
+  background-color: #15275f;
+}
+
+.xs-clr-primary-brand-blue-700 {
+  color: #182d6d;
+}
+
+.xs-bg-clr-primary-brand-blue-700 {
+  background-color: #182d6d;
+}
+
+.xs-clr-primary-brand-blue-700-active:active,
 .xs-clr-primary-brand-blue-700-hover:hover,
 .xs-clr-primary-brand-blue-700-focus:focus,
 .xs-clr-primary-brand-blue-700-visited:visited,
 .xs-clr-primary-brand-blue-700-focus-within,
 .xs-clr-primary-brand-blue-700-focus-visible:focus-visible,
 .xs-clr-primary-brand-blue-700-target:target {
-    color: #182d6d;
-  }
-  .xs-bg-clr-primary-brand-blue-700-active:active,
+  color: #182d6d;
+}
+
+.xs-bg-clr-primary-brand-blue-700-active:active,
 .xs-bg-clr-primary-brand-blue-700-hover:hover,
 .xs-bg-clr-primary-brand-blue-700-focus:focus,
 .xs-bg-clr-primary-brand-blue-700-visited:visited,
 .xs-bg-clr-primary-brand-blue-700-focus-within,
 .xs-bg-clr-primary-brand-blue-700-focus-visible:focus-visible,
 .xs-bg-clr-primary-brand-blue-700-target:target {
-    background-color: #182d6d;
-  }
-  .xs-clr-primary-brand-blue-600 {
-    color: #1b327a;
-  }
-  .xs-bg-clr-primary-brand-blue-600 {
-    background-color: #1b327a;
-  }
-  .xs-clr-primary-brand-blue-600-active:active,
+  background-color: #182d6d;
+}
+
+.xs-clr-primary-brand-blue-600 {
+  color: #1b327a;
+}
+
+.xs-bg-clr-primary-brand-blue-600 {
+  background-color: #1b327a;
+}
+
+.xs-clr-primary-brand-blue-600-active:active,
 .xs-clr-primary-brand-blue-600-hover:hover,
 .xs-clr-primary-brand-blue-600-focus:focus,
 .xs-clr-primary-brand-blue-600-visited:visited,
 .xs-clr-primary-brand-blue-600-focus-within,
 .xs-clr-primary-brand-blue-600-focus-visible:focus-visible,
 .xs-clr-primary-brand-blue-600-target:target {
-    color: #1b327a;
-  }
-  .xs-bg-clr-primary-brand-blue-600-active:active,
+  color: #1b327a;
+}
+
+.xs-bg-clr-primary-brand-blue-600-active:active,
 .xs-bg-clr-primary-brand-blue-600-hover:hover,
 .xs-bg-clr-primary-brand-blue-600-focus:focus,
 .xs-bg-clr-primary-brand-blue-600-visited:visited,
 .xs-bg-clr-primary-brand-blue-600-focus-within,
 .xs-bg-clr-primary-brand-blue-600-focus-visible:focus-visible,
 .xs-bg-clr-primary-brand-blue-600-target:target {
-    background-color: #1b327a;
-  }
-  .xs-clr-primary-brand-blue-500 {
-    color: #1e3888;
-  }
-  .xs-bg-clr-primary-brand-blue-500 {
-    background-color: #1e3888;
-  }
-  .xs-clr-primary-brand-blue-500-active:active,
+  background-color: #1b327a;
+}
+
+.xs-clr-primary-brand-blue-500 {
+  color: #1e3888;
+}
+
+.xs-bg-clr-primary-brand-blue-500 {
+  background-color: #1e3888;
+}
+
+.xs-clr-primary-brand-blue-500-active:active,
 .xs-clr-primary-brand-blue-500-hover:hover,
 .xs-clr-primary-brand-blue-500-focus:focus,
 .xs-clr-primary-brand-blue-500-visited:visited,
 .xs-clr-primary-brand-blue-500-focus-within,
 .xs-clr-primary-brand-blue-500-focus-visible:focus-visible,
 .xs-clr-primary-brand-blue-500-target:target {
-    color: #1e3888;
-  }
-  .xs-bg-clr-primary-brand-blue-500-active:active,
+  color: #1e3888;
+}
+
+.xs-bg-clr-primary-brand-blue-500-active:active,
 .xs-bg-clr-primary-brand-blue-500-hover:hover,
 .xs-bg-clr-primary-brand-blue-500-focus:focus,
 .xs-bg-clr-primary-brand-blue-500-visited:visited,
 .xs-bg-clr-primary-brand-blue-500-focus-within,
 .xs-bg-clr-primary-brand-blue-500-focus-visible:focus-visible,
 .xs-bg-clr-primary-brand-blue-500-target:target {
-    background-color: #1e3888;
-  }
-  .xs-clr-primary-brand-blue-400 {
-    color: #354c94;
-  }
-  .xs-bg-clr-primary-brand-blue-400 {
-    background-color: #354c94;
-  }
-  .xs-clr-primary-brand-blue-400-active:active,
+  background-color: #1e3888;
+}
+
+.xs-clr-primary-brand-blue-400 {
+  color: #354c94;
+}
+
+.xs-bg-clr-primary-brand-blue-400 {
+  background-color: #354c94;
+}
+
+.xs-clr-primary-brand-blue-400-active:active,
 .xs-clr-primary-brand-blue-400-hover:hover,
 .xs-clr-primary-brand-blue-400-focus:focus,
 .xs-clr-primary-brand-blue-400-visited:visited,
 .xs-clr-primary-brand-blue-400-focus-within,
 .xs-clr-primary-brand-blue-400-focus-visible:focus-visible,
 .xs-clr-primary-brand-blue-400-target:target {
-    color: #354c94;
-  }
-  .xs-bg-clr-primary-brand-blue-400-active:active,
+  color: #354c94;
+}
+
+.xs-bg-clr-primary-brand-blue-400-active:active,
 .xs-bg-clr-primary-brand-blue-400-hover:hover,
 .xs-bg-clr-primary-brand-blue-400-focus:focus,
 .xs-bg-clr-primary-brand-blue-400-visited:visited,
 .xs-bg-clr-primary-brand-blue-400-focus-within,
 .xs-bg-clr-primary-brand-blue-400-focus-visible:focus-visible,
 .xs-bg-clr-primary-brand-blue-400-target:target {
-    background-color: #354c94;
-  }
-  .xs-clr-primary-brand-blue-300 {
-    color: #4b60a0;
-  }
-  .xs-bg-clr-primary-brand-blue-300 {
-    background-color: #4b60a0;
-  }
-  .xs-clr-primary-brand-blue-300-active:active,
+  background-color: #354c94;
+}
+
+.xs-clr-primary-brand-blue-300 {
+  color: #4b60a0;
+}
+
+.xs-bg-clr-primary-brand-blue-300 {
+  background-color: #4b60a0;
+}
+
+.xs-clr-primary-brand-blue-300-active:active,
 .xs-clr-primary-brand-blue-300-hover:hover,
 .xs-clr-primary-brand-blue-300-focus:focus,
 .xs-clr-primary-brand-blue-300-visited:visited,
 .xs-clr-primary-brand-blue-300-focus-within,
 .xs-clr-primary-brand-blue-300-focus-visible:focus-visible,
 .xs-clr-primary-brand-blue-300-target:target {
-    color: #4b60a0;
-  }
-  .xs-bg-clr-primary-brand-blue-300-active:active,
+  color: #4b60a0;
+}
+
+.xs-bg-clr-primary-brand-blue-300-active:active,
 .xs-bg-clr-primary-brand-blue-300-hover:hover,
 .xs-bg-clr-primary-brand-blue-300-focus:focus,
 .xs-bg-clr-primary-brand-blue-300-visited:visited,
 .xs-bg-clr-primary-brand-blue-300-focus-within,
 .xs-bg-clr-primary-brand-blue-300-focus-visible:focus-visible,
 .xs-bg-clr-primary-brand-blue-300-target:target {
-    background-color: #4b60a0;
-  }
-  .xs-clr-primary-brand-blue-200 {
-    color: #7888b8;
-  }
-  .xs-bg-clr-primary-brand-blue-200 {
-    background-color: #7888b8;
-  }
-  .xs-clr-primary-brand-blue-200-active:active,
+  background-color: #4b60a0;
+}
+
+.xs-clr-primary-brand-blue-200 {
+  color: #7888b8;
+}
+
+.xs-bg-clr-primary-brand-blue-200 {
+  background-color: #7888b8;
+}
+
+.xs-clr-primary-brand-blue-200-active:active,
 .xs-clr-primary-brand-blue-200-hover:hover,
 .xs-clr-primary-brand-blue-200-focus:focus,
 .xs-clr-primary-brand-blue-200-visited:visited,
 .xs-clr-primary-brand-blue-200-focus-within,
 .xs-clr-primary-brand-blue-200-focus-visible:focus-visible,
 .xs-clr-primary-brand-blue-200-target:target {
-    color: #7888b8;
-  }
-  .xs-bg-clr-primary-brand-blue-200-active:active,
+  color: #7888b8;
+}
+
+.xs-bg-clr-primary-brand-blue-200-active:active,
 .xs-bg-clr-primary-brand-blue-200-hover:hover,
 .xs-bg-clr-primary-brand-blue-200-focus:focus,
 .xs-bg-clr-primary-brand-blue-200-visited:visited,
 .xs-bg-clr-primary-brand-blue-200-focus-within,
 .xs-bg-clr-primary-brand-blue-200-focus-visible:focus-visible,
 .xs-bg-clr-primary-brand-blue-200-target:target {
-    background-color: #7888b8;
-  }
-  .xs-clr-primary-brand-blue-100 {
-    color: #bcc3db;
-  }
-  .xs-bg-clr-primary-brand-blue-100 {
-    background-color: #bcc3db;
-  }
-  .xs-clr-primary-brand-blue-100-active:active,
+  background-color: #7888b8;
+}
+
+.xs-clr-primary-brand-blue-100 {
+  color: #bcc3db;
+}
+
+.xs-bg-clr-primary-brand-blue-100 {
+  background-color: #bcc3db;
+}
+
+.xs-clr-primary-brand-blue-100-active:active,
 .xs-clr-primary-brand-blue-100-hover:hover,
 .xs-clr-primary-brand-blue-100-focus:focus,
 .xs-clr-primary-brand-blue-100-visited:visited,
 .xs-clr-primary-brand-blue-100-focus-within,
 .xs-clr-primary-brand-blue-100-focus-visible:focus-visible,
 .xs-clr-primary-brand-blue-100-target:target {
-    color: #bcc3db;
-  }
-  .xs-bg-clr-primary-brand-blue-100-active:active,
+  color: #bcc3db;
+}
+
+.xs-bg-clr-primary-brand-blue-100-active:active,
 .xs-bg-clr-primary-brand-blue-100-hover:hover,
 .xs-bg-clr-primary-brand-blue-100-focus:focus,
 .xs-bg-clr-primary-brand-blue-100-visited:visited,
 .xs-bg-clr-primary-brand-blue-100-focus-within,
 .xs-bg-clr-primary-brand-blue-100-focus-visible:focus-visible,
 .xs-bg-clr-primary-brand-blue-100-target:target {
-    background-color: #bcc3db;
-  }
-  .xs-clr-secondary-brand-yellow-900 {
-    color: #713f12;
-  }
-  .xs-bg-clr-secondary-brand-yellow-900 {
-    background-color: #713f12;
-  }
-  .xs-clr-secondary-brand-yellow-900-active:active,
+  background-color: #bcc3db;
+}
+
+.xs-clr-secondary-brand-yellow-900 {
+  color: #713f12;
+}
+
+.xs-bg-clr-secondary-brand-yellow-900 {
+  background-color: #713f12;
+}
+
+.xs-clr-secondary-brand-yellow-900-active:active,
 .xs-clr-secondary-brand-yellow-900-hover:hover,
 .xs-clr-secondary-brand-yellow-900-focus:focus,
 .xs-clr-secondary-brand-yellow-900-visited:visited,
 .xs-clr-secondary-brand-yellow-900-focus-within,
 .xs-clr-secondary-brand-yellow-900-focus-visible:focus-visible,
 .xs-clr-secondary-brand-yellow-900-target:target {
-    color: #713f12;
-  }
-  .xs-bg-clr-secondary-brand-yellow-900-active:active,
+  color: #713f12;
+}
+
+.xs-bg-clr-secondary-brand-yellow-900-active:active,
 .xs-bg-clr-secondary-brand-yellow-900-hover:hover,
 .xs-bg-clr-secondary-brand-yellow-900-focus:focus,
 .xs-bg-clr-secondary-brand-yellow-900-visited:visited,
 .xs-bg-clr-secondary-brand-yellow-900-focus-within,
 .xs-bg-clr-secondary-brand-yellow-900-focus-visible:focus-visible,
 .xs-bg-clr-secondary-brand-yellow-900-target:target {
-    background-color: #713f12;
-  }
-  .xs-clr-secondary-brand-yellow-800 {
-    color: #854d0e;
-  }
-  .xs-bg-clr-secondary-brand-yellow-800 {
-    background-color: #854d0e;
-  }
-  .xs-clr-secondary-brand-yellow-800-active:active,
+  background-color: #713f12;
+}
+
+.xs-clr-secondary-brand-yellow-800 {
+  color: #854d0e;
+}
+
+.xs-bg-clr-secondary-brand-yellow-800 {
+  background-color: #854d0e;
+}
+
+.xs-clr-secondary-brand-yellow-800-active:active,
 .xs-clr-secondary-brand-yellow-800-hover:hover,
 .xs-clr-secondary-brand-yellow-800-focus:focus,
 .xs-clr-secondary-brand-yellow-800-visited:visited,
 .xs-clr-secondary-brand-yellow-800-focus-within,
 .xs-clr-secondary-brand-yellow-800-focus-visible:focus-visible,
 .xs-clr-secondary-brand-yellow-800-target:target {
-    color: #854d0e;
-  }
-  .xs-bg-clr-secondary-brand-yellow-800-active:active,
+  color: #854d0e;
+}
+
+.xs-bg-clr-secondary-brand-yellow-800-active:active,
 .xs-bg-clr-secondary-brand-yellow-800-hover:hover,
 .xs-bg-clr-secondary-brand-yellow-800-focus:focus,
 .xs-bg-clr-secondary-brand-yellow-800-visited:visited,
 .xs-bg-clr-secondary-brand-yellow-800-focus-within,
 .xs-bg-clr-secondary-brand-yellow-800-focus-visible:focus-visible,
 .xs-bg-clr-secondary-brand-yellow-800-target:target {
-    background-color: #854d0e;
-  }
-  .xs-clr-secondary-brand-yellow-700 {
-    color: #a16207;
-  }
-  .xs-bg-clr-secondary-brand-yellow-700 {
-    background-color: #a16207;
-  }
-  .xs-clr-secondary-brand-yellow-700-active:active,
+  background-color: #854d0e;
+}
+
+.xs-clr-secondary-brand-yellow-700 {
+  color: #a16207;
+}
+
+.xs-bg-clr-secondary-brand-yellow-700 {
+  background-color: #a16207;
+}
+
+.xs-clr-secondary-brand-yellow-700-active:active,
 .xs-clr-secondary-brand-yellow-700-hover:hover,
 .xs-clr-secondary-brand-yellow-700-focus:focus,
 .xs-clr-secondary-brand-yellow-700-visited:visited,
 .xs-clr-secondary-brand-yellow-700-focus-within,
 .xs-clr-secondary-brand-yellow-700-focus-visible:focus-visible,
 .xs-clr-secondary-brand-yellow-700-target:target {
-    color: #a16207;
-  }
-  .xs-bg-clr-secondary-brand-yellow-700-active:active,
+  color: #a16207;
+}
+
+.xs-bg-clr-secondary-brand-yellow-700-active:active,
 .xs-bg-clr-secondary-brand-yellow-700-hover:hover,
 .xs-bg-clr-secondary-brand-yellow-700-focus:focus,
 .xs-bg-clr-secondary-brand-yellow-700-visited:visited,
 .xs-bg-clr-secondary-brand-yellow-700-focus-within,
 .xs-bg-clr-secondary-brand-yellow-700-focus-visible:focus-visible,
 .xs-bg-clr-secondary-brand-yellow-700-target:target {
-    background-color: #a16207;
-  }
-  .xs-clr-secondary-brand-yellow-600 {
-    color: #ca8a04;
-  }
-  .xs-bg-clr-secondary-brand-yellow-600 {
-    background-color: #ca8a04;
-  }
-  .xs-clr-secondary-brand-yellow-600-active:active,
+  background-color: #a16207;
+}
+
+.xs-clr-secondary-brand-yellow-600 {
+  color: #ca8a04;
+}
+
+.xs-bg-clr-secondary-brand-yellow-600 {
+  background-color: #ca8a04;
+}
+
+.xs-clr-secondary-brand-yellow-600-active:active,
 .xs-clr-secondary-brand-yellow-600-hover:hover,
 .xs-clr-secondary-brand-yellow-600-focus:focus,
 .xs-clr-secondary-brand-yellow-600-visited:visited,
 .xs-clr-secondary-brand-yellow-600-focus-within,
 .xs-clr-secondary-brand-yellow-600-focus-visible:focus-visible,
 .xs-clr-secondary-brand-yellow-600-target:target {
-    color: #ca8a04;
-  }
-  .xs-bg-clr-secondary-brand-yellow-600-active:active,
+  color: #ca8a04;
+}
+
+.xs-bg-clr-secondary-brand-yellow-600-active:active,
 .xs-bg-clr-secondary-brand-yellow-600-hover:hover,
 .xs-bg-clr-secondary-brand-yellow-600-focus:focus,
 .xs-bg-clr-secondary-brand-yellow-600-visited:visited,
 .xs-bg-clr-secondary-brand-yellow-600-focus-within,
 .xs-bg-clr-secondary-brand-yellow-600-focus-visible:focus-visible,
 .xs-bg-clr-secondary-brand-yellow-600-target:target {
-    background-color: #ca8a04;
-  }
-  .xs-clr-secondary-brand-yellow-500 {
-    color: #eab308;
-  }
-  .xs-bg-clr-secondary-brand-yellow-500 {
-    background-color: #eab308;
-  }
-  .xs-clr-secondary-brand-yellow-500-active:active,
+  background-color: #ca8a04;
+}
+
+.xs-clr-secondary-brand-yellow-500 {
+  color: #eab308;
+}
+
+.xs-bg-clr-secondary-brand-yellow-500 {
+  background-color: #eab308;
+}
+
+.xs-clr-secondary-brand-yellow-500-active:active,
 .xs-clr-secondary-brand-yellow-500-hover:hover,
 .xs-clr-secondary-brand-yellow-500-focus:focus,
 .xs-clr-secondary-brand-yellow-500-visited:visited,
 .xs-clr-secondary-brand-yellow-500-focus-within,
 .xs-clr-secondary-brand-yellow-500-focus-visible:focus-visible,
 .xs-clr-secondary-brand-yellow-500-target:target {
-    color: #eab308;
-  }
-  .xs-bg-clr-secondary-brand-yellow-500-active:active,
+  color: #eab308;
+}
+
+.xs-bg-clr-secondary-brand-yellow-500-active:active,
 .xs-bg-clr-secondary-brand-yellow-500-hover:hover,
 .xs-bg-clr-secondary-brand-yellow-500-focus:focus,
 .xs-bg-clr-secondary-brand-yellow-500-visited:visited,
 .xs-bg-clr-secondary-brand-yellow-500-focus-within,
 .xs-bg-clr-secondary-brand-yellow-500-focus-visible:focus-visible,
 .xs-bg-clr-secondary-brand-yellow-500-target:target {
-    background-color: #eab308;
-  }
-  .xs-clr-secondary-brand-yellow-400 {
-    color: #facc15;
-  }
-  .xs-bg-clr-secondary-brand-yellow-400 {
-    background-color: #facc15;
-  }
-  .xs-clr-secondary-brand-yellow-400-active:active,
+  background-color: #eab308;
+}
+
+.xs-clr-secondary-brand-yellow-400 {
+  color: #facc15;
+}
+
+.xs-bg-clr-secondary-brand-yellow-400 {
+  background-color: #facc15;
+}
+
+.xs-clr-secondary-brand-yellow-400-active:active,
 .xs-clr-secondary-brand-yellow-400-hover:hover,
 .xs-clr-secondary-brand-yellow-400-focus:focus,
 .xs-clr-secondary-brand-yellow-400-visited:visited,
 .xs-clr-secondary-brand-yellow-400-focus-within,
 .xs-clr-secondary-brand-yellow-400-focus-visible:focus-visible,
 .xs-clr-secondary-brand-yellow-400-target:target {
-    color: #facc15;
-  }
-  .xs-bg-clr-secondary-brand-yellow-400-active:active,
+  color: #facc15;
+}
+
+.xs-bg-clr-secondary-brand-yellow-400-active:active,
 .xs-bg-clr-secondary-brand-yellow-400-hover:hover,
 .xs-bg-clr-secondary-brand-yellow-400-focus:focus,
 .xs-bg-clr-secondary-brand-yellow-400-visited:visited,
 .xs-bg-clr-secondary-brand-yellow-400-focus-within,
 .xs-bg-clr-secondary-brand-yellow-400-focus-visible:focus-visible,
 .xs-bg-clr-secondary-brand-yellow-400-target:target {
-    background-color: #facc15;
-  }
-  .xs-clr-secondary-brand-yellow-300 {
-    color: #fde047;
-  }
-  .xs-bg-clr-secondary-brand-yellow-300 {
-    background-color: #fde047;
-  }
-  .xs-clr-secondary-brand-yellow-300-active:active,
+  background-color: #facc15;
+}
+
+.xs-clr-secondary-brand-yellow-300 {
+  color: #fde047;
+}
+
+.xs-bg-clr-secondary-brand-yellow-300 {
+  background-color: #fde047;
+}
+
+.xs-clr-secondary-brand-yellow-300-active:active,
 .xs-clr-secondary-brand-yellow-300-hover:hover,
 .xs-clr-secondary-brand-yellow-300-focus:focus,
 .xs-clr-secondary-brand-yellow-300-visited:visited,
 .xs-clr-secondary-brand-yellow-300-focus-within,
 .xs-clr-secondary-brand-yellow-300-focus-visible:focus-visible,
 .xs-clr-secondary-brand-yellow-300-target:target {
-    color: #fde047;
-  }
-  .xs-bg-clr-secondary-brand-yellow-300-active:active,
+  color: #fde047;
+}
+
+.xs-bg-clr-secondary-brand-yellow-300-active:active,
 .xs-bg-clr-secondary-brand-yellow-300-hover:hover,
 .xs-bg-clr-secondary-brand-yellow-300-focus:focus,
 .xs-bg-clr-secondary-brand-yellow-300-visited:visited,
 .xs-bg-clr-secondary-brand-yellow-300-focus-within,
 .xs-bg-clr-secondary-brand-yellow-300-focus-visible:focus-visible,
 .xs-bg-clr-secondary-brand-yellow-300-target:target {
-    background-color: #fde047;
-  }
-  .xs-clr-secondary-brand-yellow-200 {
-    color: #fde68a;
-  }
-  .xs-bg-clr-secondary-brand-yellow-200 {
-    background-color: #fde68a;
-  }
-  .xs-clr-secondary-brand-yellow-200-active:active,
+  background-color: #fde047;
+}
+
+.xs-clr-secondary-brand-yellow-200 {
+  color: #fde68a;
+}
+
+.xs-bg-clr-secondary-brand-yellow-200 {
+  background-color: #fde68a;
+}
+
+.xs-clr-secondary-brand-yellow-200-active:active,
 .xs-clr-secondary-brand-yellow-200-hover:hover,
 .xs-clr-secondary-brand-yellow-200-focus:focus,
 .xs-clr-secondary-brand-yellow-200-visited:visited,
 .xs-clr-secondary-brand-yellow-200-focus-within,
 .xs-clr-secondary-brand-yellow-200-focus-visible:focus-visible,
 .xs-clr-secondary-brand-yellow-200-target:target {
-    color: #fde68a;
-  }
-  .xs-bg-clr-secondary-brand-yellow-200-active:active,
+  color: #fde68a;
+}
+
+.xs-bg-clr-secondary-brand-yellow-200-active:active,
 .xs-bg-clr-secondary-brand-yellow-200-hover:hover,
 .xs-bg-clr-secondary-brand-yellow-200-focus:focus,
 .xs-bg-clr-secondary-brand-yellow-200-visited:visited,
 .xs-bg-clr-secondary-brand-yellow-200-focus-within,
 .xs-bg-clr-secondary-brand-yellow-200-focus-visible:focus-visible,
 .xs-bg-clr-secondary-brand-yellow-200-target:target {
-    background-color: #fde68a;
-  }
-  .xs-clr-secondary-brand-yellow-100 {
-    color: #fef3c7;
-  }
-  .xs-bg-clr-secondary-brand-yellow-100 {
-    background-color: #fef3c7;
-  }
-  .xs-clr-secondary-brand-yellow-100-active:active,
+  background-color: #fde68a;
+}
+
+.xs-clr-secondary-brand-yellow-100 {
+  color: #fef3c7;
+}
+
+.xs-bg-clr-secondary-brand-yellow-100 {
+  background-color: #fef3c7;
+}
+
+.xs-clr-secondary-brand-yellow-100-active:active,
 .xs-clr-secondary-brand-yellow-100-hover:hover,
 .xs-clr-secondary-brand-yellow-100-focus:focus,
 .xs-clr-secondary-brand-yellow-100-visited:visited,
 .xs-clr-secondary-brand-yellow-100-focus-within,
 .xs-clr-secondary-brand-yellow-100-focus-visible:focus-visible,
 .xs-clr-secondary-brand-yellow-100-target:target {
-    color: #fef3c7;
-  }
-  .xs-bg-clr-secondary-brand-yellow-100-active:active,
+  color: #fef3c7;
+}
+
+.xs-bg-clr-secondary-brand-yellow-100-active:active,
 .xs-bg-clr-secondary-brand-yellow-100-hover:hover,
 .xs-bg-clr-secondary-brand-yellow-100-focus:focus,
 .xs-bg-clr-secondary-brand-yellow-100-visited:visited,
 .xs-bg-clr-secondary-brand-yellow-100-focus-within,
 .xs-bg-clr-secondary-brand-yellow-100-focus-visible:focus-visible,
 .xs-bg-clr-secondary-brand-yellow-100-target:target {
-    background-color: #fef3c7;
-  }
-  .xs-clr-semantic-critical-dark {
-    color: #991b1b;
-  }
-  .xs-bg-clr-semantic-critical-dark {
-    background-color: #991b1b;
-  }
-  .xs-clr-semantic-critical-dark-active:active,
+  background-color: #fef3c7;
+}
+
+.xs-clr-semantic-critical-dark {
+  color: #991b1b;
+}
+
+.xs-bg-clr-semantic-critical-dark {
+  background-color: #991b1b;
+}
+
+.xs-clr-semantic-critical-dark-active:active,
 .xs-clr-semantic-critical-dark-hover:hover,
 .xs-clr-semantic-critical-dark-focus:focus,
 .xs-clr-semantic-critical-dark-visited:visited,
 .xs-clr-semantic-critical-dark-focus-within,
 .xs-clr-semantic-critical-dark-focus-visible:focus-visible,
 .xs-clr-semantic-critical-dark-target:target {
-    color: #991b1b;
-  }
-  .xs-bg-clr-semantic-critical-dark-active:active,
+  color: #991b1b;
+}
+
+.xs-bg-clr-semantic-critical-dark-active:active,
 .xs-bg-clr-semantic-critical-dark-hover:hover,
 .xs-bg-clr-semantic-critical-dark-focus:focus,
 .xs-bg-clr-semantic-critical-dark-visited:visited,
 .xs-bg-clr-semantic-critical-dark-focus-within,
 .xs-bg-clr-semantic-critical-dark-focus-visible:focus-visible,
 .xs-bg-clr-semantic-critical-dark-target:target {
-    background-color: #991b1b;
-  }
-  .xs-clr-semantic-critical-base {
-    color: #dc2626;
-  }
-  .xs-bg-clr-semantic-critical-base {
-    background-color: #dc2626;
-  }
-  .xs-clr-semantic-critical-base-active:active,
+  background-color: #991b1b;
+}
+
+.xs-clr-semantic-critical-base {
+  color: #dc2626;
+}
+
+.xs-bg-clr-semantic-critical-base {
+  background-color: #dc2626;
+}
+
+.xs-clr-semantic-critical-base-active:active,
 .xs-clr-semantic-critical-base-hover:hover,
 .xs-clr-semantic-critical-base-focus:focus,
 .xs-clr-semantic-critical-base-visited:visited,
 .xs-clr-semantic-critical-base-focus-within,
 .xs-clr-semantic-critical-base-focus-visible:focus-visible,
 .xs-clr-semantic-critical-base-target:target {
-    color: #dc2626;
-  }
-  .xs-bg-clr-semantic-critical-base-active:active,
+  color: #dc2626;
+}
+
+.xs-bg-clr-semantic-critical-base-active:active,
 .xs-bg-clr-semantic-critical-base-hover:hover,
 .xs-bg-clr-semantic-critical-base-focus:focus,
 .xs-bg-clr-semantic-critical-base-visited:visited,
 .xs-bg-clr-semantic-critical-base-focus-within,
 .xs-bg-clr-semantic-critical-base-focus-visible:focus-visible,
 .xs-bg-clr-semantic-critical-base-target:target {
-    background-color: #dc2626;
-  }
-  .xs-clr-semantic-critical-light {
-    color: #fca5a5;
-  }
-  .xs-bg-clr-semantic-critical-light {
-    background-color: #fca5a5;
-  }
-  .xs-clr-semantic-critical-light-active:active,
+  background-color: #dc2626;
+}
+
+.xs-clr-semantic-critical-light {
+  color: #fca5a5;
+}
+
+.xs-bg-clr-semantic-critical-light {
+  background-color: #fca5a5;
+}
+
+.xs-clr-semantic-critical-light-active:active,
 .xs-clr-semantic-critical-light-hover:hover,
 .xs-clr-semantic-critical-light-focus:focus,
 .xs-clr-semantic-critical-light-visited:visited,
 .xs-clr-semantic-critical-light-focus-within,
 .xs-clr-semantic-critical-light-focus-visible:focus-visible,
 .xs-clr-semantic-critical-light-target:target {
-    color: #fca5a5;
-  }
-  .xs-bg-clr-semantic-critical-light-active:active,
+  color: #fca5a5;
+}
+
+.xs-bg-clr-semantic-critical-light-active:active,
 .xs-bg-clr-semantic-critical-light-hover:hover,
 .xs-bg-clr-semantic-critical-light-focus:focus,
 .xs-bg-clr-semantic-critical-light-visited:visited,
 .xs-bg-clr-semantic-critical-light-focus-within,
 .xs-bg-clr-semantic-critical-light-focus-visible:focus-visible,
 .xs-bg-clr-semantic-critical-light-target:target {
-    background-color: #fca5a5;
-  }
-  .xs-clr-semantic-warning-dark {
-    color: #9a3412;
-  }
-  .xs-bg-clr-semantic-warning-dark {
-    background-color: #9a3412;
-  }
-  .xs-clr-semantic-warning-dark-active:active,
+  background-color: #fca5a5;
+}
+
+.xs-clr-semantic-warning-dark {
+  color: #9a3412;
+}
+
+.xs-bg-clr-semantic-warning-dark {
+  background-color: #9a3412;
+}
+
+.xs-clr-semantic-warning-dark-active:active,
 .xs-clr-semantic-warning-dark-hover:hover,
 .xs-clr-semantic-warning-dark-focus:focus,
 .xs-clr-semantic-warning-dark-visited:visited,
 .xs-clr-semantic-warning-dark-focus-within,
 .xs-clr-semantic-warning-dark-focus-visible:focus-visible,
 .xs-clr-semantic-warning-dark-target:target {
-    color: #9a3412;
-  }
-  .xs-bg-clr-semantic-warning-dark-active:active,
+  color: #9a3412;
+}
+
+.xs-bg-clr-semantic-warning-dark-active:active,
 .xs-bg-clr-semantic-warning-dark-hover:hover,
 .xs-bg-clr-semantic-warning-dark-focus:focus,
 .xs-bg-clr-semantic-warning-dark-visited:visited,
 .xs-bg-clr-semantic-warning-dark-focus-within,
 .xs-bg-clr-semantic-warning-dark-focus-visible:focus-visible,
 .xs-bg-clr-semantic-warning-dark-target:target {
-    background-color: #9a3412;
-  }
-  .xs-clr-semantic-warning-base {
-    color: #ea580c;
-  }
-  .xs-bg-clr-semantic-warning-base {
-    background-color: #ea580c;
-  }
-  .xs-clr-semantic-warning-base-active:active,
+  background-color: #9a3412;
+}
+
+.xs-clr-semantic-warning-base {
+  color: #ea580c;
+}
+
+.xs-bg-clr-semantic-warning-base {
+  background-color: #ea580c;
+}
+
+.xs-clr-semantic-warning-base-active:active,
 .xs-clr-semantic-warning-base-hover:hover,
 .xs-clr-semantic-warning-base-focus:focus,
 .xs-clr-semantic-warning-base-visited:visited,
 .xs-clr-semantic-warning-base-focus-within,
 .xs-clr-semantic-warning-base-focus-visible:focus-visible,
 .xs-clr-semantic-warning-base-target:target {
-    color: #ea580c;
-  }
-  .xs-bg-clr-semantic-warning-base-active:active,
+  color: #ea580c;
+}
+
+.xs-bg-clr-semantic-warning-base-active:active,
 .xs-bg-clr-semantic-warning-base-hover:hover,
 .xs-bg-clr-semantic-warning-base-focus:focus,
 .xs-bg-clr-semantic-warning-base-visited:visited,
 .xs-bg-clr-semantic-warning-base-focus-within,
 .xs-bg-clr-semantic-warning-base-focus-visible:focus-visible,
 .xs-bg-clr-semantic-warning-base-target:target {
-    background-color: #ea580c;
-  }
-  .xs-clr-semantic-warning-light {
-    color: #fdba74;
-  }
-  .xs-bg-clr-semantic-warning-light {
-    background-color: #fdba74;
-  }
-  .xs-clr-semantic-warning-light-active:active,
+  background-color: #ea580c;
+}
+
+.xs-clr-semantic-warning-light {
+  color: #fdba74;
+}
+
+.xs-bg-clr-semantic-warning-light {
+  background-color: #fdba74;
+}
+
+.xs-clr-semantic-warning-light-active:active,
 .xs-clr-semantic-warning-light-hover:hover,
 .xs-clr-semantic-warning-light-focus:focus,
 .xs-clr-semantic-warning-light-visited:visited,
 .xs-clr-semantic-warning-light-focus-within,
 .xs-clr-semantic-warning-light-focus-visible:focus-visible,
 .xs-clr-semantic-warning-light-target:target {
-    color: #fdba74;
-  }
-  .xs-bg-clr-semantic-warning-light-active:active,
+  color: #fdba74;
+}
+
+.xs-bg-clr-semantic-warning-light-active:active,
 .xs-bg-clr-semantic-warning-light-hover:hover,
 .xs-bg-clr-semantic-warning-light-focus:focus,
 .xs-bg-clr-semantic-warning-light-visited:visited,
 .xs-bg-clr-semantic-warning-light-focus-within,
 .xs-bg-clr-semantic-warning-light-focus-visible:focus-visible,
 .xs-bg-clr-semantic-warning-light-target:target {
-    background-color: #fdba74;
-  }
-  .xs-clr-semantic-success-dark {
-    color: #047857;
-  }
-  .xs-bg-clr-semantic-success-dark {
-    background-color: #047857;
-  }
-  .xs-clr-semantic-success-dark-active:active,
+  background-color: #fdba74;
+}
+
+.xs-clr-semantic-success-dark {
+  color: #047857;
+}
+
+.xs-bg-clr-semantic-success-dark {
+  background-color: #047857;
+}
+
+.xs-clr-semantic-success-dark-active:active,
 .xs-clr-semantic-success-dark-hover:hover,
 .xs-clr-semantic-success-dark-focus:focus,
 .xs-clr-semantic-success-dark-visited:visited,
 .xs-clr-semantic-success-dark-focus-within,
 .xs-clr-semantic-success-dark-focus-visible:focus-visible,
 .xs-clr-semantic-success-dark-target:target {
-    color: #047857;
-  }
-  .xs-bg-clr-semantic-success-dark-active:active,
+  color: #047857;
+}
+
+.xs-bg-clr-semantic-success-dark-active:active,
 .xs-bg-clr-semantic-success-dark-hover:hover,
 .xs-bg-clr-semantic-success-dark-focus:focus,
 .xs-bg-clr-semantic-success-dark-visited:visited,
 .xs-bg-clr-semantic-success-dark-focus-within,
 .xs-bg-clr-semantic-success-dark-focus-visible:focus-visible,
 .xs-bg-clr-semantic-success-dark-target:target {
-    background-color: #047857;
-  }
-  .xs-clr-semantic-success-base {
-    color: #10b981;
-  }
-  .xs-bg-clr-semantic-success-base {
-    background-color: #10b981;
-  }
-  .xs-clr-semantic-success-base-active:active,
+  background-color: #047857;
+}
+
+.xs-clr-semantic-success-base {
+  color: #10b981;
+}
+
+.xs-bg-clr-semantic-success-base {
+  background-color: #10b981;
+}
+
+.xs-clr-semantic-success-base-active:active,
 .xs-clr-semantic-success-base-hover:hover,
 .xs-clr-semantic-success-base-focus:focus,
 .xs-clr-semantic-success-base-visited:visited,
 .xs-clr-semantic-success-base-focus-within,
 .xs-clr-semantic-success-base-focus-visible:focus-visible,
 .xs-clr-semantic-success-base-target:target {
-    color: #10b981;
-  }
-  .xs-bg-clr-semantic-success-base-active:active,
+  color: #10b981;
+}
+
+.xs-bg-clr-semantic-success-base-active:active,
 .xs-bg-clr-semantic-success-base-hover:hover,
 .xs-bg-clr-semantic-success-base-focus:focus,
 .xs-bg-clr-semantic-success-base-visited:visited,
 .xs-bg-clr-semantic-success-base-focus-within,
 .xs-bg-clr-semantic-success-base-focus-visible:focus-visible,
 .xs-bg-clr-semantic-success-base-target:target {
-    background-color: #10b981;
-  }
-  .xs-clr-semantic-success-light {
-    color: #6ee7b7;
-  }
-  .xs-bg-clr-semantic-success-light {
-    background-color: #6ee7b7;
-  }
-  .xs-clr-semantic-success-light-active:active,
+  background-color: #10b981;
+}
+
+.xs-clr-semantic-success-light {
+  color: #6ee7b7;
+}
+
+.xs-bg-clr-semantic-success-light {
+  background-color: #6ee7b7;
+}
+
+.xs-clr-semantic-success-light-active:active,
 .xs-clr-semantic-success-light-hover:hover,
 .xs-clr-semantic-success-light-focus:focus,
 .xs-clr-semantic-success-light-visited:visited,
 .xs-clr-semantic-success-light-focus-within,
 .xs-clr-semantic-success-light-focus-visible:focus-visible,
 .xs-clr-semantic-success-light-target:target {
-    color: #6ee7b7;
-  }
-  .xs-bg-clr-semantic-success-light-active:active,
+  color: #6ee7b7;
+}
+
+.xs-bg-clr-semantic-success-light-active:active,
 .xs-bg-clr-semantic-success-light-hover:hover,
 .xs-bg-clr-semantic-success-light-focus:focus,
 .xs-bg-clr-semantic-success-light-visited:visited,
 .xs-bg-clr-semantic-success-light-focus-within,
 .xs-bg-clr-semantic-success-light-focus-visible:focus-visible,
 .xs-bg-clr-semantic-success-light-target:target {
-    background-color: #6ee7b7;
-  }
-  .xs-clr-semantic-info-dark {
-    color: #0b4b99;
-  }
-  .xs-bg-clr-semantic-info-dark {
-    background-color: #0b4b99;
-  }
-  .xs-clr-semantic-info-dark-active:active,
+  background-color: #6ee7b7;
+}
+
+.xs-clr-semantic-info-dark {
+  color: #0b4b99;
+}
+
+.xs-bg-clr-semantic-info-dark {
+  background-color: #0b4b99;
+}
+
+.xs-clr-semantic-info-dark-active:active,
 .xs-clr-semantic-info-dark-hover:hover,
 .xs-clr-semantic-info-dark-focus:focus,
 .xs-clr-semantic-info-dark-visited:visited,
 .xs-clr-semantic-info-dark-focus-within,
 .xs-clr-semantic-info-dark-focus-visible:focus-visible,
 .xs-clr-semantic-info-dark-target:target {
-    color: #0b4b99;
-  }
-  .xs-bg-clr-semantic-info-dark-active:active,
+  color: #0b4b99;
+}
+
+.xs-bg-clr-semantic-info-dark-active:active,
 .xs-bg-clr-semantic-info-dark-hover:hover,
 .xs-bg-clr-semantic-info-dark-focus:focus,
 .xs-bg-clr-semantic-info-dark-visited:visited,
 .xs-bg-clr-semantic-info-dark-focus-within,
 .xs-bg-clr-semantic-info-dark-focus-visible:focus-visible,
 .xs-bg-clr-semantic-info-dark-target:target {
-    background-color: #0b4b99;
-  }
-  .xs-clr-semantic-info-base {
-    color: #106bda;
-  }
-  .xs-bg-clr-semantic-info-base {
-    background-color: #106bda;
-  }
-  .xs-clr-semantic-info-base-active:active,
+  background-color: #0b4b99;
+}
+
+.xs-clr-semantic-info-base {
+  color: #106bda;
+}
+
+.xs-bg-clr-semantic-info-base {
+  background-color: #106bda;
+}
+
+.xs-clr-semantic-info-base-active:active,
 .xs-clr-semantic-info-base-hover:hover,
 .xs-clr-semantic-info-base-focus:focus,
 .xs-clr-semantic-info-base-visited:visited,
 .xs-clr-semantic-info-base-focus-within,
 .xs-clr-semantic-info-base-focus-visible:focus-visible,
 .xs-clr-semantic-info-base-target:target {
-    color: #106bda;
-  }
-  .xs-bg-clr-semantic-info-base-active:active,
+  color: #106bda;
+}
+
+.xs-bg-clr-semantic-info-base-active:active,
 .xs-bg-clr-semantic-info-base-hover:hover,
 .xs-bg-clr-semantic-info-base-focus:focus,
 .xs-bg-clr-semantic-info-base-visited:visited,
 .xs-bg-clr-semantic-info-base-focus-within,
 .xs-bg-clr-semantic-info-base-focus-visible:focus-visible,
 .xs-bg-clr-semantic-info-base-target:target {
-    background-color: #106bda;
-  }
-  .xs-clr-semantic-info-light {
-    color: #88b5ed;
-  }
-  .xs-bg-clr-semantic-info-light {
-    background-color: #88b5ed;
-  }
-  .xs-clr-semantic-info-light-active:active,
+  background-color: #106bda;
+}
+
+.xs-clr-semantic-info-light {
+  color: #88b5ed;
+}
+
+.xs-bg-clr-semantic-info-light {
+  background-color: #88b5ed;
+}
+
+.xs-clr-semantic-info-light-active:active,
 .xs-clr-semantic-info-light-hover:hover,
 .xs-clr-semantic-info-light-focus:focus,
 .xs-clr-semantic-info-light-visited:visited,
 .xs-clr-semantic-info-light-focus-within,
 .xs-clr-semantic-info-light-focus-visible:focus-visible,
 .xs-clr-semantic-info-light-target:target {
-    color: #88b5ed;
-  }
-  .xs-bg-clr-semantic-info-light-active:active,
+  color: #88b5ed;
+}
+
+.xs-bg-clr-semantic-info-light-active:active,
 .xs-bg-clr-semantic-info-light-hover:hover,
 .xs-bg-clr-semantic-info-light-focus:focus,
 .xs-bg-clr-semantic-info-light-visited:visited,
 .xs-bg-clr-semantic-info-light-focus-within,
 .xs-bg-clr-semantic-info-light-focus-visible:focus-visible,
 .xs-bg-clr-semantic-info-light-target:target {
-    background-color: #88b5ed;
-  }
-  .xs-clr-grayscale-shade-absblack {
-    color: #000000;
-  }
-  .xs-bg-clr-grayscale-shade-absblack {
-    background-color: #000000;
-  }
-  .xs-clr-grayscale-shade-absblack-active:active,
+  background-color: #88b5ed;
+}
+
+.xs-clr-grayscale-shade-absblack {
+  color: #000000;
+}
+
+.xs-bg-clr-grayscale-shade-absblack {
+  background-color: #000000;
+}
+
+.xs-clr-grayscale-shade-absblack-active:active,
 .xs-clr-grayscale-shade-absblack-hover:hover,
 .xs-clr-grayscale-shade-absblack-focus:focus,
 .xs-clr-grayscale-shade-absblack-visited:visited,
 .xs-clr-grayscale-shade-absblack-focus-within,
 .xs-clr-grayscale-shade-absblack-focus-visible:focus-visible,
 .xs-clr-grayscale-shade-absblack-target:target {
-    color: #000000;
-  }
-  .xs-bg-clr-grayscale-shade-absblack-active:active,
+  color: #000000;
+}
+
+.xs-bg-clr-grayscale-shade-absblack-active:active,
 .xs-bg-clr-grayscale-shade-absblack-hover:hover,
 .xs-bg-clr-grayscale-shade-absblack-focus:focus,
 .xs-bg-clr-grayscale-shade-absblack-visited:visited,
 .xs-bg-clr-grayscale-shade-absblack-focus-within,
 .xs-bg-clr-grayscale-shade-absblack-focus-visible:focus-visible,
 .xs-bg-clr-grayscale-shade-absblack-target:target {
-    background-color: #000000;
-  }
-  .xs-clr-grayscale-shade-900 {
-    color: #0f172a;
-  }
-  .xs-bg-clr-grayscale-shade-900 {
-    background-color: #0f172a;
-  }
-  .xs-clr-grayscale-shade-900-active:active,
+  background-color: #000000;
+}
+
+.xs-clr-grayscale-shade-900 {
+  color: #0f172a;
+}
+
+.xs-bg-clr-grayscale-shade-900 {
+  background-color: #0f172a;
+}
+
+.xs-clr-grayscale-shade-900-active:active,
 .xs-clr-grayscale-shade-900-hover:hover,
 .xs-clr-grayscale-shade-900-focus:focus,
 .xs-clr-grayscale-shade-900-visited:visited,
 .xs-clr-grayscale-shade-900-focus-within,
 .xs-clr-grayscale-shade-900-focus-visible:focus-visible,
 .xs-clr-grayscale-shade-900-target:target {
-    color: #0f172a;
-  }
-  .xs-bg-clr-grayscale-shade-900-active:active,
+  color: #0f172a;
+}
+
+.xs-bg-clr-grayscale-shade-900-active:active,
 .xs-bg-clr-grayscale-shade-900-hover:hover,
 .xs-bg-clr-grayscale-shade-900-focus:focus,
 .xs-bg-clr-grayscale-shade-900-visited:visited,
 .xs-bg-clr-grayscale-shade-900-focus-within,
 .xs-bg-clr-grayscale-shade-900-focus-visible:focus-visible,
 .xs-bg-clr-grayscale-shade-900-target:target {
-    background-color: #0f172a;
-  }
-  .xs-clr-grayscale-shade-800 {
-    color: #1e293b;
-  }
-  .xs-bg-clr-grayscale-shade-800 {
-    background-color: #1e293b;
-  }
-  .xs-clr-grayscale-shade-800-active:active,
+  background-color: #0f172a;
+}
+
+.xs-clr-grayscale-shade-800 {
+  color: #1e293b;
+}
+
+.xs-bg-clr-grayscale-shade-800 {
+  background-color: #1e293b;
+}
+
+.xs-clr-grayscale-shade-800-active:active,
 .xs-clr-grayscale-shade-800-hover:hover,
 .xs-clr-grayscale-shade-800-focus:focus,
 .xs-clr-grayscale-shade-800-visited:visited,
 .xs-clr-grayscale-shade-800-focus-within,
 .xs-clr-grayscale-shade-800-focus-visible:focus-visible,
 .xs-clr-grayscale-shade-800-target:target {
-    color: #1e293b;
-  }
-  .xs-bg-clr-grayscale-shade-800-active:active,
+  color: #1e293b;
+}
+
+.xs-bg-clr-grayscale-shade-800-active:active,
 .xs-bg-clr-grayscale-shade-800-hover:hover,
 .xs-bg-clr-grayscale-shade-800-focus:focus,
 .xs-bg-clr-grayscale-shade-800-visited:visited,
 .xs-bg-clr-grayscale-shade-800-focus-within,
 .xs-bg-clr-grayscale-shade-800-focus-visible:focus-visible,
 .xs-bg-clr-grayscale-shade-800-target:target {
-    background-color: #1e293b;
-  }
-  .xs-clr-grayscale-shade-700 {
-    color: #334155;
-  }
-  .xs-bg-clr-grayscale-shade-700 {
-    background-color: #334155;
-  }
-  .xs-clr-grayscale-shade-700-active:active,
+  background-color: #1e293b;
+}
+
+.xs-clr-grayscale-shade-700 {
+  color: #334155;
+}
+
+.xs-bg-clr-grayscale-shade-700 {
+  background-color: #334155;
+}
+
+.xs-clr-grayscale-shade-700-active:active,
 .xs-clr-grayscale-shade-700-hover:hover,
 .xs-clr-grayscale-shade-700-focus:focus,
 .xs-clr-grayscale-shade-700-visited:visited,
 .xs-clr-grayscale-shade-700-focus-within,
 .xs-clr-grayscale-shade-700-focus-visible:focus-visible,
 .xs-clr-grayscale-shade-700-target:target {
-    color: #334155;
-  }
-  .xs-bg-clr-grayscale-shade-700-active:active,
+  color: #334155;
+}
+
+.xs-bg-clr-grayscale-shade-700-active:active,
 .xs-bg-clr-grayscale-shade-700-hover:hover,
 .xs-bg-clr-grayscale-shade-700-focus:focus,
 .xs-bg-clr-grayscale-shade-700-visited:visited,
 .xs-bg-clr-grayscale-shade-700-focus-within,
 .xs-bg-clr-grayscale-shade-700-focus-visible:focus-visible,
 .xs-bg-clr-grayscale-shade-700-target:target {
-    background-color: #334155;
-  }
-  .xs-clr-grayscale-shade-600 {
-    color: #475569;
-  }
-  .xs-bg-clr-grayscale-shade-600 {
-    background-color: #475569;
-  }
-  .xs-clr-grayscale-shade-600-active:active,
+  background-color: #334155;
+}
+
+.xs-clr-grayscale-shade-600 {
+  color: #475569;
+}
+
+.xs-bg-clr-grayscale-shade-600 {
+  background-color: #475569;
+}
+
+.xs-clr-grayscale-shade-600-active:active,
 .xs-clr-grayscale-shade-600-hover:hover,
 .xs-clr-grayscale-shade-600-focus:focus,
 .xs-clr-grayscale-shade-600-visited:visited,
 .xs-clr-grayscale-shade-600-focus-within,
 .xs-clr-grayscale-shade-600-focus-visible:focus-visible,
 .xs-clr-grayscale-shade-600-target:target {
-    color: #475569;
-  }
-  .xs-bg-clr-grayscale-shade-600-active:active,
+  color: #475569;
+}
+
+.xs-bg-clr-grayscale-shade-600-active:active,
 .xs-bg-clr-grayscale-shade-600-hover:hover,
 .xs-bg-clr-grayscale-shade-600-focus:focus,
 .xs-bg-clr-grayscale-shade-600-visited:visited,
 .xs-bg-clr-grayscale-shade-600-focus-within,
 .xs-bg-clr-grayscale-shade-600-focus-visible:focus-visible,
 .xs-bg-clr-grayscale-shade-600-target:target {
-    background-color: #475569;
-  }
-  .xs-clr-grayscale-shade-500 {
-    color: #64748b;
-  }
-  .xs-bg-clr-grayscale-shade-500 {
-    background-color: #64748b;
-  }
-  .xs-clr-grayscale-shade-500-active:active,
+  background-color: #475569;
+}
+
+.xs-clr-grayscale-shade-500 {
+  color: #64748b;
+}
+
+.xs-bg-clr-grayscale-shade-500 {
+  background-color: #64748b;
+}
+
+.xs-clr-grayscale-shade-500-active:active,
 .xs-clr-grayscale-shade-500-hover:hover,
 .xs-clr-grayscale-shade-500-focus:focus,
 .xs-clr-grayscale-shade-500-visited:visited,
 .xs-clr-grayscale-shade-500-focus-within,
 .xs-clr-grayscale-shade-500-focus-visible:focus-visible,
 .xs-clr-grayscale-shade-500-target:target {
-    color: #64748b;
-  }
-  .xs-bg-clr-grayscale-shade-500-active:active,
+  color: #64748b;
+}
+
+.xs-bg-clr-grayscale-shade-500-active:active,
 .xs-bg-clr-grayscale-shade-500-hover:hover,
 .xs-bg-clr-grayscale-shade-500-focus:focus,
 .xs-bg-clr-grayscale-shade-500-visited:visited,
 .xs-bg-clr-grayscale-shade-500-focus-within,
 .xs-bg-clr-grayscale-shade-500-focus-visible:focus-visible,
 .xs-bg-clr-grayscale-shade-500-target:target {
-    background-color: #64748b;
-  }
-  .xs-clr-grayscale-shade-400 {
-    color: #94a3b8;
-  }
-  .xs-bg-clr-grayscale-shade-400 {
-    background-color: #94a3b8;
-  }
-  .xs-clr-grayscale-shade-400-active:active,
+  background-color: #64748b;
+}
+
+.xs-clr-grayscale-shade-400 {
+  color: #94a3b8;
+}
+
+.xs-bg-clr-grayscale-shade-400 {
+  background-color: #94a3b8;
+}
+
+.xs-clr-grayscale-shade-400-active:active,
 .xs-clr-grayscale-shade-400-hover:hover,
 .xs-clr-grayscale-shade-400-focus:focus,
 .xs-clr-grayscale-shade-400-visited:visited,
 .xs-clr-grayscale-shade-400-focus-within,
 .xs-clr-grayscale-shade-400-focus-visible:focus-visible,
 .xs-clr-grayscale-shade-400-target:target {
-    color: #94a3b8;
-  }
-  .xs-bg-clr-grayscale-shade-400-active:active,
+  color: #94a3b8;
+}
+
+.xs-bg-clr-grayscale-shade-400-active:active,
 .xs-bg-clr-grayscale-shade-400-hover:hover,
 .xs-bg-clr-grayscale-shade-400-focus:focus,
 .xs-bg-clr-grayscale-shade-400-visited:visited,
 .xs-bg-clr-grayscale-shade-400-focus-within,
 .xs-bg-clr-grayscale-shade-400-focus-visible:focus-visible,
 .xs-bg-clr-grayscale-shade-400-target:target {
-    background-color: #94a3b8;
-  }
-  .xs-clr-grayscale-shade-300 {
-    color: #cbd5e1;
-  }
-  .xs-bg-clr-grayscale-shade-300 {
-    background-color: #cbd5e1;
-  }
-  .xs-clr-grayscale-shade-300-active:active,
+  background-color: #94a3b8;
+}
+
+.xs-clr-grayscale-shade-300 {
+  color: #cbd5e1;
+}
+
+.xs-bg-clr-grayscale-shade-300 {
+  background-color: #cbd5e1;
+}
+
+.xs-clr-grayscale-shade-300-active:active,
 .xs-clr-grayscale-shade-300-hover:hover,
 .xs-clr-grayscale-shade-300-focus:focus,
 .xs-clr-grayscale-shade-300-visited:visited,
 .xs-clr-grayscale-shade-300-focus-within,
 .xs-clr-grayscale-shade-300-focus-visible:focus-visible,
 .xs-clr-grayscale-shade-300-target:target {
-    color: #cbd5e1;
-  }
-  .xs-bg-clr-grayscale-shade-300-active:active,
+  color: #cbd5e1;
+}
+
+.xs-bg-clr-grayscale-shade-300-active:active,
 .xs-bg-clr-grayscale-shade-300-hover:hover,
 .xs-bg-clr-grayscale-shade-300-focus:focus,
 .xs-bg-clr-grayscale-shade-300-visited:visited,
 .xs-bg-clr-grayscale-shade-300-focus-within,
 .xs-bg-clr-grayscale-shade-300-focus-visible:focus-visible,
 .xs-bg-clr-grayscale-shade-300-target:target {
-    background-color: #cbd5e1;
-  }
-  .xs-clr-grayscale-shade-200 {
-    color: #e2e8f0;
-  }
-  .xs-bg-clr-grayscale-shade-200 {
-    background-color: #e2e8f0;
-  }
-  .xs-clr-grayscale-shade-200-active:active,
+  background-color: #cbd5e1;
+}
+
+.xs-clr-grayscale-shade-200 {
+  color: #e2e8f0;
+}
+
+.xs-bg-clr-grayscale-shade-200 {
+  background-color: #e2e8f0;
+}
+
+.xs-clr-grayscale-shade-200-active:active,
 .xs-clr-grayscale-shade-200-hover:hover,
 .xs-clr-grayscale-shade-200-focus:focus,
 .xs-clr-grayscale-shade-200-visited:visited,
 .xs-clr-grayscale-shade-200-focus-within,
 .xs-clr-grayscale-shade-200-focus-visible:focus-visible,
 .xs-clr-grayscale-shade-200-target:target {
-    color: #e2e8f0;
-  }
-  .xs-bg-clr-grayscale-shade-200-active:active,
+  color: #e2e8f0;
+}
+
+.xs-bg-clr-grayscale-shade-200-active:active,
 .xs-bg-clr-grayscale-shade-200-hover:hover,
 .xs-bg-clr-grayscale-shade-200-focus:focus,
 .xs-bg-clr-grayscale-shade-200-visited:visited,
 .xs-bg-clr-grayscale-shade-200-focus-within,
 .xs-bg-clr-grayscale-shade-200-focus-visible:focus-visible,
 .xs-bg-clr-grayscale-shade-200-target:target {
-    background-color: #e2e8f0;
-  }
-  .xs-clr-grayscale-shade-100 {
-    color: #f1f5f9;
-  }
-  .xs-bg-clr-grayscale-shade-100 {
-    background-color: #f1f5f9;
-  }
-  .xs-clr-grayscale-shade-100-active:active,
+  background-color: #e2e8f0;
+}
+
+.xs-clr-grayscale-shade-100 {
+  color: #f1f5f9;
+}
+
+.xs-bg-clr-grayscale-shade-100 {
+  background-color: #f1f5f9;
+}
+
+.xs-clr-grayscale-shade-100-active:active,
 .xs-clr-grayscale-shade-100-hover:hover,
 .xs-clr-grayscale-shade-100-focus:focus,
 .xs-clr-grayscale-shade-100-visited:visited,
 .xs-clr-grayscale-shade-100-focus-within,
 .xs-clr-grayscale-shade-100-focus-visible:focus-visible,
 .xs-clr-grayscale-shade-100-target:target {
-    color: #f1f5f9;
-  }
-  .xs-bg-clr-grayscale-shade-100-active:active,
+  color: #f1f5f9;
+}
+
+.xs-bg-clr-grayscale-shade-100-active:active,
 .xs-bg-clr-grayscale-shade-100-hover:hover,
 .xs-bg-clr-grayscale-shade-100-focus:focus,
 .xs-bg-clr-grayscale-shade-100-visited:visited,
 .xs-bg-clr-grayscale-shade-100-focus-within,
 .xs-bg-clr-grayscale-shade-100-focus-visible:focus-visible,
 .xs-bg-clr-grayscale-shade-100-target:target {
-    background-color: #f1f5f9;
-  }
-  .xs-clr-grayscale-shade-abswhite {
-    color: #ffffff;
-  }
-  .xs-bg-clr-grayscale-shade-abswhite {
-    background-color: #ffffff;
-  }
-  .xs-clr-grayscale-shade-abswhite-active:active,
+  background-color: #f1f5f9;
+}
+
+.xs-clr-grayscale-shade-abswhite {
+  color: #ffffff;
+}
+
+.xs-bg-clr-grayscale-shade-abswhite {
+  background-color: #ffffff;
+}
+
+.xs-clr-grayscale-shade-abswhite-active:active,
 .xs-clr-grayscale-shade-abswhite-hover:hover,
 .xs-clr-grayscale-shade-abswhite-focus:focus,
 .xs-clr-grayscale-shade-abswhite-visited:visited,
 .xs-clr-grayscale-shade-abswhite-focus-within,
 .xs-clr-grayscale-shade-abswhite-focus-visible:focus-visible,
 .xs-clr-grayscale-shade-abswhite-target:target {
-    color: #ffffff;
-  }
-  .xs-bg-clr-grayscale-shade-abswhite-active:active,
+  color: #ffffff;
+}
+
+.xs-bg-clr-grayscale-shade-abswhite-active:active,
 .xs-bg-clr-grayscale-shade-abswhite-hover:hover,
 .xs-bg-clr-grayscale-shade-abswhite-focus:focus,
 .xs-bg-clr-grayscale-shade-abswhite-visited:visited,
 .xs-bg-clr-grayscale-shade-abswhite-focus-within,
 .xs-bg-clr-grayscale-shade-abswhite-focus-visible:focus-visible,
 .xs-bg-clr-grayscale-shade-abswhite-target:target {
-    background-color: #ffffff;
-  }
+  background-color: #ffffff;
 }
+
 @media only screen and (min-width: 767px) {
   .sm-ft-header-1 {
     font-family: "Barlow";
@@ -1445,6 +1728,36 @@
   }
   .sm-ff-complementary {
     font-family: "Barlow";
+  }
+  .sm-fs-letter-sizing-1 {
+    font-size: 4.75rem;
+  }
+  .sm-fs-letter-sizing-2 {
+    font-size: 3.75rem;
+  }
+  .sm-fs-letter-sizing-3 {
+    font-size: 3rem;
+  }
+  .sm-fs-letter-sizing-4 {
+    font-size: 2.25rem;
+  }
+  .sm-fs-letter-sizing-5 {
+    font-size: 2.125rem;
+  }
+  .sm-fs-letter-sizing-6 {
+    font-size: 1.5rem;
+  }
+  .sm-fs-letter-sizing-7 {
+    font-size: 1.25rem;
+  }
+  .sm-fs-letter-sizing-8 {
+    font-size: 1.125rem;
+  }
+  .sm-fs-letter-sizing-9 {
+    font-size: 1rem;
+  }
+  .sm-fs-letter-sizing-10 {
+    font-size: 0.875rem;
   }
   .sm-ls-letter-spacing-n1 {
     letter-spacing: -0.5px;
@@ -2600,6 +2913,36 @@
   .md-ff-complementary {
     font-family: "Barlow";
   }
+  .md-fs-letter-sizing-1 {
+    font-size: 4.75rem;
+  }
+  .md-fs-letter-sizing-2 {
+    font-size: 3.75rem;
+  }
+  .md-fs-letter-sizing-3 {
+    font-size: 3rem;
+  }
+  .md-fs-letter-sizing-4 {
+    font-size: 2.25rem;
+  }
+  .md-fs-letter-sizing-5 {
+    font-size: 2.125rem;
+  }
+  .md-fs-letter-sizing-6 {
+    font-size: 1.5rem;
+  }
+  .md-fs-letter-sizing-7 {
+    font-size: 1.25rem;
+  }
+  .md-fs-letter-sizing-8 {
+    font-size: 1.125rem;
+  }
+  .md-fs-letter-sizing-9 {
+    font-size: 1rem;
+  }
+  .md-fs-letter-sizing-10 {
+    font-size: 0.875rem;
+  }
   .md-ls-letter-spacing-n1 {
     letter-spacing: -0.5px;
   }
@@ -3754,6 +4097,36 @@
   .lg-ff-complementary {
     font-family: "Barlow";
   }
+  .lg-fs-letter-sizing-1 {
+    font-size: 4.75rem;
+  }
+  .lg-fs-letter-sizing-2 {
+    font-size: 3.75rem;
+  }
+  .lg-fs-letter-sizing-3 {
+    font-size: 3rem;
+  }
+  .lg-fs-letter-sizing-4 {
+    font-size: 2.25rem;
+  }
+  .lg-fs-letter-sizing-5 {
+    font-size: 2.125rem;
+  }
+  .lg-fs-letter-sizing-6 {
+    font-size: 1.5rem;
+  }
+  .lg-fs-letter-sizing-7 {
+    font-size: 1.25rem;
+  }
+  .lg-fs-letter-sizing-8 {
+    font-size: 1.125rem;
+  }
+  .lg-fs-letter-sizing-9 {
+    font-size: 1rem;
+  }
+  .lg-fs-letter-sizing-10 {
+    font-size: 0.875rem;
+  }
   .lg-ls-letter-spacing-n1 {
     letter-spacing: -0.5px;
   }
@@ -4907,6 +5280,36 @@
   }
   .xl-ff-complementary {
     font-family: "Barlow";
+  }
+  .xl-fs-letter-sizing-1 {
+    font-size: 4.75rem;
+  }
+  .xl-fs-letter-sizing-2 {
+    font-size: 3.75rem;
+  }
+  .xl-fs-letter-sizing-3 {
+    font-size: 3rem;
+  }
+  .xl-fs-letter-sizing-4 {
+    font-size: 2.25rem;
+  }
+  .xl-fs-letter-sizing-5 {
+    font-size: 2.125rem;
+  }
+  .xl-fs-letter-sizing-6 {
+    font-size: 1.5rem;
+  }
+  .xl-fs-letter-sizing-7 {
+    font-size: 1.25rem;
+  }
+  .xl-fs-letter-sizing-8 {
+    font-size: 1.125rem;
+  }
+  .xl-fs-letter-sizing-9 {
+    font-size: 1rem;
+  }
+  .xl-fs-letter-sizing-10 {
+    font-size: 0.875rem;
   }
   .xl-ls-letter-spacing-n1 {
     letter-spacing: -0.5px;

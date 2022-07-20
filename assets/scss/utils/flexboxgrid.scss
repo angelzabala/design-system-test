@@ -439,7 +439,6 @@
 
 @each $breakpoint, $breakpointMap in reverse($breakpoints) {
   @if (map-get($breakpointMap, value) == $smallestBreakpoint) {
-    @media only screen and (max-width: map-get($breakpointMap, value)) {
       @each $innerBreakpoint, $innerBreakpointMap in $breakpoints {
 
         .row-#{$innerBreakpoint}-gap-0-for-#{$breakpoint}{
@@ -1179,7 +1178,7 @@
       .border-radius-circle-#{$breakpoint} {
         border-radius: 50% !important;
       }
-    }
+    
   } @else {
     @media only screen and (min-width: map-get($breakpointMap, value)) {
       @each $innerBreakpoint, $innerBreakpointMap in $breakpoints {

@@ -1,0 +1,237 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Design-system-test - v0.0.1</title><link rel="stylesheet" href="assets/css/main.css"><link href="https://fonts.googleapis.com/css?family=Open+Sans:400,500,700" rel="stylesheet" type="text/css"><meta name="viewport" content="width=device-width"><meta content="IE=edge, chrome=1" http-equiv="X-UA-Compatible"><!-- Open Graph tags --><meta property="og:title" content="Design-system-test - SassDoc"><meta property="og:type" content="website"><meta property="og:description" content="Release the docs!"><!-- Thanks to Sass-lang.com for the icons --><link href="assets/images/favicon.png" rel="shortcut icon"></head><body><aside class="sidebar" role="nav"><div class="sidebar__header"><h1 class="sidebar__title">Design-system-test - 0.0.1</h1></div><div class="sidebar__body"><button type="button" class="btn-toggle js-btn-toggle" data-alt="Open all">Close all</button><p class="sidebar__item sidebar__item--heading" data-slug="layout"><a href="#layout">layout</a></p><div><p class="sidebar__item sidebar__item--sub-heading" data-slug="layout-variable"><a href="#layout-variable">variables</a></p><ul class="list-unstyled"><li class="sidebar__item sassdoc__item" data-group="layout" data-name="breakpoints" data-type="variable"><a href="#layout-variable-breakpoints">breakpoints</a></li></ul></div><p class="sidebar__item sidebar__item--heading" data-slug="undefined"><a href="#undefined">General</a></p><div><p class="sidebar__item sidebar__item--sub-heading" data-slug="undefined-variable"><a href="#undefined-variable">variables</a></p><ul class="list-unstyled"><li class="sidebar__item sassdoc__item" data-group="undefined" data-name="colorCategories" data-type="variable"><a href="#undefined-variable-colorCategories">colorCategories</a></li><li class="sidebar__item sassdoc__item" data-group="undefined" data-name="fontFamilies" data-type="variable"><a href="#undefined-variable-fontFamilies">fontFamilies</a></li><li class="sidebar__item sassdoc__item" data-group="undefined" data-name="fontSizes" data-type="variable"><a href="#undefined-variable-fontSizes">fontSizes</a></li><li class="sidebar__item sassdoc__item" data-group="undefined" data-name="letterSpacings" data-type="variable"><a href="#undefined-variable-letterSpacings">letterSpacings</a></li><li class="sidebar__item sassdoc__item" data-group="undefined" data-name="fontStyles" data-type="variable"><a href="#undefined-variable-fontStyles">fontStyles</a></li><li class="sidebar__item sassdoc__item" data-group="undefined" data-name="fontWeights" data-type="variable"><a href="#undefined-variable-fontWeights">fontWeights</a></li><li class="sidebar__item sassdoc__item" data-group="undefined" data-name="fontLineHeights" data-type="variable"><a href="#undefined-variable-fontLineHeights">fontLineHeights</a></li><li class="sidebar__item sassdoc__item" data-group="undefined" data-name="fontTypes" data-type="variable"><a href="#undefined-variable-fontTypes">fontTypes</a></li><li class="sidebar__item sassdoc__item" data-group="undefined" data-name="min-spacing" data-type="variable"><a href="#undefined-variable-min-spacing">min-spacing</a></li><li class="sidebar__item sassdoc__item" data-group="undefined" data-name="max-spacing" data-type="variable"><a href="#undefined-variable-max-spacing">max-spacing</a></li><li class="sidebar__item sassdoc__item" data-group="undefined" data-name="min-vw-px" data-type="variable"><a href="#undefined-variable-min-vw-px">min-vw-px</a></li><li class="sidebar__item sassdoc__item" data-group="undefined" data-name="max-vw-px" data-type="variable"><a href="#undefined-variable-max-vw-px">max-vw-px</a></li><li class="sidebar__item sassdoc__item" data-group="undefined" data-name="min-vw" data-type="variable"><a href="#undefined-variable-min-vw">min-vw</a></li><li class="sidebar__item sassdoc__item" data-group="undefined" data-name="max-vw" data-type="variable"><a href="#undefined-variable-max-vw">max-vw</a></li><li class="sidebar__item sassdoc__item" data-group="undefined" data-name="fontVwBigScreens" data-type="variable"><a href="#undefined-variable-fontVwBigScreens">fontVwBigScreens</a></li><li class="sidebar__item sassdoc__item" data-group="undefined" data-name="visualCorrector" data-type="variable"><a href="#undefined-variable-visualCorrector">visualCorrector</a></li><li class="sidebar__item sassdoc__item" data-group="undefined" data-name="gridColumns" data-type="variable"><a href="#undefined-variable-gridColumns">gridColumns</a></li><li class="sidebar__item sassdoc__item" data-group="undefined" data-name="smallestBreakpoint" data-type="variable"><a href="#undefined-variable-smallestBreakpoint">smallestBreakpoint</a></li><li class="sidebar__item sassdoc__item" data-group="undefined" data-name="shadows" data-type="variable"><a href="#undefined-variable-shadows">shadows</a></li><li class="sidebar__item sassdoc__item" data-group="undefined" data-name="z-indexes" data-type="variable"><a href="#undefined-variable-z-indexes">z-indexes</a></li></ul></div></div></aside><article class="main" role="main"><header class="header" role="banner"><div class="container"><div class="sassdoc__searchbar searchbar"><label for="js-search-input" class="visually-hidden">Search</label><div class="searchbar__form" id="js-search"><input name="search" type="search" class="searchbar__field" autocomplete="off" autofocus id="js-search-input" placeholder="Search"><ul class="searchbar__suggestions" id="js-search-suggestions"></ul></div></div></div></header><section class="main__section"><h1 class="main__heading" id="layout"><div class="container">layout</div></h1><div class="main__description"><div class="container"><p>this section is apart from the rest because the main logic of the utilities is here. you can have as many breakpoints as you want following the same object structure from the biggest to the smalles breakpoint.</p><p>breakpoints will use their value to create appropiate media queries together along with a grid system based in flexboxgrid and the number of columns selected for your design system.</p><p>its important to note that container classes are not defined by default. having said that, a lot of things can be changed in any particular breakpoint, IE dispaly, position, alignment, columns that the element occupy, margin, padding, row and column gap among others</p></div></div><section class="main__sub-section" id="layout-variable"><h2 class="main__heading--secondary"><div class="container">variables</div></h2><section class="main__item container item" id="layout-variable-breakpoints"><h3 class="item__heading"><a class="item__name" href="#variable-breakpoints">breakpoints</a></h3><div class="item__code-wrapper"><pre class="item__code language-scss"><code>$breakpoints: (
+  xl: (
+    value: $max-vw-px,
+    spacing: $max-spacing,
+    min-bp-spacing: 2rem,
+    htmlFontSize: 16px,
+    RecommendedColumns: 12
+  ),
+  lg: (
+    value: 1920px,
+    spacing: 2rem,
+    min-bp-spacing: 1.5rem,
+    htmlFontSize: 16px,
+    RecommendedColumns: 12
+  ),
+  md: (
+    value: 1200px,
+    spacing: 1.5rem,
+    min-bp-spacing: 1rem,
+    htmlFontSize: 16px,
+    RecommendedColumns: 8
+  ),
+  sm: (
+    value: 767px,
+    spacing: 1rem,
+    min-bp-spacing: $min-spacing,
+    htmlFontSize: 16px,
+    RecommendedColumns: 4
+  ),
+  xs: (
+    value: $smallestBreakpoint,
+    spacing: $min-spacing,
+    min-bp-spacing: 0.25rem,
+    htmlFontSize: 16px,
+    RecommendedColumns: 4
+  )
+);</code></pre></div><h3 class="item__sub-heading">Example</h3><div class="item__example example"><div class="example__description"><p>classes</p></div><pre class="example__code language-generated"><code>.row-#{$innerBreakpoint}-gap-0-for-#{$breakpoint}{
+.row-#{$innerBreakpoint}-gap-for-#{$breakpoint}
+.row-#{$innerBreakpoint}-gap-cshrink-for-#{$breakpoint}{
+.row-#{$innerBreakpoint}-gap-c-for-#{$breakpoint}
+.bp-#{$innerBreakpoint}-m-cshrink-for-#{$breakpoint}
+.bp-#{$innerBreakpoint}-p-for-#{$breakpoint}
+.bp-#{$innerBreakpoint}-m-cshrink-for-#{$breakpoint}
+.bp-#{$innerBreakpoint}-p-cshrink-for-#{$breakpoint}
+.#{$breakpoint}-ft-#{$fontType}
+.#{$breakpoint}-ft-#{$fontType}-c
+.#{$breakpoint}-ff-#{$fontFamily}
+.#{$breakpoint}-fs-#{$fontSize}
+.#{$breakpoint}-ls-#{$letterSpacing}
+.#{$breakpoint}-fst-#{$fontStyle}
+.#{$breakpoint}-fw-#{$fontWeight}
+.#{$breakpoint}-lh-#{$fontLineHeight}
+.#{$breakpoint}-clr-#{$category}-#{$type}-#{$shade}
+.#{$breakpoint}-bg-clr-#{$category}-#{$type}-#{$shade}
+.#{$breakpoint}-clr-#{$category}-#{$type}-#{$shade}-active:active,
+.#{$breakpoint}-clr-#{$category}-#{$type}-#{$shade}-hover:hover,
+.#{$breakpoint}-clr-#{$category}-#{$type}-#{$shade}-focus:focus,
+.#{$breakpoint}-clr-#{$category}-#{$type}-#{$shade}-visited:visited,
+.#{$breakpoint}-clr-#{$category}-#{$type}-#{$shade}-focus-within,
+.#{$breakpoint}-clr-#{$category}-#{$type}-#{$shade}-focus-visible:focus-visible,
+.#{$breakpoint}-clr-#{$category}-#{$type}-#{$shade}-target:target</code></pre></div></section></section></section><section class="main__section"><h1 class="main__heading" id="undefined"><div class="container">General</div></h1><section class="main__sub-section" id="undefined-variable"><h2 class="main__heading--secondary"><div class="container">variables</div></h2><section class="main__item container item" id="undefined-variable-colorCategories"><h3 class="item__heading"><a class="item__name" href="#variable-colorCategories">colorCategories</a></h3><div class="item__code-wrapper"><pre class="item__code language-scss"><code>$colorCategories: (
+  primary: ( 
+    brand-blue: ( 
+      900: #122252,
+      800: #15275f,
+      700: #182d6d,
+      600: #1b327a,
+      500: #1e3888,
+      400: #354c94,
+      300: #4b60a0,
+      200: #7888b8,
+      100: #bcc3db
+    )
+  ),
+  secondary: (
+    brand-yellow: (
+      900: #713f12,
+      800: #854d0e,
+      700: #a16207,
+      600: #ca8a04,
+      500: #eab308,
+      400: #facc15, 
+      300: #fde047,
+      200: #fde68a,
+      100: #fef3c7
+    ),
+  ),
+  semantic: (
+    critical: (
+      dark: #991b1b,
+      base: #dc2626,
+      light: #fca5a5
+    ),
+    warning: (
+      dark: #9a3412,
+      base: #ea580c,
+      light: #fdba74
+    ),
+    success: (
+      dark: #047857,
+      base: #10b981,
+      light: #6ee7b7
+    ),
+    info: (
+      dark: #0b4b99,
+      base: #106bda,
+      light: #88b5ed
+    ),
+  ),
+  grayscale: (
+    shade: (
+      absblack: #000000,
+      900: #0f172a,
+      800: #1e293b,
+      700: #334155,
+      600: #475569,
+      500: #64748b,
+      400: #94a3b8,
+      300: #cbd5e1,
+      200: #e2e8f0,
+      100: #f1f5f9,
+      abswhite: #ffffff
+    )
+    )
+);</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>these colors are going to be the colors that you use for your design system, the naming structure is very important because it will taylor you classes</p></div><h3 class="item__sub-heading">Map structure</h3><table class="item__parameters"><thead><tr><th scope="col"><span class="visually-hidden">key </span>Name</th><th scope="col"><span class="visually-hidden">key </span>Description</th><th scope="col"><span class="visually-hidden">key </span>Type</th><th scope="col"><span class="visually-hidden">key </span>Value</th></tr></thead><tbody><tr class="item__parameter"><th scope="row" data-label="name"><code>category</code></th><td data-label="desc"><p>a category is a map that can contain multiple maps of colors</p></td><td data-label="type"><code>String</code></td><td data-label="default">&mdash;<span class="visually-hidden"> none</span></td></tr><tr class="item__parameter"><th scope="row" data-label="name"><code>category.type</code></th><td data-label="desc"><p>a type is a map that contains the different values or shades that a color can have</p></td><td data-label="type"><code>String</code></td><td data-label="default">&mdash;<span class="visually-hidden"> none</span></td></tr><tr class="item__parameter"><th scope="row" data-label="name"><code>type.shade</code></th><td data-label="desc"><p>the type shades are the different tints or variants of a color in the design</p></td><td data-label="type"><code>String</code></td><td data-label="default">&mdash;<span class="visually-hidden"> none</span></td></tr><tr class="item__parameter"><th scope="row" data-label="name"><code>shade</code></th><td data-label="desc"><p>key:value with the shade and its respective value (can be expressed on any color notation that the user requires)</p></td><td data-label="type"><code>Map</code></td><td data-label="default">&mdash;<span class="visually-hidden"> none</span></td></tr></tbody></table><h3 class="item__sub-heading">Example</h3><div class="item__example example"><div class="example__description"><p>classes/variables</p></div><pre class="example__code language-generated"><code>.clr-#{$category}-#{$type}-#{$shade} =&gt; .clr-primary-brand-blue-500 
+.bg-clr-#{$category}-#{$type}-#{$shade} =&gt; =&gt; .bg-clr-primary-brand-blue-500</code></pre></div></section><section class="main__item container item" id="undefined-variable-fontFamilies"><h3 class="item__heading"><a class="item__name" href="#variable-fontFamilies">fontFamilies</a></h3><div class="item__code-wrapper"><pre class="item__code language-scss"><code>$fontFamilies: (
+  main: &#39;Montserrat&#39;,
+  complementary: &#39;Barlow&#39;
+);</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>font families for your application your design system, the naming structure is very important because it will taylor you classes</p></div><h3 class="item__sub-heading">Example</h3><div class="item__example example"><div class="example__description"><p>classes/variables</p></div><pre class="example__code language-generated"><code>--ff-#{$fontFamily}: &#39;#{$value}&#39;; =&gt; --ff-main: &#39;Montserrat&#39;;
+ .ff-#{$fontFamily} =&gt; .ff-main</code></pre></div></section><section class="main__item container item" id="undefined-variable-fontSizes"><h3 class="item__heading"><a class="item__name" href="#variable-fontSizes">fontSizes</a></h3><div class="item__code-wrapper"><pre class="item__code language-scss"><code>$fontSizes: (
+  /*76px*/ letter-sizing-1: 4.75rem,
+  /*60px*/ letter-sizing-2: 3.75rem,
+  /*48px*/ letter-sizing-3: 3rem,
+  /*36px*/ letter-sizing-4: 2.25rem,
+  /*34px*/ letter-sizing-5: 2.125rem,
+  /*24px*/ letter-sizing-6: 1.5rem,
+  /*20px*/ letter-sizing-7: 1.25rem,
+  /*18px*/ letter-sizing-8: 1.125rem,
+  /*16px*/ letter-sizing-9: 1rem,
+  /*14px*/ letter-sizing-10: 0.875rem
+);</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>font sizes the allowed font size for all your font types</p></div><h3 class="item__sub-heading">Example</h3><div class="item__example example"><div class="example__description"><p>classes/variables</p></div><pre class="example__code language-generated"><code>--fs-#{$fontSize}: #{$value}; =&gt;  --fs-letter-sizing-1: 4.75rem;
+ .fs-#{$fontSize} =&gt; .fs-letter-sizing-1</code></pre></div></section><section class="main__item container item" id="undefined-variable-letterSpacings"><h3 class="item__heading"><a class="item__name" href="#variable-letterSpacings">letterSpacings</a></h3><div class="item__code-wrapper"><pre class="item__code language-scss"><code>$letterSpacings: (
+  letter-spacing-n1: -0.5px,
+  letter-spacing-0: 0,
+  letter-spacing-1: 0.15px,
+  letter-spacing-2: 0.25px,
+  letter-spacing-3: 0.4px,
+  letter-spacing-4: 0.5px,
+  letter-spacing-5: 0.75px,
+  letter-spacing-6: 0.1px
+);</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>letter spacing different letter spacing to handle your font types</p></div><h3 class="item__sub-heading">Example</h3><div class="item__example example"><div class="example__description"><p>classes/variables</p></div><pre class="example__code language-generated"><code>--ls-#{$leterSpacing}: #{$value}; =&gt;  --ls-letter-spacing-n1: -0.5px;
+ .ls-#{$leterSpacing} =&gt; .ls-letter-spacing-n1</code></pre></div></section><section class="main__item container item" id="undefined-variable-fontStyles"><h3 class="item__heading"><a class="item__name" href="#variable-fontStyles">fontStyles</a></h3><div class="item__code-wrapper"><pre class="item__code language-scss"><code>$fontStyles: (
+  italic: &#39;italic&#39;,
+  oblique: &#39;oblique&#39;,
+  normal: &#39;normal&#39;
+);</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>font styles the allowed font size for all your font types</p></div><h3 class="item__sub-heading">Example</h3><div class="item__example example"><div class="example__description"><p>classes/variables</p></div><pre class="example__code language-generated"><code>--fst-#{$fontStyle}: #{$value}; =&gt;  --fst-italic: &#39;italic&#39;;
+ .fst-#{$fontStyle} =&gt; .fst-italic</code></pre></div></section><section class="main__item container item" id="undefined-variable-fontWeights"><h3 class="item__heading"><a class="item__name" href="#variable-fontWeights">fontWeights</a></h3><div class="item__code-wrapper"><pre class="item__code language-scss"><code>$fontWeights: (
+  100: 100,
+  200: 200,
+  300: 300,
+  400: 400,
+  500: 500,
+  600: 600,
+  700: 700,
+  800: 800,
+  900: 900,
+  light: 300,
+  regular: 400,
+  medium: 500,
+  bold: 600
+);</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>font weights different font weights for your application, the idea of this is that you can actually build alliases for them</p></div><h3 class="item__sub-heading">Example</h3><div class="item__example example"><div class="example__description"><p>classes/variables</p></div><pre class="example__code language-generated"><code>--fw-#{$fontWeight}: #{$value}; =&gt;  --fw-bold: 600;
+ .fw-#{$fontWeight} =&gt; .fw-bold</code></pre></div></section><section class="main__item container item" id="undefined-variable-fontLineHeights"><h3 class="item__heading"><a class="item__name" href="#variable-fontLineHeights">fontLineHeights</a></h3><div class="item__code-wrapper"><pre class="item__code language-scss"><code>$fontLineHeights: (
+  lineheight-1: 1,
+  lineheight-2: 1.25,
+  lineheight-3: 1.5,
+  lineheight-4: 1.75,
+  lineheight-5: 2
+);</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>line heights different line heights for the typography objects</p></div><h3 class="item__sub-heading">Example</h3><div class="item__example example"><div class="example__description"><p>classes/variables</p></div><pre class="example__code language-generated"><code>--lh-#{$fontLineHeight}: #{$value}; =&gt;  --lh-lineheight-1: 1;
+ .lh-#{$fontLineHeight} =&gt; .lh-lineheight-1</code></pre></div></section><section class="main__item container item" id="undefined-variable-fontTypes"><h3 class="item__heading"><a class="item__name" href="#variable-fontTypes">fontTypes</a></h3><div class="item__code-wrapper"><pre class="item__code language-scss"><code>$fontTypes: (
+  header-1: (
+    family: map-get($fontFamilies, complementary),
+    max-size: map-get($fontSizes, letter-sizing-1),
+    min-size: map-get($fontSizes, letter-sizing-8),
+    spacing: map-get($letterSpacings, letter-spacing-4),
+    weight: map-get($fontWeights, bold),
+    lineHeight: map-get($fontLineHeights, lineheight-2)
+  ),
+  header-2: (
+    family: map-get($fontFamilies, complementary),
+    max-size: map-get($fontSizes, letter-sizing-2),
+    min-size: map-get($fontSizes, letter-sizing-8),
+    spacing: map-get($letterSpacings, letter-spacing-3),
+    weight: map-get($fontWeights, medium),
+    lineHeight: map-get($fontLineHeights, lineheight-2)
+  ),
+  header-3: (
+    family: map-get($fontFamilies, complementary),
+    max-size: map-get($fontSizes, letter-sizing-3),
+    min-size: map-get($fontSizes, letter-sizing-9),
+    spacing: map-get($letterSpacings, letter-spacing-2),
+    weight: map-get($fontWeights, regular),
+    lineHeight: map-get($fontLineHeights, lineheight-2)
+  ),
+  parragraph: (
+    family: map-get($fontFamilies, main),
+    max-size: map-get($fontSizes, letter-sizing-4),
+    min-size: map-get($fontSizes, letter-sizing-9),
+    spacing: map-get($letterSpacings, letter-spacing-1),
+    weight: map-get($fontWeights, bold),
+    lineHeight: map-get($fontLineHeights, lineheight-2)
+  ),
+  small: (
+    family: map-get($fontFamilies, main),
+    max-size: map-get($fontSizes, letter-sizing-5),
+    min-size: map-get($fontSizes, letter-sizing-10),
+    spacing: map-get($letterSpacings, letter-spacing-0),
+    weight: map-get($fontWeights, regular),
+    lineHeight: map-get($fontLineHeights, lineheight-2)
+  )
+);</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>font types are grouped by each type using the previous defined variables</p></div><h3 class="item__sub-heading">Example</h3><div class="item__example example"><div class="example__description"><p>classes/variables</p></div><pre class="example__code language-generated"><code>.ft-#{$fontType} =&gt; ft-header-1 
+.ft-#{$fontType}-c =&gt; ft-header-1-c
+  </code></pre></div></section><section class="main__item container item" id="undefined-variable-min-spacing"><h3 class="item__heading"><a class="item__name" href="#variable-min-spacing">min-spacing</a></h3><div class="item__code-wrapper"><pre class="item__code language-scss"><code>$min-spacing: 0.25rem;</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>user for clamp values calculating shrinking classes</p></div></section><section class="main__item container item" id="undefined-variable-max-spacing"><h3 class="item__heading"><a class="item__name" href="#variable-max-spacing">max-spacing</a></h3><div class="item__code-wrapper"><pre class="item__code language-scss"><code>$max-spacing: 3rem;</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>user for clamp values calculating full clamp classes</p></div></section><section class="main__item container item" id="undefined-variable-min-vw-px"><h3 class="item__heading"><a class="item__name" href="#variable-min-vw-px">min-vw-px</a></h3><div class="item__code-wrapper"><pre class="item__code language-scss"><code>$min-vw-px: 250px;</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>this variable is used to have a minimum supported screen and do adjustments till this particular vw</p></div></section><section class="main__item container item" id="undefined-variable-max-vw-px"><h3 class="item__heading"><a class="item__name" href="#variable-max-vw-px">max-vw-px</a></h3><div class="item__code-wrapper"><pre class="item__code language-scss"><code>$max-vw-px: 2560px;</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>this variable is used to have a maximum supported screen and do adjustments till this particular vw</p></div></section><section class="main__item container item" id="undefined-variable-min-vw"><h3 class="item__heading"><a class="item__name" href="#variable-min-vw">min-vw</a></h3><div class="item__code-wrapper"><pre class="item__code language-scss"><code>$min-vw: 15.625rem;</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>user for clamp values to avoid type conversions, this variable represent the $min-vw-px in rem</p></div></section><section class="main__item container item" id="undefined-variable-max-vw"><h3 class="item__heading"><a class="item__name" href="#variable-max-vw">max-vw</a></h3><div class="item__code-wrapper"><pre class="item__code language-scss"><code>$max-vw: 160rem;</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>user for clamp values to avoid type conversions, this variable represent the $max-vw-px in rem</p></div></section><section class="main__item container item" id="undefined-variable-fontVwBigScreens"><h3 class="item__heading"><a class="item__name" href="#variable-fontVwBigScreens">fontVwBigScreens</a></h3><div class="item__code-wrapper"><pre class="item__code language-scss"><code>$fontVwBigScreens: 0.8333vw;</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>used as default font size for big screens</p></div></section><section class="main__item container item" id="undefined-variable-visualCorrector"><h3 class="item__heading"><a class="item__name" href="#variable-visualCorrector">visualCorrector</a></h3><div class="item__code-wrapper"><pre class="item__code language-scss"><code>$visualCorrector: 0.125rem;</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>used to adjust spacing in margin or paddings</p></div></section><section class="main__item container item" id="undefined-variable-gridColumns"><h3 class="item__heading"><a class="item__name" href="#variable-gridColumns">gridColumns</a></h3><div class="item__code-wrapper"><pre class="item__code language-scss"><code>$gridColumns: 12;</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>create grid columns to calculate the grid system</p></div></section><section class="main__item container item" id="undefined-variable-smallestBreakpoint"><h3 class="item__heading"><a class="item__name" href="#variable-smallestBreakpoint">smallestBreakpoint</a></h3><div class="item__code-wrapper"><pre class="item__code language-scss"><code>$smallestBreakpoint: 480px;</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>user for setting a breakpoint with max-width for small screens</p></div></section><section class="main__item container item" id="undefined-variable-shadows"><h3 class="item__heading"><a class="item__name" href="#variable-shadows">shadows</a></h3><div class="item__code-wrapper"><pre class="item__code language-scss"><code>$shadows: (
+  level-1: 0px 0px 8px rgba(0, 0, 0, 0.12),
+  level-2: 0px 0px 15px rgba(0, 0, 0, 0.24)
+);</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>shadows are important to keep a clean structure, don&#39;t have multiple shadows over all the documents your design system, the naming structure is very important because it will taylor you classes</p></div><h3 class="item__sub-heading">Example</h3><div class="item__example example"><div class="example__description"><p>classes/variables</p></div><pre class="example__code language-generated"><code>--shadow-#{$level}: #{$value} =&gt; --shadow-level-1: 0px 0px 8px rgba(0, 0, 0, 0.12);
+.shadow-#{$level} =&gt; .shadow-level-1;</code></pre></div></section><section class="main__item container item" id="undefined-variable-z-indexes"><h3 class="item__heading"><a class="item__name" href="#variable-z-indexes">z-indexes</a></h3><div class="item__code-wrapper"><pre class="item__code language-scss"><code>$z-indexes: (
+  100: 100,
+  200: 200,
+  300: 300,
+  400: 400,
+  500: 500,
+  600: 600,
+  700: 700,
+  800: 800,
+  900: 900
+);</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>z-indexes are very important elements who usually get left behind until you need it provide appropiate values for them and dont make them crash</p></div><h3 class="item__sub-heading">Example</h3><div class="item__example example"><div class="example__description"><p>classes/variables</p></div><pre class="example__code language-generated"><code>--z-index-#{$level}: #{$value} =&gt; --z-index-100: 100;
+.z-index-#{$level} =&gt; .z-index-100;</code></pre></div></section></section></section><footer class="footer" role="contentinfo"><div class="container"><div class="footer__project-info project-info"><!-- Name and URL --> <span class="project-info__name">Design-system-test</span><!-- Version --> <span class="project-info__version">- v0.0.1</span><!-- License --></div><a class="footer__watermark" href="http://sassdoc.com"><img src="assets/images/logo_light_inline.svg" alt="SassDoc Logo"></a></div></footer></article><script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script><script>window.jQuery || document.write('<script src="assets/js/vendor/jquery.min.js"><\/script>')</script><script src="assets/js/main.min.js"></script></body></html>

@@ -1,26 +1,66 @@
-//user for clamp values
+///user for clamp values calculating shrinking classes
 $min-spacing: 0.25rem; //8px
+
+///user for clamp values calculating full clamp classes
 $max-spacing: 3rem; //48px
 
-//user for clamp values
+///this variable is used to have a minimum supported screen and do adjustments till this particular vw
 $min-vw-px: 250px; //15.625rem;
+
+///this variable is used to have a maximum supported screen and do adjustments till this particular vw
 $max-vw-px: 2560px; //160rem;
 
-//user for clamp values
+///user for clamp values to avoid type conversions, this variable represent the $min-vw-px in rem
 $min-vw: 15.625rem; //250px
+///user for clamp values to avoid type conversions, this variable represent the $max-vw-px in rem
 $max-vw: 160rem; //2560px
 
+///used as default font size for big screens
 $fontVwBigScreens: 0.8333vw;
-//used to adjust spacing in margin or paddings
+///used to adjust spacing in margin or paddings
 $visualCorrector: 0.125rem;
 
-//create grid columns
+///create grid columns to calculate the grid system
 $gridColumns: 12;
 
-//user for setting a breakpoint with max-width for small screens
+///user for setting a breakpoint with max-width for small screens
 $smallestBreakpoint: 480px;
-
-//can have as many as you want following the same object structure from the biggest to the smalles breakpoint
+///@group Layout
+/// this section is apart from the rest because the main logic of the utilities is here.
+/// you can  have as many breakpoints as you want following the same object structure from the biggest to the smalles breakpoint.
+///
+/// breakpoints will use their value to create appropiate media queries together along with a grid system based in flexboxgrid and the number of columns
+/// selected for your design system.
+///
+/// its important to note that container classes are not defined by default.
+/// having said that, a lot of things can be changed in any particular breakpoint, IE dispaly, position, alignment, columns that the element occupy,
+/// margin, padding, row and column gap among others
+///@example generated classes
+///.row-#{$innerBreakpoint}-gap-0-for-#{$breakpoint}{
+///.row-#{$innerBreakpoint}-gap-for-#{$breakpoint}
+///.row-#{$innerBreakpoint}-gap-cshrink-for-#{$breakpoint}{
+///.row-#{$innerBreakpoint}-gap-c-for-#{$breakpoint}
+///.bp-#{$innerBreakpoint}-m-cshrink-for-#{$breakpoint}
+///.bp-#{$innerBreakpoint}-p-for-#{$breakpoint}
+///.bp-#{$innerBreakpoint}-m-cshrink-for-#{$breakpoint}
+///.bp-#{$innerBreakpoint}-p-cshrink-for-#{$breakpoint}
+///.#{$breakpoint}-ft-#{$fontType}
+///.#{$breakpoint}-ft-#{$fontType}-c
+///.#{$breakpoint}-ff-#{$fontFamily}
+///.#{$breakpoint}-fs-#{$fontSize}
+///.#{$breakpoint}-ls-#{$letterSpacing}
+///.#{$breakpoint}-fst-#{$fontStyle}
+///.#{$breakpoint}-fw-#{$fontWeight}
+///.#{$breakpoint}-lh-#{$fontLineHeight}
+///.#{$breakpoint}-clr-#{$category}-#{$type}-#{$shade}
+///.#{$breakpoint}-bg-clr-#{$category}-#{$type}-#{$shade}
+///.#{$breakpoint}-clr-#{$category}-#{$type}-#{$shade}-active:active,
+///.#{$breakpoint}-clr-#{$category}-#{$type}-#{$shade}-hover:hover,
+///.#{$breakpoint}-clr-#{$category}-#{$type}-#{$shade}-focus:focus,
+///.#{$breakpoint}-clr-#{$category}-#{$type}-#{$shade}-visited:visited,
+///.#{$breakpoint}-clr-#{$category}-#{$type}-#{$shade}-focus-within,
+///.#{$breakpoint}-clr-#{$category}-#{$type}-#{$shade}-focus-visible:focus-visible,
+///.#{$breakpoint}-clr-#{$category}-#{$type}-#{$shade}-target:target
 $breakpoints: (
   xl: (
     value: $max-vw-px,
