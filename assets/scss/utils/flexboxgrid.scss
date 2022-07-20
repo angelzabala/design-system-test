@@ -1,0 +1,2084 @@
+@use '../design-entities/spacing/spacing' as *;
+@use './reverse-list-function' as *;
+@use './fluid-type-function' as *;
+
+@use 'sass:math';
+
+.row {
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.row.reverse {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+}
+
+.col.reverse {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+  -ms-flex-direction: column-reverse;
+  flex-direction: column-reverse;
+}
+
+.start {
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  text-align: start;
+}
+
+.center {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.end {
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  text-align: end;
+}
+
+.top {
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.middle {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.bottom {
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+
+.around {
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+.between {
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.first {
+  -webkit-box-ordinal-group: 0;
+  -ms-flex-order: -1;
+  order: -1;
+}
+
+.last {
+  -webkit-box-ordinal-group: 2;
+  -ms-flex-order: 1;
+  order: 1;
+}
+
+.responsive-img {
+  max-width: 100% !important;
+  height: auto;
+}
+
+.table-responsive {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.overflow-auto {
+  overflow: auto;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.overflow-visible {
+  overflow: visible;
+}
+
+.overflow-scroll {
+  overflow: scroll;
+}
+
+.d-inline {
+  display: inline;
+}
+
+.d-inline-block {
+  display: inline-block;
+}
+
+.d-block {
+  display: block;
+}
+
+.d-grid {
+  display: grid;
+}
+
+.d-table {
+  display: table;
+}
+
+.d-table-row {
+  display: table-row;
+}
+
+.d-table-cell {
+  display: table-cell;
+}
+.d-flex {
+  display: flex;
+}
+
+.d-inline-flex {
+  display: inline-flex;
+}
+
+.d-none {
+  display: none;
+}
+
+.shadow-none {
+  box-shadow: none;
+}
+
+.position-static {
+  position: static;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.position-absolute {
+  position: absolute;
+}
+
+.position-fixed {
+  position: fixed;
+}
+
+.position-sticky {
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+.translate-middle {
+  transform: translate(-50%, -50%);
+}
+
+.translate-middle-x {
+  transform: translateX(-50%);
+}
+
+.translate-middle-y {
+  transform: translateY(-50%);
+}
+
+
+
+.w-25 {
+  width: 25%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.w-75 {
+  width: 75%;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.w-auto {
+  width: auto;
+}
+
+.mw-100 {
+  max-width: 100%;
+}
+
+.vw-100 {
+  width: 100vw;
+}
+
+.min-vw-100 {
+  min-width: 100vw;
+}
+
+.h-25 {
+  height: 25%;
+}
+
+.h-50 {
+  height: 50%;
+}
+
+.h-75 {
+  height: 75%;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.h-auto {
+  height: auto;
+}
+
+.mh-100 {
+  max-height: 100%;
+}
+
+.vh-100 {
+  height: 100vh;
+}
+
+.min-vh-100 {
+  min-height: 100vh;
+}
+
+.flex-fill {
+  flex: 1 1 auto;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-row-reverse {
+  flex-direction: row-reverse;
+}
+
+.flex-column-reverse {
+  flex-direction: column-reverse;
+}
+
+.flex-grow-0 {
+  flex-grow: 0;
+}
+
+.flex-grow-1 {
+  flex-grow: 1;
+}
+
+.flex-shrink-0 {
+  flex-shrink: 0;
+}
+
+.flex-shrink-1 {
+  flex-shrink: 1;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-nowrap {
+  flex-wrap: nowrap;
+}
+
+.flex-wrap-reverse {
+  flex-wrap: wrap-reverse;
+}
+
+.justify-content-start {
+  justify-content: flex-start;
+}
+
+.justify-content-end {
+  justify-content: flex-end;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.justify-content-around {
+  justify-content: space-around;
+}
+
+.justify-content-evenly {
+  justify-content: space-evenly;
+}
+
+.align-items-start {
+  align-items: flex-start;
+}
+
+.align-items-end {
+  align-items: flex-end;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.align-items-baseline {
+  align-items: baseline;
+}
+
+.align-items-stretch {
+  align-items: stretch;
+}
+
+.align-content-start {
+  align-content: flex-start;
+}
+
+.align-content-end {
+  align-content: flex-end;
+}
+
+.align-content-center {
+  align-content: center;
+}
+
+.align-content-between {
+  align-content: space-between;
+}
+
+.align-content-around {
+  align-content: space-around;
+}
+
+.align-content-stretch {
+  align-content: stretch;
+}
+
+.align-self-auto {
+  align-self: auto;
+}
+
+.align-self-start {
+  align-self: flex-start;
+}
+
+.align-self-end {
+  align-self: flex-end;
+}
+
+.align-self-center {
+  align-self: center;
+}
+
+.align-self-baseline {
+  align-self: baseline;
+}
+
+.align-self-stretch {
+  align-self: stretch;
+}
+
+.place-content-center {
+  place-content: center;
+}
+
+.place-items-center {
+  place-items: center;
+}
+
+.border-0 {
+  border: 0;
+}
+
+.border-1 {
+  border-width: 1px;
+}
+
+.border-2 {
+  border-width: 2px;
+}
+
+.border-3 {
+  border-width: 3px;
+}
+
+.border-4 {
+  border-width: 4px;
+}
+
+.border-5 {
+  border-width: 5px;
+}
+.border-radius-circle {
+  border-radius: 50%;
+}
+
+@each $breakpoint, $breakpointMap in reverse($breakpoints) {
+  @if (map-get($breakpointMap, value) == $smallestBreakpoint) {
+    @each $innerBreakpoint, $innerBreakpointMap in $breakpoints {
+      .row-#{$innerBreakpoint}-gap-0-for-#{$breakpoint} {
+        --row-gap: 0%;
+        row-gap: 0%;
+      }
+      .col-#{$innerBreakpoint}-gap-0-for-#{$breakpoint} {
+        --column-gap: 0%;
+        column-gap: 0%;
+      }
+
+      .row-#{$innerBreakpoint}-gap-for-#{$breakpoint} {
+        --row-gap: #{map-get($innerBreakpointMap, spacing)};
+        row-gap: #{map-get($innerBreakpointMap, spacing)};
+      }
+      .col-#{$innerBreakpoint}-gap-for-#{$breakpoint} {
+        --column-gap: #{map-get($innerBreakpointMap, spacing)};
+        column-gap: #{map-get($innerBreakpointMap, spacing)};
+      }
+
+      .row-#{$innerBreakpoint}-gap-cshrink-for-#{$breakpoint} {
+        --row-gap: #{fluidType($min-vw, $max-vw, $min-spacing, map-get($innerBreakpointMap, spacing))};
+        row-gap: #{fluidType($min-vw, $max-vw, $min-spacing, map-get($innerBreakpointMap, spacing))};
+      }
+      .col-#{$innerBreakpoint}-gap-cshrink-for-#{$breakpoint} {
+        --column-gap: #{fluidType(
+          $min-vw,
+          $max-vw,
+          $min-spacing,
+          map-get($innerBreakpointMap, spacing)
+        )};
+        column-gap: #{fluidType(
+          $min-vw,
+          $max-vw,
+          $min-spacing,
+          map-get($innerBreakpointMap, spacing)
+        )};
+      }
+
+      .row-#{$innerBreakpoint}-gap-c-for-#{$breakpoint} {
+        --row-gap: #{fluidType(
+          $min-vw,
+          $max-vw,
+          map-get($innerBreakpointMap, min-bp-spacing),
+          map-get($innerBreakpointMap, spacing)
+        )};
+        row-gap: #{fluidType(
+          $min-vw,
+          $max-vw,
+          map-get($innerBreakpointMap, min-bp-spacing),
+          map-get($innerBreakpointMap, spacing)
+        )};
+      }
+      .col-#{$innerBreakpoint}-gap-c-for-#{$breakpoint} {
+        --column-gap: #{fluidType(
+          $min-vw,
+          $max-vw,
+          map-get($innerBreakpointMap, min-bp-spacing),
+          map-get($innerBreakpointMap, spacing)
+        )};
+        column-gap: #{fluidType(
+          $min-vw,
+          $max-vw,
+          map-get($innerBreakpointMap, min-bp-spacing),
+          map-get($innerBreakpointMap, spacing)
+        )};
+      }
+
+      .bp-#{$innerBreakpoint}-m-cshrink-for-#{$breakpoint} {
+        margin: #{fluidType($min-vw, $max-vw, $min-spacing, map-get($innerBreakpointMap, spacing))};
+      }
+
+      .bp-#{$innerBreakpoint}-m-for-#{$breakpoint} {
+        margin: map-get($innerBreakpointMap, spacing);
+      }
+      .bp-#{$innerBreakpoint}-mt-for-#{$breakpoint} {
+        margin-top: map-get($innerBreakpointMap, spacing);
+      }
+      .bp-#{$innerBreakpoint}-mr-for-#{$breakpoint} {
+        margin-right: map-get($innerBreakpointMap, spacing);
+      }
+      .bp-#{$innerBreakpoint}-mb-for-#{$breakpoint} {
+        margin-bottom: map-get($innerBreakpointMap, spacing);
+      }
+      .bp-#{$innerBreakpoint}-ml-for-#{$breakpoint} {
+        margin-left: map-get($innerBreakpointMap, spacing);
+      }
+      .bp-#{$innerBreakpoint}-mx-for-#{$breakpoint} {
+        margin-top: map-get($innerBreakpointMap, spacing);
+        margin-bottom: map-get($innerBreakpointMap, spacing);
+      }
+      .bp-#{$innerBreakpoint}-my-for-#{$breakpoint} {
+        margin-left: map-get($innerBreakpointMap, spacing);
+        margin-right: map-get($innerBreakpointMap, spacing);
+      }
+
+      .bp-#{$innerBreakpoint}-p-for-#{$breakpoint} {
+        padding: map-get($innerBreakpointMap, spacing);
+      }
+      .bp-#{$innerBreakpoint}-pt-for-#{$breakpoint} {
+        padding-top: map-get($innerBreakpointMap, spacing);
+      }
+      .bp-#{$innerBreakpoint}-pr-for-#{$breakpoint} {
+        padding-right: map-get($innerBreakpointMap, spacing);
+      }
+      .bp-#{$innerBreakpoint}-pb-for-#{$breakpoint} {
+        padding-bottom: map-get($innerBreakpointMap, spacing);
+      }
+      .bp-#{$innerBreakpoint}-pl-for-#{$breakpoint} {
+        padding-left: map-get($innerBreakpointMap, spacing);
+      }
+      .bp-#{$innerBreakpoint}-px-for-#{$breakpoint} {
+        padding-top: map-get($innerBreakpointMap, spacing);
+        padding-bottom: map-get($innerBreakpointMap, spacing);
+      }
+      .bp-#{$innerBreakpoint}-py-for-#{$breakpoint} {
+        padding-left: map-get($innerBreakpointMap, spacing);
+        padding-right: map-get($innerBreakpointMap, spacing);
+      }
+
+      .bp-#{$innerBreakpoint}-m-cshrink-for-#{$breakpoint} {
+        margin: fluidType($min-vw, $max-vw, $min-spacing, map-get($innerBreakpointMap, spacing));
+      }
+      .bp-#{$innerBreakpoint}-mt-cshrink-for-#{$breakpoint} {
+        margin-top: fluidType(
+          $min-vw,
+          $max-vw,
+          $min-spacing,
+          map-get($innerBreakpointMap, spacing)
+        );
+      }
+      .bp-#{$innerBreakpoint}-mr-cshrink-for-#{$breakpoint} {
+        margin-right: fluidType(
+          $min-vw,
+          $max-vw,
+          $min-spacing,
+          map-get($innerBreakpointMap, spacing)
+        );
+      }
+      .bp-#{$innerBreakpoint}-mb-cshrink-for-#{$breakpoint} {
+        margin-bottom: fluidType(
+          $min-vw,
+          $max-vw,
+          $min-spacing,
+          map-get($innerBreakpointMap, spacing)
+        );
+      }
+      .bp-#{$innerBreakpoint}-ml-cshrink-for-#{$breakpoint} {
+        margin-left: fluidType(
+          $min-vw,
+          $max-vw,
+          $min-spacing,
+          map-get($innerBreakpointMap, spacing)
+        );
+      }
+      .bp-#{$innerBreakpoint}-mx-cshrink-for-#{$breakpoint} {
+        margin-top: fluidType(
+          $min-vw,
+          $max-vw,
+          $min-spacing,
+          map-get($innerBreakpointMap, spacing)
+        );
+        margin-bottom: fluidType(
+          $min-vw,
+          $max-vw,
+          $min-spacing,
+          map-get($innerBreakpointMap, spacing)
+        );
+      }
+      .bp-#{$innerBreakpoint}-my-cshrink-for-#{$breakpoint} {
+        margin-left: fluidType(
+          $min-vw,
+          $max-vw,
+          $min-spacing,
+          map-get($innerBreakpointMap, spacing)
+        );
+        margin-right: fluidType(
+          $min-vw,
+          $max-vw,
+          $min-spacing,
+          map-get($innerBreakpointMap, spacing)
+        );
+      }
+
+      .bp-#{$innerBreakpoint}-p-cshrink-for-#{$breakpoint} {
+        padding: fluidType($min-vw, $max-vw, $min-spacing, map-get($innerBreakpointMap, spacing));
+      }
+      .bp-#{$innerBreakpoint}-pt-cshrink-for-#{$breakpoint} {
+        padding-top: fluidType(
+          $min-vw,
+          $max-vw,
+          $min-spacing,
+          map-get($innerBreakpointMap, spacing)
+        );
+      }
+      .bp-#{$innerBreakpoint}-pr-cshrink-for-#{$breakpoint} {
+        padding-right: fluidType(
+          $min-vw,
+          $max-vw,
+          $min-spacing,
+          map-get($innerBreakpointMap, spacing)
+        );
+      }
+      .bp-#{$innerBreakpoint}-pb-cshrink-for-#{$breakpoint} {
+        padding-bottom: fluidType(
+          $min-vw,
+          $max-vw,
+          $min-spacing,
+          map-get($innerBreakpointMap, spacing)
+        );
+      }
+      .bp-#{$innerBreakpoint}-pl-cshrink-for-#{$breakpoint} {
+        padding-left: fluidType(
+          $min-vw,
+          $max-vw,
+          $min-spacing,
+          map-get($innerBreakpointMap, spacing)
+        );
+      }
+      .bp-#{$innerBreakpoint}-px-cshrink-for-#{$breakpoint} {
+        padding-top: fluidType(
+          $min-vw,
+          $max-vw,
+          $min-spacing,
+          map-get($innerBreakpointMap, spacing)
+        );
+        padding-bottom: fluidType(
+          $min-vw,
+          $max-vw,
+          $min-spacing,
+          map-get($innerBreakpointMap, spacing)
+        );
+      }
+      .bp-#{$innerBreakpoint}-py-cshrink-for-#{$breakpoint} {
+        padding-left: fluidType(
+          $min-vw,
+          $max-vw,
+          $min-spacing,
+          map-get($innerBreakpointMap, spacing)
+        );
+        padding-right: fluidType(
+          $min-vw,
+          $max-vw,
+          $min-spacing,
+          map-get($innerBreakpointMap, spacing)
+        );
+      }
+
+      .bp-#{$innerBreakpoint}-m-c-for-#{$breakpoint} {
+        margin: fluidType(
+          $min-vw,
+          $max-vw,
+          map-get($innerBreakpointMap, min-bp-spacing),
+          map-get($innerBreakpointMap, spacing)
+        );
+      }
+      .bp-#{$innerBreakpoint}-mt-c-for-#{$breakpoint} {
+        margin-top: fluidType(
+          $min-vw,
+          $max-vw,
+          map-get($innerBreakpointMap, min-bp-spacing),
+          map-get($innerBreakpointMap, spacing)
+        );
+      }
+      .bp-#{$innerBreakpoint}-mr-c-for-#{$breakpoint} {
+        margin-right: fluidType(
+          $min-vw,
+          $max-vw,
+          map-get($innerBreakpointMap, min-bp-spacing),
+          map-get($innerBreakpointMap, spacing)
+        );
+      }
+      .bp-#{$innerBreakpoint}-mb-c-for-#{$breakpoint} {
+        margin-bottom: fluidType(
+          $min-vw,
+          $max-vw,
+          map-get($innerBreakpointMap, min-bp-spacing),
+          map-get($innerBreakpointMap, spacing)
+        );
+      }
+      .bp-#{$innerBreakpoint}-ml-c-for-#{$breakpoint} {
+        margin-left: fluidType(
+          $min-vw,
+          $max-vw,
+          map-get($innerBreakpointMap, min-bp-spacing),
+          map-get($innerBreakpointMap, spacing)
+        );
+      }
+      .bp-#{$innerBreakpoint}-mx-c-for-#{$breakpoint} {
+        margin-top: fluidType(
+          $min-vw,
+          $max-vw,
+          map-get($innerBreakpointMap, min-bp-spacing),
+          map-get($innerBreakpointMap, spacing)
+        );
+        margin-bottom: fluidType(
+          $min-vw,
+          $max-vw,
+          map-get($innerBreakpointMap, min-bp-spacing),
+          map-get($innerBreakpointMap, spacing)
+        );
+      }
+      .bp-#{$innerBreakpoint}-my-c-for-#{$breakpoint} {
+        margin-left: fluidType(
+          $min-vw,
+          $max-vw,
+          map-get($innerBreakpointMap, min-bp-spacing),
+          map-get($innerBreakpointMap, spacing)
+        );
+        margin-right: fluidType(
+          $min-vw,
+          $max-vw,
+          map-get($innerBreakpointMap, min-bp-spacing),
+          map-get($innerBreakpointMap, spacing)
+        );
+      }
+
+      .bp-#{$innerBreakpoint}-p-c-for-#{$breakpoint} {
+        padding: fluidType(
+          $min-vw,
+          $max-vw,
+          map-get($innerBreakpointMap, min-bp-spacing),
+          map-get($innerBreakpointMap, spacing)
+        );
+      }
+      .bp-#{$innerBreakpoint}-pt-c-for-#{$breakpoint} {
+        padding-top: fluidType(
+          $min-vw,
+          $max-vw,
+          map-get($innerBreakpointMap, min-bp-spacing),
+          map-get($innerBreakpointMap, spacing)
+        );
+      }
+      .bp-#{$innerBreakpoint}-pr-c-for-#{$breakpoint} {
+        padding-right: fluidType(
+          $min-vw,
+          $max-vw,
+          map-get($innerBreakpointMap, min-bp-spacing),
+          map-get($innerBreakpointMap, spacing)
+        );
+      }
+      .bp-#{$innerBreakpoint}-pb-c-for-#{$breakpoint} {
+        padding-bottom: fluidType(
+          $min-vw,
+          $max-vw,
+          map-get($innerBreakpointMap, min-bp-spacing),
+          map-get($innerBreakpointMap, spacing)
+        );
+      }
+      .bp-#{$innerBreakpoint}-pl-c-for-#{$breakpoint} {
+        padding-left: fluidType(
+          $min-vw,
+          $max-vw,
+          map-get($innerBreakpointMap, min-bp-spacing),
+          map-get($innerBreakpointMap, spacing)
+        );
+      }
+      .bp-#{$innerBreakpoint}-px-c-for-#{$breakpoint} {
+        padding-top: fluidType(
+          $min-vw,
+          $max-vw,
+          map-get($innerBreakpointMap, min-bp-spacing),
+          map-get($innerBreakpointMap, spacing)
+        );
+        padding-bottom: fluidType(
+          $min-vw,
+          $max-vw,
+          map-get($innerBreakpointMap, min-bp-spacing),
+          map-get($innerBreakpointMap, spacing)
+        );
+      }
+      .bp-#{$innerBreakpoint}-py-c-for-#{$breakpoint} {
+        padding-left: fluidType(
+          $min-vw,
+          $max-vw,
+          map-get($innerBreakpointMap, min-bp-spacing),
+          map-get($innerBreakpointMap, spacing)
+        );
+        padding-right: fluidType(
+          $min-vw,
+          $max-vw,
+          map-get($innerBreakpointMap, min-bp-spacing),
+          map-get($innerBreakpointMap, spacing)
+        );
+      }
+    }
+
+   .row-#{$breakpoint} {
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  
+  .row.reverse-#{$breakpoint} {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+  }
+  
+  .col.reverse-#{$breakpoint} {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+  }
+  
+  .start-#{$breakpoint} {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    text-align: start;
+  }
+  
+  .center-#{$breakpoint} {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .end-#{$breakpoint} {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    text-align: end;
+  }
+  
+  .top-#{$breakpoint} {
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+  
+  .middle-#{$breakpoint} {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  
+  .bottom-#{$breakpoint} {
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+  }
+  
+  .around-#{$breakpoint} {
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+  }
+  
+  .between-#{$breakpoint} {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+  
+  .first-#{$breakpoint} {
+    -webkit-box-ordinal-group: 0;
+    -ms-flex-order: -1;
+    order: -1;
+  }
+  
+  .last-#{$breakpoint} {
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1;
+  }
+  
+  .responsive-img-#{$breakpoint} {
+    max-width: 100% !important;
+    height: auto;
+  }
+  
+  .table-responsive-#{$breakpoint} {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  .overflow-auto-#{$breakpoint} {
+    overflow: auto;
+  }
+  
+  .overflow-hidden-#{$breakpoint} {
+    overflow: hidden;
+  }
+  
+  .overflow-visible-#{$breakpoint} {
+    overflow: visible;
+  }
+  
+  .overflow-scroll-#{$breakpoint} {
+    overflow: scroll;
+  }
+  
+  .d-inline-#{$breakpoint} {
+    display: inline;
+  }
+  
+  .d-inline-block-#{$breakpoint} {
+    display: inline-block;
+  }
+  
+  .d-block-#{$breakpoint} {
+    display: block;
+  }
+  
+  .d-grid-#{$breakpoint} {
+    display: grid;
+  }
+  
+  .d-table-#{$breakpoint} {
+    display: table;
+  }
+  
+  .d-table-row-#{$breakpoint} {
+    display: table-row;
+  }
+  
+  .d-table-cell-#{$breakpoint} {
+    display: table-cell;
+  }
+  .d-flex-#{$breakpoint} {
+    display: flex;
+  }
+  
+  .d-inline-flex-#{$breakpoint} {
+    display: inline-flex;
+  }
+  
+  .d-none-#{$breakpoint} {
+    display: none;
+  }
+  
+  .shadow-none-#{$breakpoint} {
+    box-shadow: none;
+  }
+  
+  .position-static-#{$breakpoint} {
+    position: static;
+  }
+  
+  .position-relative-#{$breakpoint} {
+    position: relative;
+  }
+  
+  .position-absolute-#{$breakpoint} {
+    position: absolute;
+  }
+  
+  .position-fixed-#{$breakpoint} {
+    position: fixed;
+  }
+  
+  .position-sticky-#{$breakpoint} {
+    position: -webkit-sticky;
+    position: sticky;
+  }
+  
+  .translate-middle-#{$breakpoint} {
+    transform: translate(-50%, -50%);
+  }
+  
+  .translate-middle-x-#{$breakpoint} {
+    transform: translateX(-50%);
+  }
+  
+  .translate-middle-y-#{$breakpoint} {
+    transform: translateY(-50%);
+  }
+  
+  
+  
+  .w-25-#{$breakpoint} {
+    width: 25%;
+  }
+  
+  .w-50-#{$breakpoint} {
+    width: 50%;
+  }
+  
+  .w-75-#{$breakpoint} {
+    width: 75%;
+  }
+  
+  .w-100-#{$breakpoint} {
+    width: 100%;
+  }
+  
+  .w-auto-#{$breakpoint} {
+    width: auto;
+  }
+  
+  .mw-100-#{$breakpoint} {
+    max-width: 100%;
+  }
+  
+  .vw-100-#{$breakpoint} {
+    width: 100vw;
+  }
+  
+  .min-vw-100-#{$breakpoint} {
+    min-width: 100vw;
+  }
+  
+  .h-25-#{$breakpoint} {
+    height: 25%;
+  }
+  
+  .h-50-#{$breakpoint} {
+    height: 50%;
+  }
+  
+  .h-75-#{$breakpoint} {
+    height: 75%;
+  }
+  
+  .h-100-#{$breakpoint} {
+    height: 100%;
+  }
+  
+  .h-auto-#{$breakpoint} {
+    height: auto;
+  }
+  
+  .mh-100-#{$breakpoint} {
+    max-height: 100%;
+  }
+  
+  .vh-100-#{$breakpoint} {
+    height: 100vh;
+  }
+  
+  .min-vh-100-#{$breakpoint} {
+    min-height: 100vh;
+  }
+  
+  .flex-fill-#{$breakpoint} {
+    flex: 1 1 auto;
+  }
+  
+  .flex-row-#{$breakpoint} {
+    flex-direction: row;
+  }
+  
+  .flex-column-#{$breakpoint} {
+    flex-direction: column;
+  }
+  
+  .flex-row-reverse-#{$breakpoint} {
+    flex-direction: row-reverse;
+  }
+  
+  .flex-column-reverse-#{$breakpoint} {
+    flex-direction: column-reverse;
+  }
+  
+  .flex-grow-0-#{$breakpoint} {
+    flex-grow: 0;
+  }
+  
+  .flex-grow-1-#{$breakpoint} {
+    flex-grow: 1;
+  }
+  
+  .flex-shrink-0-#{$breakpoint} {
+    flex-shrink: 0;
+  }
+  
+  .flex-shrink-1-#{$breakpoint} {
+    flex-shrink: 1;
+  }
+  
+  .flex-wrap-#{$breakpoint} {
+    flex-wrap: wrap;
+  }
+  
+  .flex-nowrap-#{$breakpoint} {
+    flex-wrap: nowrap;
+  }
+  
+  .flex-wrap-reverse-#{$breakpoint} {
+    flex-wrap: wrap-reverse;
+  }
+  
+  .justify-content-start-#{$breakpoint} {
+    justify-content: flex-start;
+  }
+  
+  .justify-content-end-#{$breakpoint} {
+    justify-content: flex-end;
+  }
+  
+  .justify-content-center-#{$breakpoint} {
+    justify-content: center;
+  }
+  
+  .justify-content-between-#{$breakpoint} {
+    justify-content: space-between;
+  }
+  
+  .justify-content-around-#{$breakpoint} {
+    justify-content: space-around;
+  }
+  
+  .justify-content-evenly-#{$breakpoint} {
+    justify-content: space-evenly;
+  }
+  
+  .align-items-start-#{$breakpoint} {
+    align-items: flex-start;
+  }
+  
+  .align-items-end-#{$breakpoint} {
+    align-items: flex-end;
+  }
+  
+  .align-items-center-#{$breakpoint} {
+    align-items: center;
+  }
+  
+  .align-items-baseline-#{$breakpoint} {
+    align-items: baseline;
+  }
+  
+  .align-items-stretch-#{$breakpoint} {
+    align-items: stretch;
+  }
+  
+  .align-content-start-#{$breakpoint} {
+    align-content: flex-start;
+  }
+  
+  .align-content-end-#{$breakpoint} {
+    align-content: flex-end;
+  }
+  
+  .align-content-center-#{$breakpoint} {
+    align-content: center;
+  }
+  
+  .align-content-between-#{$breakpoint} {
+    align-content: space-between;
+  }
+  
+  .align-content-around-#{$breakpoint} {
+    align-content: space-around;
+  }
+  
+  .align-content-stretch-#{$breakpoint} {
+    align-content: stretch;
+  }
+  
+  .align-self-auto-#{$breakpoint} {
+    align-self: auto;
+  }
+  
+  .align-self-start-#{$breakpoint} {
+    align-self: flex-start;
+  }
+  
+  .align-self-end-#{$breakpoint} {
+    align-self: flex-end;
+  }
+  
+  .align-self-center-#{$breakpoint} {
+    align-self: center;
+  }
+  
+  .align-self-baseline-#{$breakpoint} {
+    align-self: baseline;
+  }
+  
+  .align-self-stretch-#{$breakpoint} {
+    align-self: stretch;
+  }
+  
+  .place-content-center-#{$breakpoint} {
+    place-content: center;
+  }
+  
+  .place-items-center-#{$breakpoint} {
+    place-items: center;
+  }
+
+  .col-#{$breakpoint} {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    max-width: 100%;
+  }
+
+    @for $i from 1 through $gridColumns {
+      .col-#{$breakpoint}-#{$i} {
+        -ms-flex-preferred-size: (math.div(100%, $gridColumns) * ($i));
+        // flex-basis: auto;
+        max-width: calc((math.div(100%, $gridColumns) * ($i)) - (var(--column-gap, 0)*(($gridColumns - $i)/$gridColumns)));
+        flex-basis: calc((math.div(100%, $gridColumns) * ($i)) - (var(--column-gap, 0)));
+      }
+      .col-#{$breakpoint}-offset-#{$i} {
+        margin-left: math.div(100%, $gridColumns) * ($i);
+        box-sizing: border-box;
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+        flex: 0 0 auto;
+      }
+    }
+  } @else {
+    @media only screen and (min-width: map-get($breakpointMap, value)) {
+      @each $innerBreakpoint, $innerBreakpointMap in $breakpoints {
+        .row-#{$innerBreakpoint}-gap-0-for-#{$breakpoint} {
+          --row-gap: 0%;
+          row-gap: 0%;
+        }
+        .col-#{$innerBreakpoint}-gap-0-for-#{$breakpoint} {
+          --column-gap: 0%;
+          column-gap: 0%;
+        }
+  
+        .row-#{$innerBreakpoint}-gap-for-#{$breakpoint} {
+          --row-gap: #{map-get($innerBreakpointMap, spacing)};
+          row-gap: #{map-get($innerBreakpointMap, spacing)};
+        }
+        .col-#{$innerBreakpoint}-gap-for-#{$breakpoint} {
+          --column-gap: #{map-get($innerBreakpointMap, spacing)};
+          column-gap: #{map-get($innerBreakpointMap, spacing)};
+        }
+  
+        .row-#{$innerBreakpoint}-gap-cshrink-for-#{$breakpoint} {
+          --row-gap: #{fluidType($min-vw, $max-vw, $min-spacing, map-get($innerBreakpointMap, spacing))};
+          row-gap: #{fluidType($min-vw, $max-vw, $min-spacing, map-get($innerBreakpointMap, spacing))};
+        }
+        .col-#{$innerBreakpoint}-gap-cshrink-for-#{$breakpoint} {
+          --column-gap: #{fluidType(
+            $min-vw,
+            $max-vw,
+            $min-spacing,
+            map-get($innerBreakpointMap, spacing)
+          )};
+          column-gap: #{fluidType(
+            $min-vw,
+            $max-vw,
+            $min-spacing,
+            map-get($innerBreakpointMap, spacing)
+          )};
+        }
+  
+        .row-#{$innerBreakpoint}-gap-c-for-#{$breakpoint} {
+          --row-gap: #{fluidType(
+            $min-vw,
+            $max-vw,
+            map-get($innerBreakpointMap, min-bp-spacing),
+            map-get($innerBreakpointMap, spacing)
+          )};
+          row-gap: #{fluidType(
+            $min-vw,
+            $max-vw,
+            map-get($innerBreakpointMap, min-bp-spacing),
+            map-get($innerBreakpointMap, spacing)
+          )};
+        }
+        .col-#{$innerBreakpoint}-gap-c-for-#{$breakpoint} {
+          --column-gap: #{fluidType(
+            $min-vw,
+            $max-vw,
+            map-get($innerBreakpointMap, min-bp-spacing),
+            map-get($innerBreakpointMap, spacing)
+          )};
+          column-gap: #{fluidType(
+            $min-vw,
+            $max-vw,
+            map-get($innerBreakpointMap, min-bp-spacing),
+            map-get($innerBreakpointMap, spacing)
+          )};
+        }
+
+        .bp-#{$innerBreakpoint}-m-cshrink-for-#{$breakpoint} {
+          margin: fluidType($min-vw, $max-vw, $min-spacing, map-get($innerBreakpointMap, spacing));
+        }
+
+        .bp-#{$innerBreakpoint}-m-for-#{$breakpoint} {
+          margin: map-get($innerBreakpointMap, spacing);
+        }
+        .bp-#{$innerBreakpoint}-mt-for-#{$breakpoint} {
+          margin-top: map-get($innerBreakpointMap, spacing);
+        }
+        .bp-#{$innerBreakpoint}-mr-for-#{$breakpoint} {
+          margin-right: map-get($innerBreakpointMap, spacing);
+        }
+        .bp-#{$innerBreakpoint}-mb-for-#{$breakpoint} {
+          margin-bottom: map-get($innerBreakpointMap, spacing);
+        }
+        .bp-#{$innerBreakpoint}-ml-for-#{$breakpoint} {
+          margin-left: map-get($innerBreakpointMap, spacing);
+        }
+        .bp-#{$innerBreakpoint}-mx-for-#{$breakpoint} {
+          margin-top: map-get($innerBreakpointMap, spacing);
+          margin-bottom: map-get($innerBreakpointMap, spacing);
+        }
+        .bp-#{$innerBreakpoint}-my-for-#{$breakpoint} {
+          margin-left: map-get($innerBreakpointMap, spacing);
+          margin-right: map-get($innerBreakpointMap, spacing);
+        }
+
+        .bp-#{$innerBreakpoint}-p-for-#{$breakpoint} {
+          padding: map-get($innerBreakpointMap, spacing);
+        }
+        .bp-#{$innerBreakpoint}-pt-for-#{$breakpoint} {
+          padding-top: map-get($innerBreakpointMap, spacing);
+        }
+        .bp-#{$innerBreakpoint}-pr-for-#{$breakpoint} {
+          padding-right: map-get($innerBreakpointMap, spacing);
+        }
+        .bp-#{$innerBreakpoint}-pb-for-#{$breakpoint} {
+          padding-bottom: map-get($innerBreakpointMap, spacing);
+        }
+        .bp-#{$innerBreakpoint}-pl-for-#{$breakpoint} {
+          padding-left: map-get($innerBreakpointMap, spacing);
+        }
+        .bp-#{$innerBreakpoint}-px-for-#{$breakpoint} {
+          padding-top: map-get($innerBreakpointMap, spacing);
+          padding-bottom: map-get($innerBreakpointMap, spacing);
+        }
+        .bp-#{$innerBreakpoint}-py-for-#{$breakpoint} {
+          padding-left: map-get($innerBreakpointMap, spacing);
+          padding-right: map-get($innerBreakpointMap, spacing);
+        }
+
+        .bp-#{$innerBreakpoint}-m-cshrink-for-#{$breakpoint} {
+          margin: fluidType($min-vw, $max-vw, $min-spacing, map-get($innerBreakpointMap, spacing));
+        }
+        .bp-#{$innerBreakpoint}-mt-cshrink-for-#{$breakpoint} {
+          margin-top: fluidType(
+            $min-vw,
+            $max-vw,
+            $min-spacing,
+            map-get($innerBreakpointMap, spacing)
+          );
+        }
+        .bp-#{$innerBreakpoint}-mr-cshrink-for-#{$breakpoint} {
+          margin-right: fluidType(
+            $min-vw,
+            $max-vw,
+            $min-spacing,
+            map-get($innerBreakpointMap, spacing)
+          );
+        }
+        .bp-#{$innerBreakpoint}-mb-cshrink-for-#{$breakpoint} {
+          margin-bottom: fluidType(
+            $min-vw,
+            $max-vw,
+            $min-spacing,
+            map-get($innerBreakpointMap, spacing)
+          );
+        }
+        .bp-#{$innerBreakpoint}-ml-cshrink-for-#{$breakpoint} {
+          margin-left: fluidType(
+            $min-vw,
+            $max-vw,
+            $min-spacing,
+            map-get($innerBreakpointMap, spacing)
+          );
+        }
+        .bp-#{$innerBreakpoint}-mx-cshrink-for-#{$breakpoint} {
+          margin-top: fluidType(
+            $min-vw,
+            $max-vw,
+            $min-spacing,
+            map-get($innerBreakpointMap, spacing)
+          );
+          margin-bottom: fluidType(
+            $min-vw,
+            $max-vw,
+            $min-spacing,
+            map-get($innerBreakpointMap, spacing)
+          );
+        }
+        .bp-#{$innerBreakpoint}-my-cshrink-for-#{$breakpoint} {
+          margin-left: fluidType(
+            $min-vw,
+            $max-vw,
+            $min-spacing,
+            map-get($innerBreakpointMap, spacing)
+          );
+          margin-right: fluidType(
+            $min-vw,
+            $max-vw,
+            $min-spacing,
+            map-get($innerBreakpointMap, spacing)
+          );
+        }
+
+        .bp-#{$innerBreakpoint}-p-cshrink-for-#{$breakpoint} {
+          padding: fluidType($min-vw, $max-vw, $min-spacing, map-get($innerBreakpointMap, spacing));
+        }
+        .bp-#{$innerBreakpoint}-pt-cshrink-for-#{$breakpoint} {
+          padding-top: fluidType(
+            $min-vw,
+            $max-vw,
+            $min-spacing,
+            map-get($innerBreakpointMap, spacing)
+          );
+        }
+        .bp-#{$innerBreakpoint}-pr-cshrink-for-#{$breakpoint} {
+          padding-right: fluidType(
+            $min-vw,
+            $max-vw,
+            $min-spacing,
+            map-get($innerBreakpointMap, spacing)
+          );
+        }
+        .bp-#{$innerBreakpoint}-pb-cshrink-for-#{$breakpoint} {
+          padding-bottom: fluidType(
+            $min-vw,
+            $max-vw,
+            $min-spacing,
+            map-get($innerBreakpointMap, spacing)
+          );
+        }
+        .bp-#{$innerBreakpoint}-pl-cshrink-for-#{$breakpoint} {
+          padding-left: fluidType(
+            $min-vw,
+            $max-vw,
+            $min-spacing,
+            map-get($innerBreakpointMap, spacing)
+          );
+        }
+        .bp-#{$innerBreakpoint}-px-cshrink-for-#{$breakpoint} {
+          padding-top: fluidType(
+            $min-vw,
+            $max-vw,
+            $min-spacing,
+            map-get($innerBreakpointMap, spacing)
+          );
+          padding-bottom: fluidType(
+            $min-vw,
+            $max-vw,
+            $min-spacing,
+            map-get($innerBreakpointMap, spacing)
+          );
+        }
+        .bp-#{$innerBreakpoint}-py-cshrink-for-#{$breakpoint} {
+          padding-left: fluidType(
+            $min-vw,
+            $max-vw,
+            $min-spacing,
+            map-get($innerBreakpointMap, spacing)
+          );
+          padding-right: fluidType(
+            $min-vw,
+            $max-vw,
+            $min-spacing,
+            map-get($innerBreakpointMap, spacing)
+          );
+        }
+
+        .bp-#{$innerBreakpoint}-m-c-for-#{$breakpoint} {
+          margin: fluidType(
+            $min-vw,
+            $max-vw,
+            map-get($innerBreakpointMap, min-bp-spacing),
+            map-get($innerBreakpointMap, spacing)
+          );
+        }
+        .bp-#{$innerBreakpoint}-mt-c-for-#{$breakpoint} {
+          margin-top: fluidType(
+            $min-vw,
+            $max-vw,
+            map-get($innerBreakpointMap, min-bp-spacing),
+            map-get($innerBreakpointMap, spacing)
+          );
+        }
+        .bp-#{$innerBreakpoint}-mr-c-for-#{$breakpoint} {
+          margin-right: fluidType(
+            $min-vw,
+            $max-vw,
+            map-get($innerBreakpointMap, min-bp-spacing),
+            map-get($innerBreakpointMap, spacing)
+          );
+        }
+        .bp-#{$innerBreakpoint}-mb-c-for-#{$breakpoint} {
+          margin-bottom: fluidType(
+            $min-vw,
+            $max-vw,
+            map-get($innerBreakpointMap, min-bp-spacing),
+            map-get($innerBreakpointMap, spacing)
+          );
+        }
+        .bp-#{$innerBreakpoint}-ml-c-for-#{$breakpoint} {
+          margin-left: fluidType(
+            $min-vw,
+            $max-vw,
+            map-get($innerBreakpointMap, min-bp-spacing),
+            map-get($innerBreakpointMap, spacing)
+          );
+        }
+        .bp-#{$innerBreakpoint}-mx-c-for-#{$breakpoint} {
+          margin-top: fluidType(
+            $min-vw,
+            $max-vw,
+            map-get($innerBreakpointMap, min-bp-spacing),
+            map-get($innerBreakpointMap, spacing)
+          );
+          margin-bottom: fluidType(
+            $min-vw,
+            $max-vw,
+            map-get($innerBreakpointMap, min-bp-spacing),
+            map-get($innerBreakpointMap, spacing)
+          );
+        }
+        .bp-#{$innerBreakpoint}-my-c-for-#{$breakpoint} {
+          margin-left: fluidType(
+            $min-vw,
+            $max-vw,
+            map-get($innerBreakpointMap, min-bp-spacing),
+            map-get($innerBreakpointMap, spacing)
+          );
+          margin-right: fluidType(
+            $min-vw,
+            $max-vw,
+            map-get($innerBreakpointMap, min-bp-spacing),
+            map-get($innerBreakpointMap, spacing)
+          );
+        }
+
+        .bp-#{$innerBreakpoint}-p-c-for-#{$breakpoint} {
+          padding: fluidType(
+            $min-vw,
+            $max-vw,
+            map-get($innerBreakpointMap, min-bp-spacing),
+            map-get($innerBreakpointMap, spacing)
+          );
+        }
+        .bp-#{$innerBreakpoint}-pt-c-for-#{$breakpoint} {
+          padding-top: fluidType(
+            $min-vw,
+            $max-vw,
+            map-get($innerBreakpointMap, min-bp-spacing),
+            map-get($innerBreakpointMap, spacing)
+          );
+        }
+        .bp-#{$innerBreakpoint}-pr-c-for-#{$breakpoint} {
+          padding-right: fluidType(
+            $min-vw,
+            $max-vw,
+            map-get($innerBreakpointMap, min-bp-spacing),
+            map-get($innerBreakpointMap, spacing)
+          );
+        }
+        .bp-#{$innerBreakpoint}-pb-c-for-#{$breakpoint} {
+          padding-bottom: fluidType(
+            $min-vw,
+            $max-vw,
+            map-get($innerBreakpointMap, min-bp-spacing),
+            map-get($innerBreakpointMap, spacing)
+          );
+        }
+        .bp-#{$innerBreakpoint}-pl-c-for-#{$breakpoint} {
+          padding-left: fluidType(
+            $min-vw,
+            $max-vw,
+            map-get($innerBreakpointMap, min-bp-spacing),
+            map-get($innerBreakpointMap, spacing)
+          );
+        }
+        .bp-#{$innerBreakpoint}-px-c-for-#{$breakpoint} {
+          padding-top: fluidType(
+            $min-vw,
+            $max-vw,
+            map-get($innerBreakpointMap, min-bp-spacing),
+            map-get($innerBreakpointMap, spacing)
+          );
+          padding-bottom: fluidType(
+            $min-vw,
+            $max-vw,
+            map-get($innerBreakpointMap, min-bp-spacing),
+            map-get($innerBreakpointMap, spacing)
+          );
+        }
+        .bp-#{$innerBreakpoint}-py-c-for-#{$breakpoint} {
+          padding-left: fluidType(
+            $min-vw,
+            $max-vw,
+            map-get($innerBreakpointMap, min-bp-spacing),
+            map-get($innerBreakpointMap, spacing)
+          );
+          padding-right: fluidType(
+            $min-vw,
+            $max-vw,
+            map-get($innerBreakpointMap, min-bp-spacing),
+            map-get($innerBreakpointMap, spacing)
+          );
+        }
+      }
+      .row-#{$breakpoint} {
+        box-sizing: border-box;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-flex: 0;
+        -ms-flex: 0 1 auto;
+        flex: 0 1 auto;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+      }
+      
+      .row.reverse-#{$breakpoint} {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+        flex-direction: row-reverse;
+      }
+      
+      .col.reverse-#{$breakpoint} {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+      }
+      
+      .start-#{$breakpoint} {
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        text-align: start;
+      }
+      
+      .center-#{$breakpoint} {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        text-align: center;
+      }
+      
+      .end-#{$breakpoint} {
+        -webkit-box-pack: end;
+        -ms-flex-pack: end;
+        justify-content: flex-end;
+        text-align: end;
+      }
+      
+      .top-#{$breakpoint} {
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+      }
+      
+      .middle-#{$breakpoint} {
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+      }
+      
+      .bottom-#{$breakpoint} {
+        -webkit-box-align: end;
+        -ms-flex-align: end;
+        align-items: flex-end;
+      }
+      
+      .around-#{$breakpoint} {
+        -ms-flex-pack: distribute;
+        justify-content: space-around;
+      }
+      
+      .between-#{$breakpoint} {
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+      }
+      
+      .first-#{$breakpoint} {
+        -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+        order: -1;
+      }
+      
+      .last-#{$breakpoint} {
+        -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+        order: 1;
+      }
+      
+      .responsive-img-#{$breakpoint} {
+        max-width: 100% !important;
+        height: auto;
+      }
+      
+      .table-responsive-#{$breakpoint} {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+      }
+      
+      .overflow-auto-#{$breakpoint} {
+        overflow: auto;
+      }
+      
+      .overflow-hidden-#{$breakpoint} {
+        overflow: hidden;
+      }
+      
+      .overflow-visible-#{$breakpoint} {
+        overflow: visible;
+      }
+      
+      .overflow-scroll-#{$breakpoint} {
+        overflow: scroll;
+      }
+      
+      .d-inline-#{$breakpoint} {
+        display: inline;
+      }
+      
+      .d-inline-block-#{$breakpoint} {
+        display: inline-block;
+      }
+      
+      .d-block-#{$breakpoint} {
+        display: block;
+      }
+      
+      .d-grid-#{$breakpoint} {
+        display: grid;
+      }
+      
+      .d-table-#{$breakpoint} {
+        display: table;
+      }
+      
+      .d-table-row-#{$breakpoint} {
+        display: table-row;
+      }
+      
+      .d-table-cell-#{$breakpoint} {
+        display: table-cell;
+      }
+      .d-flex-#{$breakpoint} {
+        display: flex;
+      }
+      
+      .d-inline-flex-#{$breakpoint} {
+        display: inline-flex;
+      }
+      
+      .d-none-#{$breakpoint} {
+        display: none;
+      }
+      
+      .shadow-none-#{$breakpoint} {
+        box-shadow: none;
+      }
+      
+      .position-static-#{$breakpoint} {
+        position: static;
+      }
+      
+      .position-relative-#{$breakpoint} {
+        position: relative;
+      }
+      
+      .position-absolute-#{$breakpoint} {
+        position: absolute;
+      }
+      
+      .position-fixed-#{$breakpoint} {
+        position: fixed;
+      }
+      
+      .position-sticky-#{$breakpoint} {
+        position: -webkit-sticky;
+        position: sticky;
+      }
+      
+      .translate-middle-#{$breakpoint} {
+        transform: translate(-50%, -50%);
+      }
+      
+      .translate-middle-x-#{$breakpoint} {
+        transform: translateX(-50%);
+      }
+      
+      .translate-middle-y-#{$breakpoint} {
+        transform: translateY(-50%);
+      }
+      
+      
+      
+      .w-25-#{$breakpoint} {
+        width: 25%;
+      }
+      
+      .w-50-#{$breakpoint} {
+        width: 50%;
+      }
+      
+      .w-75-#{$breakpoint} {
+        width: 75%;
+      }
+      
+      .w-100-#{$breakpoint} {
+        width: 100%;
+      }
+      
+      .w-auto-#{$breakpoint} {
+        width: auto;
+      }
+      
+      .mw-100-#{$breakpoint} {
+        max-width: 100%;
+      }
+      
+      .vw-100-#{$breakpoint} {
+        width: 100vw;
+      }
+      
+      .min-vw-100-#{$breakpoint} {
+        min-width: 100vw;
+      }
+      
+      .h-25-#{$breakpoint} {
+        height: 25%;
+      }
+      
+      .h-50-#{$breakpoint} {
+        height: 50%;
+      }
+      
+      .h-75-#{$breakpoint} {
+        height: 75%;
+      }
+      
+      .h-100-#{$breakpoint} {
+        height: 100%;
+      }
+      
+      .h-auto-#{$breakpoint} {
+        height: auto;
+      }
+      
+      .mh-100-#{$breakpoint} {
+        max-height: 100%;
+      }
+      
+      .vh-100-#{$breakpoint} {
+        height: 100vh;
+      }
+      
+      .min-vh-100-#{$breakpoint} {
+        min-height: 100vh;
+      }
+      
+      .flex-fill-#{$breakpoint} {
+        flex: 1 1 auto;
+      }
+      
+      .flex-row-#{$breakpoint} {
+        flex-direction: row;
+      }
+      
+      .flex-column-#{$breakpoint} {
+        flex-direction: column;
+      }
+      
+      .flex-row-reverse-#{$breakpoint} {
+        flex-direction: row-reverse;
+      }
+      
+      .flex-column-reverse-#{$breakpoint} {
+        flex-direction: column-reverse;
+      }
+      
+      .flex-grow-0-#{$breakpoint} {
+        flex-grow: 0;
+      }
+      
+      .flex-grow-1-#{$breakpoint} {
+        flex-grow: 1;
+      }
+      
+      .flex-shrink-0-#{$breakpoint} {
+        flex-shrink: 0;
+      }
+      
+      .flex-shrink-1-#{$breakpoint} {
+        flex-shrink: 1;
+      }
+      
+      .flex-wrap-#{$breakpoint} {
+        flex-wrap: wrap;
+      }
+      
+      .flex-nowrap-#{$breakpoint} {
+        flex-wrap: nowrap;
+      }
+      
+      .flex-wrap-reverse-#{$breakpoint} {
+        flex-wrap: wrap-reverse;
+      }
+      
+      .justify-content-start-#{$breakpoint} {
+        justify-content: flex-start;
+      }
+      
+      .justify-content-end-#{$breakpoint} {
+        justify-content: flex-end;
+      }
+      
+      .justify-content-center-#{$breakpoint} {
+        justify-content: center;
+      }
+      
+      .justify-content-between-#{$breakpoint} {
+        justify-content: space-between;
+      }
+      
+      .justify-content-around-#{$breakpoint} {
+        justify-content: space-around;
+      }
+      
+      .justify-content-evenly-#{$breakpoint} {
+        justify-content: space-evenly;
+      }
+      
+      .align-items-start-#{$breakpoint} {
+        align-items: flex-start;
+      }
+      
+      .align-items-end-#{$breakpoint} {
+        align-items: flex-end;
+      }
+      
+      .align-items-center-#{$breakpoint} {
+        align-items: center;
+      }
+      
+      .align-items-baseline-#{$breakpoint} {
+        align-items: baseline;
+      }
+      
+      .align-items-stretch-#{$breakpoint} {
+        align-items: stretch;
+      }
+      
+      .align-content-start-#{$breakpoint} {
+        align-content: flex-start;
+      }
+      
+      .align-content-end-#{$breakpoint} {
+        align-content: flex-end;
+      }
+      
+      .align-content-center-#{$breakpoint} {
+        align-content: center;
+      }
+      
+      .align-content-between-#{$breakpoint} {
+        align-content: space-between;
+      }
+      
+      .align-content-around-#{$breakpoint} {
+        align-content: space-around;
+      }
+      
+      .align-content-stretch-#{$breakpoint} {
+        align-content: stretch;
+      }
+      
+      .align-self-auto-#{$breakpoint} {
+        align-self: auto;
+      }
+      
+      .align-self-start-#{$breakpoint} {
+        align-self: flex-start;
+      }
+      
+      .align-self-end-#{$breakpoint} {
+        align-self: flex-end;
+      }
+      
+      .align-self-center-#{$breakpoint} {
+        align-self: center;
+      }
+      
+      .align-self-baseline-#{$breakpoint} {
+        align-self: baseline;
+      }
+      
+      .align-self-stretch-#{$breakpoint} {
+        align-self: stretch;
+      }
+      
+      .place-content-center-#{$breakpoint} {
+        place-content: center;
+      }
+      
+      .place-items-center-#{$breakpoint} {
+        place-items: center;
+      }
+    
+      .col-#{$breakpoint} {
+        -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+        flex-grow: 1;
+        -ms-flex-preferred-size: 0;
+        flex-basis: 0;
+        max-width: 100%;
+      }
+
+      @for $i from 1 through $gridColumns {
+        .col-#{$breakpoint}-#{$i} {
+          -ms-flex-preferred-size: math.div(100%, $gridColumns) * ($i);
+          // flex-basis: auto;
+          // max-width: math.div(100%, $gridColumns) * ($i);
+          max-width: calc((math.div(100%, $gridColumns) * ($i)) - (var(--column-gap, 0)*(($gridColumns - $i)/$gridColumns)));
+          flex-basis: calc((math.div(100%, $gridColumns) * ($i)) - (var(--column-gap, 0)));
+        }
+        .col-#{$breakpoint}-offset-#{$i} {
+          margin-left: math.div(100%, $gridColumns) * ($i);
+          box-sizing: border-box;
+          -webkit-box-flex: 0;
+          -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+        }
+      }
+    }
+  }
+}

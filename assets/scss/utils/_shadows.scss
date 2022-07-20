@@ -1,3 +1,10 @@
+//
+/// shadows are important to keep a clean structure, don't have multiple shadows over all the documents
+/// your design system, the naming structure is very important because it will taylor you classes
+/// @example generated classes/variables
+///   --shadow-#{$level}: #{$value} => --shadow-level-1: 0px 0px 8px rgba(0, 0, 0, 0.12);
+///   .shadow-#{$level} => .shadow-level-1;
+/// 
 $shadows: (
   level-1: 0px 0px 8px rgba(0, 0, 0, 0.12),
   level-2: 0px 0px 15px rgba(0, 0, 0, 0.24)

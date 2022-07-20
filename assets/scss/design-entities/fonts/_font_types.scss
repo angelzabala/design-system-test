@@ -1,7 +1,23 @@
+///
+/// font families for your application
+/// your design system, the naming structure is very important because it will taylor you classes
+/// @example generated classes/variables
+///    --ff-#{$fontFamily}: '#{$value}'; => --ff-main: 'Montserrat';
+///     .ff-#{$fontFamily} => .ff-main
+/// 
+
 $fontFamilies: (
   main: 'Montserrat',
   complementary: 'Barlow'
 );
+
+///
+/// font sizes
+/// the allowed font size for all your font types
+/// @example generated classes/variables
+///    --fs-#{$fontSize}: #{$value}; =>  --fs-letter-sizing-1: 4.75rem;
+///     .fs-#{$fontSize} => .fs-letter-sizing-1
+/// 
 
 $fontSizes: (
   /*76px*/ letter-sizing-1: 4.75rem,
@@ -16,6 +32,13 @@ $fontSizes: (
   /*14px*/ letter-sizing-10: 0.875rem
 );
 
+///
+/// letter spacing
+/// different letter spacing to handle your font types
+/// @example generated classes/variables
+///    --ls-#{$leterSpacing}: #{$value}; =>  --ls-letter-spacing-n1: -0.5px;
+///     .ls-#{$leterSpacing} => .ls-letter-spacing-n1
+/// 
 $letterSpacings: (
   letter-spacing-n1: -0.5px,
   letter-spacing-0: 0,
@@ -27,12 +50,26 @@ $letterSpacings: (
   letter-spacing-6: 0.1px
 );
 
+///
+/// font styles
+/// the allowed font size for all your font types
+/// @example generated classes/variables
+///    --fst-#{$fontStyle}: #{$value}; =>  --fst-italic: 'italic';
+///     .fst-#{$fontStyle} => .fst-italic
+/// 
 $fontStyles: (
   italic: 'italic',
   oblique: 'oblique',
   normal: 'normal'
 );
 
+///
+/// font weights
+/// different font weights for your application, the idea of this is that you can actually build alliases for them
+/// @example generated classes/variables
+///    --fw-#{$fontWeight}: #{$value}; =>  --fw-bold: 600;
+///     .fw-#{$fontWeight} => .fw-bold
+/// 
 $fontWeights: (
   100: 100,
   200: 200,
@@ -49,6 +86,14 @@ $fontWeights: (
   bold: 600
 );
 
+
+///
+/// line heights
+/// different line heights for the typography objects
+/// @example generated classes/variables
+///    --lh-#{$fontLineHeight}: #{$value}; =>  --lh-lineheight-1: 1;
+///     .lh-#{$fontLineHeight} => .lh-lineheight-1
+///
 $fontLineHeights: (
   lineheight-1: 1,
   lineheight-2: 1.25,
@@ -58,7 +103,13 @@ $fontLineHeights: (
 );
 
 
-//customize font types according to the design system needs
+///
+/// font types are grouped by each type using the previous defined variables
+/// @example generated classes/variables
+///   .ft-#{$fontType} => ft-header-1 
+///   .ft-#{$fontType}-c => ft-header-1-c
+///     
+/// 
 $fontTypes: (
   header-1: (
     family: map-get($fontFamilies, complementary),
@@ -73,7 +124,7 @@ $fontTypes: (
     max-size: map-get($fontSizes, letter-sizing-2),
     min-size: map-get($fontSizes, letter-sizing-8),
     spacing: map-get($letterSpacings, letter-spacing-3),
-    weight: map-get($fontWeights, italic),
+    weight: map-get($fontWeights, medium),
     lineHeight: map-get($fontLineHeights, lineheight-2)
   ),
   header-3: (
@@ -81,7 +132,7 @@ $fontTypes: (
     max-size: map-get($fontSizes, letter-sizing-3),
     min-size: map-get($fontSizes, letter-sizing-9),
     spacing: map-get($letterSpacings, letter-spacing-2),
-    weight: map-get($fontWeights, normal),
+    weight: map-get($fontWeights, regular),
     lineHeight: map-get($fontLineHeights, lineheight-2)
   ),
   parragraph: (
@@ -97,7 +148,9 @@ $fontTypes: (
     max-size: map-get($fontSizes, letter-sizing-5),
     min-size: map-get($fontSizes, letter-sizing-10),
     spacing: map-get($letterSpacings, letter-spacing-0),
-    weight: map-get($fontWeights, normal),
+    weight: map-get($fontWeights, regular),
     lineHeight: map-get($fontLineHeights, lineheight-2)
   )
 );
+
+$minSupportedFs: map-get($fontSizes , letter-sizing-10);

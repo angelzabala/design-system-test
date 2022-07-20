@@ -1,7 +1,7 @@
 @use './design-entities/spacing/spacing' as *;
 
 * {
-  font-family: var(--ff-main);
+  font-family: var(--ff-main), DejaVu Sans, Verdana, sans‑serif;
 }
 
 @media only screen and (min-width: #{$max-vw-px}) {
@@ -10,15 +10,17 @@
   }
 }
 
-
-@each $breakpoint, $breakpointMap in $breakpoints{
-    @media only screen and (max-width: map-get($breakpointMap, value)) {
-        html {
-            font-size: map-get($breakpointMap, htmlFontSize);
-        }
+@each $breakpoint, $breakpointMap in $breakpoints {
+  @media only screen and (max-width: map-get($breakpointMap, value)) {
+    html {
+      font-size: map-get($breakpointMap, htmlFontSize);
     }
+  }
 }
 
-*:focus-visible, *:focus, *:active, *:visited{
+*:focus-visible,
+*:focus,
+*:active,
+*:visited {
   outline: 0;
-} 
+}

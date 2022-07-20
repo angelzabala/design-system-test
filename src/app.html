@@ -6,18 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		%sveltekit.head%
 	</head>
-	<body style="visibility: hidden ;">
+	<body>
 		<div>%sveltekit.body%</div>
 	</body>
-	<script>
-		const observer = new MutationObserver(() => {
-			if(document.fonts.ready){
-				setTimeout(() => {
-					document.body.style.visibility = '';
-				}, 500)
-				observer.disconnect();
-			}
-		});
-		observer.observe(document.body, {childList: true})
-	</script>
 </html>

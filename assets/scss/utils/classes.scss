@@ -1,113 +1,198 @@
 @use '../design-entities/spacing/spacing' as *;
 @use '../design-entities/colors/colors' as *;
+
+@use '../design-entities/fonts/font-faces' as *;
+@use '../design-entities/fonts/font_types' as *;
 @use '../design-entities/fonts/fonts' as *;
+
+@use './reverse-list-function' as *;
 @use './fluid-type-function' as *;
 @use './z-indexes' as *;
 @use './shadows' as *;
 
+@each $breakpoint, $breakpointMap in reverse($breakpoints) {
+  @if (map-get($breakpointMap, value) != $smallestBreakpoint) {
+    @media only screen and (min-width: map-get($breakpointMap, value)) {
+      @each $fontType, $fontTypeMap in $fontTypes {
+        .#{$breakpoint}-ft-#{$fontType} {
+          font-family: map-get($fontTypeMap, family);
+          font-size: map-get($fontTypeMap, max-size);
+          letter-spacing: map-get($fontTypeMap, spacing);
+          font-weight: map-get($fontTypeMap, weight);
+          line-height: map-get($fontTypeMap, lineHeight);
+        }
+        .#{$breakpoint}-ft-#{$fontType}-c {
+          font-size: map-get($fontTypeMap, min-size);
+          font-size: fluidType(
+            $min-vw,
+            $max-vw,
+            map-get($fontTypeMap, min-size),
+            map-get($fontTypeMap, max-size)
+          );
+        }
+      }
+
+      @each $fontFamily, $value in $fontFamilies {
+        .#{$breakpoint}-ff-#{$fontFamily} {
+          font-family: '#{$value}';
+        }
+      }
+
+      @each $fontSize, $value in $fontSizes {
+        .#{$breakpoint}-fs-#{$fontSize} {
+          font-size: #{$value};
+        }
+      }
+
+      @each $letterSpacing, $value in $letterSpacings {
+        .#{$breakpoint}-ls-#{$letterSpacing} {
+          letter-spacing: #{$value};
+        }
+      }
+
+      @each $fontStyle, $value in $fontStyles {
+        .#{$breakpoint}-fst-#{$fontStyle} {
+          font-style: '#{$value}';
+        }
+      }
+
+      @each $fontWeight, $value in $fontWeights {
+        .#{$breakpoint}-fw-#{$fontWeight} {
+          font-weight: #{$value};
+        }
+      }
+
+      @each $fontLineHeight, $value in $fontLineHeights {
+        .#{$breakpoint}-lh-#{$fontLineHeight} {
+          line-height: #{$value};
+        }
+      }
+    }
+  } @else {
+    @each $fontType, $fontTypeMap in $fontTypes {
+      .#{$breakpoint}-ft-#{$fontType} {
+        font-family: map-get($fontTypeMap, family);
+        font-size: map-get($fontTypeMap, max-size);
+        letter-spacing: map-get($fontTypeMap, spacing);
+        font-weight: map-get($fontTypeMap, weight);
+        line-height: map-get($fontTypeMap, lineHeight);
+      }
+      .#{$breakpoint}-ft-#{$fontType}-c {
+        font-size: map-get($fontTypeMap, min-size);
+        font-size: fluidType(
+          $min-vw,
+          $max-vw,
+          map-get($fontTypeMap, min-size),
+          map-get($fontTypeMap, max-size)
+        );
+      }
+    }
+
+    @each $fontFamily, $value in $fontFamilies {
+      .#{$breakpoint}-ff-#{$fontFamily} {
+        font-family: '#{$value}';
+      }
+    }
+
+    @each $fontSize, $value in $fontSizes {
+      .#{$breakpoint}-fs-#{$fontSize} {
+        font-size: #{$value};
+      }
+    }
+
+    @each $letterSpacing, $value in $letterSpacings {
+      .#{$breakpoint}-ls-#{$letterSpacing} {
+        letter-spacing: #{$value};
+      }
+    }
+
+    @each $fontStyle, $value in $fontStyles {
+      .#{$breakpoint}-fst-#{$fontStyle} {
+        font-style: '#{$value}';
+      }
+    }
+
+    @each $fontWeight, $value in $fontWeights {
+      .#{$breakpoint}-fw-#{$fontWeight} {
+        font-weight: #{$value};
+      }
+    }
+
+    @each $fontLineHeight, $value in $fontLineHeights {
+      .#{$breakpoint}-lh-#{$fontLineHeight} {
+        line-height: #{$value};
+      }
+    }
+  }
+}
 
 @each $category, $categoryValues in $colorCategories {
   @each $type, $shades in $categoryValues {
     @each $shade, $value in $shades {
+      @media (prefers-color-scheme: dark) {
+        .clr-#{$category}-#{$type}-#{$shade}-darkmode {
+          color: #{$value};
+        }
+        .bg-clr-#{$category}-#{$type}-#{$shade}-darkmode {
+          background-color: #{$value};
+        }
+        .clr-#{$category}-#{$type}-#{$shade}-active-darkmode:active,
+        .clr-#{$category}-#{$type}-#{$shade}-hover-darkmode:hover,
+        .clr-#{$category}-#{$type}-#{$shade}-focus-darkmode:focus,
+        .clr-#{$category}-#{$type}-#{$shade}-visited-darkmode:visited,
+        .clr-#{$category}-#{$type}-#{$shade}-focus-within-darkmode,
+        .clr-#{$category}-#{$type}-#{$shade}-focus-visible-darkmode:focus-visible,
+        .clr-#{$category}-#{$type}-#{$shade}-target-darkmode:target {
+          color: #{$value};
+        }
+        .bg-clr-#{$category}-#{$type}-#{$shade}-active-darkmode:active,
+        .bg-clr-#{$category}-#{$type}-#{$shade}-hover-darkmode:hover,
+        .bg-clr-#{$category}-#{$type}-#{$shade}-focus-darkmode:focus,
+        .bg-clr-#{$category}-#{$type}-#{$shade}-visited-darkmode:visited,
+        .bg-clr-#{$category}-#{$type}-#{$shade}-focus-within-darkmode:focus-within,
+        .bg-clr-#{$category}-#{$type}-#{$shade}-focus-visible-darkmode:focus-visible,
+        .bg-clr-#{$category}-#{$type}-#{$shade}-target-darkmode:target {
+          background-color: #{$value};
+        }
+      }
+
       .clr-#{$category}-#{$type}-#{$shade} {
         color: #{$value};
       }
       .bg-clr-#{$category}-#{$type}-#{$shade} {
         background-color: #{$value};
       }
+      .clr-#{$category}-#{$type}-#{$shade}-active:active,
+      .clr-#{$category}-#{$type}-#{$shade}-hover:hover,
+      .clr-#{$category}-#{$type}-#{$shade}-focus:focus,
+      .clr-#{$category}-#{$type}-#{$shade}-visited:visited,
+      .clr-#{$category}-#{$type}-#{$shade}-focus-within,
+      .clr-#{$category}-#{$type}-#{$shade}-focus-visible:focus-visible,
+      .clr-#{$category}-#{$type}-#{$shade}-target:target {
+        color: #{$value};
+      }
+      .bg-clr-#{$category}-#{$type}-#{$shade}-active:active,
+      .bg-clr-#{$category}-#{$type}-#{$shade}-hover:hover,
+      .bg-clr-#{$category}-#{$type}-#{$shade}-focus:focus,
+      .bg-clr-#{$category}-#{$type}-#{$shade}-visited:visited,
+      .bg-clr-#{$category}-#{$type}-#{$shade}-focus-within,
+      .bg-clr-#{$category}-#{$type}-#{$shade}-focus-visible:focus-visible,
+      .bg-clr-#{$category}-#{$type}-#{$shade}-target:target {
+        background-color: #{$value};
+      }
     }
   }
 }
 
-@each $breakpoint, $breakpointMap in $breakpoints {
-  .bp-#{$breakpoint}-margin {
-    margin: map-get($breakpointMap, spacing);
-  }
-  .bp-#{$breakpoint}-padding {
-    padding: map-get($breakpointMap, spacing);
-  }
-  .bp-#{$breakpoint}-margin-clamp {
-    margin: #{fluidType($min-vw, $max-vw, $min-spacing, map-get($breakpointMap, spacing))};
-  }
-  .bp-#{$breakpoint}-padding-clamp {
-    padding: #{fluidType($min-vw, $max-vw, $min-spacing, map-get($breakpointMap, spacing))};
-  }
-}
-
-@each $breakpoint, $breakpointMap in $breakpoints {
-  .mt-#{$breakpoint}-clamp{
-    margin-top: $min-spacing;
-    margin-top: #{fluidType($min-vw, $max-vw, $min-spacing, map-get($breakpointMap, spacing))};
-  }
-  .mr-#{$breakpoint}-clamp{
-    margin-right: $min-spacing;
-    margin-right: #{fluidType($min-vw, $max-vw, $min-spacing, map-get($breakpointMap, spacing))};
-  }
-  .mb-#{$breakpoint}-clamp{
-    margin-bottom: $min-spacing;
-    margin-bottom: #{fluidType($min-vw, $max-vw, $min-spacing, map-get($breakpointMap, spacing))};
-  }
-  .ml-#{$breakpoint}-clamp{
-    margin-left: $min-spacing;
-    margin-left: #{fluidType($min-vw, $max-vw, $min-spacing, map-get($breakpointMap, spacing))};
-  }
-  .mx-#{$breakpoint}-clamp{
-    margin-left: $min-spacing;
-    margin-left: #{fluidType($min-vw, $max-vw, $min-spacing, map-get($breakpointMap, spacing))};
-    margin-right: $min-spacing;
-    margin-right: #{fluidType($min-vw, $max-vw, $min-spacing, map-get($breakpointMap, spacing))};
-  }
-  .my-#{$breakpoint}-clamp{
-    margin-top: $min-spacing;
-    margin-top: #{fluidType($min-vw, $max-vw, $min-spacing, map-get($breakpointMap, spacing))};
-    margin-bottom: $min-spacing;
-    margin-bottom: #{fluidType($min-vw, $max-vw, $min-spacing, map-get($breakpointMap, spacing))};
-  }
-
-  .pt-#{$breakpoint}-clamp{
-    padding-top: $min-spacing;
-    padding-top: #{fluidType($min-vw, $max-vw, $min-spacing, map-get($breakpointMap, spacing))};
-  }
-  .pr-#{$breakpoint}-clamp{
-    padding-right: $min-spacing;
-    padding-right: #{fluidType($min-vw, $max-vw, $min-spacing, map-get($breakpointMap, spacing))};
-  }
-  .pb-#{$breakpoint}-clamp{
-    padding-bottom: $min-spacing;
-    padding-bottom: #{fluidType($min-vw, $max-vw, $min-spacing, map-get($breakpointMap, spacing))};
-  }
-  .pl-#{$breakpoint}-clamp{
-    padding-left: $min-spacing;
-    padding-left: #{fluidType($min-vw, $max-vw, $min-spacing, map-get($breakpointMap, spacing))};
-  }
-  .px-#{$breakpoint}-clamp{
-    padding-left: $min-spacing;
-    padding-left: #{fluidType($min-vw, $max-vw, $min-spacing, map-get($breakpointMap, spacing))};
-    padding-right: $min-spacing;
-    padding-right: #{fluidType($min-vw, $max-vw, $min-spacing, map-get($breakpointMap, spacing))};
-  }
-  .py-#{$breakpoint}-clamp{
-    padding-top: $min-spacing;
-    padding-top: #{fluidType($min-vw, $max-vw, $min-spacing, map-get($breakpointMap, spacing))};
-    padding-bottom: $min-spacing;
-    padding-bottom: #{fluidType($min-vw, $max-vw, $min-spacing, map-get($breakpointMap, spacing))};
-  }
-}
-
-.spacing-clamp-based-margin{
-  margin: $min-spacing; // Fallback for older browsers
-  margin: fluidType($min-vw, $max-vw, $min-spacing, $max-spacing);
-}
-
-.spacing-clamp-based-padding{
-  padding: $min-spacing; // Fallback for older browsers
-  padding: fluidType($min-vw, $max-vw, $min-spacing, $max-spacing);
-}
-
-
 @each $level, $value in $shadows {
-  .shadow-#{$level}{
-    box-shadow: #{$value}; 
+  .shadow-#{$level} {
+    box-shadow: #{$value};
+  }
+}
+
+@each $level, $value in $z-indexes {
+  .z-index-#{$level} {
+    z-index: #{$value};
   }
 }
 
@@ -123,396 +208,3 @@
   white-space: nowrap; /* added line */
   border: 0;
 }
-
-.flex {
-  display: flex;
-  row-gap: var(--row-gap, 0.75);
-  column-gap: var(--column-gap, 0.75);
-}
-
-.d-flex-row {
-  display: flex;
-  flex-wrap: wrap;
-}
-.d-flex-row > * {
-  flex-shrink: 0;
-  width: 100%;
-  max-width: 100%;
-}
-
-.d-flex-col {
-  flex: 1 0 0%;
-}
-
-.grid {
-  display: grid;
-  row-gap: var(--row-gap, 0.75);
-  column-gap: var(--column-gap, 0.75);
-}
-
-.responsive-img {
-  max-width: 100%;
-  height: auto;
-}
-
-.table-responsive {
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
-}
-
-.overflow-auto {
-  overflow: auto;
-}
-
-.overflow-hidden {
-  overflow: hidden;
-}
-
-.overflow-visible {
-  overflow: visible;
-}
-
-.overflow-scroll {
-  overflow: scroll;
-}
-
-.d-inline {
-  display: inline;
-}
-
-.d-inline-block {
-  display: inline-block;
-}
-
-.d-block {
-  display: block;
-}
-
-.d-grid {
-  display: grid;
-}
-
-.d-table {
-  display: table;
-}
-
-.d-table-row {
-  display: table-row;
-}
-
-.d-table-cell {
-  display: table-cell;
-}
-.shadow-none {
-  box-shadow: none;
-}
-
-.position-static {
-  position: static;
-}
-
-.position-relative {
-  position: relative;
-}
-
-.position-absolute {
-  position: absolute;
-}
-
-.position-fixed {
-  position: fixed;
-}
-
-.position-sticky {
-  position: -webkit-sticky;
-  position: sticky;
-}
-
-.translate-middle {
-  transform: translate(-50%, -50%);
-}
-
-.translate-middle-x {
-  transform: translateX(-50%);
-}
-
-.translate-middle-y {
-  transform: translateY(-50%);
-}
-
-.d-flex {
-  display: flex;
-}
-
-.d-inline-flex {
-  display: inline-flex;
-}
-
-.d-none {
-  display: none;
-}
-
-.w-25 {
-  width: 25%;
-}
-
-.w-50 {
-  width: 50%;
-}
-
-.w-75 {
-  width: 75%;
-}
-
-.w-100 {
-  width: 100%;
-}
-
-.w-auto {
-  width: auto;
-}
-
-.mw-100 {
-  max-width: 100%;
-}
-
-.vw-100 {
-  width: 100vw;
-}
-
-.min-vw-100 {
-  min-width: 100vw;
-}
-
-.h-25 {
-  height: 25%;
-}
-
-.h-50 {
-  height: 50%;
-}
-
-.h-75 {
-  height: 75%;
-}
-
-.h-100 {
-  height: 100%;
-}
-
-.h-auto {
-  height: auto;
-}
-
-.mh-100 {
-  max-height: 100%;
-}
-
-.vh-100 {
-  height: 100vh;
-}
-
-.min-vh-100 {
-  min-height: 100vh;
-}
-
-.flex-fill {
-  flex: 1 1 auto;
-}
-
-.flex-row {
-  flex-direction: row;
-}
-
-.flex-column {
-  flex-direction: column;
-}
-
-.flex-row-reverse {
-  flex-direction: row-reverse;
-}
-
-.flex-column-reverse {
-  flex-direction: column-reverse;
-}
-
-.flex-grow-0 {
-  flex-grow: 0;
-}
-
-.flex-grow-1 {
-  flex-grow: 1;
-}
-
-.flex-shrink-0 {
-  flex-shrink: 0;
-}
-
-.flex-shrink-1 {
-  flex-shrink: 1;
-}
-
-.flex-wrap {
-  flex-wrap: wrap;
-}
-
-.flex-nowrap {
-  flex-wrap: nowrap;
-}
-
-.flex-wrap-reverse {
-  flex-wrap: wrap-reverse;
-}
-
-.justify-content-start {
-  justify-content: flex-start;
-}
-
-.justify-content-end {
-  justify-content: flex-end;
-}
-
-.justify-content-center {
-  justify-content: center;
-}
-
-.justify-content-between {
-  justify-content: space-between;
-}
-
-.justify-content-around {
-  justify-content: space-around;
-}
-
-.justify-content-evenly {
-  justify-content: space-evenly;
-}
-
-.align-items-start {
-  align-items: flex-start;
-}
-
-.align-items-end {
-  align-items: flex-end;
-}
-
-.align-items-center {
-  align-items: center;
-}
-
-.align-items-baseline {
-  align-items: baseline;
-}
-
-.align-items-stretch {
-  align-items: stretch;
-}
-
-.align-content-start {
-  align-content: flex-start;
-}
-
-.align-content-end {
-  align-content: flex-end;
-}
-
-.align-content-center {
-  align-content: center;
-}
-
-.align-content-between {
-  align-content: space-between;
-}
-
-.align-content-around {
-  align-content: space-around;
-}
-
-.align-content-stretch {
-  align-content: stretch;
-}
-
-.align-self-auto {
-  align-self: auto;
-}
-
-.align-self-start {
-  align-self: flex-start;
-}
-
-.align-self-end {
-  align-self: flex-end;
-}
-
-.align-self-center {
-  align-self: center;
-}
-
-.align-self-baseline {
-  align-self: baseline;
-}
-
-.align-self-stretch {
-  align-self: stretch;
-}
-
-.place-content-center {
-  place-content: center;
-}
-
-.place-items-center {
-  place-items: center;
-}
-
-@each $level, $value in $z-indexes {
-  .z-index-#{$level} {
-    z-index: #{$value};
-  }
-}
-
-//soft especificity
-*.mt-0{
-  margin-top: 0;
-}
-*.mr-0{
-  margin-right: 0;
-}
-*.mb-0{
-  margin-bottom: 0;
-}
-*.ml-0{
-  margin-left: 0;
-}
-*.mx-0{
-  margin-right: 0;
-  margin-left: 0;
-}
-*.my-0{
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-.border-0 {
-  border: 0;
-}
-
-.border-1 {
-  border-width: 1px;
-}
-
-.border-2 {
-  border-width: 2px;
-}
-
-.border-3 {
-  border-width: 3px;
-}
-
-.border-4 {
-  border-width: 4px;
-}
-
-.border-5 {
-  border-width: 5px;
-}
-
