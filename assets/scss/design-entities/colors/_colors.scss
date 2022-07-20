@@ -7,11 +7,11 @@
 /// 
 /// @prop {String} category - a category is a map that can contain multiple maps of colors
 /// @prop {String} category.type - a type is a map that contains the different values or shades that a color can have
-/// @prop {String} type.shade - the type shades are the different tints or variants of a color in the design 
+/// @prop {String} type.shade - the type shades are the different tints or variants of a color in the design  
 /// @prop {Map} shade - key:value with the shade and its respective value (can be expressed on any color notation that the user requires)
 /// 
 $colorCategories: (
-  primary: ( 
+  primary: (  
     brand-blue: ( 
       900: #122252,
       800: #15275f,

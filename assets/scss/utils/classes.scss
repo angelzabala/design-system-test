@@ -67,37 +67,6 @@
           line-height: #{$value};
         }
       }
-
-      @each $category, $categoryValues in $colorCategories {
-        @each $type, $shades in $categoryValues {
-          @each $shade, $value in $shades {
-            .#{$breakpoint}-clr-#{$category}-#{$type}-#{$shade} {
-              color: #{$value};
-            }
-            .#{$breakpoint}-bg-clr-#{$category}-#{$type}-#{$shade} {
-              background-color: #{$value};
-            }
-            .#{$breakpoint}-clr-#{$category}-#{$type}-#{$shade}-active:active,
-            .#{$breakpoint}-clr-#{$category}-#{$type}-#{$shade}-hover:hover,
-            .#{$breakpoint}-clr-#{$category}-#{$type}-#{$shade}-focus:focus,
-            .#{$breakpoint}-clr-#{$category}-#{$type}-#{$shade}-visited:visited,
-            .#{$breakpoint}-clr-#{$category}-#{$type}-#{$shade}-focus-within,
-            .#{$breakpoint}-clr-#{$category}-#{$type}-#{$shade}-focus-visible:focus-visible,
-            .#{$breakpoint}-clr-#{$category}-#{$type}-#{$shade}-target:target {
-              color: #{$value};
-            }
-            .#{$breakpoint}-bg-clr-#{$category}-#{$type}-#{$shade}-active:active,
-            .#{$breakpoint}-bg-clr-#{$category}-#{$type}-#{$shade}-hover:hover,
-            .#{$breakpoint}-bg-clr-#{$category}-#{$type}-#{$shade}-focus:focus,
-            .#{$breakpoint}-bg-clr-#{$category}-#{$type}-#{$shade}-visited:visited,
-            .#{$breakpoint}-bg-clr-#{$category}-#{$type}-#{$shade}-focus-within,
-            .#{$breakpoint}-bg-clr-#{$category}-#{$type}-#{$shade}-focus-visible:focus-visible,
-            .#{$breakpoint}-bg-clr-#{$category}-#{$type}-#{$shade}-target:target {
-              background-color: #{$value};
-            }
-          }
-        }
-      }
     }
   } @else {
     @each $fontType, $fontTypeMap in $fontTypes {
@@ -160,6 +129,33 @@
 @each $category, $categoryValues in $colorCategories {
   @each $type, $shades in $categoryValues {
     @each $shade, $value in $shades {
+      @media (prefers-color-scheme: dark) {
+        .clr-#{$category}-#{$type}-#{$shade}-darkmode {
+          color: #{$value};
+        }
+        .bg-clr-#{$category}-#{$type}-#{$shade}-darkmode {
+          background-color: #{$value};
+        }
+        .clr-#{$category}-#{$type}-#{$shade}-active-darkmode:active,
+        .clr-#{$category}-#{$type}-#{$shade}-hover-darkmode:hover,
+        .clr-#{$category}-#{$type}-#{$shade}-focus-darkmode:focus,
+        .clr-#{$category}-#{$type}-#{$shade}-visited-darkmode:visited,
+        .clr-#{$category}-#{$type}-#{$shade}-focus-within-darkmode,
+        .clr-#{$category}-#{$type}-#{$shade}-focus-visible-darkmode:focus-visible,
+        .clr-#{$category}-#{$type}-#{$shade}-target-darkmode:target {
+          color: #{$value};
+        }
+        .bg-clr-#{$category}-#{$type}-#{$shade}-active-darkmode:active,
+        .bg-clr-#{$category}-#{$type}-#{$shade}-hover-darkmode:hover,
+        .bg-clr-#{$category}-#{$type}-#{$shade}-focus-darkmode:focus,
+        .bg-clr-#{$category}-#{$type}-#{$shade}-visited-darkmode:visited,
+        .bg-clr-#{$category}-#{$type}-#{$shade}-focus-within-darkmode:focus-within,
+        .bg-clr-#{$category}-#{$type}-#{$shade}-focus-visible-darkmode:focus-visible,
+        .bg-clr-#{$category}-#{$type}-#{$shade}-target-darkmode:target {
+          background-color: #{$value};
+        }
+      }
+
       .clr-#{$category}-#{$type}-#{$shade} {
         color: #{$value};
       }

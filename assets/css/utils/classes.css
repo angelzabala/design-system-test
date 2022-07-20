@@ -698,990 +698,6 @@
   .sm-lh-lineheight-5 {
     line-height: 2;
   }
-  .sm-clr-primary-brand-blue-900 {
-    color: #122252;
-  }
-  .sm-bg-clr-primary-brand-blue-900 {
-    background-color: #122252;
-  }
-  .sm-clr-primary-brand-blue-900-active:active,
-.sm-clr-primary-brand-blue-900-hover:hover,
-.sm-clr-primary-brand-blue-900-focus:focus,
-.sm-clr-primary-brand-blue-900-visited:visited,
-.sm-clr-primary-brand-blue-900-focus-within,
-.sm-clr-primary-brand-blue-900-focus-visible:focus-visible,
-.sm-clr-primary-brand-blue-900-target:target {
-    color: #122252;
-  }
-  .sm-bg-clr-primary-brand-blue-900-active:active,
-.sm-bg-clr-primary-brand-blue-900-hover:hover,
-.sm-bg-clr-primary-brand-blue-900-focus:focus,
-.sm-bg-clr-primary-brand-blue-900-visited:visited,
-.sm-bg-clr-primary-brand-blue-900-focus-within,
-.sm-bg-clr-primary-brand-blue-900-focus-visible:focus-visible,
-.sm-bg-clr-primary-brand-blue-900-target:target {
-    background-color: #122252;
-  }
-  .sm-clr-primary-brand-blue-800 {
-    color: #15275f;
-  }
-  .sm-bg-clr-primary-brand-blue-800 {
-    background-color: #15275f;
-  }
-  .sm-clr-primary-brand-blue-800-active:active,
-.sm-clr-primary-brand-blue-800-hover:hover,
-.sm-clr-primary-brand-blue-800-focus:focus,
-.sm-clr-primary-brand-blue-800-visited:visited,
-.sm-clr-primary-brand-blue-800-focus-within,
-.sm-clr-primary-brand-blue-800-focus-visible:focus-visible,
-.sm-clr-primary-brand-blue-800-target:target {
-    color: #15275f;
-  }
-  .sm-bg-clr-primary-brand-blue-800-active:active,
-.sm-bg-clr-primary-brand-blue-800-hover:hover,
-.sm-bg-clr-primary-brand-blue-800-focus:focus,
-.sm-bg-clr-primary-brand-blue-800-visited:visited,
-.sm-bg-clr-primary-brand-blue-800-focus-within,
-.sm-bg-clr-primary-brand-blue-800-focus-visible:focus-visible,
-.sm-bg-clr-primary-brand-blue-800-target:target {
-    background-color: #15275f;
-  }
-  .sm-clr-primary-brand-blue-700 {
-    color: #182d6d;
-  }
-  .sm-bg-clr-primary-brand-blue-700 {
-    background-color: #182d6d;
-  }
-  .sm-clr-primary-brand-blue-700-active:active,
-.sm-clr-primary-brand-blue-700-hover:hover,
-.sm-clr-primary-brand-blue-700-focus:focus,
-.sm-clr-primary-brand-blue-700-visited:visited,
-.sm-clr-primary-brand-blue-700-focus-within,
-.sm-clr-primary-brand-blue-700-focus-visible:focus-visible,
-.sm-clr-primary-brand-blue-700-target:target {
-    color: #182d6d;
-  }
-  .sm-bg-clr-primary-brand-blue-700-active:active,
-.sm-bg-clr-primary-brand-blue-700-hover:hover,
-.sm-bg-clr-primary-brand-blue-700-focus:focus,
-.sm-bg-clr-primary-brand-blue-700-visited:visited,
-.sm-bg-clr-primary-brand-blue-700-focus-within,
-.sm-bg-clr-primary-brand-blue-700-focus-visible:focus-visible,
-.sm-bg-clr-primary-brand-blue-700-target:target {
-    background-color: #182d6d;
-  }
-  .sm-clr-primary-brand-blue-600 {
-    color: #1b327a;
-  }
-  .sm-bg-clr-primary-brand-blue-600 {
-    background-color: #1b327a;
-  }
-  .sm-clr-primary-brand-blue-600-active:active,
-.sm-clr-primary-brand-blue-600-hover:hover,
-.sm-clr-primary-brand-blue-600-focus:focus,
-.sm-clr-primary-brand-blue-600-visited:visited,
-.sm-clr-primary-brand-blue-600-focus-within,
-.sm-clr-primary-brand-blue-600-focus-visible:focus-visible,
-.sm-clr-primary-brand-blue-600-target:target {
-    color: #1b327a;
-  }
-  .sm-bg-clr-primary-brand-blue-600-active:active,
-.sm-bg-clr-primary-brand-blue-600-hover:hover,
-.sm-bg-clr-primary-brand-blue-600-focus:focus,
-.sm-bg-clr-primary-brand-blue-600-visited:visited,
-.sm-bg-clr-primary-brand-blue-600-focus-within,
-.sm-bg-clr-primary-brand-blue-600-focus-visible:focus-visible,
-.sm-bg-clr-primary-brand-blue-600-target:target {
-    background-color: #1b327a;
-  }
-  .sm-clr-primary-brand-blue-500 {
-    color: #1e3888;
-  }
-  .sm-bg-clr-primary-brand-blue-500 {
-    background-color: #1e3888;
-  }
-  .sm-clr-primary-brand-blue-500-active:active,
-.sm-clr-primary-brand-blue-500-hover:hover,
-.sm-clr-primary-brand-blue-500-focus:focus,
-.sm-clr-primary-brand-blue-500-visited:visited,
-.sm-clr-primary-brand-blue-500-focus-within,
-.sm-clr-primary-brand-blue-500-focus-visible:focus-visible,
-.sm-clr-primary-brand-blue-500-target:target {
-    color: #1e3888;
-  }
-  .sm-bg-clr-primary-brand-blue-500-active:active,
-.sm-bg-clr-primary-brand-blue-500-hover:hover,
-.sm-bg-clr-primary-brand-blue-500-focus:focus,
-.sm-bg-clr-primary-brand-blue-500-visited:visited,
-.sm-bg-clr-primary-brand-blue-500-focus-within,
-.sm-bg-clr-primary-brand-blue-500-focus-visible:focus-visible,
-.sm-bg-clr-primary-brand-blue-500-target:target {
-    background-color: #1e3888;
-  }
-  .sm-clr-primary-brand-blue-400 {
-    color: #354c94;
-  }
-  .sm-bg-clr-primary-brand-blue-400 {
-    background-color: #354c94;
-  }
-  .sm-clr-primary-brand-blue-400-active:active,
-.sm-clr-primary-brand-blue-400-hover:hover,
-.sm-clr-primary-brand-blue-400-focus:focus,
-.sm-clr-primary-brand-blue-400-visited:visited,
-.sm-clr-primary-brand-blue-400-focus-within,
-.sm-clr-primary-brand-blue-400-focus-visible:focus-visible,
-.sm-clr-primary-brand-blue-400-target:target {
-    color: #354c94;
-  }
-  .sm-bg-clr-primary-brand-blue-400-active:active,
-.sm-bg-clr-primary-brand-blue-400-hover:hover,
-.sm-bg-clr-primary-brand-blue-400-focus:focus,
-.sm-bg-clr-primary-brand-blue-400-visited:visited,
-.sm-bg-clr-primary-brand-blue-400-focus-within,
-.sm-bg-clr-primary-brand-blue-400-focus-visible:focus-visible,
-.sm-bg-clr-primary-brand-blue-400-target:target {
-    background-color: #354c94;
-  }
-  .sm-clr-primary-brand-blue-300 {
-    color: #4b60a0;
-  }
-  .sm-bg-clr-primary-brand-blue-300 {
-    background-color: #4b60a0;
-  }
-  .sm-clr-primary-brand-blue-300-active:active,
-.sm-clr-primary-brand-blue-300-hover:hover,
-.sm-clr-primary-brand-blue-300-focus:focus,
-.sm-clr-primary-brand-blue-300-visited:visited,
-.sm-clr-primary-brand-blue-300-focus-within,
-.sm-clr-primary-brand-blue-300-focus-visible:focus-visible,
-.sm-clr-primary-brand-blue-300-target:target {
-    color: #4b60a0;
-  }
-  .sm-bg-clr-primary-brand-blue-300-active:active,
-.sm-bg-clr-primary-brand-blue-300-hover:hover,
-.sm-bg-clr-primary-brand-blue-300-focus:focus,
-.sm-bg-clr-primary-brand-blue-300-visited:visited,
-.sm-bg-clr-primary-brand-blue-300-focus-within,
-.sm-bg-clr-primary-brand-blue-300-focus-visible:focus-visible,
-.sm-bg-clr-primary-brand-blue-300-target:target {
-    background-color: #4b60a0;
-  }
-  .sm-clr-primary-brand-blue-200 {
-    color: #7888b8;
-  }
-  .sm-bg-clr-primary-brand-blue-200 {
-    background-color: #7888b8;
-  }
-  .sm-clr-primary-brand-blue-200-active:active,
-.sm-clr-primary-brand-blue-200-hover:hover,
-.sm-clr-primary-brand-blue-200-focus:focus,
-.sm-clr-primary-brand-blue-200-visited:visited,
-.sm-clr-primary-brand-blue-200-focus-within,
-.sm-clr-primary-brand-blue-200-focus-visible:focus-visible,
-.sm-clr-primary-brand-blue-200-target:target {
-    color: #7888b8;
-  }
-  .sm-bg-clr-primary-brand-blue-200-active:active,
-.sm-bg-clr-primary-brand-blue-200-hover:hover,
-.sm-bg-clr-primary-brand-blue-200-focus:focus,
-.sm-bg-clr-primary-brand-blue-200-visited:visited,
-.sm-bg-clr-primary-brand-blue-200-focus-within,
-.sm-bg-clr-primary-brand-blue-200-focus-visible:focus-visible,
-.sm-bg-clr-primary-brand-blue-200-target:target {
-    background-color: #7888b8;
-  }
-  .sm-clr-primary-brand-blue-100 {
-    color: #bcc3db;
-  }
-  .sm-bg-clr-primary-brand-blue-100 {
-    background-color: #bcc3db;
-  }
-  .sm-clr-primary-brand-blue-100-active:active,
-.sm-clr-primary-brand-blue-100-hover:hover,
-.sm-clr-primary-brand-blue-100-focus:focus,
-.sm-clr-primary-brand-blue-100-visited:visited,
-.sm-clr-primary-brand-blue-100-focus-within,
-.sm-clr-primary-brand-blue-100-focus-visible:focus-visible,
-.sm-clr-primary-brand-blue-100-target:target {
-    color: #bcc3db;
-  }
-  .sm-bg-clr-primary-brand-blue-100-active:active,
-.sm-bg-clr-primary-brand-blue-100-hover:hover,
-.sm-bg-clr-primary-brand-blue-100-focus:focus,
-.sm-bg-clr-primary-brand-blue-100-visited:visited,
-.sm-bg-clr-primary-brand-blue-100-focus-within,
-.sm-bg-clr-primary-brand-blue-100-focus-visible:focus-visible,
-.sm-bg-clr-primary-brand-blue-100-target:target {
-    background-color: #bcc3db;
-  }
-  .sm-clr-secondary-brand-yellow-900 {
-    color: #713f12;
-  }
-  .sm-bg-clr-secondary-brand-yellow-900 {
-    background-color: #713f12;
-  }
-  .sm-clr-secondary-brand-yellow-900-active:active,
-.sm-clr-secondary-brand-yellow-900-hover:hover,
-.sm-clr-secondary-brand-yellow-900-focus:focus,
-.sm-clr-secondary-brand-yellow-900-visited:visited,
-.sm-clr-secondary-brand-yellow-900-focus-within,
-.sm-clr-secondary-brand-yellow-900-focus-visible:focus-visible,
-.sm-clr-secondary-brand-yellow-900-target:target {
-    color: #713f12;
-  }
-  .sm-bg-clr-secondary-brand-yellow-900-active:active,
-.sm-bg-clr-secondary-brand-yellow-900-hover:hover,
-.sm-bg-clr-secondary-brand-yellow-900-focus:focus,
-.sm-bg-clr-secondary-brand-yellow-900-visited:visited,
-.sm-bg-clr-secondary-brand-yellow-900-focus-within,
-.sm-bg-clr-secondary-brand-yellow-900-focus-visible:focus-visible,
-.sm-bg-clr-secondary-brand-yellow-900-target:target {
-    background-color: #713f12;
-  }
-  .sm-clr-secondary-brand-yellow-800 {
-    color: #854d0e;
-  }
-  .sm-bg-clr-secondary-brand-yellow-800 {
-    background-color: #854d0e;
-  }
-  .sm-clr-secondary-brand-yellow-800-active:active,
-.sm-clr-secondary-brand-yellow-800-hover:hover,
-.sm-clr-secondary-brand-yellow-800-focus:focus,
-.sm-clr-secondary-brand-yellow-800-visited:visited,
-.sm-clr-secondary-brand-yellow-800-focus-within,
-.sm-clr-secondary-brand-yellow-800-focus-visible:focus-visible,
-.sm-clr-secondary-brand-yellow-800-target:target {
-    color: #854d0e;
-  }
-  .sm-bg-clr-secondary-brand-yellow-800-active:active,
-.sm-bg-clr-secondary-brand-yellow-800-hover:hover,
-.sm-bg-clr-secondary-brand-yellow-800-focus:focus,
-.sm-bg-clr-secondary-brand-yellow-800-visited:visited,
-.sm-bg-clr-secondary-brand-yellow-800-focus-within,
-.sm-bg-clr-secondary-brand-yellow-800-focus-visible:focus-visible,
-.sm-bg-clr-secondary-brand-yellow-800-target:target {
-    background-color: #854d0e;
-  }
-  .sm-clr-secondary-brand-yellow-700 {
-    color: #a16207;
-  }
-  .sm-bg-clr-secondary-brand-yellow-700 {
-    background-color: #a16207;
-  }
-  .sm-clr-secondary-brand-yellow-700-active:active,
-.sm-clr-secondary-brand-yellow-700-hover:hover,
-.sm-clr-secondary-brand-yellow-700-focus:focus,
-.sm-clr-secondary-brand-yellow-700-visited:visited,
-.sm-clr-secondary-brand-yellow-700-focus-within,
-.sm-clr-secondary-brand-yellow-700-focus-visible:focus-visible,
-.sm-clr-secondary-brand-yellow-700-target:target {
-    color: #a16207;
-  }
-  .sm-bg-clr-secondary-brand-yellow-700-active:active,
-.sm-bg-clr-secondary-brand-yellow-700-hover:hover,
-.sm-bg-clr-secondary-brand-yellow-700-focus:focus,
-.sm-bg-clr-secondary-brand-yellow-700-visited:visited,
-.sm-bg-clr-secondary-brand-yellow-700-focus-within,
-.sm-bg-clr-secondary-brand-yellow-700-focus-visible:focus-visible,
-.sm-bg-clr-secondary-brand-yellow-700-target:target {
-    background-color: #a16207;
-  }
-  .sm-clr-secondary-brand-yellow-600 {
-    color: #ca8a04;
-  }
-  .sm-bg-clr-secondary-brand-yellow-600 {
-    background-color: #ca8a04;
-  }
-  .sm-clr-secondary-brand-yellow-600-active:active,
-.sm-clr-secondary-brand-yellow-600-hover:hover,
-.sm-clr-secondary-brand-yellow-600-focus:focus,
-.sm-clr-secondary-brand-yellow-600-visited:visited,
-.sm-clr-secondary-brand-yellow-600-focus-within,
-.sm-clr-secondary-brand-yellow-600-focus-visible:focus-visible,
-.sm-clr-secondary-brand-yellow-600-target:target {
-    color: #ca8a04;
-  }
-  .sm-bg-clr-secondary-brand-yellow-600-active:active,
-.sm-bg-clr-secondary-brand-yellow-600-hover:hover,
-.sm-bg-clr-secondary-brand-yellow-600-focus:focus,
-.sm-bg-clr-secondary-brand-yellow-600-visited:visited,
-.sm-bg-clr-secondary-brand-yellow-600-focus-within,
-.sm-bg-clr-secondary-brand-yellow-600-focus-visible:focus-visible,
-.sm-bg-clr-secondary-brand-yellow-600-target:target {
-    background-color: #ca8a04;
-  }
-  .sm-clr-secondary-brand-yellow-500 {
-    color: #eab308;
-  }
-  .sm-bg-clr-secondary-brand-yellow-500 {
-    background-color: #eab308;
-  }
-  .sm-clr-secondary-brand-yellow-500-active:active,
-.sm-clr-secondary-brand-yellow-500-hover:hover,
-.sm-clr-secondary-brand-yellow-500-focus:focus,
-.sm-clr-secondary-brand-yellow-500-visited:visited,
-.sm-clr-secondary-brand-yellow-500-focus-within,
-.sm-clr-secondary-brand-yellow-500-focus-visible:focus-visible,
-.sm-clr-secondary-brand-yellow-500-target:target {
-    color: #eab308;
-  }
-  .sm-bg-clr-secondary-brand-yellow-500-active:active,
-.sm-bg-clr-secondary-brand-yellow-500-hover:hover,
-.sm-bg-clr-secondary-brand-yellow-500-focus:focus,
-.sm-bg-clr-secondary-brand-yellow-500-visited:visited,
-.sm-bg-clr-secondary-brand-yellow-500-focus-within,
-.sm-bg-clr-secondary-brand-yellow-500-focus-visible:focus-visible,
-.sm-bg-clr-secondary-brand-yellow-500-target:target {
-    background-color: #eab308;
-  }
-  .sm-clr-secondary-brand-yellow-400 {
-    color: #facc15;
-  }
-  .sm-bg-clr-secondary-brand-yellow-400 {
-    background-color: #facc15;
-  }
-  .sm-clr-secondary-brand-yellow-400-active:active,
-.sm-clr-secondary-brand-yellow-400-hover:hover,
-.sm-clr-secondary-brand-yellow-400-focus:focus,
-.sm-clr-secondary-brand-yellow-400-visited:visited,
-.sm-clr-secondary-brand-yellow-400-focus-within,
-.sm-clr-secondary-brand-yellow-400-focus-visible:focus-visible,
-.sm-clr-secondary-brand-yellow-400-target:target {
-    color: #facc15;
-  }
-  .sm-bg-clr-secondary-brand-yellow-400-active:active,
-.sm-bg-clr-secondary-brand-yellow-400-hover:hover,
-.sm-bg-clr-secondary-brand-yellow-400-focus:focus,
-.sm-bg-clr-secondary-brand-yellow-400-visited:visited,
-.sm-bg-clr-secondary-brand-yellow-400-focus-within,
-.sm-bg-clr-secondary-brand-yellow-400-focus-visible:focus-visible,
-.sm-bg-clr-secondary-brand-yellow-400-target:target {
-    background-color: #facc15;
-  }
-  .sm-clr-secondary-brand-yellow-300 {
-    color: #fde047;
-  }
-  .sm-bg-clr-secondary-brand-yellow-300 {
-    background-color: #fde047;
-  }
-  .sm-clr-secondary-brand-yellow-300-active:active,
-.sm-clr-secondary-brand-yellow-300-hover:hover,
-.sm-clr-secondary-brand-yellow-300-focus:focus,
-.sm-clr-secondary-brand-yellow-300-visited:visited,
-.sm-clr-secondary-brand-yellow-300-focus-within,
-.sm-clr-secondary-brand-yellow-300-focus-visible:focus-visible,
-.sm-clr-secondary-brand-yellow-300-target:target {
-    color: #fde047;
-  }
-  .sm-bg-clr-secondary-brand-yellow-300-active:active,
-.sm-bg-clr-secondary-brand-yellow-300-hover:hover,
-.sm-bg-clr-secondary-brand-yellow-300-focus:focus,
-.sm-bg-clr-secondary-brand-yellow-300-visited:visited,
-.sm-bg-clr-secondary-brand-yellow-300-focus-within,
-.sm-bg-clr-secondary-brand-yellow-300-focus-visible:focus-visible,
-.sm-bg-clr-secondary-brand-yellow-300-target:target {
-    background-color: #fde047;
-  }
-  .sm-clr-secondary-brand-yellow-200 {
-    color: #fde68a;
-  }
-  .sm-bg-clr-secondary-brand-yellow-200 {
-    background-color: #fde68a;
-  }
-  .sm-clr-secondary-brand-yellow-200-active:active,
-.sm-clr-secondary-brand-yellow-200-hover:hover,
-.sm-clr-secondary-brand-yellow-200-focus:focus,
-.sm-clr-secondary-brand-yellow-200-visited:visited,
-.sm-clr-secondary-brand-yellow-200-focus-within,
-.sm-clr-secondary-brand-yellow-200-focus-visible:focus-visible,
-.sm-clr-secondary-brand-yellow-200-target:target {
-    color: #fde68a;
-  }
-  .sm-bg-clr-secondary-brand-yellow-200-active:active,
-.sm-bg-clr-secondary-brand-yellow-200-hover:hover,
-.sm-bg-clr-secondary-brand-yellow-200-focus:focus,
-.sm-bg-clr-secondary-brand-yellow-200-visited:visited,
-.sm-bg-clr-secondary-brand-yellow-200-focus-within,
-.sm-bg-clr-secondary-brand-yellow-200-focus-visible:focus-visible,
-.sm-bg-clr-secondary-brand-yellow-200-target:target {
-    background-color: #fde68a;
-  }
-  .sm-clr-secondary-brand-yellow-100 {
-    color: #fef3c7;
-  }
-  .sm-bg-clr-secondary-brand-yellow-100 {
-    background-color: #fef3c7;
-  }
-  .sm-clr-secondary-brand-yellow-100-active:active,
-.sm-clr-secondary-brand-yellow-100-hover:hover,
-.sm-clr-secondary-brand-yellow-100-focus:focus,
-.sm-clr-secondary-brand-yellow-100-visited:visited,
-.sm-clr-secondary-brand-yellow-100-focus-within,
-.sm-clr-secondary-brand-yellow-100-focus-visible:focus-visible,
-.sm-clr-secondary-brand-yellow-100-target:target {
-    color: #fef3c7;
-  }
-  .sm-bg-clr-secondary-brand-yellow-100-active:active,
-.sm-bg-clr-secondary-brand-yellow-100-hover:hover,
-.sm-bg-clr-secondary-brand-yellow-100-focus:focus,
-.sm-bg-clr-secondary-brand-yellow-100-visited:visited,
-.sm-bg-clr-secondary-brand-yellow-100-focus-within,
-.sm-bg-clr-secondary-brand-yellow-100-focus-visible:focus-visible,
-.sm-bg-clr-secondary-brand-yellow-100-target:target {
-    background-color: #fef3c7;
-  }
-  .sm-clr-semantic-critical-dark {
-    color: #991b1b;
-  }
-  .sm-bg-clr-semantic-critical-dark {
-    background-color: #991b1b;
-  }
-  .sm-clr-semantic-critical-dark-active:active,
-.sm-clr-semantic-critical-dark-hover:hover,
-.sm-clr-semantic-critical-dark-focus:focus,
-.sm-clr-semantic-critical-dark-visited:visited,
-.sm-clr-semantic-critical-dark-focus-within,
-.sm-clr-semantic-critical-dark-focus-visible:focus-visible,
-.sm-clr-semantic-critical-dark-target:target {
-    color: #991b1b;
-  }
-  .sm-bg-clr-semantic-critical-dark-active:active,
-.sm-bg-clr-semantic-critical-dark-hover:hover,
-.sm-bg-clr-semantic-critical-dark-focus:focus,
-.sm-bg-clr-semantic-critical-dark-visited:visited,
-.sm-bg-clr-semantic-critical-dark-focus-within,
-.sm-bg-clr-semantic-critical-dark-focus-visible:focus-visible,
-.sm-bg-clr-semantic-critical-dark-target:target {
-    background-color: #991b1b;
-  }
-  .sm-clr-semantic-critical-base {
-    color: #dc2626;
-  }
-  .sm-bg-clr-semantic-critical-base {
-    background-color: #dc2626;
-  }
-  .sm-clr-semantic-critical-base-active:active,
-.sm-clr-semantic-critical-base-hover:hover,
-.sm-clr-semantic-critical-base-focus:focus,
-.sm-clr-semantic-critical-base-visited:visited,
-.sm-clr-semantic-critical-base-focus-within,
-.sm-clr-semantic-critical-base-focus-visible:focus-visible,
-.sm-clr-semantic-critical-base-target:target {
-    color: #dc2626;
-  }
-  .sm-bg-clr-semantic-critical-base-active:active,
-.sm-bg-clr-semantic-critical-base-hover:hover,
-.sm-bg-clr-semantic-critical-base-focus:focus,
-.sm-bg-clr-semantic-critical-base-visited:visited,
-.sm-bg-clr-semantic-critical-base-focus-within,
-.sm-bg-clr-semantic-critical-base-focus-visible:focus-visible,
-.sm-bg-clr-semantic-critical-base-target:target {
-    background-color: #dc2626;
-  }
-  .sm-clr-semantic-critical-light {
-    color: #fca5a5;
-  }
-  .sm-bg-clr-semantic-critical-light {
-    background-color: #fca5a5;
-  }
-  .sm-clr-semantic-critical-light-active:active,
-.sm-clr-semantic-critical-light-hover:hover,
-.sm-clr-semantic-critical-light-focus:focus,
-.sm-clr-semantic-critical-light-visited:visited,
-.sm-clr-semantic-critical-light-focus-within,
-.sm-clr-semantic-critical-light-focus-visible:focus-visible,
-.sm-clr-semantic-critical-light-target:target {
-    color: #fca5a5;
-  }
-  .sm-bg-clr-semantic-critical-light-active:active,
-.sm-bg-clr-semantic-critical-light-hover:hover,
-.sm-bg-clr-semantic-critical-light-focus:focus,
-.sm-bg-clr-semantic-critical-light-visited:visited,
-.sm-bg-clr-semantic-critical-light-focus-within,
-.sm-bg-clr-semantic-critical-light-focus-visible:focus-visible,
-.sm-bg-clr-semantic-critical-light-target:target {
-    background-color: #fca5a5;
-  }
-  .sm-clr-semantic-warning-dark {
-    color: #9a3412;
-  }
-  .sm-bg-clr-semantic-warning-dark {
-    background-color: #9a3412;
-  }
-  .sm-clr-semantic-warning-dark-active:active,
-.sm-clr-semantic-warning-dark-hover:hover,
-.sm-clr-semantic-warning-dark-focus:focus,
-.sm-clr-semantic-warning-dark-visited:visited,
-.sm-clr-semantic-warning-dark-focus-within,
-.sm-clr-semantic-warning-dark-focus-visible:focus-visible,
-.sm-clr-semantic-warning-dark-target:target {
-    color: #9a3412;
-  }
-  .sm-bg-clr-semantic-warning-dark-active:active,
-.sm-bg-clr-semantic-warning-dark-hover:hover,
-.sm-bg-clr-semantic-warning-dark-focus:focus,
-.sm-bg-clr-semantic-warning-dark-visited:visited,
-.sm-bg-clr-semantic-warning-dark-focus-within,
-.sm-bg-clr-semantic-warning-dark-focus-visible:focus-visible,
-.sm-bg-clr-semantic-warning-dark-target:target {
-    background-color: #9a3412;
-  }
-  .sm-clr-semantic-warning-base {
-    color: #ea580c;
-  }
-  .sm-bg-clr-semantic-warning-base {
-    background-color: #ea580c;
-  }
-  .sm-clr-semantic-warning-base-active:active,
-.sm-clr-semantic-warning-base-hover:hover,
-.sm-clr-semantic-warning-base-focus:focus,
-.sm-clr-semantic-warning-base-visited:visited,
-.sm-clr-semantic-warning-base-focus-within,
-.sm-clr-semantic-warning-base-focus-visible:focus-visible,
-.sm-clr-semantic-warning-base-target:target {
-    color: #ea580c;
-  }
-  .sm-bg-clr-semantic-warning-base-active:active,
-.sm-bg-clr-semantic-warning-base-hover:hover,
-.sm-bg-clr-semantic-warning-base-focus:focus,
-.sm-bg-clr-semantic-warning-base-visited:visited,
-.sm-bg-clr-semantic-warning-base-focus-within,
-.sm-bg-clr-semantic-warning-base-focus-visible:focus-visible,
-.sm-bg-clr-semantic-warning-base-target:target {
-    background-color: #ea580c;
-  }
-  .sm-clr-semantic-warning-light {
-    color: #fdba74;
-  }
-  .sm-bg-clr-semantic-warning-light {
-    background-color: #fdba74;
-  }
-  .sm-clr-semantic-warning-light-active:active,
-.sm-clr-semantic-warning-light-hover:hover,
-.sm-clr-semantic-warning-light-focus:focus,
-.sm-clr-semantic-warning-light-visited:visited,
-.sm-clr-semantic-warning-light-focus-within,
-.sm-clr-semantic-warning-light-focus-visible:focus-visible,
-.sm-clr-semantic-warning-light-target:target {
-    color: #fdba74;
-  }
-  .sm-bg-clr-semantic-warning-light-active:active,
-.sm-bg-clr-semantic-warning-light-hover:hover,
-.sm-bg-clr-semantic-warning-light-focus:focus,
-.sm-bg-clr-semantic-warning-light-visited:visited,
-.sm-bg-clr-semantic-warning-light-focus-within,
-.sm-bg-clr-semantic-warning-light-focus-visible:focus-visible,
-.sm-bg-clr-semantic-warning-light-target:target {
-    background-color: #fdba74;
-  }
-  .sm-clr-semantic-success-dark {
-    color: #047857;
-  }
-  .sm-bg-clr-semantic-success-dark {
-    background-color: #047857;
-  }
-  .sm-clr-semantic-success-dark-active:active,
-.sm-clr-semantic-success-dark-hover:hover,
-.sm-clr-semantic-success-dark-focus:focus,
-.sm-clr-semantic-success-dark-visited:visited,
-.sm-clr-semantic-success-dark-focus-within,
-.sm-clr-semantic-success-dark-focus-visible:focus-visible,
-.sm-clr-semantic-success-dark-target:target {
-    color: #047857;
-  }
-  .sm-bg-clr-semantic-success-dark-active:active,
-.sm-bg-clr-semantic-success-dark-hover:hover,
-.sm-bg-clr-semantic-success-dark-focus:focus,
-.sm-bg-clr-semantic-success-dark-visited:visited,
-.sm-bg-clr-semantic-success-dark-focus-within,
-.sm-bg-clr-semantic-success-dark-focus-visible:focus-visible,
-.sm-bg-clr-semantic-success-dark-target:target {
-    background-color: #047857;
-  }
-  .sm-clr-semantic-success-base {
-    color: #10b981;
-  }
-  .sm-bg-clr-semantic-success-base {
-    background-color: #10b981;
-  }
-  .sm-clr-semantic-success-base-active:active,
-.sm-clr-semantic-success-base-hover:hover,
-.sm-clr-semantic-success-base-focus:focus,
-.sm-clr-semantic-success-base-visited:visited,
-.sm-clr-semantic-success-base-focus-within,
-.sm-clr-semantic-success-base-focus-visible:focus-visible,
-.sm-clr-semantic-success-base-target:target {
-    color: #10b981;
-  }
-  .sm-bg-clr-semantic-success-base-active:active,
-.sm-bg-clr-semantic-success-base-hover:hover,
-.sm-bg-clr-semantic-success-base-focus:focus,
-.sm-bg-clr-semantic-success-base-visited:visited,
-.sm-bg-clr-semantic-success-base-focus-within,
-.sm-bg-clr-semantic-success-base-focus-visible:focus-visible,
-.sm-bg-clr-semantic-success-base-target:target {
-    background-color: #10b981;
-  }
-  .sm-clr-semantic-success-light {
-    color: #6ee7b7;
-  }
-  .sm-bg-clr-semantic-success-light {
-    background-color: #6ee7b7;
-  }
-  .sm-clr-semantic-success-light-active:active,
-.sm-clr-semantic-success-light-hover:hover,
-.sm-clr-semantic-success-light-focus:focus,
-.sm-clr-semantic-success-light-visited:visited,
-.sm-clr-semantic-success-light-focus-within,
-.sm-clr-semantic-success-light-focus-visible:focus-visible,
-.sm-clr-semantic-success-light-target:target {
-    color: #6ee7b7;
-  }
-  .sm-bg-clr-semantic-success-light-active:active,
-.sm-bg-clr-semantic-success-light-hover:hover,
-.sm-bg-clr-semantic-success-light-focus:focus,
-.sm-bg-clr-semantic-success-light-visited:visited,
-.sm-bg-clr-semantic-success-light-focus-within,
-.sm-bg-clr-semantic-success-light-focus-visible:focus-visible,
-.sm-bg-clr-semantic-success-light-target:target {
-    background-color: #6ee7b7;
-  }
-  .sm-clr-semantic-info-dark {
-    color: #0b4b99;
-  }
-  .sm-bg-clr-semantic-info-dark {
-    background-color: #0b4b99;
-  }
-  .sm-clr-semantic-info-dark-active:active,
-.sm-clr-semantic-info-dark-hover:hover,
-.sm-clr-semantic-info-dark-focus:focus,
-.sm-clr-semantic-info-dark-visited:visited,
-.sm-clr-semantic-info-dark-focus-within,
-.sm-clr-semantic-info-dark-focus-visible:focus-visible,
-.sm-clr-semantic-info-dark-target:target {
-    color: #0b4b99;
-  }
-  .sm-bg-clr-semantic-info-dark-active:active,
-.sm-bg-clr-semantic-info-dark-hover:hover,
-.sm-bg-clr-semantic-info-dark-focus:focus,
-.sm-bg-clr-semantic-info-dark-visited:visited,
-.sm-bg-clr-semantic-info-dark-focus-within,
-.sm-bg-clr-semantic-info-dark-focus-visible:focus-visible,
-.sm-bg-clr-semantic-info-dark-target:target {
-    background-color: #0b4b99;
-  }
-  .sm-clr-semantic-info-base {
-    color: #106bda;
-  }
-  .sm-bg-clr-semantic-info-base {
-    background-color: #106bda;
-  }
-  .sm-clr-semantic-info-base-active:active,
-.sm-clr-semantic-info-base-hover:hover,
-.sm-clr-semantic-info-base-focus:focus,
-.sm-clr-semantic-info-base-visited:visited,
-.sm-clr-semantic-info-base-focus-within,
-.sm-clr-semantic-info-base-focus-visible:focus-visible,
-.sm-clr-semantic-info-base-target:target {
-    color: #106bda;
-  }
-  .sm-bg-clr-semantic-info-base-active:active,
-.sm-bg-clr-semantic-info-base-hover:hover,
-.sm-bg-clr-semantic-info-base-focus:focus,
-.sm-bg-clr-semantic-info-base-visited:visited,
-.sm-bg-clr-semantic-info-base-focus-within,
-.sm-bg-clr-semantic-info-base-focus-visible:focus-visible,
-.sm-bg-clr-semantic-info-base-target:target {
-    background-color: #106bda;
-  }
-  .sm-clr-semantic-info-light {
-    color: #88b5ed;
-  }
-  .sm-bg-clr-semantic-info-light {
-    background-color: #88b5ed;
-  }
-  .sm-clr-semantic-info-light-active:active,
-.sm-clr-semantic-info-light-hover:hover,
-.sm-clr-semantic-info-light-focus:focus,
-.sm-clr-semantic-info-light-visited:visited,
-.sm-clr-semantic-info-light-focus-within,
-.sm-clr-semantic-info-light-focus-visible:focus-visible,
-.sm-clr-semantic-info-light-target:target {
-    color: #88b5ed;
-  }
-  .sm-bg-clr-semantic-info-light-active:active,
-.sm-bg-clr-semantic-info-light-hover:hover,
-.sm-bg-clr-semantic-info-light-focus:focus,
-.sm-bg-clr-semantic-info-light-visited:visited,
-.sm-bg-clr-semantic-info-light-focus-within,
-.sm-bg-clr-semantic-info-light-focus-visible:focus-visible,
-.sm-bg-clr-semantic-info-light-target:target {
-    background-color: #88b5ed;
-  }
-  .sm-clr-grayscale-shade-absblack {
-    color: #000000;
-  }
-  .sm-bg-clr-grayscale-shade-absblack {
-    background-color: #000000;
-  }
-  .sm-clr-grayscale-shade-absblack-active:active,
-.sm-clr-grayscale-shade-absblack-hover:hover,
-.sm-clr-grayscale-shade-absblack-focus:focus,
-.sm-clr-grayscale-shade-absblack-visited:visited,
-.sm-clr-grayscale-shade-absblack-focus-within,
-.sm-clr-grayscale-shade-absblack-focus-visible:focus-visible,
-.sm-clr-grayscale-shade-absblack-target:target {
-    color: #000000;
-  }
-  .sm-bg-clr-grayscale-shade-absblack-active:active,
-.sm-bg-clr-grayscale-shade-absblack-hover:hover,
-.sm-bg-clr-grayscale-shade-absblack-focus:focus,
-.sm-bg-clr-grayscale-shade-absblack-visited:visited,
-.sm-bg-clr-grayscale-shade-absblack-focus-within,
-.sm-bg-clr-grayscale-shade-absblack-focus-visible:focus-visible,
-.sm-bg-clr-grayscale-shade-absblack-target:target {
-    background-color: #000000;
-  }
-  .sm-clr-grayscale-shade-900 {
-    color: #0f172a;
-  }
-  .sm-bg-clr-grayscale-shade-900 {
-    background-color: #0f172a;
-  }
-  .sm-clr-grayscale-shade-900-active:active,
-.sm-clr-grayscale-shade-900-hover:hover,
-.sm-clr-grayscale-shade-900-focus:focus,
-.sm-clr-grayscale-shade-900-visited:visited,
-.sm-clr-grayscale-shade-900-focus-within,
-.sm-clr-grayscale-shade-900-focus-visible:focus-visible,
-.sm-clr-grayscale-shade-900-target:target {
-    color: #0f172a;
-  }
-  .sm-bg-clr-grayscale-shade-900-active:active,
-.sm-bg-clr-grayscale-shade-900-hover:hover,
-.sm-bg-clr-grayscale-shade-900-focus:focus,
-.sm-bg-clr-grayscale-shade-900-visited:visited,
-.sm-bg-clr-grayscale-shade-900-focus-within,
-.sm-bg-clr-grayscale-shade-900-focus-visible:focus-visible,
-.sm-bg-clr-grayscale-shade-900-target:target {
-    background-color: #0f172a;
-  }
-  .sm-clr-grayscale-shade-800 {
-    color: #1e293b;
-  }
-  .sm-bg-clr-grayscale-shade-800 {
-    background-color: #1e293b;
-  }
-  .sm-clr-grayscale-shade-800-active:active,
-.sm-clr-grayscale-shade-800-hover:hover,
-.sm-clr-grayscale-shade-800-focus:focus,
-.sm-clr-grayscale-shade-800-visited:visited,
-.sm-clr-grayscale-shade-800-focus-within,
-.sm-clr-grayscale-shade-800-focus-visible:focus-visible,
-.sm-clr-grayscale-shade-800-target:target {
-    color: #1e293b;
-  }
-  .sm-bg-clr-grayscale-shade-800-active:active,
-.sm-bg-clr-grayscale-shade-800-hover:hover,
-.sm-bg-clr-grayscale-shade-800-focus:focus,
-.sm-bg-clr-grayscale-shade-800-visited:visited,
-.sm-bg-clr-grayscale-shade-800-focus-within,
-.sm-bg-clr-grayscale-shade-800-focus-visible:focus-visible,
-.sm-bg-clr-grayscale-shade-800-target:target {
-    background-color: #1e293b;
-  }
-  .sm-clr-grayscale-shade-700 {
-    color: #334155;
-  }
-  .sm-bg-clr-grayscale-shade-700 {
-    background-color: #334155;
-  }
-  .sm-clr-grayscale-shade-700-active:active,
-.sm-clr-grayscale-shade-700-hover:hover,
-.sm-clr-grayscale-shade-700-focus:focus,
-.sm-clr-grayscale-shade-700-visited:visited,
-.sm-clr-grayscale-shade-700-focus-within,
-.sm-clr-grayscale-shade-700-focus-visible:focus-visible,
-.sm-clr-grayscale-shade-700-target:target {
-    color: #334155;
-  }
-  .sm-bg-clr-grayscale-shade-700-active:active,
-.sm-bg-clr-grayscale-shade-700-hover:hover,
-.sm-bg-clr-grayscale-shade-700-focus:focus,
-.sm-bg-clr-grayscale-shade-700-visited:visited,
-.sm-bg-clr-grayscale-shade-700-focus-within,
-.sm-bg-clr-grayscale-shade-700-focus-visible:focus-visible,
-.sm-bg-clr-grayscale-shade-700-target:target {
-    background-color: #334155;
-  }
-  .sm-clr-grayscale-shade-600 {
-    color: #475569;
-  }
-  .sm-bg-clr-grayscale-shade-600 {
-    background-color: #475569;
-  }
-  .sm-clr-grayscale-shade-600-active:active,
-.sm-clr-grayscale-shade-600-hover:hover,
-.sm-clr-grayscale-shade-600-focus:focus,
-.sm-clr-grayscale-shade-600-visited:visited,
-.sm-clr-grayscale-shade-600-focus-within,
-.sm-clr-grayscale-shade-600-focus-visible:focus-visible,
-.sm-clr-grayscale-shade-600-target:target {
-    color: #475569;
-  }
-  .sm-bg-clr-grayscale-shade-600-active:active,
-.sm-bg-clr-grayscale-shade-600-hover:hover,
-.sm-bg-clr-grayscale-shade-600-focus:focus,
-.sm-bg-clr-grayscale-shade-600-visited:visited,
-.sm-bg-clr-grayscale-shade-600-focus-within,
-.sm-bg-clr-grayscale-shade-600-focus-visible:focus-visible,
-.sm-bg-clr-grayscale-shade-600-target:target {
-    background-color: #475569;
-  }
-  .sm-clr-grayscale-shade-500 {
-    color: #64748b;
-  }
-  .sm-bg-clr-grayscale-shade-500 {
-    background-color: #64748b;
-  }
-  .sm-clr-grayscale-shade-500-active:active,
-.sm-clr-grayscale-shade-500-hover:hover,
-.sm-clr-grayscale-shade-500-focus:focus,
-.sm-clr-grayscale-shade-500-visited:visited,
-.sm-clr-grayscale-shade-500-focus-within,
-.sm-clr-grayscale-shade-500-focus-visible:focus-visible,
-.sm-clr-grayscale-shade-500-target:target {
-    color: #64748b;
-  }
-  .sm-bg-clr-grayscale-shade-500-active:active,
-.sm-bg-clr-grayscale-shade-500-hover:hover,
-.sm-bg-clr-grayscale-shade-500-focus:focus,
-.sm-bg-clr-grayscale-shade-500-visited:visited,
-.sm-bg-clr-grayscale-shade-500-focus-within,
-.sm-bg-clr-grayscale-shade-500-focus-visible:focus-visible,
-.sm-bg-clr-grayscale-shade-500-target:target {
-    background-color: #64748b;
-  }
-  .sm-clr-grayscale-shade-400 {
-    color: #94a3b8;
-  }
-  .sm-bg-clr-grayscale-shade-400 {
-    background-color: #94a3b8;
-  }
-  .sm-clr-grayscale-shade-400-active:active,
-.sm-clr-grayscale-shade-400-hover:hover,
-.sm-clr-grayscale-shade-400-focus:focus,
-.sm-clr-grayscale-shade-400-visited:visited,
-.sm-clr-grayscale-shade-400-focus-within,
-.sm-clr-grayscale-shade-400-focus-visible:focus-visible,
-.sm-clr-grayscale-shade-400-target:target {
-    color: #94a3b8;
-  }
-  .sm-bg-clr-grayscale-shade-400-active:active,
-.sm-bg-clr-grayscale-shade-400-hover:hover,
-.sm-bg-clr-grayscale-shade-400-focus:focus,
-.sm-bg-clr-grayscale-shade-400-visited:visited,
-.sm-bg-clr-grayscale-shade-400-focus-within,
-.sm-bg-clr-grayscale-shade-400-focus-visible:focus-visible,
-.sm-bg-clr-grayscale-shade-400-target:target {
-    background-color: #94a3b8;
-  }
-  .sm-clr-grayscale-shade-300 {
-    color: #cbd5e1;
-  }
-  .sm-bg-clr-grayscale-shade-300 {
-    background-color: #cbd5e1;
-  }
-  .sm-clr-grayscale-shade-300-active:active,
-.sm-clr-grayscale-shade-300-hover:hover,
-.sm-clr-grayscale-shade-300-focus:focus,
-.sm-clr-grayscale-shade-300-visited:visited,
-.sm-clr-grayscale-shade-300-focus-within,
-.sm-clr-grayscale-shade-300-focus-visible:focus-visible,
-.sm-clr-grayscale-shade-300-target:target {
-    color: #cbd5e1;
-  }
-  .sm-bg-clr-grayscale-shade-300-active:active,
-.sm-bg-clr-grayscale-shade-300-hover:hover,
-.sm-bg-clr-grayscale-shade-300-focus:focus,
-.sm-bg-clr-grayscale-shade-300-visited:visited,
-.sm-bg-clr-grayscale-shade-300-focus-within,
-.sm-bg-clr-grayscale-shade-300-focus-visible:focus-visible,
-.sm-bg-clr-grayscale-shade-300-target:target {
-    background-color: #cbd5e1;
-  }
-  .sm-clr-grayscale-shade-200 {
-    color: #e2e8f0;
-  }
-  .sm-bg-clr-grayscale-shade-200 {
-    background-color: #e2e8f0;
-  }
-  .sm-clr-grayscale-shade-200-active:active,
-.sm-clr-grayscale-shade-200-hover:hover,
-.sm-clr-grayscale-shade-200-focus:focus,
-.sm-clr-grayscale-shade-200-visited:visited,
-.sm-clr-grayscale-shade-200-focus-within,
-.sm-clr-grayscale-shade-200-focus-visible:focus-visible,
-.sm-clr-grayscale-shade-200-target:target {
-    color: #e2e8f0;
-  }
-  .sm-bg-clr-grayscale-shade-200-active:active,
-.sm-bg-clr-grayscale-shade-200-hover:hover,
-.sm-bg-clr-grayscale-shade-200-focus:focus,
-.sm-bg-clr-grayscale-shade-200-visited:visited,
-.sm-bg-clr-grayscale-shade-200-focus-within,
-.sm-bg-clr-grayscale-shade-200-focus-visible:focus-visible,
-.sm-bg-clr-grayscale-shade-200-target:target {
-    background-color: #e2e8f0;
-  }
-  .sm-clr-grayscale-shade-100 {
-    color: #f1f5f9;
-  }
-  .sm-bg-clr-grayscale-shade-100 {
-    background-color: #f1f5f9;
-  }
-  .sm-clr-grayscale-shade-100-active:active,
-.sm-clr-grayscale-shade-100-hover:hover,
-.sm-clr-grayscale-shade-100-focus:focus,
-.sm-clr-grayscale-shade-100-visited:visited,
-.sm-clr-grayscale-shade-100-focus-within,
-.sm-clr-grayscale-shade-100-focus-visible:focus-visible,
-.sm-clr-grayscale-shade-100-target:target {
-    color: #f1f5f9;
-  }
-  .sm-bg-clr-grayscale-shade-100-active:active,
-.sm-bg-clr-grayscale-shade-100-hover:hover,
-.sm-bg-clr-grayscale-shade-100-focus:focus,
-.sm-bg-clr-grayscale-shade-100-visited:visited,
-.sm-bg-clr-grayscale-shade-100-focus-within,
-.sm-bg-clr-grayscale-shade-100-focus-visible:focus-visible,
-.sm-bg-clr-grayscale-shade-100-target:target {
-    background-color: #f1f5f9;
-  }
-  .sm-clr-grayscale-shade-abswhite {
-    color: #ffffff;
-  }
-  .sm-bg-clr-grayscale-shade-abswhite {
-    background-color: #ffffff;
-  }
-  .sm-clr-grayscale-shade-abswhite-active:active,
-.sm-clr-grayscale-shade-abswhite-hover:hover,
-.sm-clr-grayscale-shade-abswhite-focus:focus,
-.sm-clr-grayscale-shade-abswhite-visited:visited,
-.sm-clr-grayscale-shade-abswhite-focus-within,
-.sm-clr-grayscale-shade-abswhite-focus-visible:focus-visible,
-.sm-clr-grayscale-shade-abswhite-target:target {
-    color: #ffffff;
-  }
-  .sm-bg-clr-grayscale-shade-abswhite-active:active,
-.sm-bg-clr-grayscale-shade-abswhite-hover:hover,
-.sm-bg-clr-grayscale-shade-abswhite-focus:focus,
-.sm-bg-clr-grayscale-shade-abswhite-visited:visited,
-.sm-bg-clr-grayscale-shade-abswhite-focus-within,
-.sm-bg-clr-grayscale-shade-abswhite-focus-visible:focus-visible,
-.sm-bg-clr-grayscale-shade-abswhite-target:target {
-    background-color: #ffffff;
-  }
 }
 @media only screen and (min-width: 1200px) {
   .md-ft-header-1 {
@@ -1881,990 +897,6 @@
   }
   .md-lh-lineheight-5 {
     line-height: 2;
-  }
-  .md-clr-primary-brand-blue-900 {
-    color: #122252;
-  }
-  .md-bg-clr-primary-brand-blue-900 {
-    background-color: #122252;
-  }
-  .md-clr-primary-brand-blue-900-active:active,
-.md-clr-primary-brand-blue-900-hover:hover,
-.md-clr-primary-brand-blue-900-focus:focus,
-.md-clr-primary-brand-blue-900-visited:visited,
-.md-clr-primary-brand-blue-900-focus-within,
-.md-clr-primary-brand-blue-900-focus-visible:focus-visible,
-.md-clr-primary-brand-blue-900-target:target {
-    color: #122252;
-  }
-  .md-bg-clr-primary-brand-blue-900-active:active,
-.md-bg-clr-primary-brand-blue-900-hover:hover,
-.md-bg-clr-primary-brand-blue-900-focus:focus,
-.md-bg-clr-primary-brand-blue-900-visited:visited,
-.md-bg-clr-primary-brand-blue-900-focus-within,
-.md-bg-clr-primary-brand-blue-900-focus-visible:focus-visible,
-.md-bg-clr-primary-brand-blue-900-target:target {
-    background-color: #122252;
-  }
-  .md-clr-primary-brand-blue-800 {
-    color: #15275f;
-  }
-  .md-bg-clr-primary-brand-blue-800 {
-    background-color: #15275f;
-  }
-  .md-clr-primary-brand-blue-800-active:active,
-.md-clr-primary-brand-blue-800-hover:hover,
-.md-clr-primary-brand-blue-800-focus:focus,
-.md-clr-primary-brand-blue-800-visited:visited,
-.md-clr-primary-brand-blue-800-focus-within,
-.md-clr-primary-brand-blue-800-focus-visible:focus-visible,
-.md-clr-primary-brand-blue-800-target:target {
-    color: #15275f;
-  }
-  .md-bg-clr-primary-brand-blue-800-active:active,
-.md-bg-clr-primary-brand-blue-800-hover:hover,
-.md-bg-clr-primary-brand-blue-800-focus:focus,
-.md-bg-clr-primary-brand-blue-800-visited:visited,
-.md-bg-clr-primary-brand-blue-800-focus-within,
-.md-bg-clr-primary-brand-blue-800-focus-visible:focus-visible,
-.md-bg-clr-primary-brand-blue-800-target:target {
-    background-color: #15275f;
-  }
-  .md-clr-primary-brand-blue-700 {
-    color: #182d6d;
-  }
-  .md-bg-clr-primary-brand-blue-700 {
-    background-color: #182d6d;
-  }
-  .md-clr-primary-brand-blue-700-active:active,
-.md-clr-primary-brand-blue-700-hover:hover,
-.md-clr-primary-brand-blue-700-focus:focus,
-.md-clr-primary-brand-blue-700-visited:visited,
-.md-clr-primary-brand-blue-700-focus-within,
-.md-clr-primary-brand-blue-700-focus-visible:focus-visible,
-.md-clr-primary-brand-blue-700-target:target {
-    color: #182d6d;
-  }
-  .md-bg-clr-primary-brand-blue-700-active:active,
-.md-bg-clr-primary-brand-blue-700-hover:hover,
-.md-bg-clr-primary-brand-blue-700-focus:focus,
-.md-bg-clr-primary-brand-blue-700-visited:visited,
-.md-bg-clr-primary-brand-blue-700-focus-within,
-.md-bg-clr-primary-brand-blue-700-focus-visible:focus-visible,
-.md-bg-clr-primary-brand-blue-700-target:target {
-    background-color: #182d6d;
-  }
-  .md-clr-primary-brand-blue-600 {
-    color: #1b327a;
-  }
-  .md-bg-clr-primary-brand-blue-600 {
-    background-color: #1b327a;
-  }
-  .md-clr-primary-brand-blue-600-active:active,
-.md-clr-primary-brand-blue-600-hover:hover,
-.md-clr-primary-brand-blue-600-focus:focus,
-.md-clr-primary-brand-blue-600-visited:visited,
-.md-clr-primary-brand-blue-600-focus-within,
-.md-clr-primary-brand-blue-600-focus-visible:focus-visible,
-.md-clr-primary-brand-blue-600-target:target {
-    color: #1b327a;
-  }
-  .md-bg-clr-primary-brand-blue-600-active:active,
-.md-bg-clr-primary-brand-blue-600-hover:hover,
-.md-bg-clr-primary-brand-blue-600-focus:focus,
-.md-bg-clr-primary-brand-blue-600-visited:visited,
-.md-bg-clr-primary-brand-blue-600-focus-within,
-.md-bg-clr-primary-brand-blue-600-focus-visible:focus-visible,
-.md-bg-clr-primary-brand-blue-600-target:target {
-    background-color: #1b327a;
-  }
-  .md-clr-primary-brand-blue-500 {
-    color: #1e3888;
-  }
-  .md-bg-clr-primary-brand-blue-500 {
-    background-color: #1e3888;
-  }
-  .md-clr-primary-brand-blue-500-active:active,
-.md-clr-primary-brand-blue-500-hover:hover,
-.md-clr-primary-brand-blue-500-focus:focus,
-.md-clr-primary-brand-blue-500-visited:visited,
-.md-clr-primary-brand-blue-500-focus-within,
-.md-clr-primary-brand-blue-500-focus-visible:focus-visible,
-.md-clr-primary-brand-blue-500-target:target {
-    color: #1e3888;
-  }
-  .md-bg-clr-primary-brand-blue-500-active:active,
-.md-bg-clr-primary-brand-blue-500-hover:hover,
-.md-bg-clr-primary-brand-blue-500-focus:focus,
-.md-bg-clr-primary-brand-blue-500-visited:visited,
-.md-bg-clr-primary-brand-blue-500-focus-within,
-.md-bg-clr-primary-brand-blue-500-focus-visible:focus-visible,
-.md-bg-clr-primary-brand-blue-500-target:target {
-    background-color: #1e3888;
-  }
-  .md-clr-primary-brand-blue-400 {
-    color: #354c94;
-  }
-  .md-bg-clr-primary-brand-blue-400 {
-    background-color: #354c94;
-  }
-  .md-clr-primary-brand-blue-400-active:active,
-.md-clr-primary-brand-blue-400-hover:hover,
-.md-clr-primary-brand-blue-400-focus:focus,
-.md-clr-primary-brand-blue-400-visited:visited,
-.md-clr-primary-brand-blue-400-focus-within,
-.md-clr-primary-brand-blue-400-focus-visible:focus-visible,
-.md-clr-primary-brand-blue-400-target:target {
-    color: #354c94;
-  }
-  .md-bg-clr-primary-brand-blue-400-active:active,
-.md-bg-clr-primary-brand-blue-400-hover:hover,
-.md-bg-clr-primary-brand-blue-400-focus:focus,
-.md-bg-clr-primary-brand-blue-400-visited:visited,
-.md-bg-clr-primary-brand-blue-400-focus-within,
-.md-bg-clr-primary-brand-blue-400-focus-visible:focus-visible,
-.md-bg-clr-primary-brand-blue-400-target:target {
-    background-color: #354c94;
-  }
-  .md-clr-primary-brand-blue-300 {
-    color: #4b60a0;
-  }
-  .md-bg-clr-primary-brand-blue-300 {
-    background-color: #4b60a0;
-  }
-  .md-clr-primary-brand-blue-300-active:active,
-.md-clr-primary-brand-blue-300-hover:hover,
-.md-clr-primary-brand-blue-300-focus:focus,
-.md-clr-primary-brand-blue-300-visited:visited,
-.md-clr-primary-brand-blue-300-focus-within,
-.md-clr-primary-brand-blue-300-focus-visible:focus-visible,
-.md-clr-primary-brand-blue-300-target:target {
-    color: #4b60a0;
-  }
-  .md-bg-clr-primary-brand-blue-300-active:active,
-.md-bg-clr-primary-brand-blue-300-hover:hover,
-.md-bg-clr-primary-brand-blue-300-focus:focus,
-.md-bg-clr-primary-brand-blue-300-visited:visited,
-.md-bg-clr-primary-brand-blue-300-focus-within,
-.md-bg-clr-primary-brand-blue-300-focus-visible:focus-visible,
-.md-bg-clr-primary-brand-blue-300-target:target {
-    background-color: #4b60a0;
-  }
-  .md-clr-primary-brand-blue-200 {
-    color: #7888b8;
-  }
-  .md-bg-clr-primary-brand-blue-200 {
-    background-color: #7888b8;
-  }
-  .md-clr-primary-brand-blue-200-active:active,
-.md-clr-primary-brand-blue-200-hover:hover,
-.md-clr-primary-brand-blue-200-focus:focus,
-.md-clr-primary-brand-blue-200-visited:visited,
-.md-clr-primary-brand-blue-200-focus-within,
-.md-clr-primary-brand-blue-200-focus-visible:focus-visible,
-.md-clr-primary-brand-blue-200-target:target {
-    color: #7888b8;
-  }
-  .md-bg-clr-primary-brand-blue-200-active:active,
-.md-bg-clr-primary-brand-blue-200-hover:hover,
-.md-bg-clr-primary-brand-blue-200-focus:focus,
-.md-bg-clr-primary-brand-blue-200-visited:visited,
-.md-bg-clr-primary-brand-blue-200-focus-within,
-.md-bg-clr-primary-brand-blue-200-focus-visible:focus-visible,
-.md-bg-clr-primary-brand-blue-200-target:target {
-    background-color: #7888b8;
-  }
-  .md-clr-primary-brand-blue-100 {
-    color: #bcc3db;
-  }
-  .md-bg-clr-primary-brand-blue-100 {
-    background-color: #bcc3db;
-  }
-  .md-clr-primary-brand-blue-100-active:active,
-.md-clr-primary-brand-blue-100-hover:hover,
-.md-clr-primary-brand-blue-100-focus:focus,
-.md-clr-primary-brand-blue-100-visited:visited,
-.md-clr-primary-brand-blue-100-focus-within,
-.md-clr-primary-brand-blue-100-focus-visible:focus-visible,
-.md-clr-primary-brand-blue-100-target:target {
-    color: #bcc3db;
-  }
-  .md-bg-clr-primary-brand-blue-100-active:active,
-.md-bg-clr-primary-brand-blue-100-hover:hover,
-.md-bg-clr-primary-brand-blue-100-focus:focus,
-.md-bg-clr-primary-brand-blue-100-visited:visited,
-.md-bg-clr-primary-brand-blue-100-focus-within,
-.md-bg-clr-primary-brand-blue-100-focus-visible:focus-visible,
-.md-bg-clr-primary-brand-blue-100-target:target {
-    background-color: #bcc3db;
-  }
-  .md-clr-secondary-brand-yellow-900 {
-    color: #713f12;
-  }
-  .md-bg-clr-secondary-brand-yellow-900 {
-    background-color: #713f12;
-  }
-  .md-clr-secondary-brand-yellow-900-active:active,
-.md-clr-secondary-brand-yellow-900-hover:hover,
-.md-clr-secondary-brand-yellow-900-focus:focus,
-.md-clr-secondary-brand-yellow-900-visited:visited,
-.md-clr-secondary-brand-yellow-900-focus-within,
-.md-clr-secondary-brand-yellow-900-focus-visible:focus-visible,
-.md-clr-secondary-brand-yellow-900-target:target {
-    color: #713f12;
-  }
-  .md-bg-clr-secondary-brand-yellow-900-active:active,
-.md-bg-clr-secondary-brand-yellow-900-hover:hover,
-.md-bg-clr-secondary-brand-yellow-900-focus:focus,
-.md-bg-clr-secondary-brand-yellow-900-visited:visited,
-.md-bg-clr-secondary-brand-yellow-900-focus-within,
-.md-bg-clr-secondary-brand-yellow-900-focus-visible:focus-visible,
-.md-bg-clr-secondary-brand-yellow-900-target:target {
-    background-color: #713f12;
-  }
-  .md-clr-secondary-brand-yellow-800 {
-    color: #854d0e;
-  }
-  .md-bg-clr-secondary-brand-yellow-800 {
-    background-color: #854d0e;
-  }
-  .md-clr-secondary-brand-yellow-800-active:active,
-.md-clr-secondary-brand-yellow-800-hover:hover,
-.md-clr-secondary-brand-yellow-800-focus:focus,
-.md-clr-secondary-brand-yellow-800-visited:visited,
-.md-clr-secondary-brand-yellow-800-focus-within,
-.md-clr-secondary-brand-yellow-800-focus-visible:focus-visible,
-.md-clr-secondary-brand-yellow-800-target:target {
-    color: #854d0e;
-  }
-  .md-bg-clr-secondary-brand-yellow-800-active:active,
-.md-bg-clr-secondary-brand-yellow-800-hover:hover,
-.md-bg-clr-secondary-brand-yellow-800-focus:focus,
-.md-bg-clr-secondary-brand-yellow-800-visited:visited,
-.md-bg-clr-secondary-brand-yellow-800-focus-within,
-.md-bg-clr-secondary-brand-yellow-800-focus-visible:focus-visible,
-.md-bg-clr-secondary-brand-yellow-800-target:target {
-    background-color: #854d0e;
-  }
-  .md-clr-secondary-brand-yellow-700 {
-    color: #a16207;
-  }
-  .md-bg-clr-secondary-brand-yellow-700 {
-    background-color: #a16207;
-  }
-  .md-clr-secondary-brand-yellow-700-active:active,
-.md-clr-secondary-brand-yellow-700-hover:hover,
-.md-clr-secondary-brand-yellow-700-focus:focus,
-.md-clr-secondary-brand-yellow-700-visited:visited,
-.md-clr-secondary-brand-yellow-700-focus-within,
-.md-clr-secondary-brand-yellow-700-focus-visible:focus-visible,
-.md-clr-secondary-brand-yellow-700-target:target {
-    color: #a16207;
-  }
-  .md-bg-clr-secondary-brand-yellow-700-active:active,
-.md-bg-clr-secondary-brand-yellow-700-hover:hover,
-.md-bg-clr-secondary-brand-yellow-700-focus:focus,
-.md-bg-clr-secondary-brand-yellow-700-visited:visited,
-.md-bg-clr-secondary-brand-yellow-700-focus-within,
-.md-bg-clr-secondary-brand-yellow-700-focus-visible:focus-visible,
-.md-bg-clr-secondary-brand-yellow-700-target:target {
-    background-color: #a16207;
-  }
-  .md-clr-secondary-brand-yellow-600 {
-    color: #ca8a04;
-  }
-  .md-bg-clr-secondary-brand-yellow-600 {
-    background-color: #ca8a04;
-  }
-  .md-clr-secondary-brand-yellow-600-active:active,
-.md-clr-secondary-brand-yellow-600-hover:hover,
-.md-clr-secondary-brand-yellow-600-focus:focus,
-.md-clr-secondary-brand-yellow-600-visited:visited,
-.md-clr-secondary-brand-yellow-600-focus-within,
-.md-clr-secondary-brand-yellow-600-focus-visible:focus-visible,
-.md-clr-secondary-brand-yellow-600-target:target {
-    color: #ca8a04;
-  }
-  .md-bg-clr-secondary-brand-yellow-600-active:active,
-.md-bg-clr-secondary-brand-yellow-600-hover:hover,
-.md-bg-clr-secondary-brand-yellow-600-focus:focus,
-.md-bg-clr-secondary-brand-yellow-600-visited:visited,
-.md-bg-clr-secondary-brand-yellow-600-focus-within,
-.md-bg-clr-secondary-brand-yellow-600-focus-visible:focus-visible,
-.md-bg-clr-secondary-brand-yellow-600-target:target {
-    background-color: #ca8a04;
-  }
-  .md-clr-secondary-brand-yellow-500 {
-    color: #eab308;
-  }
-  .md-bg-clr-secondary-brand-yellow-500 {
-    background-color: #eab308;
-  }
-  .md-clr-secondary-brand-yellow-500-active:active,
-.md-clr-secondary-brand-yellow-500-hover:hover,
-.md-clr-secondary-brand-yellow-500-focus:focus,
-.md-clr-secondary-brand-yellow-500-visited:visited,
-.md-clr-secondary-brand-yellow-500-focus-within,
-.md-clr-secondary-brand-yellow-500-focus-visible:focus-visible,
-.md-clr-secondary-brand-yellow-500-target:target {
-    color: #eab308;
-  }
-  .md-bg-clr-secondary-brand-yellow-500-active:active,
-.md-bg-clr-secondary-brand-yellow-500-hover:hover,
-.md-bg-clr-secondary-brand-yellow-500-focus:focus,
-.md-bg-clr-secondary-brand-yellow-500-visited:visited,
-.md-bg-clr-secondary-brand-yellow-500-focus-within,
-.md-bg-clr-secondary-brand-yellow-500-focus-visible:focus-visible,
-.md-bg-clr-secondary-brand-yellow-500-target:target {
-    background-color: #eab308;
-  }
-  .md-clr-secondary-brand-yellow-400 {
-    color: #facc15;
-  }
-  .md-bg-clr-secondary-brand-yellow-400 {
-    background-color: #facc15;
-  }
-  .md-clr-secondary-brand-yellow-400-active:active,
-.md-clr-secondary-brand-yellow-400-hover:hover,
-.md-clr-secondary-brand-yellow-400-focus:focus,
-.md-clr-secondary-brand-yellow-400-visited:visited,
-.md-clr-secondary-brand-yellow-400-focus-within,
-.md-clr-secondary-brand-yellow-400-focus-visible:focus-visible,
-.md-clr-secondary-brand-yellow-400-target:target {
-    color: #facc15;
-  }
-  .md-bg-clr-secondary-brand-yellow-400-active:active,
-.md-bg-clr-secondary-brand-yellow-400-hover:hover,
-.md-bg-clr-secondary-brand-yellow-400-focus:focus,
-.md-bg-clr-secondary-brand-yellow-400-visited:visited,
-.md-bg-clr-secondary-brand-yellow-400-focus-within,
-.md-bg-clr-secondary-brand-yellow-400-focus-visible:focus-visible,
-.md-bg-clr-secondary-brand-yellow-400-target:target {
-    background-color: #facc15;
-  }
-  .md-clr-secondary-brand-yellow-300 {
-    color: #fde047;
-  }
-  .md-bg-clr-secondary-brand-yellow-300 {
-    background-color: #fde047;
-  }
-  .md-clr-secondary-brand-yellow-300-active:active,
-.md-clr-secondary-brand-yellow-300-hover:hover,
-.md-clr-secondary-brand-yellow-300-focus:focus,
-.md-clr-secondary-brand-yellow-300-visited:visited,
-.md-clr-secondary-brand-yellow-300-focus-within,
-.md-clr-secondary-brand-yellow-300-focus-visible:focus-visible,
-.md-clr-secondary-brand-yellow-300-target:target {
-    color: #fde047;
-  }
-  .md-bg-clr-secondary-brand-yellow-300-active:active,
-.md-bg-clr-secondary-brand-yellow-300-hover:hover,
-.md-bg-clr-secondary-brand-yellow-300-focus:focus,
-.md-bg-clr-secondary-brand-yellow-300-visited:visited,
-.md-bg-clr-secondary-brand-yellow-300-focus-within,
-.md-bg-clr-secondary-brand-yellow-300-focus-visible:focus-visible,
-.md-bg-clr-secondary-brand-yellow-300-target:target {
-    background-color: #fde047;
-  }
-  .md-clr-secondary-brand-yellow-200 {
-    color: #fde68a;
-  }
-  .md-bg-clr-secondary-brand-yellow-200 {
-    background-color: #fde68a;
-  }
-  .md-clr-secondary-brand-yellow-200-active:active,
-.md-clr-secondary-brand-yellow-200-hover:hover,
-.md-clr-secondary-brand-yellow-200-focus:focus,
-.md-clr-secondary-brand-yellow-200-visited:visited,
-.md-clr-secondary-brand-yellow-200-focus-within,
-.md-clr-secondary-brand-yellow-200-focus-visible:focus-visible,
-.md-clr-secondary-brand-yellow-200-target:target {
-    color: #fde68a;
-  }
-  .md-bg-clr-secondary-brand-yellow-200-active:active,
-.md-bg-clr-secondary-brand-yellow-200-hover:hover,
-.md-bg-clr-secondary-brand-yellow-200-focus:focus,
-.md-bg-clr-secondary-brand-yellow-200-visited:visited,
-.md-bg-clr-secondary-brand-yellow-200-focus-within,
-.md-bg-clr-secondary-brand-yellow-200-focus-visible:focus-visible,
-.md-bg-clr-secondary-brand-yellow-200-target:target {
-    background-color: #fde68a;
-  }
-  .md-clr-secondary-brand-yellow-100 {
-    color: #fef3c7;
-  }
-  .md-bg-clr-secondary-brand-yellow-100 {
-    background-color: #fef3c7;
-  }
-  .md-clr-secondary-brand-yellow-100-active:active,
-.md-clr-secondary-brand-yellow-100-hover:hover,
-.md-clr-secondary-brand-yellow-100-focus:focus,
-.md-clr-secondary-brand-yellow-100-visited:visited,
-.md-clr-secondary-brand-yellow-100-focus-within,
-.md-clr-secondary-brand-yellow-100-focus-visible:focus-visible,
-.md-clr-secondary-brand-yellow-100-target:target {
-    color: #fef3c7;
-  }
-  .md-bg-clr-secondary-brand-yellow-100-active:active,
-.md-bg-clr-secondary-brand-yellow-100-hover:hover,
-.md-bg-clr-secondary-brand-yellow-100-focus:focus,
-.md-bg-clr-secondary-brand-yellow-100-visited:visited,
-.md-bg-clr-secondary-brand-yellow-100-focus-within,
-.md-bg-clr-secondary-brand-yellow-100-focus-visible:focus-visible,
-.md-bg-clr-secondary-brand-yellow-100-target:target {
-    background-color: #fef3c7;
-  }
-  .md-clr-semantic-critical-dark {
-    color: #991b1b;
-  }
-  .md-bg-clr-semantic-critical-dark {
-    background-color: #991b1b;
-  }
-  .md-clr-semantic-critical-dark-active:active,
-.md-clr-semantic-critical-dark-hover:hover,
-.md-clr-semantic-critical-dark-focus:focus,
-.md-clr-semantic-critical-dark-visited:visited,
-.md-clr-semantic-critical-dark-focus-within,
-.md-clr-semantic-critical-dark-focus-visible:focus-visible,
-.md-clr-semantic-critical-dark-target:target {
-    color: #991b1b;
-  }
-  .md-bg-clr-semantic-critical-dark-active:active,
-.md-bg-clr-semantic-critical-dark-hover:hover,
-.md-bg-clr-semantic-critical-dark-focus:focus,
-.md-bg-clr-semantic-critical-dark-visited:visited,
-.md-bg-clr-semantic-critical-dark-focus-within,
-.md-bg-clr-semantic-critical-dark-focus-visible:focus-visible,
-.md-bg-clr-semantic-critical-dark-target:target {
-    background-color: #991b1b;
-  }
-  .md-clr-semantic-critical-base {
-    color: #dc2626;
-  }
-  .md-bg-clr-semantic-critical-base {
-    background-color: #dc2626;
-  }
-  .md-clr-semantic-critical-base-active:active,
-.md-clr-semantic-critical-base-hover:hover,
-.md-clr-semantic-critical-base-focus:focus,
-.md-clr-semantic-critical-base-visited:visited,
-.md-clr-semantic-critical-base-focus-within,
-.md-clr-semantic-critical-base-focus-visible:focus-visible,
-.md-clr-semantic-critical-base-target:target {
-    color: #dc2626;
-  }
-  .md-bg-clr-semantic-critical-base-active:active,
-.md-bg-clr-semantic-critical-base-hover:hover,
-.md-bg-clr-semantic-critical-base-focus:focus,
-.md-bg-clr-semantic-critical-base-visited:visited,
-.md-bg-clr-semantic-critical-base-focus-within,
-.md-bg-clr-semantic-critical-base-focus-visible:focus-visible,
-.md-bg-clr-semantic-critical-base-target:target {
-    background-color: #dc2626;
-  }
-  .md-clr-semantic-critical-light {
-    color: #fca5a5;
-  }
-  .md-bg-clr-semantic-critical-light {
-    background-color: #fca5a5;
-  }
-  .md-clr-semantic-critical-light-active:active,
-.md-clr-semantic-critical-light-hover:hover,
-.md-clr-semantic-critical-light-focus:focus,
-.md-clr-semantic-critical-light-visited:visited,
-.md-clr-semantic-critical-light-focus-within,
-.md-clr-semantic-critical-light-focus-visible:focus-visible,
-.md-clr-semantic-critical-light-target:target {
-    color: #fca5a5;
-  }
-  .md-bg-clr-semantic-critical-light-active:active,
-.md-bg-clr-semantic-critical-light-hover:hover,
-.md-bg-clr-semantic-critical-light-focus:focus,
-.md-bg-clr-semantic-critical-light-visited:visited,
-.md-bg-clr-semantic-critical-light-focus-within,
-.md-bg-clr-semantic-critical-light-focus-visible:focus-visible,
-.md-bg-clr-semantic-critical-light-target:target {
-    background-color: #fca5a5;
-  }
-  .md-clr-semantic-warning-dark {
-    color: #9a3412;
-  }
-  .md-bg-clr-semantic-warning-dark {
-    background-color: #9a3412;
-  }
-  .md-clr-semantic-warning-dark-active:active,
-.md-clr-semantic-warning-dark-hover:hover,
-.md-clr-semantic-warning-dark-focus:focus,
-.md-clr-semantic-warning-dark-visited:visited,
-.md-clr-semantic-warning-dark-focus-within,
-.md-clr-semantic-warning-dark-focus-visible:focus-visible,
-.md-clr-semantic-warning-dark-target:target {
-    color: #9a3412;
-  }
-  .md-bg-clr-semantic-warning-dark-active:active,
-.md-bg-clr-semantic-warning-dark-hover:hover,
-.md-bg-clr-semantic-warning-dark-focus:focus,
-.md-bg-clr-semantic-warning-dark-visited:visited,
-.md-bg-clr-semantic-warning-dark-focus-within,
-.md-bg-clr-semantic-warning-dark-focus-visible:focus-visible,
-.md-bg-clr-semantic-warning-dark-target:target {
-    background-color: #9a3412;
-  }
-  .md-clr-semantic-warning-base {
-    color: #ea580c;
-  }
-  .md-bg-clr-semantic-warning-base {
-    background-color: #ea580c;
-  }
-  .md-clr-semantic-warning-base-active:active,
-.md-clr-semantic-warning-base-hover:hover,
-.md-clr-semantic-warning-base-focus:focus,
-.md-clr-semantic-warning-base-visited:visited,
-.md-clr-semantic-warning-base-focus-within,
-.md-clr-semantic-warning-base-focus-visible:focus-visible,
-.md-clr-semantic-warning-base-target:target {
-    color: #ea580c;
-  }
-  .md-bg-clr-semantic-warning-base-active:active,
-.md-bg-clr-semantic-warning-base-hover:hover,
-.md-bg-clr-semantic-warning-base-focus:focus,
-.md-bg-clr-semantic-warning-base-visited:visited,
-.md-bg-clr-semantic-warning-base-focus-within,
-.md-bg-clr-semantic-warning-base-focus-visible:focus-visible,
-.md-bg-clr-semantic-warning-base-target:target {
-    background-color: #ea580c;
-  }
-  .md-clr-semantic-warning-light {
-    color: #fdba74;
-  }
-  .md-bg-clr-semantic-warning-light {
-    background-color: #fdba74;
-  }
-  .md-clr-semantic-warning-light-active:active,
-.md-clr-semantic-warning-light-hover:hover,
-.md-clr-semantic-warning-light-focus:focus,
-.md-clr-semantic-warning-light-visited:visited,
-.md-clr-semantic-warning-light-focus-within,
-.md-clr-semantic-warning-light-focus-visible:focus-visible,
-.md-clr-semantic-warning-light-target:target {
-    color: #fdba74;
-  }
-  .md-bg-clr-semantic-warning-light-active:active,
-.md-bg-clr-semantic-warning-light-hover:hover,
-.md-bg-clr-semantic-warning-light-focus:focus,
-.md-bg-clr-semantic-warning-light-visited:visited,
-.md-bg-clr-semantic-warning-light-focus-within,
-.md-bg-clr-semantic-warning-light-focus-visible:focus-visible,
-.md-bg-clr-semantic-warning-light-target:target {
-    background-color: #fdba74;
-  }
-  .md-clr-semantic-success-dark {
-    color: #047857;
-  }
-  .md-bg-clr-semantic-success-dark {
-    background-color: #047857;
-  }
-  .md-clr-semantic-success-dark-active:active,
-.md-clr-semantic-success-dark-hover:hover,
-.md-clr-semantic-success-dark-focus:focus,
-.md-clr-semantic-success-dark-visited:visited,
-.md-clr-semantic-success-dark-focus-within,
-.md-clr-semantic-success-dark-focus-visible:focus-visible,
-.md-clr-semantic-success-dark-target:target {
-    color: #047857;
-  }
-  .md-bg-clr-semantic-success-dark-active:active,
-.md-bg-clr-semantic-success-dark-hover:hover,
-.md-bg-clr-semantic-success-dark-focus:focus,
-.md-bg-clr-semantic-success-dark-visited:visited,
-.md-bg-clr-semantic-success-dark-focus-within,
-.md-bg-clr-semantic-success-dark-focus-visible:focus-visible,
-.md-bg-clr-semantic-success-dark-target:target {
-    background-color: #047857;
-  }
-  .md-clr-semantic-success-base {
-    color: #10b981;
-  }
-  .md-bg-clr-semantic-success-base {
-    background-color: #10b981;
-  }
-  .md-clr-semantic-success-base-active:active,
-.md-clr-semantic-success-base-hover:hover,
-.md-clr-semantic-success-base-focus:focus,
-.md-clr-semantic-success-base-visited:visited,
-.md-clr-semantic-success-base-focus-within,
-.md-clr-semantic-success-base-focus-visible:focus-visible,
-.md-clr-semantic-success-base-target:target {
-    color: #10b981;
-  }
-  .md-bg-clr-semantic-success-base-active:active,
-.md-bg-clr-semantic-success-base-hover:hover,
-.md-bg-clr-semantic-success-base-focus:focus,
-.md-bg-clr-semantic-success-base-visited:visited,
-.md-bg-clr-semantic-success-base-focus-within,
-.md-bg-clr-semantic-success-base-focus-visible:focus-visible,
-.md-bg-clr-semantic-success-base-target:target {
-    background-color: #10b981;
-  }
-  .md-clr-semantic-success-light {
-    color: #6ee7b7;
-  }
-  .md-bg-clr-semantic-success-light {
-    background-color: #6ee7b7;
-  }
-  .md-clr-semantic-success-light-active:active,
-.md-clr-semantic-success-light-hover:hover,
-.md-clr-semantic-success-light-focus:focus,
-.md-clr-semantic-success-light-visited:visited,
-.md-clr-semantic-success-light-focus-within,
-.md-clr-semantic-success-light-focus-visible:focus-visible,
-.md-clr-semantic-success-light-target:target {
-    color: #6ee7b7;
-  }
-  .md-bg-clr-semantic-success-light-active:active,
-.md-bg-clr-semantic-success-light-hover:hover,
-.md-bg-clr-semantic-success-light-focus:focus,
-.md-bg-clr-semantic-success-light-visited:visited,
-.md-bg-clr-semantic-success-light-focus-within,
-.md-bg-clr-semantic-success-light-focus-visible:focus-visible,
-.md-bg-clr-semantic-success-light-target:target {
-    background-color: #6ee7b7;
-  }
-  .md-clr-semantic-info-dark {
-    color: #0b4b99;
-  }
-  .md-bg-clr-semantic-info-dark {
-    background-color: #0b4b99;
-  }
-  .md-clr-semantic-info-dark-active:active,
-.md-clr-semantic-info-dark-hover:hover,
-.md-clr-semantic-info-dark-focus:focus,
-.md-clr-semantic-info-dark-visited:visited,
-.md-clr-semantic-info-dark-focus-within,
-.md-clr-semantic-info-dark-focus-visible:focus-visible,
-.md-clr-semantic-info-dark-target:target {
-    color: #0b4b99;
-  }
-  .md-bg-clr-semantic-info-dark-active:active,
-.md-bg-clr-semantic-info-dark-hover:hover,
-.md-bg-clr-semantic-info-dark-focus:focus,
-.md-bg-clr-semantic-info-dark-visited:visited,
-.md-bg-clr-semantic-info-dark-focus-within,
-.md-bg-clr-semantic-info-dark-focus-visible:focus-visible,
-.md-bg-clr-semantic-info-dark-target:target {
-    background-color: #0b4b99;
-  }
-  .md-clr-semantic-info-base {
-    color: #106bda;
-  }
-  .md-bg-clr-semantic-info-base {
-    background-color: #106bda;
-  }
-  .md-clr-semantic-info-base-active:active,
-.md-clr-semantic-info-base-hover:hover,
-.md-clr-semantic-info-base-focus:focus,
-.md-clr-semantic-info-base-visited:visited,
-.md-clr-semantic-info-base-focus-within,
-.md-clr-semantic-info-base-focus-visible:focus-visible,
-.md-clr-semantic-info-base-target:target {
-    color: #106bda;
-  }
-  .md-bg-clr-semantic-info-base-active:active,
-.md-bg-clr-semantic-info-base-hover:hover,
-.md-bg-clr-semantic-info-base-focus:focus,
-.md-bg-clr-semantic-info-base-visited:visited,
-.md-bg-clr-semantic-info-base-focus-within,
-.md-bg-clr-semantic-info-base-focus-visible:focus-visible,
-.md-bg-clr-semantic-info-base-target:target {
-    background-color: #106bda;
-  }
-  .md-clr-semantic-info-light {
-    color: #88b5ed;
-  }
-  .md-bg-clr-semantic-info-light {
-    background-color: #88b5ed;
-  }
-  .md-clr-semantic-info-light-active:active,
-.md-clr-semantic-info-light-hover:hover,
-.md-clr-semantic-info-light-focus:focus,
-.md-clr-semantic-info-light-visited:visited,
-.md-clr-semantic-info-light-focus-within,
-.md-clr-semantic-info-light-focus-visible:focus-visible,
-.md-clr-semantic-info-light-target:target {
-    color: #88b5ed;
-  }
-  .md-bg-clr-semantic-info-light-active:active,
-.md-bg-clr-semantic-info-light-hover:hover,
-.md-bg-clr-semantic-info-light-focus:focus,
-.md-bg-clr-semantic-info-light-visited:visited,
-.md-bg-clr-semantic-info-light-focus-within,
-.md-bg-clr-semantic-info-light-focus-visible:focus-visible,
-.md-bg-clr-semantic-info-light-target:target {
-    background-color: #88b5ed;
-  }
-  .md-clr-grayscale-shade-absblack {
-    color: #000000;
-  }
-  .md-bg-clr-grayscale-shade-absblack {
-    background-color: #000000;
-  }
-  .md-clr-grayscale-shade-absblack-active:active,
-.md-clr-grayscale-shade-absblack-hover:hover,
-.md-clr-grayscale-shade-absblack-focus:focus,
-.md-clr-grayscale-shade-absblack-visited:visited,
-.md-clr-grayscale-shade-absblack-focus-within,
-.md-clr-grayscale-shade-absblack-focus-visible:focus-visible,
-.md-clr-grayscale-shade-absblack-target:target {
-    color: #000000;
-  }
-  .md-bg-clr-grayscale-shade-absblack-active:active,
-.md-bg-clr-grayscale-shade-absblack-hover:hover,
-.md-bg-clr-grayscale-shade-absblack-focus:focus,
-.md-bg-clr-grayscale-shade-absblack-visited:visited,
-.md-bg-clr-grayscale-shade-absblack-focus-within,
-.md-bg-clr-grayscale-shade-absblack-focus-visible:focus-visible,
-.md-bg-clr-grayscale-shade-absblack-target:target {
-    background-color: #000000;
-  }
-  .md-clr-grayscale-shade-900 {
-    color: #0f172a;
-  }
-  .md-bg-clr-grayscale-shade-900 {
-    background-color: #0f172a;
-  }
-  .md-clr-grayscale-shade-900-active:active,
-.md-clr-grayscale-shade-900-hover:hover,
-.md-clr-grayscale-shade-900-focus:focus,
-.md-clr-grayscale-shade-900-visited:visited,
-.md-clr-grayscale-shade-900-focus-within,
-.md-clr-grayscale-shade-900-focus-visible:focus-visible,
-.md-clr-grayscale-shade-900-target:target {
-    color: #0f172a;
-  }
-  .md-bg-clr-grayscale-shade-900-active:active,
-.md-bg-clr-grayscale-shade-900-hover:hover,
-.md-bg-clr-grayscale-shade-900-focus:focus,
-.md-bg-clr-grayscale-shade-900-visited:visited,
-.md-bg-clr-grayscale-shade-900-focus-within,
-.md-bg-clr-grayscale-shade-900-focus-visible:focus-visible,
-.md-bg-clr-grayscale-shade-900-target:target {
-    background-color: #0f172a;
-  }
-  .md-clr-grayscale-shade-800 {
-    color: #1e293b;
-  }
-  .md-bg-clr-grayscale-shade-800 {
-    background-color: #1e293b;
-  }
-  .md-clr-grayscale-shade-800-active:active,
-.md-clr-grayscale-shade-800-hover:hover,
-.md-clr-grayscale-shade-800-focus:focus,
-.md-clr-grayscale-shade-800-visited:visited,
-.md-clr-grayscale-shade-800-focus-within,
-.md-clr-grayscale-shade-800-focus-visible:focus-visible,
-.md-clr-grayscale-shade-800-target:target {
-    color: #1e293b;
-  }
-  .md-bg-clr-grayscale-shade-800-active:active,
-.md-bg-clr-grayscale-shade-800-hover:hover,
-.md-bg-clr-grayscale-shade-800-focus:focus,
-.md-bg-clr-grayscale-shade-800-visited:visited,
-.md-bg-clr-grayscale-shade-800-focus-within,
-.md-bg-clr-grayscale-shade-800-focus-visible:focus-visible,
-.md-bg-clr-grayscale-shade-800-target:target {
-    background-color: #1e293b;
-  }
-  .md-clr-grayscale-shade-700 {
-    color: #334155;
-  }
-  .md-bg-clr-grayscale-shade-700 {
-    background-color: #334155;
-  }
-  .md-clr-grayscale-shade-700-active:active,
-.md-clr-grayscale-shade-700-hover:hover,
-.md-clr-grayscale-shade-700-focus:focus,
-.md-clr-grayscale-shade-700-visited:visited,
-.md-clr-grayscale-shade-700-focus-within,
-.md-clr-grayscale-shade-700-focus-visible:focus-visible,
-.md-clr-grayscale-shade-700-target:target {
-    color: #334155;
-  }
-  .md-bg-clr-grayscale-shade-700-active:active,
-.md-bg-clr-grayscale-shade-700-hover:hover,
-.md-bg-clr-grayscale-shade-700-focus:focus,
-.md-bg-clr-grayscale-shade-700-visited:visited,
-.md-bg-clr-grayscale-shade-700-focus-within,
-.md-bg-clr-grayscale-shade-700-focus-visible:focus-visible,
-.md-bg-clr-grayscale-shade-700-target:target {
-    background-color: #334155;
-  }
-  .md-clr-grayscale-shade-600 {
-    color: #475569;
-  }
-  .md-bg-clr-grayscale-shade-600 {
-    background-color: #475569;
-  }
-  .md-clr-grayscale-shade-600-active:active,
-.md-clr-grayscale-shade-600-hover:hover,
-.md-clr-grayscale-shade-600-focus:focus,
-.md-clr-grayscale-shade-600-visited:visited,
-.md-clr-grayscale-shade-600-focus-within,
-.md-clr-grayscale-shade-600-focus-visible:focus-visible,
-.md-clr-grayscale-shade-600-target:target {
-    color: #475569;
-  }
-  .md-bg-clr-grayscale-shade-600-active:active,
-.md-bg-clr-grayscale-shade-600-hover:hover,
-.md-bg-clr-grayscale-shade-600-focus:focus,
-.md-bg-clr-grayscale-shade-600-visited:visited,
-.md-bg-clr-grayscale-shade-600-focus-within,
-.md-bg-clr-grayscale-shade-600-focus-visible:focus-visible,
-.md-bg-clr-grayscale-shade-600-target:target {
-    background-color: #475569;
-  }
-  .md-clr-grayscale-shade-500 {
-    color: #64748b;
-  }
-  .md-bg-clr-grayscale-shade-500 {
-    background-color: #64748b;
-  }
-  .md-clr-grayscale-shade-500-active:active,
-.md-clr-grayscale-shade-500-hover:hover,
-.md-clr-grayscale-shade-500-focus:focus,
-.md-clr-grayscale-shade-500-visited:visited,
-.md-clr-grayscale-shade-500-focus-within,
-.md-clr-grayscale-shade-500-focus-visible:focus-visible,
-.md-clr-grayscale-shade-500-target:target {
-    color: #64748b;
-  }
-  .md-bg-clr-grayscale-shade-500-active:active,
-.md-bg-clr-grayscale-shade-500-hover:hover,
-.md-bg-clr-grayscale-shade-500-focus:focus,
-.md-bg-clr-grayscale-shade-500-visited:visited,
-.md-bg-clr-grayscale-shade-500-focus-within,
-.md-bg-clr-grayscale-shade-500-focus-visible:focus-visible,
-.md-bg-clr-grayscale-shade-500-target:target {
-    background-color: #64748b;
-  }
-  .md-clr-grayscale-shade-400 {
-    color: #94a3b8;
-  }
-  .md-bg-clr-grayscale-shade-400 {
-    background-color: #94a3b8;
-  }
-  .md-clr-grayscale-shade-400-active:active,
-.md-clr-grayscale-shade-400-hover:hover,
-.md-clr-grayscale-shade-400-focus:focus,
-.md-clr-grayscale-shade-400-visited:visited,
-.md-clr-grayscale-shade-400-focus-within,
-.md-clr-grayscale-shade-400-focus-visible:focus-visible,
-.md-clr-grayscale-shade-400-target:target {
-    color: #94a3b8;
-  }
-  .md-bg-clr-grayscale-shade-400-active:active,
-.md-bg-clr-grayscale-shade-400-hover:hover,
-.md-bg-clr-grayscale-shade-400-focus:focus,
-.md-bg-clr-grayscale-shade-400-visited:visited,
-.md-bg-clr-grayscale-shade-400-focus-within,
-.md-bg-clr-grayscale-shade-400-focus-visible:focus-visible,
-.md-bg-clr-grayscale-shade-400-target:target {
-    background-color: #94a3b8;
-  }
-  .md-clr-grayscale-shade-300 {
-    color: #cbd5e1;
-  }
-  .md-bg-clr-grayscale-shade-300 {
-    background-color: #cbd5e1;
-  }
-  .md-clr-grayscale-shade-300-active:active,
-.md-clr-grayscale-shade-300-hover:hover,
-.md-clr-grayscale-shade-300-focus:focus,
-.md-clr-grayscale-shade-300-visited:visited,
-.md-clr-grayscale-shade-300-focus-within,
-.md-clr-grayscale-shade-300-focus-visible:focus-visible,
-.md-clr-grayscale-shade-300-target:target {
-    color: #cbd5e1;
-  }
-  .md-bg-clr-grayscale-shade-300-active:active,
-.md-bg-clr-grayscale-shade-300-hover:hover,
-.md-bg-clr-grayscale-shade-300-focus:focus,
-.md-bg-clr-grayscale-shade-300-visited:visited,
-.md-bg-clr-grayscale-shade-300-focus-within,
-.md-bg-clr-grayscale-shade-300-focus-visible:focus-visible,
-.md-bg-clr-grayscale-shade-300-target:target {
-    background-color: #cbd5e1;
-  }
-  .md-clr-grayscale-shade-200 {
-    color: #e2e8f0;
-  }
-  .md-bg-clr-grayscale-shade-200 {
-    background-color: #e2e8f0;
-  }
-  .md-clr-grayscale-shade-200-active:active,
-.md-clr-grayscale-shade-200-hover:hover,
-.md-clr-grayscale-shade-200-focus:focus,
-.md-clr-grayscale-shade-200-visited:visited,
-.md-clr-grayscale-shade-200-focus-within,
-.md-clr-grayscale-shade-200-focus-visible:focus-visible,
-.md-clr-grayscale-shade-200-target:target {
-    color: #e2e8f0;
-  }
-  .md-bg-clr-grayscale-shade-200-active:active,
-.md-bg-clr-grayscale-shade-200-hover:hover,
-.md-bg-clr-grayscale-shade-200-focus:focus,
-.md-bg-clr-grayscale-shade-200-visited:visited,
-.md-bg-clr-grayscale-shade-200-focus-within,
-.md-bg-clr-grayscale-shade-200-focus-visible:focus-visible,
-.md-bg-clr-grayscale-shade-200-target:target {
-    background-color: #e2e8f0;
-  }
-  .md-clr-grayscale-shade-100 {
-    color: #f1f5f9;
-  }
-  .md-bg-clr-grayscale-shade-100 {
-    background-color: #f1f5f9;
-  }
-  .md-clr-grayscale-shade-100-active:active,
-.md-clr-grayscale-shade-100-hover:hover,
-.md-clr-grayscale-shade-100-focus:focus,
-.md-clr-grayscale-shade-100-visited:visited,
-.md-clr-grayscale-shade-100-focus-within,
-.md-clr-grayscale-shade-100-focus-visible:focus-visible,
-.md-clr-grayscale-shade-100-target:target {
-    color: #f1f5f9;
-  }
-  .md-bg-clr-grayscale-shade-100-active:active,
-.md-bg-clr-grayscale-shade-100-hover:hover,
-.md-bg-clr-grayscale-shade-100-focus:focus,
-.md-bg-clr-grayscale-shade-100-visited:visited,
-.md-bg-clr-grayscale-shade-100-focus-within,
-.md-bg-clr-grayscale-shade-100-focus-visible:focus-visible,
-.md-bg-clr-grayscale-shade-100-target:target {
-    background-color: #f1f5f9;
-  }
-  .md-clr-grayscale-shade-abswhite {
-    color: #ffffff;
-  }
-  .md-bg-clr-grayscale-shade-abswhite {
-    background-color: #ffffff;
-  }
-  .md-clr-grayscale-shade-abswhite-active:active,
-.md-clr-grayscale-shade-abswhite-hover:hover,
-.md-clr-grayscale-shade-abswhite-focus:focus,
-.md-clr-grayscale-shade-abswhite-visited:visited,
-.md-clr-grayscale-shade-abswhite-focus-within,
-.md-clr-grayscale-shade-abswhite-focus-visible:focus-visible,
-.md-clr-grayscale-shade-abswhite-target:target {
-    color: #ffffff;
-  }
-  .md-bg-clr-grayscale-shade-abswhite-active:active,
-.md-bg-clr-grayscale-shade-abswhite-hover:hover,
-.md-bg-clr-grayscale-shade-abswhite-focus:focus,
-.md-bg-clr-grayscale-shade-abswhite-visited:visited,
-.md-bg-clr-grayscale-shade-abswhite-focus-within,
-.md-bg-clr-grayscale-shade-abswhite-focus-visible:focus-visible,
-.md-bg-clr-grayscale-shade-abswhite-target:target {
-    background-color: #ffffff;
   }
 }
 @media only screen and (min-width: 1920px) {
@@ -3066,990 +1098,6 @@
   .lg-lh-lineheight-5 {
     line-height: 2;
   }
-  .lg-clr-primary-brand-blue-900 {
-    color: #122252;
-  }
-  .lg-bg-clr-primary-brand-blue-900 {
-    background-color: #122252;
-  }
-  .lg-clr-primary-brand-blue-900-active:active,
-.lg-clr-primary-brand-blue-900-hover:hover,
-.lg-clr-primary-brand-blue-900-focus:focus,
-.lg-clr-primary-brand-blue-900-visited:visited,
-.lg-clr-primary-brand-blue-900-focus-within,
-.lg-clr-primary-brand-blue-900-focus-visible:focus-visible,
-.lg-clr-primary-brand-blue-900-target:target {
-    color: #122252;
-  }
-  .lg-bg-clr-primary-brand-blue-900-active:active,
-.lg-bg-clr-primary-brand-blue-900-hover:hover,
-.lg-bg-clr-primary-brand-blue-900-focus:focus,
-.lg-bg-clr-primary-brand-blue-900-visited:visited,
-.lg-bg-clr-primary-brand-blue-900-focus-within,
-.lg-bg-clr-primary-brand-blue-900-focus-visible:focus-visible,
-.lg-bg-clr-primary-brand-blue-900-target:target {
-    background-color: #122252;
-  }
-  .lg-clr-primary-brand-blue-800 {
-    color: #15275f;
-  }
-  .lg-bg-clr-primary-brand-blue-800 {
-    background-color: #15275f;
-  }
-  .lg-clr-primary-brand-blue-800-active:active,
-.lg-clr-primary-brand-blue-800-hover:hover,
-.lg-clr-primary-brand-blue-800-focus:focus,
-.lg-clr-primary-brand-blue-800-visited:visited,
-.lg-clr-primary-brand-blue-800-focus-within,
-.lg-clr-primary-brand-blue-800-focus-visible:focus-visible,
-.lg-clr-primary-brand-blue-800-target:target {
-    color: #15275f;
-  }
-  .lg-bg-clr-primary-brand-blue-800-active:active,
-.lg-bg-clr-primary-brand-blue-800-hover:hover,
-.lg-bg-clr-primary-brand-blue-800-focus:focus,
-.lg-bg-clr-primary-brand-blue-800-visited:visited,
-.lg-bg-clr-primary-brand-blue-800-focus-within,
-.lg-bg-clr-primary-brand-blue-800-focus-visible:focus-visible,
-.lg-bg-clr-primary-brand-blue-800-target:target {
-    background-color: #15275f;
-  }
-  .lg-clr-primary-brand-blue-700 {
-    color: #182d6d;
-  }
-  .lg-bg-clr-primary-brand-blue-700 {
-    background-color: #182d6d;
-  }
-  .lg-clr-primary-brand-blue-700-active:active,
-.lg-clr-primary-brand-blue-700-hover:hover,
-.lg-clr-primary-brand-blue-700-focus:focus,
-.lg-clr-primary-brand-blue-700-visited:visited,
-.lg-clr-primary-brand-blue-700-focus-within,
-.lg-clr-primary-brand-blue-700-focus-visible:focus-visible,
-.lg-clr-primary-brand-blue-700-target:target {
-    color: #182d6d;
-  }
-  .lg-bg-clr-primary-brand-blue-700-active:active,
-.lg-bg-clr-primary-brand-blue-700-hover:hover,
-.lg-bg-clr-primary-brand-blue-700-focus:focus,
-.lg-bg-clr-primary-brand-blue-700-visited:visited,
-.lg-bg-clr-primary-brand-blue-700-focus-within,
-.lg-bg-clr-primary-brand-blue-700-focus-visible:focus-visible,
-.lg-bg-clr-primary-brand-blue-700-target:target {
-    background-color: #182d6d;
-  }
-  .lg-clr-primary-brand-blue-600 {
-    color: #1b327a;
-  }
-  .lg-bg-clr-primary-brand-blue-600 {
-    background-color: #1b327a;
-  }
-  .lg-clr-primary-brand-blue-600-active:active,
-.lg-clr-primary-brand-blue-600-hover:hover,
-.lg-clr-primary-brand-blue-600-focus:focus,
-.lg-clr-primary-brand-blue-600-visited:visited,
-.lg-clr-primary-brand-blue-600-focus-within,
-.lg-clr-primary-brand-blue-600-focus-visible:focus-visible,
-.lg-clr-primary-brand-blue-600-target:target {
-    color: #1b327a;
-  }
-  .lg-bg-clr-primary-brand-blue-600-active:active,
-.lg-bg-clr-primary-brand-blue-600-hover:hover,
-.lg-bg-clr-primary-brand-blue-600-focus:focus,
-.lg-bg-clr-primary-brand-blue-600-visited:visited,
-.lg-bg-clr-primary-brand-blue-600-focus-within,
-.lg-bg-clr-primary-brand-blue-600-focus-visible:focus-visible,
-.lg-bg-clr-primary-brand-blue-600-target:target {
-    background-color: #1b327a;
-  }
-  .lg-clr-primary-brand-blue-500 {
-    color: #1e3888;
-  }
-  .lg-bg-clr-primary-brand-blue-500 {
-    background-color: #1e3888;
-  }
-  .lg-clr-primary-brand-blue-500-active:active,
-.lg-clr-primary-brand-blue-500-hover:hover,
-.lg-clr-primary-brand-blue-500-focus:focus,
-.lg-clr-primary-brand-blue-500-visited:visited,
-.lg-clr-primary-brand-blue-500-focus-within,
-.lg-clr-primary-brand-blue-500-focus-visible:focus-visible,
-.lg-clr-primary-brand-blue-500-target:target {
-    color: #1e3888;
-  }
-  .lg-bg-clr-primary-brand-blue-500-active:active,
-.lg-bg-clr-primary-brand-blue-500-hover:hover,
-.lg-bg-clr-primary-brand-blue-500-focus:focus,
-.lg-bg-clr-primary-brand-blue-500-visited:visited,
-.lg-bg-clr-primary-brand-blue-500-focus-within,
-.lg-bg-clr-primary-brand-blue-500-focus-visible:focus-visible,
-.lg-bg-clr-primary-brand-blue-500-target:target {
-    background-color: #1e3888;
-  }
-  .lg-clr-primary-brand-blue-400 {
-    color: #354c94;
-  }
-  .lg-bg-clr-primary-brand-blue-400 {
-    background-color: #354c94;
-  }
-  .lg-clr-primary-brand-blue-400-active:active,
-.lg-clr-primary-brand-blue-400-hover:hover,
-.lg-clr-primary-brand-blue-400-focus:focus,
-.lg-clr-primary-brand-blue-400-visited:visited,
-.lg-clr-primary-brand-blue-400-focus-within,
-.lg-clr-primary-brand-blue-400-focus-visible:focus-visible,
-.lg-clr-primary-brand-blue-400-target:target {
-    color: #354c94;
-  }
-  .lg-bg-clr-primary-brand-blue-400-active:active,
-.lg-bg-clr-primary-brand-blue-400-hover:hover,
-.lg-bg-clr-primary-brand-blue-400-focus:focus,
-.lg-bg-clr-primary-brand-blue-400-visited:visited,
-.lg-bg-clr-primary-brand-blue-400-focus-within,
-.lg-bg-clr-primary-brand-blue-400-focus-visible:focus-visible,
-.lg-bg-clr-primary-brand-blue-400-target:target {
-    background-color: #354c94;
-  }
-  .lg-clr-primary-brand-blue-300 {
-    color: #4b60a0;
-  }
-  .lg-bg-clr-primary-brand-blue-300 {
-    background-color: #4b60a0;
-  }
-  .lg-clr-primary-brand-blue-300-active:active,
-.lg-clr-primary-brand-blue-300-hover:hover,
-.lg-clr-primary-brand-blue-300-focus:focus,
-.lg-clr-primary-brand-blue-300-visited:visited,
-.lg-clr-primary-brand-blue-300-focus-within,
-.lg-clr-primary-brand-blue-300-focus-visible:focus-visible,
-.lg-clr-primary-brand-blue-300-target:target {
-    color: #4b60a0;
-  }
-  .lg-bg-clr-primary-brand-blue-300-active:active,
-.lg-bg-clr-primary-brand-blue-300-hover:hover,
-.lg-bg-clr-primary-brand-blue-300-focus:focus,
-.lg-bg-clr-primary-brand-blue-300-visited:visited,
-.lg-bg-clr-primary-brand-blue-300-focus-within,
-.lg-bg-clr-primary-brand-blue-300-focus-visible:focus-visible,
-.lg-bg-clr-primary-brand-blue-300-target:target {
-    background-color: #4b60a0;
-  }
-  .lg-clr-primary-brand-blue-200 {
-    color: #7888b8;
-  }
-  .lg-bg-clr-primary-brand-blue-200 {
-    background-color: #7888b8;
-  }
-  .lg-clr-primary-brand-blue-200-active:active,
-.lg-clr-primary-brand-blue-200-hover:hover,
-.lg-clr-primary-brand-blue-200-focus:focus,
-.lg-clr-primary-brand-blue-200-visited:visited,
-.lg-clr-primary-brand-blue-200-focus-within,
-.lg-clr-primary-brand-blue-200-focus-visible:focus-visible,
-.lg-clr-primary-brand-blue-200-target:target {
-    color: #7888b8;
-  }
-  .lg-bg-clr-primary-brand-blue-200-active:active,
-.lg-bg-clr-primary-brand-blue-200-hover:hover,
-.lg-bg-clr-primary-brand-blue-200-focus:focus,
-.lg-bg-clr-primary-brand-blue-200-visited:visited,
-.lg-bg-clr-primary-brand-blue-200-focus-within,
-.lg-bg-clr-primary-brand-blue-200-focus-visible:focus-visible,
-.lg-bg-clr-primary-brand-blue-200-target:target {
-    background-color: #7888b8;
-  }
-  .lg-clr-primary-brand-blue-100 {
-    color: #bcc3db;
-  }
-  .lg-bg-clr-primary-brand-blue-100 {
-    background-color: #bcc3db;
-  }
-  .lg-clr-primary-brand-blue-100-active:active,
-.lg-clr-primary-brand-blue-100-hover:hover,
-.lg-clr-primary-brand-blue-100-focus:focus,
-.lg-clr-primary-brand-blue-100-visited:visited,
-.lg-clr-primary-brand-blue-100-focus-within,
-.lg-clr-primary-brand-blue-100-focus-visible:focus-visible,
-.lg-clr-primary-brand-blue-100-target:target {
-    color: #bcc3db;
-  }
-  .lg-bg-clr-primary-brand-blue-100-active:active,
-.lg-bg-clr-primary-brand-blue-100-hover:hover,
-.lg-bg-clr-primary-brand-blue-100-focus:focus,
-.lg-bg-clr-primary-brand-blue-100-visited:visited,
-.lg-bg-clr-primary-brand-blue-100-focus-within,
-.lg-bg-clr-primary-brand-blue-100-focus-visible:focus-visible,
-.lg-bg-clr-primary-brand-blue-100-target:target {
-    background-color: #bcc3db;
-  }
-  .lg-clr-secondary-brand-yellow-900 {
-    color: #713f12;
-  }
-  .lg-bg-clr-secondary-brand-yellow-900 {
-    background-color: #713f12;
-  }
-  .lg-clr-secondary-brand-yellow-900-active:active,
-.lg-clr-secondary-brand-yellow-900-hover:hover,
-.lg-clr-secondary-brand-yellow-900-focus:focus,
-.lg-clr-secondary-brand-yellow-900-visited:visited,
-.lg-clr-secondary-brand-yellow-900-focus-within,
-.lg-clr-secondary-brand-yellow-900-focus-visible:focus-visible,
-.lg-clr-secondary-brand-yellow-900-target:target {
-    color: #713f12;
-  }
-  .lg-bg-clr-secondary-brand-yellow-900-active:active,
-.lg-bg-clr-secondary-brand-yellow-900-hover:hover,
-.lg-bg-clr-secondary-brand-yellow-900-focus:focus,
-.lg-bg-clr-secondary-brand-yellow-900-visited:visited,
-.lg-bg-clr-secondary-brand-yellow-900-focus-within,
-.lg-bg-clr-secondary-brand-yellow-900-focus-visible:focus-visible,
-.lg-bg-clr-secondary-brand-yellow-900-target:target {
-    background-color: #713f12;
-  }
-  .lg-clr-secondary-brand-yellow-800 {
-    color: #854d0e;
-  }
-  .lg-bg-clr-secondary-brand-yellow-800 {
-    background-color: #854d0e;
-  }
-  .lg-clr-secondary-brand-yellow-800-active:active,
-.lg-clr-secondary-brand-yellow-800-hover:hover,
-.lg-clr-secondary-brand-yellow-800-focus:focus,
-.lg-clr-secondary-brand-yellow-800-visited:visited,
-.lg-clr-secondary-brand-yellow-800-focus-within,
-.lg-clr-secondary-brand-yellow-800-focus-visible:focus-visible,
-.lg-clr-secondary-brand-yellow-800-target:target {
-    color: #854d0e;
-  }
-  .lg-bg-clr-secondary-brand-yellow-800-active:active,
-.lg-bg-clr-secondary-brand-yellow-800-hover:hover,
-.lg-bg-clr-secondary-brand-yellow-800-focus:focus,
-.lg-bg-clr-secondary-brand-yellow-800-visited:visited,
-.lg-bg-clr-secondary-brand-yellow-800-focus-within,
-.lg-bg-clr-secondary-brand-yellow-800-focus-visible:focus-visible,
-.lg-bg-clr-secondary-brand-yellow-800-target:target {
-    background-color: #854d0e;
-  }
-  .lg-clr-secondary-brand-yellow-700 {
-    color: #a16207;
-  }
-  .lg-bg-clr-secondary-brand-yellow-700 {
-    background-color: #a16207;
-  }
-  .lg-clr-secondary-brand-yellow-700-active:active,
-.lg-clr-secondary-brand-yellow-700-hover:hover,
-.lg-clr-secondary-brand-yellow-700-focus:focus,
-.lg-clr-secondary-brand-yellow-700-visited:visited,
-.lg-clr-secondary-brand-yellow-700-focus-within,
-.lg-clr-secondary-brand-yellow-700-focus-visible:focus-visible,
-.lg-clr-secondary-brand-yellow-700-target:target {
-    color: #a16207;
-  }
-  .lg-bg-clr-secondary-brand-yellow-700-active:active,
-.lg-bg-clr-secondary-brand-yellow-700-hover:hover,
-.lg-bg-clr-secondary-brand-yellow-700-focus:focus,
-.lg-bg-clr-secondary-brand-yellow-700-visited:visited,
-.lg-bg-clr-secondary-brand-yellow-700-focus-within,
-.lg-bg-clr-secondary-brand-yellow-700-focus-visible:focus-visible,
-.lg-bg-clr-secondary-brand-yellow-700-target:target {
-    background-color: #a16207;
-  }
-  .lg-clr-secondary-brand-yellow-600 {
-    color: #ca8a04;
-  }
-  .lg-bg-clr-secondary-brand-yellow-600 {
-    background-color: #ca8a04;
-  }
-  .lg-clr-secondary-brand-yellow-600-active:active,
-.lg-clr-secondary-brand-yellow-600-hover:hover,
-.lg-clr-secondary-brand-yellow-600-focus:focus,
-.lg-clr-secondary-brand-yellow-600-visited:visited,
-.lg-clr-secondary-brand-yellow-600-focus-within,
-.lg-clr-secondary-brand-yellow-600-focus-visible:focus-visible,
-.lg-clr-secondary-brand-yellow-600-target:target {
-    color: #ca8a04;
-  }
-  .lg-bg-clr-secondary-brand-yellow-600-active:active,
-.lg-bg-clr-secondary-brand-yellow-600-hover:hover,
-.lg-bg-clr-secondary-brand-yellow-600-focus:focus,
-.lg-bg-clr-secondary-brand-yellow-600-visited:visited,
-.lg-bg-clr-secondary-brand-yellow-600-focus-within,
-.lg-bg-clr-secondary-brand-yellow-600-focus-visible:focus-visible,
-.lg-bg-clr-secondary-brand-yellow-600-target:target {
-    background-color: #ca8a04;
-  }
-  .lg-clr-secondary-brand-yellow-500 {
-    color: #eab308;
-  }
-  .lg-bg-clr-secondary-brand-yellow-500 {
-    background-color: #eab308;
-  }
-  .lg-clr-secondary-brand-yellow-500-active:active,
-.lg-clr-secondary-brand-yellow-500-hover:hover,
-.lg-clr-secondary-brand-yellow-500-focus:focus,
-.lg-clr-secondary-brand-yellow-500-visited:visited,
-.lg-clr-secondary-brand-yellow-500-focus-within,
-.lg-clr-secondary-brand-yellow-500-focus-visible:focus-visible,
-.lg-clr-secondary-brand-yellow-500-target:target {
-    color: #eab308;
-  }
-  .lg-bg-clr-secondary-brand-yellow-500-active:active,
-.lg-bg-clr-secondary-brand-yellow-500-hover:hover,
-.lg-bg-clr-secondary-brand-yellow-500-focus:focus,
-.lg-bg-clr-secondary-brand-yellow-500-visited:visited,
-.lg-bg-clr-secondary-brand-yellow-500-focus-within,
-.lg-bg-clr-secondary-brand-yellow-500-focus-visible:focus-visible,
-.lg-bg-clr-secondary-brand-yellow-500-target:target {
-    background-color: #eab308;
-  }
-  .lg-clr-secondary-brand-yellow-400 {
-    color: #facc15;
-  }
-  .lg-bg-clr-secondary-brand-yellow-400 {
-    background-color: #facc15;
-  }
-  .lg-clr-secondary-brand-yellow-400-active:active,
-.lg-clr-secondary-brand-yellow-400-hover:hover,
-.lg-clr-secondary-brand-yellow-400-focus:focus,
-.lg-clr-secondary-brand-yellow-400-visited:visited,
-.lg-clr-secondary-brand-yellow-400-focus-within,
-.lg-clr-secondary-brand-yellow-400-focus-visible:focus-visible,
-.lg-clr-secondary-brand-yellow-400-target:target {
-    color: #facc15;
-  }
-  .lg-bg-clr-secondary-brand-yellow-400-active:active,
-.lg-bg-clr-secondary-brand-yellow-400-hover:hover,
-.lg-bg-clr-secondary-brand-yellow-400-focus:focus,
-.lg-bg-clr-secondary-brand-yellow-400-visited:visited,
-.lg-bg-clr-secondary-brand-yellow-400-focus-within,
-.lg-bg-clr-secondary-brand-yellow-400-focus-visible:focus-visible,
-.lg-bg-clr-secondary-brand-yellow-400-target:target {
-    background-color: #facc15;
-  }
-  .lg-clr-secondary-brand-yellow-300 {
-    color: #fde047;
-  }
-  .lg-bg-clr-secondary-brand-yellow-300 {
-    background-color: #fde047;
-  }
-  .lg-clr-secondary-brand-yellow-300-active:active,
-.lg-clr-secondary-brand-yellow-300-hover:hover,
-.lg-clr-secondary-brand-yellow-300-focus:focus,
-.lg-clr-secondary-brand-yellow-300-visited:visited,
-.lg-clr-secondary-brand-yellow-300-focus-within,
-.lg-clr-secondary-brand-yellow-300-focus-visible:focus-visible,
-.lg-clr-secondary-brand-yellow-300-target:target {
-    color: #fde047;
-  }
-  .lg-bg-clr-secondary-brand-yellow-300-active:active,
-.lg-bg-clr-secondary-brand-yellow-300-hover:hover,
-.lg-bg-clr-secondary-brand-yellow-300-focus:focus,
-.lg-bg-clr-secondary-brand-yellow-300-visited:visited,
-.lg-bg-clr-secondary-brand-yellow-300-focus-within,
-.lg-bg-clr-secondary-brand-yellow-300-focus-visible:focus-visible,
-.lg-bg-clr-secondary-brand-yellow-300-target:target {
-    background-color: #fde047;
-  }
-  .lg-clr-secondary-brand-yellow-200 {
-    color: #fde68a;
-  }
-  .lg-bg-clr-secondary-brand-yellow-200 {
-    background-color: #fde68a;
-  }
-  .lg-clr-secondary-brand-yellow-200-active:active,
-.lg-clr-secondary-brand-yellow-200-hover:hover,
-.lg-clr-secondary-brand-yellow-200-focus:focus,
-.lg-clr-secondary-brand-yellow-200-visited:visited,
-.lg-clr-secondary-brand-yellow-200-focus-within,
-.lg-clr-secondary-brand-yellow-200-focus-visible:focus-visible,
-.lg-clr-secondary-brand-yellow-200-target:target {
-    color: #fde68a;
-  }
-  .lg-bg-clr-secondary-brand-yellow-200-active:active,
-.lg-bg-clr-secondary-brand-yellow-200-hover:hover,
-.lg-bg-clr-secondary-brand-yellow-200-focus:focus,
-.lg-bg-clr-secondary-brand-yellow-200-visited:visited,
-.lg-bg-clr-secondary-brand-yellow-200-focus-within,
-.lg-bg-clr-secondary-brand-yellow-200-focus-visible:focus-visible,
-.lg-bg-clr-secondary-brand-yellow-200-target:target {
-    background-color: #fde68a;
-  }
-  .lg-clr-secondary-brand-yellow-100 {
-    color: #fef3c7;
-  }
-  .lg-bg-clr-secondary-brand-yellow-100 {
-    background-color: #fef3c7;
-  }
-  .lg-clr-secondary-brand-yellow-100-active:active,
-.lg-clr-secondary-brand-yellow-100-hover:hover,
-.lg-clr-secondary-brand-yellow-100-focus:focus,
-.lg-clr-secondary-brand-yellow-100-visited:visited,
-.lg-clr-secondary-brand-yellow-100-focus-within,
-.lg-clr-secondary-brand-yellow-100-focus-visible:focus-visible,
-.lg-clr-secondary-brand-yellow-100-target:target {
-    color: #fef3c7;
-  }
-  .lg-bg-clr-secondary-brand-yellow-100-active:active,
-.lg-bg-clr-secondary-brand-yellow-100-hover:hover,
-.lg-bg-clr-secondary-brand-yellow-100-focus:focus,
-.lg-bg-clr-secondary-brand-yellow-100-visited:visited,
-.lg-bg-clr-secondary-brand-yellow-100-focus-within,
-.lg-bg-clr-secondary-brand-yellow-100-focus-visible:focus-visible,
-.lg-bg-clr-secondary-brand-yellow-100-target:target {
-    background-color: #fef3c7;
-  }
-  .lg-clr-semantic-critical-dark {
-    color: #991b1b;
-  }
-  .lg-bg-clr-semantic-critical-dark {
-    background-color: #991b1b;
-  }
-  .lg-clr-semantic-critical-dark-active:active,
-.lg-clr-semantic-critical-dark-hover:hover,
-.lg-clr-semantic-critical-dark-focus:focus,
-.lg-clr-semantic-critical-dark-visited:visited,
-.lg-clr-semantic-critical-dark-focus-within,
-.lg-clr-semantic-critical-dark-focus-visible:focus-visible,
-.lg-clr-semantic-critical-dark-target:target {
-    color: #991b1b;
-  }
-  .lg-bg-clr-semantic-critical-dark-active:active,
-.lg-bg-clr-semantic-critical-dark-hover:hover,
-.lg-bg-clr-semantic-critical-dark-focus:focus,
-.lg-bg-clr-semantic-critical-dark-visited:visited,
-.lg-bg-clr-semantic-critical-dark-focus-within,
-.lg-bg-clr-semantic-critical-dark-focus-visible:focus-visible,
-.lg-bg-clr-semantic-critical-dark-target:target {
-    background-color: #991b1b;
-  }
-  .lg-clr-semantic-critical-base {
-    color: #dc2626;
-  }
-  .lg-bg-clr-semantic-critical-base {
-    background-color: #dc2626;
-  }
-  .lg-clr-semantic-critical-base-active:active,
-.lg-clr-semantic-critical-base-hover:hover,
-.lg-clr-semantic-critical-base-focus:focus,
-.lg-clr-semantic-critical-base-visited:visited,
-.lg-clr-semantic-critical-base-focus-within,
-.lg-clr-semantic-critical-base-focus-visible:focus-visible,
-.lg-clr-semantic-critical-base-target:target {
-    color: #dc2626;
-  }
-  .lg-bg-clr-semantic-critical-base-active:active,
-.lg-bg-clr-semantic-critical-base-hover:hover,
-.lg-bg-clr-semantic-critical-base-focus:focus,
-.lg-bg-clr-semantic-critical-base-visited:visited,
-.lg-bg-clr-semantic-critical-base-focus-within,
-.lg-bg-clr-semantic-critical-base-focus-visible:focus-visible,
-.lg-bg-clr-semantic-critical-base-target:target {
-    background-color: #dc2626;
-  }
-  .lg-clr-semantic-critical-light {
-    color: #fca5a5;
-  }
-  .lg-bg-clr-semantic-critical-light {
-    background-color: #fca5a5;
-  }
-  .lg-clr-semantic-critical-light-active:active,
-.lg-clr-semantic-critical-light-hover:hover,
-.lg-clr-semantic-critical-light-focus:focus,
-.lg-clr-semantic-critical-light-visited:visited,
-.lg-clr-semantic-critical-light-focus-within,
-.lg-clr-semantic-critical-light-focus-visible:focus-visible,
-.lg-clr-semantic-critical-light-target:target {
-    color: #fca5a5;
-  }
-  .lg-bg-clr-semantic-critical-light-active:active,
-.lg-bg-clr-semantic-critical-light-hover:hover,
-.lg-bg-clr-semantic-critical-light-focus:focus,
-.lg-bg-clr-semantic-critical-light-visited:visited,
-.lg-bg-clr-semantic-critical-light-focus-within,
-.lg-bg-clr-semantic-critical-light-focus-visible:focus-visible,
-.lg-bg-clr-semantic-critical-light-target:target {
-    background-color: #fca5a5;
-  }
-  .lg-clr-semantic-warning-dark {
-    color: #9a3412;
-  }
-  .lg-bg-clr-semantic-warning-dark {
-    background-color: #9a3412;
-  }
-  .lg-clr-semantic-warning-dark-active:active,
-.lg-clr-semantic-warning-dark-hover:hover,
-.lg-clr-semantic-warning-dark-focus:focus,
-.lg-clr-semantic-warning-dark-visited:visited,
-.lg-clr-semantic-warning-dark-focus-within,
-.lg-clr-semantic-warning-dark-focus-visible:focus-visible,
-.lg-clr-semantic-warning-dark-target:target {
-    color: #9a3412;
-  }
-  .lg-bg-clr-semantic-warning-dark-active:active,
-.lg-bg-clr-semantic-warning-dark-hover:hover,
-.lg-bg-clr-semantic-warning-dark-focus:focus,
-.lg-bg-clr-semantic-warning-dark-visited:visited,
-.lg-bg-clr-semantic-warning-dark-focus-within,
-.lg-bg-clr-semantic-warning-dark-focus-visible:focus-visible,
-.lg-bg-clr-semantic-warning-dark-target:target {
-    background-color: #9a3412;
-  }
-  .lg-clr-semantic-warning-base {
-    color: #ea580c;
-  }
-  .lg-bg-clr-semantic-warning-base {
-    background-color: #ea580c;
-  }
-  .lg-clr-semantic-warning-base-active:active,
-.lg-clr-semantic-warning-base-hover:hover,
-.lg-clr-semantic-warning-base-focus:focus,
-.lg-clr-semantic-warning-base-visited:visited,
-.lg-clr-semantic-warning-base-focus-within,
-.lg-clr-semantic-warning-base-focus-visible:focus-visible,
-.lg-clr-semantic-warning-base-target:target {
-    color: #ea580c;
-  }
-  .lg-bg-clr-semantic-warning-base-active:active,
-.lg-bg-clr-semantic-warning-base-hover:hover,
-.lg-bg-clr-semantic-warning-base-focus:focus,
-.lg-bg-clr-semantic-warning-base-visited:visited,
-.lg-bg-clr-semantic-warning-base-focus-within,
-.lg-bg-clr-semantic-warning-base-focus-visible:focus-visible,
-.lg-bg-clr-semantic-warning-base-target:target {
-    background-color: #ea580c;
-  }
-  .lg-clr-semantic-warning-light {
-    color: #fdba74;
-  }
-  .lg-bg-clr-semantic-warning-light {
-    background-color: #fdba74;
-  }
-  .lg-clr-semantic-warning-light-active:active,
-.lg-clr-semantic-warning-light-hover:hover,
-.lg-clr-semantic-warning-light-focus:focus,
-.lg-clr-semantic-warning-light-visited:visited,
-.lg-clr-semantic-warning-light-focus-within,
-.lg-clr-semantic-warning-light-focus-visible:focus-visible,
-.lg-clr-semantic-warning-light-target:target {
-    color: #fdba74;
-  }
-  .lg-bg-clr-semantic-warning-light-active:active,
-.lg-bg-clr-semantic-warning-light-hover:hover,
-.lg-bg-clr-semantic-warning-light-focus:focus,
-.lg-bg-clr-semantic-warning-light-visited:visited,
-.lg-bg-clr-semantic-warning-light-focus-within,
-.lg-bg-clr-semantic-warning-light-focus-visible:focus-visible,
-.lg-bg-clr-semantic-warning-light-target:target {
-    background-color: #fdba74;
-  }
-  .lg-clr-semantic-success-dark {
-    color: #047857;
-  }
-  .lg-bg-clr-semantic-success-dark {
-    background-color: #047857;
-  }
-  .lg-clr-semantic-success-dark-active:active,
-.lg-clr-semantic-success-dark-hover:hover,
-.lg-clr-semantic-success-dark-focus:focus,
-.lg-clr-semantic-success-dark-visited:visited,
-.lg-clr-semantic-success-dark-focus-within,
-.lg-clr-semantic-success-dark-focus-visible:focus-visible,
-.lg-clr-semantic-success-dark-target:target {
-    color: #047857;
-  }
-  .lg-bg-clr-semantic-success-dark-active:active,
-.lg-bg-clr-semantic-success-dark-hover:hover,
-.lg-bg-clr-semantic-success-dark-focus:focus,
-.lg-bg-clr-semantic-success-dark-visited:visited,
-.lg-bg-clr-semantic-success-dark-focus-within,
-.lg-bg-clr-semantic-success-dark-focus-visible:focus-visible,
-.lg-bg-clr-semantic-success-dark-target:target {
-    background-color: #047857;
-  }
-  .lg-clr-semantic-success-base {
-    color: #10b981;
-  }
-  .lg-bg-clr-semantic-success-base {
-    background-color: #10b981;
-  }
-  .lg-clr-semantic-success-base-active:active,
-.lg-clr-semantic-success-base-hover:hover,
-.lg-clr-semantic-success-base-focus:focus,
-.lg-clr-semantic-success-base-visited:visited,
-.lg-clr-semantic-success-base-focus-within,
-.lg-clr-semantic-success-base-focus-visible:focus-visible,
-.lg-clr-semantic-success-base-target:target {
-    color: #10b981;
-  }
-  .lg-bg-clr-semantic-success-base-active:active,
-.lg-bg-clr-semantic-success-base-hover:hover,
-.lg-bg-clr-semantic-success-base-focus:focus,
-.lg-bg-clr-semantic-success-base-visited:visited,
-.lg-bg-clr-semantic-success-base-focus-within,
-.lg-bg-clr-semantic-success-base-focus-visible:focus-visible,
-.lg-bg-clr-semantic-success-base-target:target {
-    background-color: #10b981;
-  }
-  .lg-clr-semantic-success-light {
-    color: #6ee7b7;
-  }
-  .lg-bg-clr-semantic-success-light {
-    background-color: #6ee7b7;
-  }
-  .lg-clr-semantic-success-light-active:active,
-.lg-clr-semantic-success-light-hover:hover,
-.lg-clr-semantic-success-light-focus:focus,
-.lg-clr-semantic-success-light-visited:visited,
-.lg-clr-semantic-success-light-focus-within,
-.lg-clr-semantic-success-light-focus-visible:focus-visible,
-.lg-clr-semantic-success-light-target:target {
-    color: #6ee7b7;
-  }
-  .lg-bg-clr-semantic-success-light-active:active,
-.lg-bg-clr-semantic-success-light-hover:hover,
-.lg-bg-clr-semantic-success-light-focus:focus,
-.lg-bg-clr-semantic-success-light-visited:visited,
-.lg-bg-clr-semantic-success-light-focus-within,
-.lg-bg-clr-semantic-success-light-focus-visible:focus-visible,
-.lg-bg-clr-semantic-success-light-target:target {
-    background-color: #6ee7b7;
-  }
-  .lg-clr-semantic-info-dark {
-    color: #0b4b99;
-  }
-  .lg-bg-clr-semantic-info-dark {
-    background-color: #0b4b99;
-  }
-  .lg-clr-semantic-info-dark-active:active,
-.lg-clr-semantic-info-dark-hover:hover,
-.lg-clr-semantic-info-dark-focus:focus,
-.lg-clr-semantic-info-dark-visited:visited,
-.lg-clr-semantic-info-dark-focus-within,
-.lg-clr-semantic-info-dark-focus-visible:focus-visible,
-.lg-clr-semantic-info-dark-target:target {
-    color: #0b4b99;
-  }
-  .lg-bg-clr-semantic-info-dark-active:active,
-.lg-bg-clr-semantic-info-dark-hover:hover,
-.lg-bg-clr-semantic-info-dark-focus:focus,
-.lg-bg-clr-semantic-info-dark-visited:visited,
-.lg-bg-clr-semantic-info-dark-focus-within,
-.lg-bg-clr-semantic-info-dark-focus-visible:focus-visible,
-.lg-bg-clr-semantic-info-dark-target:target {
-    background-color: #0b4b99;
-  }
-  .lg-clr-semantic-info-base {
-    color: #106bda;
-  }
-  .lg-bg-clr-semantic-info-base {
-    background-color: #106bda;
-  }
-  .lg-clr-semantic-info-base-active:active,
-.lg-clr-semantic-info-base-hover:hover,
-.lg-clr-semantic-info-base-focus:focus,
-.lg-clr-semantic-info-base-visited:visited,
-.lg-clr-semantic-info-base-focus-within,
-.lg-clr-semantic-info-base-focus-visible:focus-visible,
-.lg-clr-semantic-info-base-target:target {
-    color: #106bda;
-  }
-  .lg-bg-clr-semantic-info-base-active:active,
-.lg-bg-clr-semantic-info-base-hover:hover,
-.lg-bg-clr-semantic-info-base-focus:focus,
-.lg-bg-clr-semantic-info-base-visited:visited,
-.lg-bg-clr-semantic-info-base-focus-within,
-.lg-bg-clr-semantic-info-base-focus-visible:focus-visible,
-.lg-bg-clr-semantic-info-base-target:target {
-    background-color: #106bda;
-  }
-  .lg-clr-semantic-info-light {
-    color: #88b5ed;
-  }
-  .lg-bg-clr-semantic-info-light {
-    background-color: #88b5ed;
-  }
-  .lg-clr-semantic-info-light-active:active,
-.lg-clr-semantic-info-light-hover:hover,
-.lg-clr-semantic-info-light-focus:focus,
-.lg-clr-semantic-info-light-visited:visited,
-.lg-clr-semantic-info-light-focus-within,
-.lg-clr-semantic-info-light-focus-visible:focus-visible,
-.lg-clr-semantic-info-light-target:target {
-    color: #88b5ed;
-  }
-  .lg-bg-clr-semantic-info-light-active:active,
-.lg-bg-clr-semantic-info-light-hover:hover,
-.lg-bg-clr-semantic-info-light-focus:focus,
-.lg-bg-clr-semantic-info-light-visited:visited,
-.lg-bg-clr-semantic-info-light-focus-within,
-.lg-bg-clr-semantic-info-light-focus-visible:focus-visible,
-.lg-bg-clr-semantic-info-light-target:target {
-    background-color: #88b5ed;
-  }
-  .lg-clr-grayscale-shade-absblack {
-    color: #000000;
-  }
-  .lg-bg-clr-grayscale-shade-absblack {
-    background-color: #000000;
-  }
-  .lg-clr-grayscale-shade-absblack-active:active,
-.lg-clr-grayscale-shade-absblack-hover:hover,
-.lg-clr-grayscale-shade-absblack-focus:focus,
-.lg-clr-grayscale-shade-absblack-visited:visited,
-.lg-clr-grayscale-shade-absblack-focus-within,
-.lg-clr-grayscale-shade-absblack-focus-visible:focus-visible,
-.lg-clr-grayscale-shade-absblack-target:target {
-    color: #000000;
-  }
-  .lg-bg-clr-grayscale-shade-absblack-active:active,
-.lg-bg-clr-grayscale-shade-absblack-hover:hover,
-.lg-bg-clr-grayscale-shade-absblack-focus:focus,
-.lg-bg-clr-grayscale-shade-absblack-visited:visited,
-.lg-bg-clr-grayscale-shade-absblack-focus-within,
-.lg-bg-clr-grayscale-shade-absblack-focus-visible:focus-visible,
-.lg-bg-clr-grayscale-shade-absblack-target:target {
-    background-color: #000000;
-  }
-  .lg-clr-grayscale-shade-900 {
-    color: #0f172a;
-  }
-  .lg-bg-clr-grayscale-shade-900 {
-    background-color: #0f172a;
-  }
-  .lg-clr-grayscale-shade-900-active:active,
-.lg-clr-grayscale-shade-900-hover:hover,
-.lg-clr-grayscale-shade-900-focus:focus,
-.lg-clr-grayscale-shade-900-visited:visited,
-.lg-clr-grayscale-shade-900-focus-within,
-.lg-clr-grayscale-shade-900-focus-visible:focus-visible,
-.lg-clr-grayscale-shade-900-target:target {
-    color: #0f172a;
-  }
-  .lg-bg-clr-grayscale-shade-900-active:active,
-.lg-bg-clr-grayscale-shade-900-hover:hover,
-.lg-bg-clr-grayscale-shade-900-focus:focus,
-.lg-bg-clr-grayscale-shade-900-visited:visited,
-.lg-bg-clr-grayscale-shade-900-focus-within,
-.lg-bg-clr-grayscale-shade-900-focus-visible:focus-visible,
-.lg-bg-clr-grayscale-shade-900-target:target {
-    background-color: #0f172a;
-  }
-  .lg-clr-grayscale-shade-800 {
-    color: #1e293b;
-  }
-  .lg-bg-clr-grayscale-shade-800 {
-    background-color: #1e293b;
-  }
-  .lg-clr-grayscale-shade-800-active:active,
-.lg-clr-grayscale-shade-800-hover:hover,
-.lg-clr-grayscale-shade-800-focus:focus,
-.lg-clr-grayscale-shade-800-visited:visited,
-.lg-clr-grayscale-shade-800-focus-within,
-.lg-clr-grayscale-shade-800-focus-visible:focus-visible,
-.lg-clr-grayscale-shade-800-target:target {
-    color: #1e293b;
-  }
-  .lg-bg-clr-grayscale-shade-800-active:active,
-.lg-bg-clr-grayscale-shade-800-hover:hover,
-.lg-bg-clr-grayscale-shade-800-focus:focus,
-.lg-bg-clr-grayscale-shade-800-visited:visited,
-.lg-bg-clr-grayscale-shade-800-focus-within,
-.lg-bg-clr-grayscale-shade-800-focus-visible:focus-visible,
-.lg-bg-clr-grayscale-shade-800-target:target {
-    background-color: #1e293b;
-  }
-  .lg-clr-grayscale-shade-700 {
-    color: #334155;
-  }
-  .lg-bg-clr-grayscale-shade-700 {
-    background-color: #334155;
-  }
-  .lg-clr-grayscale-shade-700-active:active,
-.lg-clr-grayscale-shade-700-hover:hover,
-.lg-clr-grayscale-shade-700-focus:focus,
-.lg-clr-grayscale-shade-700-visited:visited,
-.lg-clr-grayscale-shade-700-focus-within,
-.lg-clr-grayscale-shade-700-focus-visible:focus-visible,
-.lg-clr-grayscale-shade-700-target:target {
-    color: #334155;
-  }
-  .lg-bg-clr-grayscale-shade-700-active:active,
-.lg-bg-clr-grayscale-shade-700-hover:hover,
-.lg-bg-clr-grayscale-shade-700-focus:focus,
-.lg-bg-clr-grayscale-shade-700-visited:visited,
-.lg-bg-clr-grayscale-shade-700-focus-within,
-.lg-bg-clr-grayscale-shade-700-focus-visible:focus-visible,
-.lg-bg-clr-grayscale-shade-700-target:target {
-    background-color: #334155;
-  }
-  .lg-clr-grayscale-shade-600 {
-    color: #475569;
-  }
-  .lg-bg-clr-grayscale-shade-600 {
-    background-color: #475569;
-  }
-  .lg-clr-grayscale-shade-600-active:active,
-.lg-clr-grayscale-shade-600-hover:hover,
-.lg-clr-grayscale-shade-600-focus:focus,
-.lg-clr-grayscale-shade-600-visited:visited,
-.lg-clr-grayscale-shade-600-focus-within,
-.lg-clr-grayscale-shade-600-focus-visible:focus-visible,
-.lg-clr-grayscale-shade-600-target:target {
-    color: #475569;
-  }
-  .lg-bg-clr-grayscale-shade-600-active:active,
-.lg-bg-clr-grayscale-shade-600-hover:hover,
-.lg-bg-clr-grayscale-shade-600-focus:focus,
-.lg-bg-clr-grayscale-shade-600-visited:visited,
-.lg-bg-clr-grayscale-shade-600-focus-within,
-.lg-bg-clr-grayscale-shade-600-focus-visible:focus-visible,
-.lg-bg-clr-grayscale-shade-600-target:target {
-    background-color: #475569;
-  }
-  .lg-clr-grayscale-shade-500 {
-    color: #64748b;
-  }
-  .lg-bg-clr-grayscale-shade-500 {
-    background-color: #64748b;
-  }
-  .lg-clr-grayscale-shade-500-active:active,
-.lg-clr-grayscale-shade-500-hover:hover,
-.lg-clr-grayscale-shade-500-focus:focus,
-.lg-clr-grayscale-shade-500-visited:visited,
-.lg-clr-grayscale-shade-500-focus-within,
-.lg-clr-grayscale-shade-500-focus-visible:focus-visible,
-.lg-clr-grayscale-shade-500-target:target {
-    color: #64748b;
-  }
-  .lg-bg-clr-grayscale-shade-500-active:active,
-.lg-bg-clr-grayscale-shade-500-hover:hover,
-.lg-bg-clr-grayscale-shade-500-focus:focus,
-.lg-bg-clr-grayscale-shade-500-visited:visited,
-.lg-bg-clr-grayscale-shade-500-focus-within,
-.lg-bg-clr-grayscale-shade-500-focus-visible:focus-visible,
-.lg-bg-clr-grayscale-shade-500-target:target {
-    background-color: #64748b;
-  }
-  .lg-clr-grayscale-shade-400 {
-    color: #94a3b8;
-  }
-  .lg-bg-clr-grayscale-shade-400 {
-    background-color: #94a3b8;
-  }
-  .lg-clr-grayscale-shade-400-active:active,
-.lg-clr-grayscale-shade-400-hover:hover,
-.lg-clr-grayscale-shade-400-focus:focus,
-.lg-clr-grayscale-shade-400-visited:visited,
-.lg-clr-grayscale-shade-400-focus-within,
-.lg-clr-grayscale-shade-400-focus-visible:focus-visible,
-.lg-clr-grayscale-shade-400-target:target {
-    color: #94a3b8;
-  }
-  .lg-bg-clr-grayscale-shade-400-active:active,
-.lg-bg-clr-grayscale-shade-400-hover:hover,
-.lg-bg-clr-grayscale-shade-400-focus:focus,
-.lg-bg-clr-grayscale-shade-400-visited:visited,
-.lg-bg-clr-grayscale-shade-400-focus-within,
-.lg-bg-clr-grayscale-shade-400-focus-visible:focus-visible,
-.lg-bg-clr-grayscale-shade-400-target:target {
-    background-color: #94a3b8;
-  }
-  .lg-clr-grayscale-shade-300 {
-    color: #cbd5e1;
-  }
-  .lg-bg-clr-grayscale-shade-300 {
-    background-color: #cbd5e1;
-  }
-  .lg-clr-grayscale-shade-300-active:active,
-.lg-clr-grayscale-shade-300-hover:hover,
-.lg-clr-grayscale-shade-300-focus:focus,
-.lg-clr-grayscale-shade-300-visited:visited,
-.lg-clr-grayscale-shade-300-focus-within,
-.lg-clr-grayscale-shade-300-focus-visible:focus-visible,
-.lg-clr-grayscale-shade-300-target:target {
-    color: #cbd5e1;
-  }
-  .lg-bg-clr-grayscale-shade-300-active:active,
-.lg-bg-clr-grayscale-shade-300-hover:hover,
-.lg-bg-clr-grayscale-shade-300-focus:focus,
-.lg-bg-clr-grayscale-shade-300-visited:visited,
-.lg-bg-clr-grayscale-shade-300-focus-within,
-.lg-bg-clr-grayscale-shade-300-focus-visible:focus-visible,
-.lg-bg-clr-grayscale-shade-300-target:target {
-    background-color: #cbd5e1;
-  }
-  .lg-clr-grayscale-shade-200 {
-    color: #e2e8f0;
-  }
-  .lg-bg-clr-grayscale-shade-200 {
-    background-color: #e2e8f0;
-  }
-  .lg-clr-grayscale-shade-200-active:active,
-.lg-clr-grayscale-shade-200-hover:hover,
-.lg-clr-grayscale-shade-200-focus:focus,
-.lg-clr-grayscale-shade-200-visited:visited,
-.lg-clr-grayscale-shade-200-focus-within,
-.lg-clr-grayscale-shade-200-focus-visible:focus-visible,
-.lg-clr-grayscale-shade-200-target:target {
-    color: #e2e8f0;
-  }
-  .lg-bg-clr-grayscale-shade-200-active:active,
-.lg-bg-clr-grayscale-shade-200-hover:hover,
-.lg-bg-clr-grayscale-shade-200-focus:focus,
-.lg-bg-clr-grayscale-shade-200-visited:visited,
-.lg-bg-clr-grayscale-shade-200-focus-within,
-.lg-bg-clr-grayscale-shade-200-focus-visible:focus-visible,
-.lg-bg-clr-grayscale-shade-200-target:target {
-    background-color: #e2e8f0;
-  }
-  .lg-clr-grayscale-shade-100 {
-    color: #f1f5f9;
-  }
-  .lg-bg-clr-grayscale-shade-100 {
-    background-color: #f1f5f9;
-  }
-  .lg-clr-grayscale-shade-100-active:active,
-.lg-clr-grayscale-shade-100-hover:hover,
-.lg-clr-grayscale-shade-100-focus:focus,
-.lg-clr-grayscale-shade-100-visited:visited,
-.lg-clr-grayscale-shade-100-focus-within,
-.lg-clr-grayscale-shade-100-focus-visible:focus-visible,
-.lg-clr-grayscale-shade-100-target:target {
-    color: #f1f5f9;
-  }
-  .lg-bg-clr-grayscale-shade-100-active:active,
-.lg-bg-clr-grayscale-shade-100-hover:hover,
-.lg-bg-clr-grayscale-shade-100-focus:focus,
-.lg-bg-clr-grayscale-shade-100-visited:visited,
-.lg-bg-clr-grayscale-shade-100-focus-within,
-.lg-bg-clr-grayscale-shade-100-focus-visible:focus-visible,
-.lg-bg-clr-grayscale-shade-100-target:target {
-    background-color: #f1f5f9;
-  }
-  .lg-clr-grayscale-shade-abswhite {
-    color: #ffffff;
-  }
-  .lg-bg-clr-grayscale-shade-abswhite {
-    background-color: #ffffff;
-  }
-  .lg-clr-grayscale-shade-abswhite-active:active,
-.lg-clr-grayscale-shade-abswhite-hover:hover,
-.lg-clr-grayscale-shade-abswhite-focus:focus,
-.lg-clr-grayscale-shade-abswhite-visited:visited,
-.lg-clr-grayscale-shade-abswhite-focus-within,
-.lg-clr-grayscale-shade-abswhite-focus-visible:focus-visible,
-.lg-clr-grayscale-shade-abswhite-target:target {
-    color: #ffffff;
-  }
-  .lg-bg-clr-grayscale-shade-abswhite-active:active,
-.lg-bg-clr-grayscale-shade-abswhite-hover:hover,
-.lg-bg-clr-grayscale-shade-abswhite-focus:focus,
-.lg-bg-clr-grayscale-shade-abswhite-visited:visited,
-.lg-bg-clr-grayscale-shade-abswhite-focus-within,
-.lg-bg-clr-grayscale-shade-abswhite-focus-visible:focus-visible,
-.lg-bg-clr-grayscale-shade-abswhite-target:target {
-    background-color: #ffffff;
-  }
 }
 @media only screen and (min-width: 2560px) {
   .xl-ft-header-1 {
@@ -4250,989 +1298,31 @@
   .xl-lh-lineheight-5 {
     line-height: 2;
   }
-  .xl-clr-primary-brand-blue-900 {
+}
+@media (prefers-color-scheme: dark) {
+  .clr-primary-brand-blue-900-darkmode {
     color: #122252;
   }
-  .xl-bg-clr-primary-brand-blue-900 {
+  .bg-clr-primary-brand-blue-900-darkmode {
     background-color: #122252;
   }
-  .xl-clr-primary-brand-blue-900-active:active,
-.xl-clr-primary-brand-blue-900-hover:hover,
-.xl-clr-primary-brand-blue-900-focus:focus,
-.xl-clr-primary-brand-blue-900-visited:visited,
-.xl-clr-primary-brand-blue-900-focus-within,
-.xl-clr-primary-brand-blue-900-focus-visible:focus-visible,
-.xl-clr-primary-brand-blue-900-target:target {
+  .clr-primary-brand-blue-900-active-darkmode:active,
+.clr-primary-brand-blue-900-hover-darkmode:hover,
+.clr-primary-brand-blue-900-focus-darkmode:focus,
+.clr-primary-brand-blue-900-visited-darkmode:visited,
+.clr-primary-brand-blue-900-focus-within-darkmode,
+.clr-primary-brand-blue-900-focus-visible-darkmode:focus-visible,
+.clr-primary-brand-blue-900-target-darkmode:target {
     color: #122252;
   }
-  .xl-bg-clr-primary-brand-blue-900-active:active,
-.xl-bg-clr-primary-brand-blue-900-hover:hover,
-.xl-bg-clr-primary-brand-blue-900-focus:focus,
-.xl-bg-clr-primary-brand-blue-900-visited:visited,
-.xl-bg-clr-primary-brand-blue-900-focus-within,
-.xl-bg-clr-primary-brand-blue-900-focus-visible:focus-visible,
-.xl-bg-clr-primary-brand-blue-900-target:target {
+  .bg-clr-primary-brand-blue-900-active-darkmode:active,
+.bg-clr-primary-brand-blue-900-hover-darkmode:hover,
+.bg-clr-primary-brand-blue-900-focus-darkmode:focus,
+.bg-clr-primary-brand-blue-900-visited-darkmode:visited,
+.bg-clr-primary-brand-blue-900-focus-within-darkmode:focus-within,
+.bg-clr-primary-brand-blue-900-focus-visible-darkmode:focus-visible,
+.bg-clr-primary-brand-blue-900-target-darkmode:target {
     background-color: #122252;
-  }
-  .xl-clr-primary-brand-blue-800 {
-    color: #15275f;
-  }
-  .xl-bg-clr-primary-brand-blue-800 {
-    background-color: #15275f;
-  }
-  .xl-clr-primary-brand-blue-800-active:active,
-.xl-clr-primary-brand-blue-800-hover:hover,
-.xl-clr-primary-brand-blue-800-focus:focus,
-.xl-clr-primary-brand-blue-800-visited:visited,
-.xl-clr-primary-brand-blue-800-focus-within,
-.xl-clr-primary-brand-blue-800-focus-visible:focus-visible,
-.xl-clr-primary-brand-blue-800-target:target {
-    color: #15275f;
-  }
-  .xl-bg-clr-primary-brand-blue-800-active:active,
-.xl-bg-clr-primary-brand-blue-800-hover:hover,
-.xl-bg-clr-primary-brand-blue-800-focus:focus,
-.xl-bg-clr-primary-brand-blue-800-visited:visited,
-.xl-bg-clr-primary-brand-blue-800-focus-within,
-.xl-bg-clr-primary-brand-blue-800-focus-visible:focus-visible,
-.xl-bg-clr-primary-brand-blue-800-target:target {
-    background-color: #15275f;
-  }
-  .xl-clr-primary-brand-blue-700 {
-    color: #182d6d;
-  }
-  .xl-bg-clr-primary-brand-blue-700 {
-    background-color: #182d6d;
-  }
-  .xl-clr-primary-brand-blue-700-active:active,
-.xl-clr-primary-brand-blue-700-hover:hover,
-.xl-clr-primary-brand-blue-700-focus:focus,
-.xl-clr-primary-brand-blue-700-visited:visited,
-.xl-clr-primary-brand-blue-700-focus-within,
-.xl-clr-primary-brand-blue-700-focus-visible:focus-visible,
-.xl-clr-primary-brand-blue-700-target:target {
-    color: #182d6d;
-  }
-  .xl-bg-clr-primary-brand-blue-700-active:active,
-.xl-bg-clr-primary-brand-blue-700-hover:hover,
-.xl-bg-clr-primary-brand-blue-700-focus:focus,
-.xl-bg-clr-primary-brand-blue-700-visited:visited,
-.xl-bg-clr-primary-brand-blue-700-focus-within,
-.xl-bg-clr-primary-brand-blue-700-focus-visible:focus-visible,
-.xl-bg-clr-primary-brand-blue-700-target:target {
-    background-color: #182d6d;
-  }
-  .xl-clr-primary-brand-blue-600 {
-    color: #1b327a;
-  }
-  .xl-bg-clr-primary-brand-blue-600 {
-    background-color: #1b327a;
-  }
-  .xl-clr-primary-brand-blue-600-active:active,
-.xl-clr-primary-brand-blue-600-hover:hover,
-.xl-clr-primary-brand-blue-600-focus:focus,
-.xl-clr-primary-brand-blue-600-visited:visited,
-.xl-clr-primary-brand-blue-600-focus-within,
-.xl-clr-primary-brand-blue-600-focus-visible:focus-visible,
-.xl-clr-primary-brand-blue-600-target:target {
-    color: #1b327a;
-  }
-  .xl-bg-clr-primary-brand-blue-600-active:active,
-.xl-bg-clr-primary-brand-blue-600-hover:hover,
-.xl-bg-clr-primary-brand-blue-600-focus:focus,
-.xl-bg-clr-primary-brand-blue-600-visited:visited,
-.xl-bg-clr-primary-brand-blue-600-focus-within,
-.xl-bg-clr-primary-brand-blue-600-focus-visible:focus-visible,
-.xl-bg-clr-primary-brand-blue-600-target:target {
-    background-color: #1b327a;
-  }
-  .xl-clr-primary-brand-blue-500 {
-    color: #1e3888;
-  }
-  .xl-bg-clr-primary-brand-blue-500 {
-    background-color: #1e3888;
-  }
-  .xl-clr-primary-brand-blue-500-active:active,
-.xl-clr-primary-brand-blue-500-hover:hover,
-.xl-clr-primary-brand-blue-500-focus:focus,
-.xl-clr-primary-brand-blue-500-visited:visited,
-.xl-clr-primary-brand-blue-500-focus-within,
-.xl-clr-primary-brand-blue-500-focus-visible:focus-visible,
-.xl-clr-primary-brand-blue-500-target:target {
-    color: #1e3888;
-  }
-  .xl-bg-clr-primary-brand-blue-500-active:active,
-.xl-bg-clr-primary-brand-blue-500-hover:hover,
-.xl-bg-clr-primary-brand-blue-500-focus:focus,
-.xl-bg-clr-primary-brand-blue-500-visited:visited,
-.xl-bg-clr-primary-brand-blue-500-focus-within,
-.xl-bg-clr-primary-brand-blue-500-focus-visible:focus-visible,
-.xl-bg-clr-primary-brand-blue-500-target:target {
-    background-color: #1e3888;
-  }
-  .xl-clr-primary-brand-blue-400 {
-    color: #354c94;
-  }
-  .xl-bg-clr-primary-brand-blue-400 {
-    background-color: #354c94;
-  }
-  .xl-clr-primary-brand-blue-400-active:active,
-.xl-clr-primary-brand-blue-400-hover:hover,
-.xl-clr-primary-brand-blue-400-focus:focus,
-.xl-clr-primary-brand-blue-400-visited:visited,
-.xl-clr-primary-brand-blue-400-focus-within,
-.xl-clr-primary-brand-blue-400-focus-visible:focus-visible,
-.xl-clr-primary-brand-blue-400-target:target {
-    color: #354c94;
-  }
-  .xl-bg-clr-primary-brand-blue-400-active:active,
-.xl-bg-clr-primary-brand-blue-400-hover:hover,
-.xl-bg-clr-primary-brand-blue-400-focus:focus,
-.xl-bg-clr-primary-brand-blue-400-visited:visited,
-.xl-bg-clr-primary-brand-blue-400-focus-within,
-.xl-bg-clr-primary-brand-blue-400-focus-visible:focus-visible,
-.xl-bg-clr-primary-brand-blue-400-target:target {
-    background-color: #354c94;
-  }
-  .xl-clr-primary-brand-blue-300 {
-    color: #4b60a0;
-  }
-  .xl-bg-clr-primary-brand-blue-300 {
-    background-color: #4b60a0;
-  }
-  .xl-clr-primary-brand-blue-300-active:active,
-.xl-clr-primary-brand-blue-300-hover:hover,
-.xl-clr-primary-brand-blue-300-focus:focus,
-.xl-clr-primary-brand-blue-300-visited:visited,
-.xl-clr-primary-brand-blue-300-focus-within,
-.xl-clr-primary-brand-blue-300-focus-visible:focus-visible,
-.xl-clr-primary-brand-blue-300-target:target {
-    color: #4b60a0;
-  }
-  .xl-bg-clr-primary-brand-blue-300-active:active,
-.xl-bg-clr-primary-brand-blue-300-hover:hover,
-.xl-bg-clr-primary-brand-blue-300-focus:focus,
-.xl-bg-clr-primary-brand-blue-300-visited:visited,
-.xl-bg-clr-primary-brand-blue-300-focus-within,
-.xl-bg-clr-primary-brand-blue-300-focus-visible:focus-visible,
-.xl-bg-clr-primary-brand-blue-300-target:target {
-    background-color: #4b60a0;
-  }
-  .xl-clr-primary-brand-blue-200 {
-    color: #7888b8;
-  }
-  .xl-bg-clr-primary-brand-blue-200 {
-    background-color: #7888b8;
-  }
-  .xl-clr-primary-brand-blue-200-active:active,
-.xl-clr-primary-brand-blue-200-hover:hover,
-.xl-clr-primary-brand-blue-200-focus:focus,
-.xl-clr-primary-brand-blue-200-visited:visited,
-.xl-clr-primary-brand-blue-200-focus-within,
-.xl-clr-primary-brand-blue-200-focus-visible:focus-visible,
-.xl-clr-primary-brand-blue-200-target:target {
-    color: #7888b8;
-  }
-  .xl-bg-clr-primary-brand-blue-200-active:active,
-.xl-bg-clr-primary-brand-blue-200-hover:hover,
-.xl-bg-clr-primary-brand-blue-200-focus:focus,
-.xl-bg-clr-primary-brand-blue-200-visited:visited,
-.xl-bg-clr-primary-brand-blue-200-focus-within,
-.xl-bg-clr-primary-brand-blue-200-focus-visible:focus-visible,
-.xl-bg-clr-primary-brand-blue-200-target:target {
-    background-color: #7888b8;
-  }
-  .xl-clr-primary-brand-blue-100 {
-    color: #bcc3db;
-  }
-  .xl-bg-clr-primary-brand-blue-100 {
-    background-color: #bcc3db;
-  }
-  .xl-clr-primary-brand-blue-100-active:active,
-.xl-clr-primary-brand-blue-100-hover:hover,
-.xl-clr-primary-brand-blue-100-focus:focus,
-.xl-clr-primary-brand-blue-100-visited:visited,
-.xl-clr-primary-brand-blue-100-focus-within,
-.xl-clr-primary-brand-blue-100-focus-visible:focus-visible,
-.xl-clr-primary-brand-blue-100-target:target {
-    color: #bcc3db;
-  }
-  .xl-bg-clr-primary-brand-blue-100-active:active,
-.xl-bg-clr-primary-brand-blue-100-hover:hover,
-.xl-bg-clr-primary-brand-blue-100-focus:focus,
-.xl-bg-clr-primary-brand-blue-100-visited:visited,
-.xl-bg-clr-primary-brand-blue-100-focus-within,
-.xl-bg-clr-primary-brand-blue-100-focus-visible:focus-visible,
-.xl-bg-clr-primary-brand-blue-100-target:target {
-    background-color: #bcc3db;
-  }
-  .xl-clr-secondary-brand-yellow-900 {
-    color: #713f12;
-  }
-  .xl-bg-clr-secondary-brand-yellow-900 {
-    background-color: #713f12;
-  }
-  .xl-clr-secondary-brand-yellow-900-active:active,
-.xl-clr-secondary-brand-yellow-900-hover:hover,
-.xl-clr-secondary-brand-yellow-900-focus:focus,
-.xl-clr-secondary-brand-yellow-900-visited:visited,
-.xl-clr-secondary-brand-yellow-900-focus-within,
-.xl-clr-secondary-brand-yellow-900-focus-visible:focus-visible,
-.xl-clr-secondary-brand-yellow-900-target:target {
-    color: #713f12;
-  }
-  .xl-bg-clr-secondary-brand-yellow-900-active:active,
-.xl-bg-clr-secondary-brand-yellow-900-hover:hover,
-.xl-bg-clr-secondary-brand-yellow-900-focus:focus,
-.xl-bg-clr-secondary-brand-yellow-900-visited:visited,
-.xl-bg-clr-secondary-brand-yellow-900-focus-within,
-.xl-bg-clr-secondary-brand-yellow-900-focus-visible:focus-visible,
-.xl-bg-clr-secondary-brand-yellow-900-target:target {
-    background-color: #713f12;
-  }
-  .xl-clr-secondary-brand-yellow-800 {
-    color: #854d0e;
-  }
-  .xl-bg-clr-secondary-brand-yellow-800 {
-    background-color: #854d0e;
-  }
-  .xl-clr-secondary-brand-yellow-800-active:active,
-.xl-clr-secondary-brand-yellow-800-hover:hover,
-.xl-clr-secondary-brand-yellow-800-focus:focus,
-.xl-clr-secondary-brand-yellow-800-visited:visited,
-.xl-clr-secondary-brand-yellow-800-focus-within,
-.xl-clr-secondary-brand-yellow-800-focus-visible:focus-visible,
-.xl-clr-secondary-brand-yellow-800-target:target {
-    color: #854d0e;
-  }
-  .xl-bg-clr-secondary-brand-yellow-800-active:active,
-.xl-bg-clr-secondary-brand-yellow-800-hover:hover,
-.xl-bg-clr-secondary-brand-yellow-800-focus:focus,
-.xl-bg-clr-secondary-brand-yellow-800-visited:visited,
-.xl-bg-clr-secondary-brand-yellow-800-focus-within,
-.xl-bg-clr-secondary-brand-yellow-800-focus-visible:focus-visible,
-.xl-bg-clr-secondary-brand-yellow-800-target:target {
-    background-color: #854d0e;
-  }
-  .xl-clr-secondary-brand-yellow-700 {
-    color: #a16207;
-  }
-  .xl-bg-clr-secondary-brand-yellow-700 {
-    background-color: #a16207;
-  }
-  .xl-clr-secondary-brand-yellow-700-active:active,
-.xl-clr-secondary-brand-yellow-700-hover:hover,
-.xl-clr-secondary-brand-yellow-700-focus:focus,
-.xl-clr-secondary-brand-yellow-700-visited:visited,
-.xl-clr-secondary-brand-yellow-700-focus-within,
-.xl-clr-secondary-brand-yellow-700-focus-visible:focus-visible,
-.xl-clr-secondary-brand-yellow-700-target:target {
-    color: #a16207;
-  }
-  .xl-bg-clr-secondary-brand-yellow-700-active:active,
-.xl-bg-clr-secondary-brand-yellow-700-hover:hover,
-.xl-bg-clr-secondary-brand-yellow-700-focus:focus,
-.xl-bg-clr-secondary-brand-yellow-700-visited:visited,
-.xl-bg-clr-secondary-brand-yellow-700-focus-within,
-.xl-bg-clr-secondary-brand-yellow-700-focus-visible:focus-visible,
-.xl-bg-clr-secondary-brand-yellow-700-target:target {
-    background-color: #a16207;
-  }
-  .xl-clr-secondary-brand-yellow-600 {
-    color: #ca8a04;
-  }
-  .xl-bg-clr-secondary-brand-yellow-600 {
-    background-color: #ca8a04;
-  }
-  .xl-clr-secondary-brand-yellow-600-active:active,
-.xl-clr-secondary-brand-yellow-600-hover:hover,
-.xl-clr-secondary-brand-yellow-600-focus:focus,
-.xl-clr-secondary-brand-yellow-600-visited:visited,
-.xl-clr-secondary-brand-yellow-600-focus-within,
-.xl-clr-secondary-brand-yellow-600-focus-visible:focus-visible,
-.xl-clr-secondary-brand-yellow-600-target:target {
-    color: #ca8a04;
-  }
-  .xl-bg-clr-secondary-brand-yellow-600-active:active,
-.xl-bg-clr-secondary-brand-yellow-600-hover:hover,
-.xl-bg-clr-secondary-brand-yellow-600-focus:focus,
-.xl-bg-clr-secondary-brand-yellow-600-visited:visited,
-.xl-bg-clr-secondary-brand-yellow-600-focus-within,
-.xl-bg-clr-secondary-brand-yellow-600-focus-visible:focus-visible,
-.xl-bg-clr-secondary-brand-yellow-600-target:target {
-    background-color: #ca8a04;
-  }
-  .xl-clr-secondary-brand-yellow-500 {
-    color: #eab308;
-  }
-  .xl-bg-clr-secondary-brand-yellow-500 {
-    background-color: #eab308;
-  }
-  .xl-clr-secondary-brand-yellow-500-active:active,
-.xl-clr-secondary-brand-yellow-500-hover:hover,
-.xl-clr-secondary-brand-yellow-500-focus:focus,
-.xl-clr-secondary-brand-yellow-500-visited:visited,
-.xl-clr-secondary-brand-yellow-500-focus-within,
-.xl-clr-secondary-brand-yellow-500-focus-visible:focus-visible,
-.xl-clr-secondary-brand-yellow-500-target:target {
-    color: #eab308;
-  }
-  .xl-bg-clr-secondary-brand-yellow-500-active:active,
-.xl-bg-clr-secondary-brand-yellow-500-hover:hover,
-.xl-bg-clr-secondary-brand-yellow-500-focus:focus,
-.xl-bg-clr-secondary-brand-yellow-500-visited:visited,
-.xl-bg-clr-secondary-brand-yellow-500-focus-within,
-.xl-bg-clr-secondary-brand-yellow-500-focus-visible:focus-visible,
-.xl-bg-clr-secondary-brand-yellow-500-target:target {
-    background-color: #eab308;
-  }
-  .xl-clr-secondary-brand-yellow-400 {
-    color: #facc15;
-  }
-  .xl-bg-clr-secondary-brand-yellow-400 {
-    background-color: #facc15;
-  }
-  .xl-clr-secondary-brand-yellow-400-active:active,
-.xl-clr-secondary-brand-yellow-400-hover:hover,
-.xl-clr-secondary-brand-yellow-400-focus:focus,
-.xl-clr-secondary-brand-yellow-400-visited:visited,
-.xl-clr-secondary-brand-yellow-400-focus-within,
-.xl-clr-secondary-brand-yellow-400-focus-visible:focus-visible,
-.xl-clr-secondary-brand-yellow-400-target:target {
-    color: #facc15;
-  }
-  .xl-bg-clr-secondary-brand-yellow-400-active:active,
-.xl-bg-clr-secondary-brand-yellow-400-hover:hover,
-.xl-bg-clr-secondary-brand-yellow-400-focus:focus,
-.xl-bg-clr-secondary-brand-yellow-400-visited:visited,
-.xl-bg-clr-secondary-brand-yellow-400-focus-within,
-.xl-bg-clr-secondary-brand-yellow-400-focus-visible:focus-visible,
-.xl-bg-clr-secondary-brand-yellow-400-target:target {
-    background-color: #facc15;
-  }
-  .xl-clr-secondary-brand-yellow-300 {
-    color: #fde047;
-  }
-  .xl-bg-clr-secondary-brand-yellow-300 {
-    background-color: #fde047;
-  }
-  .xl-clr-secondary-brand-yellow-300-active:active,
-.xl-clr-secondary-brand-yellow-300-hover:hover,
-.xl-clr-secondary-brand-yellow-300-focus:focus,
-.xl-clr-secondary-brand-yellow-300-visited:visited,
-.xl-clr-secondary-brand-yellow-300-focus-within,
-.xl-clr-secondary-brand-yellow-300-focus-visible:focus-visible,
-.xl-clr-secondary-brand-yellow-300-target:target {
-    color: #fde047;
-  }
-  .xl-bg-clr-secondary-brand-yellow-300-active:active,
-.xl-bg-clr-secondary-brand-yellow-300-hover:hover,
-.xl-bg-clr-secondary-brand-yellow-300-focus:focus,
-.xl-bg-clr-secondary-brand-yellow-300-visited:visited,
-.xl-bg-clr-secondary-brand-yellow-300-focus-within,
-.xl-bg-clr-secondary-brand-yellow-300-focus-visible:focus-visible,
-.xl-bg-clr-secondary-brand-yellow-300-target:target {
-    background-color: #fde047;
-  }
-  .xl-clr-secondary-brand-yellow-200 {
-    color: #fde68a;
-  }
-  .xl-bg-clr-secondary-brand-yellow-200 {
-    background-color: #fde68a;
-  }
-  .xl-clr-secondary-brand-yellow-200-active:active,
-.xl-clr-secondary-brand-yellow-200-hover:hover,
-.xl-clr-secondary-brand-yellow-200-focus:focus,
-.xl-clr-secondary-brand-yellow-200-visited:visited,
-.xl-clr-secondary-brand-yellow-200-focus-within,
-.xl-clr-secondary-brand-yellow-200-focus-visible:focus-visible,
-.xl-clr-secondary-brand-yellow-200-target:target {
-    color: #fde68a;
-  }
-  .xl-bg-clr-secondary-brand-yellow-200-active:active,
-.xl-bg-clr-secondary-brand-yellow-200-hover:hover,
-.xl-bg-clr-secondary-brand-yellow-200-focus:focus,
-.xl-bg-clr-secondary-brand-yellow-200-visited:visited,
-.xl-bg-clr-secondary-brand-yellow-200-focus-within,
-.xl-bg-clr-secondary-brand-yellow-200-focus-visible:focus-visible,
-.xl-bg-clr-secondary-brand-yellow-200-target:target {
-    background-color: #fde68a;
-  }
-  .xl-clr-secondary-brand-yellow-100 {
-    color: #fef3c7;
-  }
-  .xl-bg-clr-secondary-brand-yellow-100 {
-    background-color: #fef3c7;
-  }
-  .xl-clr-secondary-brand-yellow-100-active:active,
-.xl-clr-secondary-brand-yellow-100-hover:hover,
-.xl-clr-secondary-brand-yellow-100-focus:focus,
-.xl-clr-secondary-brand-yellow-100-visited:visited,
-.xl-clr-secondary-brand-yellow-100-focus-within,
-.xl-clr-secondary-brand-yellow-100-focus-visible:focus-visible,
-.xl-clr-secondary-brand-yellow-100-target:target {
-    color: #fef3c7;
-  }
-  .xl-bg-clr-secondary-brand-yellow-100-active:active,
-.xl-bg-clr-secondary-brand-yellow-100-hover:hover,
-.xl-bg-clr-secondary-brand-yellow-100-focus:focus,
-.xl-bg-clr-secondary-brand-yellow-100-visited:visited,
-.xl-bg-clr-secondary-brand-yellow-100-focus-within,
-.xl-bg-clr-secondary-brand-yellow-100-focus-visible:focus-visible,
-.xl-bg-clr-secondary-brand-yellow-100-target:target {
-    background-color: #fef3c7;
-  }
-  .xl-clr-semantic-critical-dark {
-    color: #991b1b;
-  }
-  .xl-bg-clr-semantic-critical-dark {
-    background-color: #991b1b;
-  }
-  .xl-clr-semantic-critical-dark-active:active,
-.xl-clr-semantic-critical-dark-hover:hover,
-.xl-clr-semantic-critical-dark-focus:focus,
-.xl-clr-semantic-critical-dark-visited:visited,
-.xl-clr-semantic-critical-dark-focus-within,
-.xl-clr-semantic-critical-dark-focus-visible:focus-visible,
-.xl-clr-semantic-critical-dark-target:target {
-    color: #991b1b;
-  }
-  .xl-bg-clr-semantic-critical-dark-active:active,
-.xl-bg-clr-semantic-critical-dark-hover:hover,
-.xl-bg-clr-semantic-critical-dark-focus:focus,
-.xl-bg-clr-semantic-critical-dark-visited:visited,
-.xl-bg-clr-semantic-critical-dark-focus-within,
-.xl-bg-clr-semantic-critical-dark-focus-visible:focus-visible,
-.xl-bg-clr-semantic-critical-dark-target:target {
-    background-color: #991b1b;
-  }
-  .xl-clr-semantic-critical-base {
-    color: #dc2626;
-  }
-  .xl-bg-clr-semantic-critical-base {
-    background-color: #dc2626;
-  }
-  .xl-clr-semantic-critical-base-active:active,
-.xl-clr-semantic-critical-base-hover:hover,
-.xl-clr-semantic-critical-base-focus:focus,
-.xl-clr-semantic-critical-base-visited:visited,
-.xl-clr-semantic-critical-base-focus-within,
-.xl-clr-semantic-critical-base-focus-visible:focus-visible,
-.xl-clr-semantic-critical-base-target:target {
-    color: #dc2626;
-  }
-  .xl-bg-clr-semantic-critical-base-active:active,
-.xl-bg-clr-semantic-critical-base-hover:hover,
-.xl-bg-clr-semantic-critical-base-focus:focus,
-.xl-bg-clr-semantic-critical-base-visited:visited,
-.xl-bg-clr-semantic-critical-base-focus-within,
-.xl-bg-clr-semantic-critical-base-focus-visible:focus-visible,
-.xl-bg-clr-semantic-critical-base-target:target {
-    background-color: #dc2626;
-  }
-  .xl-clr-semantic-critical-light {
-    color: #fca5a5;
-  }
-  .xl-bg-clr-semantic-critical-light {
-    background-color: #fca5a5;
-  }
-  .xl-clr-semantic-critical-light-active:active,
-.xl-clr-semantic-critical-light-hover:hover,
-.xl-clr-semantic-critical-light-focus:focus,
-.xl-clr-semantic-critical-light-visited:visited,
-.xl-clr-semantic-critical-light-focus-within,
-.xl-clr-semantic-critical-light-focus-visible:focus-visible,
-.xl-clr-semantic-critical-light-target:target {
-    color: #fca5a5;
-  }
-  .xl-bg-clr-semantic-critical-light-active:active,
-.xl-bg-clr-semantic-critical-light-hover:hover,
-.xl-bg-clr-semantic-critical-light-focus:focus,
-.xl-bg-clr-semantic-critical-light-visited:visited,
-.xl-bg-clr-semantic-critical-light-focus-within,
-.xl-bg-clr-semantic-critical-light-focus-visible:focus-visible,
-.xl-bg-clr-semantic-critical-light-target:target {
-    background-color: #fca5a5;
-  }
-  .xl-clr-semantic-warning-dark {
-    color: #9a3412;
-  }
-  .xl-bg-clr-semantic-warning-dark {
-    background-color: #9a3412;
-  }
-  .xl-clr-semantic-warning-dark-active:active,
-.xl-clr-semantic-warning-dark-hover:hover,
-.xl-clr-semantic-warning-dark-focus:focus,
-.xl-clr-semantic-warning-dark-visited:visited,
-.xl-clr-semantic-warning-dark-focus-within,
-.xl-clr-semantic-warning-dark-focus-visible:focus-visible,
-.xl-clr-semantic-warning-dark-target:target {
-    color: #9a3412;
-  }
-  .xl-bg-clr-semantic-warning-dark-active:active,
-.xl-bg-clr-semantic-warning-dark-hover:hover,
-.xl-bg-clr-semantic-warning-dark-focus:focus,
-.xl-bg-clr-semantic-warning-dark-visited:visited,
-.xl-bg-clr-semantic-warning-dark-focus-within,
-.xl-bg-clr-semantic-warning-dark-focus-visible:focus-visible,
-.xl-bg-clr-semantic-warning-dark-target:target {
-    background-color: #9a3412;
-  }
-  .xl-clr-semantic-warning-base {
-    color: #ea580c;
-  }
-  .xl-bg-clr-semantic-warning-base {
-    background-color: #ea580c;
-  }
-  .xl-clr-semantic-warning-base-active:active,
-.xl-clr-semantic-warning-base-hover:hover,
-.xl-clr-semantic-warning-base-focus:focus,
-.xl-clr-semantic-warning-base-visited:visited,
-.xl-clr-semantic-warning-base-focus-within,
-.xl-clr-semantic-warning-base-focus-visible:focus-visible,
-.xl-clr-semantic-warning-base-target:target {
-    color: #ea580c;
-  }
-  .xl-bg-clr-semantic-warning-base-active:active,
-.xl-bg-clr-semantic-warning-base-hover:hover,
-.xl-bg-clr-semantic-warning-base-focus:focus,
-.xl-bg-clr-semantic-warning-base-visited:visited,
-.xl-bg-clr-semantic-warning-base-focus-within,
-.xl-bg-clr-semantic-warning-base-focus-visible:focus-visible,
-.xl-bg-clr-semantic-warning-base-target:target {
-    background-color: #ea580c;
-  }
-  .xl-clr-semantic-warning-light {
-    color: #fdba74;
-  }
-  .xl-bg-clr-semantic-warning-light {
-    background-color: #fdba74;
-  }
-  .xl-clr-semantic-warning-light-active:active,
-.xl-clr-semantic-warning-light-hover:hover,
-.xl-clr-semantic-warning-light-focus:focus,
-.xl-clr-semantic-warning-light-visited:visited,
-.xl-clr-semantic-warning-light-focus-within,
-.xl-clr-semantic-warning-light-focus-visible:focus-visible,
-.xl-clr-semantic-warning-light-target:target {
-    color: #fdba74;
-  }
-  .xl-bg-clr-semantic-warning-light-active:active,
-.xl-bg-clr-semantic-warning-light-hover:hover,
-.xl-bg-clr-semantic-warning-light-focus:focus,
-.xl-bg-clr-semantic-warning-light-visited:visited,
-.xl-bg-clr-semantic-warning-light-focus-within,
-.xl-bg-clr-semantic-warning-light-focus-visible:focus-visible,
-.xl-bg-clr-semantic-warning-light-target:target {
-    background-color: #fdba74;
-  }
-  .xl-clr-semantic-success-dark {
-    color: #047857;
-  }
-  .xl-bg-clr-semantic-success-dark {
-    background-color: #047857;
-  }
-  .xl-clr-semantic-success-dark-active:active,
-.xl-clr-semantic-success-dark-hover:hover,
-.xl-clr-semantic-success-dark-focus:focus,
-.xl-clr-semantic-success-dark-visited:visited,
-.xl-clr-semantic-success-dark-focus-within,
-.xl-clr-semantic-success-dark-focus-visible:focus-visible,
-.xl-clr-semantic-success-dark-target:target {
-    color: #047857;
-  }
-  .xl-bg-clr-semantic-success-dark-active:active,
-.xl-bg-clr-semantic-success-dark-hover:hover,
-.xl-bg-clr-semantic-success-dark-focus:focus,
-.xl-bg-clr-semantic-success-dark-visited:visited,
-.xl-bg-clr-semantic-success-dark-focus-within,
-.xl-bg-clr-semantic-success-dark-focus-visible:focus-visible,
-.xl-bg-clr-semantic-success-dark-target:target {
-    background-color: #047857;
-  }
-  .xl-clr-semantic-success-base {
-    color: #10b981;
-  }
-  .xl-bg-clr-semantic-success-base {
-    background-color: #10b981;
-  }
-  .xl-clr-semantic-success-base-active:active,
-.xl-clr-semantic-success-base-hover:hover,
-.xl-clr-semantic-success-base-focus:focus,
-.xl-clr-semantic-success-base-visited:visited,
-.xl-clr-semantic-success-base-focus-within,
-.xl-clr-semantic-success-base-focus-visible:focus-visible,
-.xl-clr-semantic-success-base-target:target {
-    color: #10b981;
-  }
-  .xl-bg-clr-semantic-success-base-active:active,
-.xl-bg-clr-semantic-success-base-hover:hover,
-.xl-bg-clr-semantic-success-base-focus:focus,
-.xl-bg-clr-semantic-success-base-visited:visited,
-.xl-bg-clr-semantic-success-base-focus-within,
-.xl-bg-clr-semantic-success-base-focus-visible:focus-visible,
-.xl-bg-clr-semantic-success-base-target:target {
-    background-color: #10b981;
-  }
-  .xl-clr-semantic-success-light {
-    color: #6ee7b7;
-  }
-  .xl-bg-clr-semantic-success-light {
-    background-color: #6ee7b7;
-  }
-  .xl-clr-semantic-success-light-active:active,
-.xl-clr-semantic-success-light-hover:hover,
-.xl-clr-semantic-success-light-focus:focus,
-.xl-clr-semantic-success-light-visited:visited,
-.xl-clr-semantic-success-light-focus-within,
-.xl-clr-semantic-success-light-focus-visible:focus-visible,
-.xl-clr-semantic-success-light-target:target {
-    color: #6ee7b7;
-  }
-  .xl-bg-clr-semantic-success-light-active:active,
-.xl-bg-clr-semantic-success-light-hover:hover,
-.xl-bg-clr-semantic-success-light-focus:focus,
-.xl-bg-clr-semantic-success-light-visited:visited,
-.xl-bg-clr-semantic-success-light-focus-within,
-.xl-bg-clr-semantic-success-light-focus-visible:focus-visible,
-.xl-bg-clr-semantic-success-light-target:target {
-    background-color: #6ee7b7;
-  }
-  .xl-clr-semantic-info-dark {
-    color: #0b4b99;
-  }
-  .xl-bg-clr-semantic-info-dark {
-    background-color: #0b4b99;
-  }
-  .xl-clr-semantic-info-dark-active:active,
-.xl-clr-semantic-info-dark-hover:hover,
-.xl-clr-semantic-info-dark-focus:focus,
-.xl-clr-semantic-info-dark-visited:visited,
-.xl-clr-semantic-info-dark-focus-within,
-.xl-clr-semantic-info-dark-focus-visible:focus-visible,
-.xl-clr-semantic-info-dark-target:target {
-    color: #0b4b99;
-  }
-  .xl-bg-clr-semantic-info-dark-active:active,
-.xl-bg-clr-semantic-info-dark-hover:hover,
-.xl-bg-clr-semantic-info-dark-focus:focus,
-.xl-bg-clr-semantic-info-dark-visited:visited,
-.xl-bg-clr-semantic-info-dark-focus-within,
-.xl-bg-clr-semantic-info-dark-focus-visible:focus-visible,
-.xl-bg-clr-semantic-info-dark-target:target {
-    background-color: #0b4b99;
-  }
-  .xl-clr-semantic-info-base {
-    color: #106bda;
-  }
-  .xl-bg-clr-semantic-info-base {
-    background-color: #106bda;
-  }
-  .xl-clr-semantic-info-base-active:active,
-.xl-clr-semantic-info-base-hover:hover,
-.xl-clr-semantic-info-base-focus:focus,
-.xl-clr-semantic-info-base-visited:visited,
-.xl-clr-semantic-info-base-focus-within,
-.xl-clr-semantic-info-base-focus-visible:focus-visible,
-.xl-clr-semantic-info-base-target:target {
-    color: #106bda;
-  }
-  .xl-bg-clr-semantic-info-base-active:active,
-.xl-bg-clr-semantic-info-base-hover:hover,
-.xl-bg-clr-semantic-info-base-focus:focus,
-.xl-bg-clr-semantic-info-base-visited:visited,
-.xl-bg-clr-semantic-info-base-focus-within,
-.xl-bg-clr-semantic-info-base-focus-visible:focus-visible,
-.xl-bg-clr-semantic-info-base-target:target {
-    background-color: #106bda;
-  }
-  .xl-clr-semantic-info-light {
-    color: #88b5ed;
-  }
-  .xl-bg-clr-semantic-info-light {
-    background-color: #88b5ed;
-  }
-  .xl-clr-semantic-info-light-active:active,
-.xl-clr-semantic-info-light-hover:hover,
-.xl-clr-semantic-info-light-focus:focus,
-.xl-clr-semantic-info-light-visited:visited,
-.xl-clr-semantic-info-light-focus-within,
-.xl-clr-semantic-info-light-focus-visible:focus-visible,
-.xl-clr-semantic-info-light-target:target {
-    color: #88b5ed;
-  }
-  .xl-bg-clr-semantic-info-light-active:active,
-.xl-bg-clr-semantic-info-light-hover:hover,
-.xl-bg-clr-semantic-info-light-focus:focus,
-.xl-bg-clr-semantic-info-light-visited:visited,
-.xl-bg-clr-semantic-info-light-focus-within,
-.xl-bg-clr-semantic-info-light-focus-visible:focus-visible,
-.xl-bg-clr-semantic-info-light-target:target {
-    background-color: #88b5ed;
-  }
-  .xl-clr-grayscale-shade-absblack {
-    color: #000000;
-  }
-  .xl-bg-clr-grayscale-shade-absblack {
-    background-color: #000000;
-  }
-  .xl-clr-grayscale-shade-absblack-active:active,
-.xl-clr-grayscale-shade-absblack-hover:hover,
-.xl-clr-grayscale-shade-absblack-focus:focus,
-.xl-clr-grayscale-shade-absblack-visited:visited,
-.xl-clr-grayscale-shade-absblack-focus-within,
-.xl-clr-grayscale-shade-absblack-focus-visible:focus-visible,
-.xl-clr-grayscale-shade-absblack-target:target {
-    color: #000000;
-  }
-  .xl-bg-clr-grayscale-shade-absblack-active:active,
-.xl-bg-clr-grayscale-shade-absblack-hover:hover,
-.xl-bg-clr-grayscale-shade-absblack-focus:focus,
-.xl-bg-clr-grayscale-shade-absblack-visited:visited,
-.xl-bg-clr-grayscale-shade-absblack-focus-within,
-.xl-bg-clr-grayscale-shade-absblack-focus-visible:focus-visible,
-.xl-bg-clr-grayscale-shade-absblack-target:target {
-    background-color: #000000;
-  }
-  .xl-clr-grayscale-shade-900 {
-    color: #0f172a;
-  }
-  .xl-bg-clr-grayscale-shade-900 {
-    background-color: #0f172a;
-  }
-  .xl-clr-grayscale-shade-900-active:active,
-.xl-clr-grayscale-shade-900-hover:hover,
-.xl-clr-grayscale-shade-900-focus:focus,
-.xl-clr-grayscale-shade-900-visited:visited,
-.xl-clr-grayscale-shade-900-focus-within,
-.xl-clr-grayscale-shade-900-focus-visible:focus-visible,
-.xl-clr-grayscale-shade-900-target:target {
-    color: #0f172a;
-  }
-  .xl-bg-clr-grayscale-shade-900-active:active,
-.xl-bg-clr-grayscale-shade-900-hover:hover,
-.xl-bg-clr-grayscale-shade-900-focus:focus,
-.xl-bg-clr-grayscale-shade-900-visited:visited,
-.xl-bg-clr-grayscale-shade-900-focus-within,
-.xl-bg-clr-grayscale-shade-900-focus-visible:focus-visible,
-.xl-bg-clr-grayscale-shade-900-target:target {
-    background-color: #0f172a;
-  }
-  .xl-clr-grayscale-shade-800 {
-    color: #1e293b;
-  }
-  .xl-bg-clr-grayscale-shade-800 {
-    background-color: #1e293b;
-  }
-  .xl-clr-grayscale-shade-800-active:active,
-.xl-clr-grayscale-shade-800-hover:hover,
-.xl-clr-grayscale-shade-800-focus:focus,
-.xl-clr-grayscale-shade-800-visited:visited,
-.xl-clr-grayscale-shade-800-focus-within,
-.xl-clr-grayscale-shade-800-focus-visible:focus-visible,
-.xl-clr-grayscale-shade-800-target:target {
-    color: #1e293b;
-  }
-  .xl-bg-clr-grayscale-shade-800-active:active,
-.xl-bg-clr-grayscale-shade-800-hover:hover,
-.xl-bg-clr-grayscale-shade-800-focus:focus,
-.xl-bg-clr-grayscale-shade-800-visited:visited,
-.xl-bg-clr-grayscale-shade-800-focus-within,
-.xl-bg-clr-grayscale-shade-800-focus-visible:focus-visible,
-.xl-bg-clr-grayscale-shade-800-target:target {
-    background-color: #1e293b;
-  }
-  .xl-clr-grayscale-shade-700 {
-    color: #334155;
-  }
-  .xl-bg-clr-grayscale-shade-700 {
-    background-color: #334155;
-  }
-  .xl-clr-grayscale-shade-700-active:active,
-.xl-clr-grayscale-shade-700-hover:hover,
-.xl-clr-grayscale-shade-700-focus:focus,
-.xl-clr-grayscale-shade-700-visited:visited,
-.xl-clr-grayscale-shade-700-focus-within,
-.xl-clr-grayscale-shade-700-focus-visible:focus-visible,
-.xl-clr-grayscale-shade-700-target:target {
-    color: #334155;
-  }
-  .xl-bg-clr-grayscale-shade-700-active:active,
-.xl-bg-clr-grayscale-shade-700-hover:hover,
-.xl-bg-clr-grayscale-shade-700-focus:focus,
-.xl-bg-clr-grayscale-shade-700-visited:visited,
-.xl-bg-clr-grayscale-shade-700-focus-within,
-.xl-bg-clr-grayscale-shade-700-focus-visible:focus-visible,
-.xl-bg-clr-grayscale-shade-700-target:target {
-    background-color: #334155;
-  }
-  .xl-clr-grayscale-shade-600 {
-    color: #475569;
-  }
-  .xl-bg-clr-grayscale-shade-600 {
-    background-color: #475569;
-  }
-  .xl-clr-grayscale-shade-600-active:active,
-.xl-clr-grayscale-shade-600-hover:hover,
-.xl-clr-grayscale-shade-600-focus:focus,
-.xl-clr-grayscale-shade-600-visited:visited,
-.xl-clr-grayscale-shade-600-focus-within,
-.xl-clr-grayscale-shade-600-focus-visible:focus-visible,
-.xl-clr-grayscale-shade-600-target:target {
-    color: #475569;
-  }
-  .xl-bg-clr-grayscale-shade-600-active:active,
-.xl-bg-clr-grayscale-shade-600-hover:hover,
-.xl-bg-clr-grayscale-shade-600-focus:focus,
-.xl-bg-clr-grayscale-shade-600-visited:visited,
-.xl-bg-clr-grayscale-shade-600-focus-within,
-.xl-bg-clr-grayscale-shade-600-focus-visible:focus-visible,
-.xl-bg-clr-grayscale-shade-600-target:target {
-    background-color: #475569;
-  }
-  .xl-clr-grayscale-shade-500 {
-    color: #64748b;
-  }
-  .xl-bg-clr-grayscale-shade-500 {
-    background-color: #64748b;
-  }
-  .xl-clr-grayscale-shade-500-active:active,
-.xl-clr-grayscale-shade-500-hover:hover,
-.xl-clr-grayscale-shade-500-focus:focus,
-.xl-clr-grayscale-shade-500-visited:visited,
-.xl-clr-grayscale-shade-500-focus-within,
-.xl-clr-grayscale-shade-500-focus-visible:focus-visible,
-.xl-clr-grayscale-shade-500-target:target {
-    color: #64748b;
-  }
-  .xl-bg-clr-grayscale-shade-500-active:active,
-.xl-bg-clr-grayscale-shade-500-hover:hover,
-.xl-bg-clr-grayscale-shade-500-focus:focus,
-.xl-bg-clr-grayscale-shade-500-visited:visited,
-.xl-bg-clr-grayscale-shade-500-focus-within,
-.xl-bg-clr-grayscale-shade-500-focus-visible:focus-visible,
-.xl-bg-clr-grayscale-shade-500-target:target {
-    background-color: #64748b;
-  }
-  .xl-clr-grayscale-shade-400 {
-    color: #94a3b8;
-  }
-  .xl-bg-clr-grayscale-shade-400 {
-    background-color: #94a3b8;
-  }
-  .xl-clr-grayscale-shade-400-active:active,
-.xl-clr-grayscale-shade-400-hover:hover,
-.xl-clr-grayscale-shade-400-focus:focus,
-.xl-clr-grayscale-shade-400-visited:visited,
-.xl-clr-grayscale-shade-400-focus-within,
-.xl-clr-grayscale-shade-400-focus-visible:focus-visible,
-.xl-clr-grayscale-shade-400-target:target {
-    color: #94a3b8;
-  }
-  .xl-bg-clr-grayscale-shade-400-active:active,
-.xl-bg-clr-grayscale-shade-400-hover:hover,
-.xl-bg-clr-grayscale-shade-400-focus:focus,
-.xl-bg-clr-grayscale-shade-400-visited:visited,
-.xl-bg-clr-grayscale-shade-400-focus-within,
-.xl-bg-clr-grayscale-shade-400-focus-visible:focus-visible,
-.xl-bg-clr-grayscale-shade-400-target:target {
-    background-color: #94a3b8;
-  }
-  .xl-clr-grayscale-shade-300 {
-    color: #cbd5e1;
-  }
-  .xl-bg-clr-grayscale-shade-300 {
-    background-color: #cbd5e1;
-  }
-  .xl-clr-grayscale-shade-300-active:active,
-.xl-clr-grayscale-shade-300-hover:hover,
-.xl-clr-grayscale-shade-300-focus:focus,
-.xl-clr-grayscale-shade-300-visited:visited,
-.xl-clr-grayscale-shade-300-focus-within,
-.xl-clr-grayscale-shade-300-focus-visible:focus-visible,
-.xl-clr-grayscale-shade-300-target:target {
-    color: #cbd5e1;
-  }
-  .xl-bg-clr-grayscale-shade-300-active:active,
-.xl-bg-clr-grayscale-shade-300-hover:hover,
-.xl-bg-clr-grayscale-shade-300-focus:focus,
-.xl-bg-clr-grayscale-shade-300-visited:visited,
-.xl-bg-clr-grayscale-shade-300-focus-within,
-.xl-bg-clr-grayscale-shade-300-focus-visible:focus-visible,
-.xl-bg-clr-grayscale-shade-300-target:target {
-    background-color: #cbd5e1;
-  }
-  .xl-clr-grayscale-shade-200 {
-    color: #e2e8f0;
-  }
-  .xl-bg-clr-grayscale-shade-200 {
-    background-color: #e2e8f0;
-  }
-  .xl-clr-grayscale-shade-200-active:active,
-.xl-clr-grayscale-shade-200-hover:hover,
-.xl-clr-grayscale-shade-200-focus:focus,
-.xl-clr-grayscale-shade-200-visited:visited,
-.xl-clr-grayscale-shade-200-focus-within,
-.xl-clr-grayscale-shade-200-focus-visible:focus-visible,
-.xl-clr-grayscale-shade-200-target:target {
-    color: #e2e8f0;
-  }
-  .xl-bg-clr-grayscale-shade-200-active:active,
-.xl-bg-clr-grayscale-shade-200-hover:hover,
-.xl-bg-clr-grayscale-shade-200-focus:focus,
-.xl-bg-clr-grayscale-shade-200-visited:visited,
-.xl-bg-clr-grayscale-shade-200-focus-within,
-.xl-bg-clr-grayscale-shade-200-focus-visible:focus-visible,
-.xl-bg-clr-grayscale-shade-200-target:target {
-    background-color: #e2e8f0;
-  }
-  .xl-clr-grayscale-shade-100 {
-    color: #f1f5f9;
-  }
-  .xl-bg-clr-grayscale-shade-100 {
-    background-color: #f1f5f9;
-  }
-  .xl-clr-grayscale-shade-100-active:active,
-.xl-clr-grayscale-shade-100-hover:hover,
-.xl-clr-grayscale-shade-100-focus:focus,
-.xl-clr-grayscale-shade-100-visited:visited,
-.xl-clr-grayscale-shade-100-focus-within,
-.xl-clr-grayscale-shade-100-focus-visible:focus-visible,
-.xl-clr-grayscale-shade-100-target:target {
-    color: #f1f5f9;
-  }
-  .xl-bg-clr-grayscale-shade-100-active:active,
-.xl-bg-clr-grayscale-shade-100-hover:hover,
-.xl-bg-clr-grayscale-shade-100-focus:focus,
-.xl-bg-clr-grayscale-shade-100-visited:visited,
-.xl-bg-clr-grayscale-shade-100-focus-within,
-.xl-bg-clr-grayscale-shade-100-focus-visible:focus-visible,
-.xl-bg-clr-grayscale-shade-100-target:target {
-    background-color: #f1f5f9;
-  }
-  .xl-clr-grayscale-shade-abswhite {
-    color: #ffffff;
-  }
-  .xl-bg-clr-grayscale-shade-abswhite {
-    background-color: #ffffff;
-  }
-  .xl-clr-grayscale-shade-abswhite-active:active,
-.xl-clr-grayscale-shade-abswhite-hover:hover,
-.xl-clr-grayscale-shade-abswhite-focus:focus,
-.xl-clr-grayscale-shade-abswhite-visited:visited,
-.xl-clr-grayscale-shade-abswhite-focus-within,
-.xl-clr-grayscale-shade-abswhite-focus-visible:focus-visible,
-.xl-clr-grayscale-shade-abswhite-target:target {
-    color: #ffffff;
-  }
-  .xl-bg-clr-grayscale-shade-abswhite-active:active,
-.xl-bg-clr-grayscale-shade-abswhite-hover:hover,
-.xl-bg-clr-grayscale-shade-abswhite-focus:focus,
-.xl-bg-clr-grayscale-shade-abswhite-visited:visited,
-.xl-bg-clr-grayscale-shade-abswhite-focus-within,
-.xl-bg-clr-grayscale-shade-abswhite-focus-visible:focus-visible,
-.xl-bg-clr-grayscale-shade-abswhite-target:target {
-    background-color: #ffffff;
   }
 }
 .clr-primary-brand-blue-900 {
@@ -5263,6 +1353,32 @@
   background-color: #122252;
 }
 
+@media (prefers-color-scheme: dark) {
+  .clr-primary-brand-blue-800-darkmode {
+    color: #15275f;
+  }
+  .bg-clr-primary-brand-blue-800-darkmode {
+    background-color: #15275f;
+  }
+  .clr-primary-brand-blue-800-active-darkmode:active,
+.clr-primary-brand-blue-800-hover-darkmode:hover,
+.clr-primary-brand-blue-800-focus-darkmode:focus,
+.clr-primary-brand-blue-800-visited-darkmode:visited,
+.clr-primary-brand-blue-800-focus-within-darkmode,
+.clr-primary-brand-blue-800-focus-visible-darkmode:focus-visible,
+.clr-primary-brand-blue-800-target-darkmode:target {
+    color: #15275f;
+  }
+  .bg-clr-primary-brand-blue-800-active-darkmode:active,
+.bg-clr-primary-brand-blue-800-hover-darkmode:hover,
+.bg-clr-primary-brand-blue-800-focus-darkmode:focus,
+.bg-clr-primary-brand-blue-800-visited-darkmode:visited,
+.bg-clr-primary-brand-blue-800-focus-within-darkmode:focus-within,
+.bg-clr-primary-brand-blue-800-focus-visible-darkmode:focus-visible,
+.bg-clr-primary-brand-blue-800-target-darkmode:target {
+    background-color: #15275f;
+  }
+}
 .clr-primary-brand-blue-800 {
   color: #15275f;
 }
@@ -5291,6 +1407,32 @@
   background-color: #15275f;
 }
 
+@media (prefers-color-scheme: dark) {
+  .clr-primary-brand-blue-700-darkmode {
+    color: #182d6d;
+  }
+  .bg-clr-primary-brand-blue-700-darkmode {
+    background-color: #182d6d;
+  }
+  .clr-primary-brand-blue-700-active-darkmode:active,
+.clr-primary-brand-blue-700-hover-darkmode:hover,
+.clr-primary-brand-blue-700-focus-darkmode:focus,
+.clr-primary-brand-blue-700-visited-darkmode:visited,
+.clr-primary-brand-blue-700-focus-within-darkmode,
+.clr-primary-brand-blue-700-focus-visible-darkmode:focus-visible,
+.clr-primary-brand-blue-700-target-darkmode:target {
+    color: #182d6d;
+  }
+  .bg-clr-primary-brand-blue-700-active-darkmode:active,
+.bg-clr-primary-brand-blue-700-hover-darkmode:hover,
+.bg-clr-primary-brand-blue-700-focus-darkmode:focus,
+.bg-clr-primary-brand-blue-700-visited-darkmode:visited,
+.bg-clr-primary-brand-blue-700-focus-within-darkmode:focus-within,
+.bg-clr-primary-brand-blue-700-focus-visible-darkmode:focus-visible,
+.bg-clr-primary-brand-blue-700-target-darkmode:target {
+    background-color: #182d6d;
+  }
+}
 .clr-primary-brand-blue-700 {
   color: #182d6d;
 }
@@ -5319,6 +1461,32 @@
   background-color: #182d6d;
 }
 
+@media (prefers-color-scheme: dark) {
+  .clr-primary-brand-blue-600-darkmode {
+    color: #1b327a;
+  }
+  .bg-clr-primary-brand-blue-600-darkmode {
+    background-color: #1b327a;
+  }
+  .clr-primary-brand-blue-600-active-darkmode:active,
+.clr-primary-brand-blue-600-hover-darkmode:hover,
+.clr-primary-brand-blue-600-focus-darkmode:focus,
+.clr-primary-brand-blue-600-visited-darkmode:visited,
+.clr-primary-brand-blue-600-focus-within-darkmode,
+.clr-primary-brand-blue-600-focus-visible-darkmode:focus-visible,
+.clr-primary-brand-blue-600-target-darkmode:target {
+    color: #1b327a;
+  }
+  .bg-clr-primary-brand-blue-600-active-darkmode:active,
+.bg-clr-primary-brand-blue-600-hover-darkmode:hover,
+.bg-clr-primary-brand-blue-600-focus-darkmode:focus,
+.bg-clr-primary-brand-blue-600-visited-darkmode:visited,
+.bg-clr-primary-brand-blue-600-focus-within-darkmode:focus-within,
+.bg-clr-primary-brand-blue-600-focus-visible-darkmode:focus-visible,
+.bg-clr-primary-brand-blue-600-target-darkmode:target {
+    background-color: #1b327a;
+  }
+}
 .clr-primary-brand-blue-600 {
   color: #1b327a;
 }
@@ -5347,6 +1515,32 @@
   background-color: #1b327a;
 }
 
+@media (prefers-color-scheme: dark) {
+  .clr-primary-brand-blue-500-darkmode {
+    color: #1e3888;
+  }
+  .bg-clr-primary-brand-blue-500-darkmode {
+    background-color: #1e3888;
+  }
+  .clr-primary-brand-blue-500-active-darkmode:active,
+.clr-primary-brand-blue-500-hover-darkmode:hover,
+.clr-primary-brand-blue-500-focus-darkmode:focus,
+.clr-primary-brand-blue-500-visited-darkmode:visited,
+.clr-primary-brand-blue-500-focus-within-darkmode,
+.clr-primary-brand-blue-500-focus-visible-darkmode:focus-visible,
+.clr-primary-brand-blue-500-target-darkmode:target {
+    color: #1e3888;
+  }
+  .bg-clr-primary-brand-blue-500-active-darkmode:active,
+.bg-clr-primary-brand-blue-500-hover-darkmode:hover,
+.bg-clr-primary-brand-blue-500-focus-darkmode:focus,
+.bg-clr-primary-brand-blue-500-visited-darkmode:visited,
+.bg-clr-primary-brand-blue-500-focus-within-darkmode:focus-within,
+.bg-clr-primary-brand-blue-500-focus-visible-darkmode:focus-visible,
+.bg-clr-primary-brand-blue-500-target-darkmode:target {
+    background-color: #1e3888;
+  }
+}
 .clr-primary-brand-blue-500 {
   color: #1e3888;
 }
@@ -5375,6 +1569,32 @@
   background-color: #1e3888;
 }
 
+@media (prefers-color-scheme: dark) {
+  .clr-primary-brand-blue-400-darkmode {
+    color: #354c94;
+  }
+  .bg-clr-primary-brand-blue-400-darkmode {
+    background-color: #354c94;
+  }
+  .clr-primary-brand-blue-400-active-darkmode:active,
+.clr-primary-brand-blue-400-hover-darkmode:hover,
+.clr-primary-brand-blue-400-focus-darkmode:focus,
+.clr-primary-brand-blue-400-visited-darkmode:visited,
+.clr-primary-brand-blue-400-focus-within-darkmode,
+.clr-primary-brand-blue-400-focus-visible-darkmode:focus-visible,
+.clr-primary-brand-blue-400-target-darkmode:target {
+    color: #354c94;
+  }
+  .bg-clr-primary-brand-blue-400-active-darkmode:active,
+.bg-clr-primary-brand-blue-400-hover-darkmode:hover,
+.bg-clr-primary-brand-blue-400-focus-darkmode:focus,
+.bg-clr-primary-brand-blue-400-visited-darkmode:visited,
+.bg-clr-primary-brand-blue-400-focus-within-darkmode:focus-within,
+.bg-clr-primary-brand-blue-400-focus-visible-darkmode:focus-visible,
+.bg-clr-primary-brand-blue-400-target-darkmode:target {
+    background-color: #354c94;
+  }
+}
 .clr-primary-brand-blue-400 {
   color: #354c94;
 }
@@ -5403,6 +1623,32 @@
   background-color: #354c94;
 }
 
+@media (prefers-color-scheme: dark) {
+  .clr-primary-brand-blue-300-darkmode {
+    color: #4b60a0;
+  }
+  .bg-clr-primary-brand-blue-300-darkmode {
+    background-color: #4b60a0;
+  }
+  .clr-primary-brand-blue-300-active-darkmode:active,
+.clr-primary-brand-blue-300-hover-darkmode:hover,
+.clr-primary-brand-blue-300-focus-darkmode:focus,
+.clr-primary-brand-blue-300-visited-darkmode:visited,
+.clr-primary-brand-blue-300-focus-within-darkmode,
+.clr-primary-brand-blue-300-focus-visible-darkmode:focus-visible,
+.clr-primary-brand-blue-300-target-darkmode:target {
+    color: #4b60a0;
+  }
+  .bg-clr-primary-brand-blue-300-active-darkmode:active,
+.bg-clr-primary-brand-blue-300-hover-darkmode:hover,
+.bg-clr-primary-brand-blue-300-focus-darkmode:focus,
+.bg-clr-primary-brand-blue-300-visited-darkmode:visited,
+.bg-clr-primary-brand-blue-300-focus-within-darkmode:focus-within,
+.bg-clr-primary-brand-blue-300-focus-visible-darkmode:focus-visible,
+.bg-clr-primary-brand-blue-300-target-darkmode:target {
+    background-color: #4b60a0;
+  }
+}
 .clr-primary-brand-blue-300 {
   color: #4b60a0;
 }
@@ -5431,6 +1677,32 @@
   background-color: #4b60a0;
 }
 
+@media (prefers-color-scheme: dark) {
+  .clr-primary-brand-blue-200-darkmode {
+    color: #7888b8;
+  }
+  .bg-clr-primary-brand-blue-200-darkmode {
+    background-color: #7888b8;
+  }
+  .clr-primary-brand-blue-200-active-darkmode:active,
+.clr-primary-brand-blue-200-hover-darkmode:hover,
+.clr-primary-brand-blue-200-focus-darkmode:focus,
+.clr-primary-brand-blue-200-visited-darkmode:visited,
+.clr-primary-brand-blue-200-focus-within-darkmode,
+.clr-primary-brand-blue-200-focus-visible-darkmode:focus-visible,
+.clr-primary-brand-blue-200-target-darkmode:target {
+    color: #7888b8;
+  }
+  .bg-clr-primary-brand-blue-200-active-darkmode:active,
+.bg-clr-primary-brand-blue-200-hover-darkmode:hover,
+.bg-clr-primary-brand-blue-200-focus-darkmode:focus,
+.bg-clr-primary-brand-blue-200-visited-darkmode:visited,
+.bg-clr-primary-brand-blue-200-focus-within-darkmode:focus-within,
+.bg-clr-primary-brand-blue-200-focus-visible-darkmode:focus-visible,
+.bg-clr-primary-brand-blue-200-target-darkmode:target {
+    background-color: #7888b8;
+  }
+}
 .clr-primary-brand-blue-200 {
   color: #7888b8;
 }
@@ -5459,6 +1731,32 @@
   background-color: #7888b8;
 }
 
+@media (prefers-color-scheme: dark) {
+  .clr-primary-brand-blue-100-darkmode {
+    color: #bcc3db;
+  }
+  .bg-clr-primary-brand-blue-100-darkmode {
+    background-color: #bcc3db;
+  }
+  .clr-primary-brand-blue-100-active-darkmode:active,
+.clr-primary-brand-blue-100-hover-darkmode:hover,
+.clr-primary-brand-blue-100-focus-darkmode:focus,
+.clr-primary-brand-blue-100-visited-darkmode:visited,
+.clr-primary-brand-blue-100-focus-within-darkmode,
+.clr-primary-brand-blue-100-focus-visible-darkmode:focus-visible,
+.clr-primary-brand-blue-100-target-darkmode:target {
+    color: #bcc3db;
+  }
+  .bg-clr-primary-brand-blue-100-active-darkmode:active,
+.bg-clr-primary-brand-blue-100-hover-darkmode:hover,
+.bg-clr-primary-brand-blue-100-focus-darkmode:focus,
+.bg-clr-primary-brand-blue-100-visited-darkmode:visited,
+.bg-clr-primary-brand-blue-100-focus-within-darkmode:focus-within,
+.bg-clr-primary-brand-blue-100-focus-visible-darkmode:focus-visible,
+.bg-clr-primary-brand-blue-100-target-darkmode:target {
+    background-color: #bcc3db;
+  }
+}
 .clr-primary-brand-blue-100 {
   color: #bcc3db;
 }
@@ -5487,6 +1785,32 @@
   background-color: #bcc3db;
 }
 
+@media (prefers-color-scheme: dark) {
+  .clr-secondary-brand-yellow-900-darkmode {
+    color: #713f12;
+  }
+  .bg-clr-secondary-brand-yellow-900-darkmode {
+    background-color: #713f12;
+  }
+  .clr-secondary-brand-yellow-900-active-darkmode:active,
+.clr-secondary-brand-yellow-900-hover-darkmode:hover,
+.clr-secondary-brand-yellow-900-focus-darkmode:focus,
+.clr-secondary-brand-yellow-900-visited-darkmode:visited,
+.clr-secondary-brand-yellow-900-focus-within-darkmode,
+.clr-secondary-brand-yellow-900-focus-visible-darkmode:focus-visible,
+.clr-secondary-brand-yellow-900-target-darkmode:target {
+    color: #713f12;
+  }
+  .bg-clr-secondary-brand-yellow-900-active-darkmode:active,
+.bg-clr-secondary-brand-yellow-900-hover-darkmode:hover,
+.bg-clr-secondary-brand-yellow-900-focus-darkmode:focus,
+.bg-clr-secondary-brand-yellow-900-visited-darkmode:visited,
+.bg-clr-secondary-brand-yellow-900-focus-within-darkmode:focus-within,
+.bg-clr-secondary-brand-yellow-900-focus-visible-darkmode:focus-visible,
+.bg-clr-secondary-brand-yellow-900-target-darkmode:target {
+    background-color: #713f12;
+  }
+}
 .clr-secondary-brand-yellow-900 {
   color: #713f12;
 }
@@ -5515,6 +1839,32 @@
   background-color: #713f12;
 }
 
+@media (prefers-color-scheme: dark) {
+  .clr-secondary-brand-yellow-800-darkmode {
+    color: #854d0e;
+  }
+  .bg-clr-secondary-brand-yellow-800-darkmode {
+    background-color: #854d0e;
+  }
+  .clr-secondary-brand-yellow-800-active-darkmode:active,
+.clr-secondary-brand-yellow-800-hover-darkmode:hover,
+.clr-secondary-brand-yellow-800-focus-darkmode:focus,
+.clr-secondary-brand-yellow-800-visited-darkmode:visited,
+.clr-secondary-brand-yellow-800-focus-within-darkmode,
+.clr-secondary-brand-yellow-800-focus-visible-darkmode:focus-visible,
+.clr-secondary-brand-yellow-800-target-darkmode:target {
+    color: #854d0e;
+  }
+  .bg-clr-secondary-brand-yellow-800-active-darkmode:active,
+.bg-clr-secondary-brand-yellow-800-hover-darkmode:hover,
+.bg-clr-secondary-brand-yellow-800-focus-darkmode:focus,
+.bg-clr-secondary-brand-yellow-800-visited-darkmode:visited,
+.bg-clr-secondary-brand-yellow-800-focus-within-darkmode:focus-within,
+.bg-clr-secondary-brand-yellow-800-focus-visible-darkmode:focus-visible,
+.bg-clr-secondary-brand-yellow-800-target-darkmode:target {
+    background-color: #854d0e;
+  }
+}
 .clr-secondary-brand-yellow-800 {
   color: #854d0e;
 }
@@ -5543,6 +1893,32 @@
   background-color: #854d0e;
 }
 
+@media (prefers-color-scheme: dark) {
+  .clr-secondary-brand-yellow-700-darkmode {
+    color: #a16207;
+  }
+  .bg-clr-secondary-brand-yellow-700-darkmode {
+    background-color: #a16207;
+  }
+  .clr-secondary-brand-yellow-700-active-darkmode:active,
+.clr-secondary-brand-yellow-700-hover-darkmode:hover,
+.clr-secondary-brand-yellow-700-focus-darkmode:focus,
+.clr-secondary-brand-yellow-700-visited-darkmode:visited,
+.clr-secondary-brand-yellow-700-focus-within-darkmode,
+.clr-secondary-brand-yellow-700-focus-visible-darkmode:focus-visible,
+.clr-secondary-brand-yellow-700-target-darkmode:target {
+    color: #a16207;
+  }
+  .bg-clr-secondary-brand-yellow-700-active-darkmode:active,
+.bg-clr-secondary-brand-yellow-700-hover-darkmode:hover,
+.bg-clr-secondary-brand-yellow-700-focus-darkmode:focus,
+.bg-clr-secondary-brand-yellow-700-visited-darkmode:visited,
+.bg-clr-secondary-brand-yellow-700-focus-within-darkmode:focus-within,
+.bg-clr-secondary-brand-yellow-700-focus-visible-darkmode:focus-visible,
+.bg-clr-secondary-brand-yellow-700-target-darkmode:target {
+    background-color: #a16207;
+  }
+}
 .clr-secondary-brand-yellow-700 {
   color: #a16207;
 }
@@ -5571,6 +1947,32 @@
   background-color: #a16207;
 }
 
+@media (prefers-color-scheme: dark) {
+  .clr-secondary-brand-yellow-600-darkmode {
+    color: #ca8a04;
+  }
+  .bg-clr-secondary-brand-yellow-600-darkmode {
+    background-color: #ca8a04;
+  }
+  .clr-secondary-brand-yellow-600-active-darkmode:active,
+.clr-secondary-brand-yellow-600-hover-darkmode:hover,
+.clr-secondary-brand-yellow-600-focus-darkmode:focus,
+.clr-secondary-brand-yellow-600-visited-darkmode:visited,
+.clr-secondary-brand-yellow-600-focus-within-darkmode,
+.clr-secondary-brand-yellow-600-focus-visible-darkmode:focus-visible,
+.clr-secondary-brand-yellow-600-target-darkmode:target {
+    color: #ca8a04;
+  }
+  .bg-clr-secondary-brand-yellow-600-active-darkmode:active,
+.bg-clr-secondary-brand-yellow-600-hover-darkmode:hover,
+.bg-clr-secondary-brand-yellow-600-focus-darkmode:focus,
+.bg-clr-secondary-brand-yellow-600-visited-darkmode:visited,
+.bg-clr-secondary-brand-yellow-600-focus-within-darkmode:focus-within,
+.bg-clr-secondary-brand-yellow-600-focus-visible-darkmode:focus-visible,
+.bg-clr-secondary-brand-yellow-600-target-darkmode:target {
+    background-color: #ca8a04;
+  }
+}
 .clr-secondary-brand-yellow-600 {
   color: #ca8a04;
 }
@@ -5599,6 +2001,32 @@
   background-color: #ca8a04;
 }
 
+@media (prefers-color-scheme: dark) {
+  .clr-secondary-brand-yellow-500-darkmode {
+    color: #eab308;
+  }
+  .bg-clr-secondary-brand-yellow-500-darkmode {
+    background-color: #eab308;
+  }
+  .clr-secondary-brand-yellow-500-active-darkmode:active,
+.clr-secondary-brand-yellow-500-hover-darkmode:hover,
+.clr-secondary-brand-yellow-500-focus-darkmode:focus,
+.clr-secondary-brand-yellow-500-visited-darkmode:visited,
+.clr-secondary-brand-yellow-500-focus-within-darkmode,
+.clr-secondary-brand-yellow-500-focus-visible-darkmode:focus-visible,
+.clr-secondary-brand-yellow-500-target-darkmode:target {
+    color: #eab308;
+  }
+  .bg-clr-secondary-brand-yellow-500-active-darkmode:active,
+.bg-clr-secondary-brand-yellow-500-hover-darkmode:hover,
+.bg-clr-secondary-brand-yellow-500-focus-darkmode:focus,
+.bg-clr-secondary-brand-yellow-500-visited-darkmode:visited,
+.bg-clr-secondary-brand-yellow-500-focus-within-darkmode:focus-within,
+.bg-clr-secondary-brand-yellow-500-focus-visible-darkmode:focus-visible,
+.bg-clr-secondary-brand-yellow-500-target-darkmode:target {
+    background-color: #eab308;
+  }
+}
 .clr-secondary-brand-yellow-500 {
   color: #eab308;
 }
@@ -5627,6 +2055,32 @@
   background-color: #eab308;
 }
 
+@media (prefers-color-scheme: dark) {
+  .clr-secondary-brand-yellow-400-darkmode {
+    color: #facc15;
+  }
+  .bg-clr-secondary-brand-yellow-400-darkmode {
+    background-color: #facc15;
+  }
+  .clr-secondary-brand-yellow-400-active-darkmode:active,
+.clr-secondary-brand-yellow-400-hover-darkmode:hover,
+.clr-secondary-brand-yellow-400-focus-darkmode:focus,
+.clr-secondary-brand-yellow-400-visited-darkmode:visited,
+.clr-secondary-brand-yellow-400-focus-within-darkmode,
+.clr-secondary-brand-yellow-400-focus-visible-darkmode:focus-visible,
+.clr-secondary-brand-yellow-400-target-darkmode:target {
+    color: #facc15;
+  }
+  .bg-clr-secondary-brand-yellow-400-active-darkmode:active,
+.bg-clr-secondary-brand-yellow-400-hover-darkmode:hover,
+.bg-clr-secondary-brand-yellow-400-focus-darkmode:focus,
+.bg-clr-secondary-brand-yellow-400-visited-darkmode:visited,
+.bg-clr-secondary-brand-yellow-400-focus-within-darkmode:focus-within,
+.bg-clr-secondary-brand-yellow-400-focus-visible-darkmode:focus-visible,
+.bg-clr-secondary-brand-yellow-400-target-darkmode:target {
+    background-color: #facc15;
+  }
+}
 .clr-secondary-brand-yellow-400 {
   color: #facc15;
 }
@@ -5655,6 +2109,32 @@
   background-color: #facc15;
 }
 
+@media (prefers-color-scheme: dark) {
+  .clr-secondary-brand-yellow-300-darkmode {
+    color: #fde047;
+  }
+  .bg-clr-secondary-brand-yellow-300-darkmode {
+    background-color: #fde047;
+  }
+  .clr-secondary-brand-yellow-300-active-darkmode:active,
+.clr-secondary-brand-yellow-300-hover-darkmode:hover,
+.clr-secondary-brand-yellow-300-focus-darkmode:focus,
+.clr-secondary-brand-yellow-300-visited-darkmode:visited,
+.clr-secondary-brand-yellow-300-focus-within-darkmode,
+.clr-secondary-brand-yellow-300-focus-visible-darkmode:focus-visible,
+.clr-secondary-brand-yellow-300-target-darkmode:target {
+    color: #fde047;
+  }
+  .bg-clr-secondary-brand-yellow-300-active-darkmode:active,
+.bg-clr-secondary-brand-yellow-300-hover-darkmode:hover,
+.bg-clr-secondary-brand-yellow-300-focus-darkmode:focus,
+.bg-clr-secondary-brand-yellow-300-visited-darkmode:visited,
+.bg-clr-secondary-brand-yellow-300-focus-within-darkmode:focus-within,
+.bg-clr-secondary-brand-yellow-300-focus-visible-darkmode:focus-visible,
+.bg-clr-secondary-brand-yellow-300-target-darkmode:target {
+    background-color: #fde047;
+  }
+}
 .clr-secondary-brand-yellow-300 {
   color: #fde047;
 }
@@ -5683,6 +2163,32 @@
   background-color: #fde047;
 }
 
+@media (prefers-color-scheme: dark) {
+  .clr-secondary-brand-yellow-200-darkmode {
+    color: #fde68a;
+  }
+  .bg-clr-secondary-brand-yellow-200-darkmode {
+    background-color: #fde68a;
+  }
+  .clr-secondary-brand-yellow-200-active-darkmode:active,
+.clr-secondary-brand-yellow-200-hover-darkmode:hover,
+.clr-secondary-brand-yellow-200-focus-darkmode:focus,
+.clr-secondary-brand-yellow-200-visited-darkmode:visited,
+.clr-secondary-brand-yellow-200-focus-within-darkmode,
+.clr-secondary-brand-yellow-200-focus-visible-darkmode:focus-visible,
+.clr-secondary-brand-yellow-200-target-darkmode:target {
+    color: #fde68a;
+  }
+  .bg-clr-secondary-brand-yellow-200-active-darkmode:active,
+.bg-clr-secondary-brand-yellow-200-hover-darkmode:hover,
+.bg-clr-secondary-brand-yellow-200-focus-darkmode:focus,
+.bg-clr-secondary-brand-yellow-200-visited-darkmode:visited,
+.bg-clr-secondary-brand-yellow-200-focus-within-darkmode:focus-within,
+.bg-clr-secondary-brand-yellow-200-focus-visible-darkmode:focus-visible,
+.bg-clr-secondary-brand-yellow-200-target-darkmode:target {
+    background-color: #fde68a;
+  }
+}
 .clr-secondary-brand-yellow-200 {
   color: #fde68a;
 }
@@ -5711,6 +2217,32 @@
   background-color: #fde68a;
 }
 
+@media (prefers-color-scheme: dark) {
+  .clr-secondary-brand-yellow-100-darkmode {
+    color: #fef3c7;
+  }
+  .bg-clr-secondary-brand-yellow-100-darkmode {
+    background-color: #fef3c7;
+  }
+  .clr-secondary-brand-yellow-100-active-darkmode:active,
+.clr-secondary-brand-yellow-100-hover-darkmode:hover,
+.clr-secondary-brand-yellow-100-focus-darkmode:focus,
+.clr-secondary-brand-yellow-100-visited-darkmode:visited,
+.clr-secondary-brand-yellow-100-focus-within-darkmode,
+.clr-secondary-brand-yellow-100-focus-visible-darkmode:focus-visible,
+.clr-secondary-brand-yellow-100-target-darkmode:target {
+    color: #fef3c7;
+  }
+  .bg-clr-secondary-brand-yellow-100-active-darkmode:active,
+.bg-clr-secondary-brand-yellow-100-hover-darkmode:hover,
+.bg-clr-secondary-brand-yellow-100-focus-darkmode:focus,
+.bg-clr-secondary-brand-yellow-100-visited-darkmode:visited,
+.bg-clr-secondary-brand-yellow-100-focus-within-darkmode:focus-within,
+.bg-clr-secondary-brand-yellow-100-focus-visible-darkmode:focus-visible,
+.bg-clr-secondary-brand-yellow-100-target-darkmode:target {
+    background-color: #fef3c7;
+  }
+}
 .clr-secondary-brand-yellow-100 {
   color: #fef3c7;
 }
@@ -5739,6 +2271,32 @@
   background-color: #fef3c7;
 }
 
+@media (prefers-color-scheme: dark) {
+  .clr-semantic-critical-dark-darkmode {
+    color: #991b1b;
+  }
+  .bg-clr-semantic-critical-dark-darkmode {
+    background-color: #991b1b;
+  }
+  .clr-semantic-critical-dark-active-darkmode:active,
+.clr-semantic-critical-dark-hover-darkmode:hover,
+.clr-semantic-critical-dark-focus-darkmode:focus,
+.clr-semantic-critical-dark-visited-darkmode:visited,
+.clr-semantic-critical-dark-focus-within-darkmode,
+.clr-semantic-critical-dark-focus-visible-darkmode:focus-visible,
+.clr-semantic-critical-dark-target-darkmode:target {
+    color: #991b1b;
+  }
+  .bg-clr-semantic-critical-dark-active-darkmode:active,
+.bg-clr-semantic-critical-dark-hover-darkmode:hover,
+.bg-clr-semantic-critical-dark-focus-darkmode:focus,
+.bg-clr-semantic-critical-dark-visited-darkmode:visited,
+.bg-clr-semantic-critical-dark-focus-within-darkmode:focus-within,
+.bg-clr-semantic-critical-dark-focus-visible-darkmode:focus-visible,
+.bg-clr-semantic-critical-dark-target-darkmode:target {
+    background-color: #991b1b;
+  }
+}
 .clr-semantic-critical-dark {
   color: #991b1b;
 }
@@ -5767,6 +2325,32 @@
   background-color: #991b1b;
 }
 
+@media (prefers-color-scheme: dark) {
+  .clr-semantic-critical-base-darkmode {
+    color: #dc2626;
+  }
+  .bg-clr-semantic-critical-base-darkmode {
+    background-color: #dc2626;
+  }
+  .clr-semantic-critical-base-active-darkmode:active,
+.clr-semantic-critical-base-hover-darkmode:hover,
+.clr-semantic-critical-base-focus-darkmode:focus,
+.clr-semantic-critical-base-visited-darkmode:visited,
+.clr-semantic-critical-base-focus-within-darkmode,
+.clr-semantic-critical-base-focus-visible-darkmode:focus-visible,
+.clr-semantic-critical-base-target-darkmode:target {
+    color: #dc2626;
+  }
+  .bg-clr-semantic-critical-base-active-darkmode:active,
+.bg-clr-semantic-critical-base-hover-darkmode:hover,
+.bg-clr-semantic-critical-base-focus-darkmode:focus,
+.bg-clr-semantic-critical-base-visited-darkmode:visited,
+.bg-clr-semantic-critical-base-focus-within-darkmode:focus-within,
+.bg-clr-semantic-critical-base-focus-visible-darkmode:focus-visible,
+.bg-clr-semantic-critical-base-target-darkmode:target {
+    background-color: #dc2626;
+  }
+}
 .clr-semantic-critical-base {
   color: #dc2626;
 }
@@ -5795,6 +2379,32 @@
   background-color: #dc2626;
 }
 
+@media (prefers-color-scheme: dark) {
+  .clr-semantic-critical-light-darkmode {
+    color: #fca5a5;
+  }
+  .bg-clr-semantic-critical-light-darkmode {
+    background-color: #fca5a5;
+  }
+  .clr-semantic-critical-light-active-darkmode:active,
+.clr-semantic-critical-light-hover-darkmode:hover,
+.clr-semantic-critical-light-focus-darkmode:focus,
+.clr-semantic-critical-light-visited-darkmode:visited,
+.clr-semantic-critical-light-focus-within-darkmode,
+.clr-semantic-critical-light-focus-visible-darkmode:focus-visible,
+.clr-semantic-critical-light-target-darkmode:target {
+    color: #fca5a5;
+  }
+  .bg-clr-semantic-critical-light-active-darkmode:active,
+.bg-clr-semantic-critical-light-hover-darkmode:hover,
+.bg-clr-semantic-critical-light-focus-darkmode:focus,
+.bg-clr-semantic-critical-light-visited-darkmode:visited,
+.bg-clr-semantic-critical-light-focus-within-darkmode:focus-within,
+.bg-clr-semantic-critical-light-focus-visible-darkmode:focus-visible,
+.bg-clr-semantic-critical-light-target-darkmode:target {
+    background-color: #fca5a5;
+  }
+}
 .clr-semantic-critical-light {
   color: #fca5a5;
 }
@@ -5823,6 +2433,32 @@
   background-color: #fca5a5;
 }
 
+@media (prefers-color-scheme: dark) {
+  .clr-semantic-warning-dark-darkmode {
+    color: #9a3412;
+  }
+  .bg-clr-semantic-warning-dark-darkmode {
+    background-color: #9a3412;
+  }
+  .clr-semantic-warning-dark-active-darkmode:active,
+.clr-semantic-warning-dark-hover-darkmode:hover,
+.clr-semantic-warning-dark-focus-darkmode:focus,
+.clr-semantic-warning-dark-visited-darkmode:visited,
+.clr-semantic-warning-dark-focus-within-darkmode,
+.clr-semantic-warning-dark-focus-visible-darkmode:focus-visible,
+.clr-semantic-warning-dark-target-darkmode:target {
+    color: #9a3412;
+  }
+  .bg-clr-semantic-warning-dark-active-darkmode:active,
+.bg-clr-semantic-warning-dark-hover-darkmode:hover,
+.bg-clr-semantic-warning-dark-focus-darkmode:focus,
+.bg-clr-semantic-warning-dark-visited-darkmode:visited,
+.bg-clr-semantic-warning-dark-focus-within-darkmode:focus-within,
+.bg-clr-semantic-warning-dark-focus-visible-darkmode:focus-visible,
+.bg-clr-semantic-warning-dark-target-darkmode:target {
+    background-color: #9a3412;
+  }
+}
 .clr-semantic-warning-dark {
   color: #9a3412;
 }
@@ -5851,6 +2487,32 @@
   background-color: #9a3412;
 }
 
+@media (prefers-color-scheme: dark) {
+  .clr-semantic-warning-base-darkmode {
+    color: #ea580c;
+  }
+  .bg-clr-semantic-warning-base-darkmode {
+    background-color: #ea580c;
+  }
+  .clr-semantic-warning-base-active-darkmode:active,
+.clr-semantic-warning-base-hover-darkmode:hover,
+.clr-semantic-warning-base-focus-darkmode:focus,
+.clr-semantic-warning-base-visited-darkmode:visited,
+.clr-semantic-warning-base-focus-within-darkmode,
+.clr-semantic-warning-base-focus-visible-darkmode:focus-visible,
+.clr-semantic-warning-base-target-darkmode:target {
+    color: #ea580c;
+  }
+  .bg-clr-semantic-warning-base-active-darkmode:active,
+.bg-clr-semantic-warning-base-hover-darkmode:hover,
+.bg-clr-semantic-warning-base-focus-darkmode:focus,
+.bg-clr-semantic-warning-base-visited-darkmode:visited,
+.bg-clr-semantic-warning-base-focus-within-darkmode:focus-within,
+.bg-clr-semantic-warning-base-focus-visible-darkmode:focus-visible,
+.bg-clr-semantic-warning-base-target-darkmode:target {
+    background-color: #ea580c;
+  }
+}
 .clr-semantic-warning-base {
   color: #ea580c;
 }
@@ -5879,6 +2541,32 @@
   background-color: #ea580c;
 }
 
+@media (prefers-color-scheme: dark) {
+  .clr-semantic-warning-light-darkmode {
+    color: #fdba74;
+  }
+  .bg-clr-semantic-warning-light-darkmode {
+    background-color: #fdba74;
+  }
+  .clr-semantic-warning-light-active-darkmode:active,
+.clr-semantic-warning-light-hover-darkmode:hover,
+.clr-semantic-warning-light-focus-darkmode:focus,
+.clr-semantic-warning-light-visited-darkmode:visited,
+.clr-semantic-warning-light-focus-within-darkmode,
+.clr-semantic-warning-light-focus-visible-darkmode:focus-visible,
+.clr-semantic-warning-light-target-darkmode:target {
+    color: #fdba74;
+  }
+  .bg-clr-semantic-warning-light-active-darkmode:active,
+.bg-clr-semantic-warning-light-hover-darkmode:hover,
+.bg-clr-semantic-warning-light-focus-darkmode:focus,
+.bg-clr-semantic-warning-light-visited-darkmode:visited,
+.bg-clr-semantic-warning-light-focus-within-darkmode:focus-within,
+.bg-clr-semantic-warning-light-focus-visible-darkmode:focus-visible,
+.bg-clr-semantic-warning-light-target-darkmode:target {
+    background-color: #fdba74;
+  }
+}
 .clr-semantic-warning-light {
   color: #fdba74;
 }
@@ -5907,6 +2595,32 @@
   background-color: #fdba74;
 }
 
+@media (prefers-color-scheme: dark) {
+  .clr-semantic-success-dark-darkmode {
+    color: #047857;
+  }
+  .bg-clr-semantic-success-dark-darkmode {
+    background-color: #047857;
+  }
+  .clr-semantic-success-dark-active-darkmode:active,
+.clr-semantic-success-dark-hover-darkmode:hover,
+.clr-semantic-success-dark-focus-darkmode:focus,
+.clr-semantic-success-dark-visited-darkmode:visited,
+.clr-semantic-success-dark-focus-within-darkmode,
+.clr-semantic-success-dark-focus-visible-darkmode:focus-visible,
+.clr-semantic-success-dark-target-darkmode:target {
+    color: #047857;
+  }
+  .bg-clr-semantic-success-dark-active-darkmode:active,
+.bg-clr-semantic-success-dark-hover-darkmode:hover,
+.bg-clr-semantic-success-dark-focus-darkmode:focus,
+.bg-clr-semantic-success-dark-visited-darkmode:visited,
+.bg-clr-semantic-success-dark-focus-within-darkmode:focus-within,
+.bg-clr-semantic-success-dark-focus-visible-darkmode:focus-visible,
+.bg-clr-semantic-success-dark-target-darkmode:target {
+    background-color: #047857;
+  }
+}
 .clr-semantic-success-dark {
   color: #047857;
 }
@@ -5935,6 +2649,32 @@
   background-color: #047857;
 }
 
+@media (prefers-color-scheme: dark) {
+  .clr-semantic-success-base-darkmode {
+    color: #10b981;
+  }
+  .bg-clr-semantic-success-base-darkmode {
+    background-color: #10b981;
+  }
+  .clr-semantic-success-base-active-darkmode:active,
+.clr-semantic-success-base-hover-darkmode:hover,
+.clr-semantic-success-base-focus-darkmode:focus,
+.clr-semantic-success-base-visited-darkmode:visited,
+.clr-semantic-success-base-focus-within-darkmode,
+.clr-semantic-success-base-focus-visible-darkmode:focus-visible,
+.clr-semantic-success-base-target-darkmode:target {
+    color: #10b981;
+  }
+  .bg-clr-semantic-success-base-active-darkmode:active,
+.bg-clr-semantic-success-base-hover-darkmode:hover,
+.bg-clr-semantic-success-base-focus-darkmode:focus,
+.bg-clr-semantic-success-base-visited-darkmode:visited,
+.bg-clr-semantic-success-base-focus-within-darkmode:focus-within,
+.bg-clr-semantic-success-base-focus-visible-darkmode:focus-visible,
+.bg-clr-semantic-success-base-target-darkmode:target {
+    background-color: #10b981;
+  }
+}
 .clr-semantic-success-base {
   color: #10b981;
 }
@@ -5963,6 +2703,32 @@
   background-color: #10b981;
 }
 
+@media (prefers-color-scheme: dark) {
+  .clr-semantic-success-light-darkmode {
+    color: #6ee7b7;
+  }
+  .bg-clr-semantic-success-light-darkmode {
+    background-color: #6ee7b7;
+  }
+  .clr-semantic-success-light-active-darkmode:active,
+.clr-semantic-success-light-hover-darkmode:hover,
+.clr-semantic-success-light-focus-darkmode:focus,
+.clr-semantic-success-light-visited-darkmode:visited,
+.clr-semantic-success-light-focus-within-darkmode,
+.clr-semantic-success-light-focus-visible-darkmode:focus-visible,
+.clr-semantic-success-light-target-darkmode:target {
+    color: #6ee7b7;
+  }
+  .bg-clr-semantic-success-light-active-darkmode:active,
+.bg-clr-semantic-success-light-hover-darkmode:hover,
+.bg-clr-semantic-success-light-focus-darkmode:focus,
+.bg-clr-semantic-success-light-visited-darkmode:visited,
+.bg-clr-semantic-success-light-focus-within-darkmode:focus-within,
+.bg-clr-semantic-success-light-focus-visible-darkmode:focus-visible,
+.bg-clr-semantic-success-light-target-darkmode:target {
+    background-color: #6ee7b7;
+  }
+}
 .clr-semantic-success-light {
   color: #6ee7b7;
 }
@@ -5991,6 +2757,32 @@
   background-color: #6ee7b7;
 }
 
+@media (prefers-color-scheme: dark) {
+  .clr-semantic-info-dark-darkmode {
+    color: #0b4b99;
+  }
+  .bg-clr-semantic-info-dark-darkmode {
+    background-color: #0b4b99;
+  }
+  .clr-semantic-info-dark-active-darkmode:active,
+.clr-semantic-info-dark-hover-darkmode:hover,
+.clr-semantic-info-dark-focus-darkmode:focus,
+.clr-semantic-info-dark-visited-darkmode:visited,
+.clr-semantic-info-dark-focus-within-darkmode,
+.clr-semantic-info-dark-focus-visible-darkmode:focus-visible,
+.clr-semantic-info-dark-target-darkmode:target {
+    color: #0b4b99;
+  }
+  .bg-clr-semantic-info-dark-active-darkmode:active,
+.bg-clr-semantic-info-dark-hover-darkmode:hover,
+.bg-clr-semantic-info-dark-focus-darkmode:focus,
+.bg-clr-semantic-info-dark-visited-darkmode:visited,
+.bg-clr-semantic-info-dark-focus-within-darkmode:focus-within,
+.bg-clr-semantic-info-dark-focus-visible-darkmode:focus-visible,
+.bg-clr-semantic-info-dark-target-darkmode:target {
+    background-color: #0b4b99;
+  }
+}
 .clr-semantic-info-dark {
   color: #0b4b99;
 }
@@ -6019,6 +2811,32 @@
   background-color: #0b4b99;
 }
 
+@media (prefers-color-scheme: dark) {
+  .clr-semantic-info-base-darkmode {
+    color: #106bda;
+  }
+  .bg-clr-semantic-info-base-darkmode {
+    background-color: #106bda;
+  }
+  .clr-semantic-info-base-active-darkmode:active,
+.clr-semantic-info-base-hover-darkmode:hover,
+.clr-semantic-info-base-focus-darkmode:focus,
+.clr-semantic-info-base-visited-darkmode:visited,
+.clr-semantic-info-base-focus-within-darkmode,
+.clr-semantic-info-base-focus-visible-darkmode:focus-visible,
+.clr-semantic-info-base-target-darkmode:target {
+    color: #106bda;
+  }
+  .bg-clr-semantic-info-base-active-darkmode:active,
+.bg-clr-semantic-info-base-hover-darkmode:hover,
+.bg-clr-semantic-info-base-focus-darkmode:focus,
+.bg-clr-semantic-info-base-visited-darkmode:visited,
+.bg-clr-semantic-info-base-focus-within-darkmode:focus-within,
+.bg-clr-semantic-info-base-focus-visible-darkmode:focus-visible,
+.bg-clr-semantic-info-base-target-darkmode:target {
+    background-color: #106bda;
+  }
+}
 .clr-semantic-info-base {
   color: #106bda;
 }
@@ -6047,6 +2865,32 @@
   background-color: #106bda;
 }
 
+@media (prefers-color-scheme: dark) {
+  .clr-semantic-info-light-darkmode {
+    color: #88b5ed;
+  }
+  .bg-clr-semantic-info-light-darkmode {
+    background-color: #88b5ed;
+  }
+  .clr-semantic-info-light-active-darkmode:active,
+.clr-semantic-info-light-hover-darkmode:hover,
+.clr-semantic-info-light-focus-darkmode:focus,
+.clr-semantic-info-light-visited-darkmode:visited,
+.clr-semantic-info-light-focus-within-darkmode,
+.clr-semantic-info-light-focus-visible-darkmode:focus-visible,
+.clr-semantic-info-light-target-darkmode:target {
+    color: #88b5ed;
+  }
+  .bg-clr-semantic-info-light-active-darkmode:active,
+.bg-clr-semantic-info-light-hover-darkmode:hover,
+.bg-clr-semantic-info-light-focus-darkmode:focus,
+.bg-clr-semantic-info-light-visited-darkmode:visited,
+.bg-clr-semantic-info-light-focus-within-darkmode:focus-within,
+.bg-clr-semantic-info-light-focus-visible-darkmode:focus-visible,
+.bg-clr-semantic-info-light-target-darkmode:target {
+    background-color: #88b5ed;
+  }
+}
 .clr-semantic-info-light {
   color: #88b5ed;
 }
@@ -6075,6 +2919,32 @@
   background-color: #88b5ed;
 }
 
+@media (prefers-color-scheme: dark) {
+  .clr-grayscale-shade-absblack-darkmode {
+    color: #000000;
+  }
+  .bg-clr-grayscale-shade-absblack-darkmode {
+    background-color: #000000;
+  }
+  .clr-grayscale-shade-absblack-active-darkmode:active,
+.clr-grayscale-shade-absblack-hover-darkmode:hover,
+.clr-grayscale-shade-absblack-focus-darkmode:focus,
+.clr-grayscale-shade-absblack-visited-darkmode:visited,
+.clr-grayscale-shade-absblack-focus-within-darkmode,
+.clr-grayscale-shade-absblack-focus-visible-darkmode:focus-visible,
+.clr-grayscale-shade-absblack-target-darkmode:target {
+    color: #000000;
+  }
+  .bg-clr-grayscale-shade-absblack-active-darkmode:active,
+.bg-clr-grayscale-shade-absblack-hover-darkmode:hover,
+.bg-clr-grayscale-shade-absblack-focus-darkmode:focus,
+.bg-clr-grayscale-shade-absblack-visited-darkmode:visited,
+.bg-clr-grayscale-shade-absblack-focus-within-darkmode:focus-within,
+.bg-clr-grayscale-shade-absblack-focus-visible-darkmode:focus-visible,
+.bg-clr-grayscale-shade-absblack-target-darkmode:target {
+    background-color: #000000;
+  }
+}
 .clr-grayscale-shade-absblack {
   color: #000000;
 }
@@ -6103,6 +2973,32 @@
   background-color: #000000;
 }
 
+@media (prefers-color-scheme: dark) {
+  .clr-grayscale-shade-900-darkmode {
+    color: #0f172a;
+  }
+  .bg-clr-grayscale-shade-900-darkmode {
+    background-color: #0f172a;
+  }
+  .clr-grayscale-shade-900-active-darkmode:active,
+.clr-grayscale-shade-900-hover-darkmode:hover,
+.clr-grayscale-shade-900-focus-darkmode:focus,
+.clr-grayscale-shade-900-visited-darkmode:visited,
+.clr-grayscale-shade-900-focus-within-darkmode,
+.clr-grayscale-shade-900-focus-visible-darkmode:focus-visible,
+.clr-grayscale-shade-900-target-darkmode:target {
+    color: #0f172a;
+  }
+  .bg-clr-grayscale-shade-900-active-darkmode:active,
+.bg-clr-grayscale-shade-900-hover-darkmode:hover,
+.bg-clr-grayscale-shade-900-focus-darkmode:focus,
+.bg-clr-grayscale-shade-900-visited-darkmode:visited,
+.bg-clr-grayscale-shade-900-focus-within-darkmode:focus-within,
+.bg-clr-grayscale-shade-900-focus-visible-darkmode:focus-visible,
+.bg-clr-grayscale-shade-900-target-darkmode:target {
+    background-color: #0f172a;
+  }
+}
 .clr-grayscale-shade-900 {
   color: #0f172a;
 }
@@ -6131,6 +3027,32 @@
   background-color: #0f172a;
 }
 
+@media (prefers-color-scheme: dark) {
+  .clr-grayscale-shade-800-darkmode {
+    color: #1e293b;
+  }
+  .bg-clr-grayscale-shade-800-darkmode {
+    background-color: #1e293b;
+  }
+  .clr-grayscale-shade-800-active-darkmode:active,
+.clr-grayscale-shade-800-hover-darkmode:hover,
+.clr-grayscale-shade-800-focus-darkmode:focus,
+.clr-grayscale-shade-800-visited-darkmode:visited,
+.clr-grayscale-shade-800-focus-within-darkmode,
+.clr-grayscale-shade-800-focus-visible-darkmode:focus-visible,
+.clr-grayscale-shade-800-target-darkmode:target {
+    color: #1e293b;
+  }
+  .bg-clr-grayscale-shade-800-active-darkmode:active,
+.bg-clr-grayscale-shade-800-hover-darkmode:hover,
+.bg-clr-grayscale-shade-800-focus-darkmode:focus,
+.bg-clr-grayscale-shade-800-visited-darkmode:visited,
+.bg-clr-grayscale-shade-800-focus-within-darkmode:focus-within,
+.bg-clr-grayscale-shade-800-focus-visible-darkmode:focus-visible,
+.bg-clr-grayscale-shade-800-target-darkmode:target {
+    background-color: #1e293b;
+  }
+}
 .clr-grayscale-shade-800 {
   color: #1e293b;
 }
@@ -6159,6 +3081,32 @@
   background-color: #1e293b;
 }
 
+@media (prefers-color-scheme: dark) {
+  .clr-grayscale-shade-700-darkmode {
+    color: #334155;
+  }
+  .bg-clr-grayscale-shade-700-darkmode {
+    background-color: #334155;
+  }
+  .clr-grayscale-shade-700-active-darkmode:active,
+.clr-grayscale-shade-700-hover-darkmode:hover,
+.clr-grayscale-shade-700-focus-darkmode:focus,
+.clr-grayscale-shade-700-visited-darkmode:visited,
+.clr-grayscale-shade-700-focus-within-darkmode,
+.clr-grayscale-shade-700-focus-visible-darkmode:focus-visible,
+.clr-grayscale-shade-700-target-darkmode:target {
+    color: #334155;
+  }
+  .bg-clr-grayscale-shade-700-active-darkmode:active,
+.bg-clr-grayscale-shade-700-hover-darkmode:hover,
+.bg-clr-grayscale-shade-700-focus-darkmode:focus,
+.bg-clr-grayscale-shade-700-visited-darkmode:visited,
+.bg-clr-grayscale-shade-700-focus-within-darkmode:focus-within,
+.bg-clr-grayscale-shade-700-focus-visible-darkmode:focus-visible,
+.bg-clr-grayscale-shade-700-target-darkmode:target {
+    background-color: #334155;
+  }
+}
 .clr-grayscale-shade-700 {
   color: #334155;
 }
@@ -6187,6 +3135,32 @@
   background-color: #334155;
 }
 
+@media (prefers-color-scheme: dark) {
+  .clr-grayscale-shade-600-darkmode {
+    color: #475569;
+  }
+  .bg-clr-grayscale-shade-600-darkmode {
+    background-color: #475569;
+  }
+  .clr-grayscale-shade-600-active-darkmode:active,
+.clr-grayscale-shade-600-hover-darkmode:hover,
+.clr-grayscale-shade-600-focus-darkmode:focus,
+.clr-grayscale-shade-600-visited-darkmode:visited,
+.clr-grayscale-shade-600-focus-within-darkmode,
+.clr-grayscale-shade-600-focus-visible-darkmode:focus-visible,
+.clr-grayscale-shade-600-target-darkmode:target {
+    color: #475569;
+  }
+  .bg-clr-grayscale-shade-600-active-darkmode:active,
+.bg-clr-grayscale-shade-600-hover-darkmode:hover,
+.bg-clr-grayscale-shade-600-focus-darkmode:focus,
+.bg-clr-grayscale-shade-600-visited-darkmode:visited,
+.bg-clr-grayscale-shade-600-focus-within-darkmode:focus-within,
+.bg-clr-grayscale-shade-600-focus-visible-darkmode:focus-visible,
+.bg-clr-grayscale-shade-600-target-darkmode:target {
+    background-color: #475569;
+  }
+}
 .clr-grayscale-shade-600 {
   color: #475569;
 }
@@ -6215,6 +3189,32 @@
   background-color: #475569;
 }
 
+@media (prefers-color-scheme: dark) {
+  .clr-grayscale-shade-500-darkmode {
+    color: #64748b;
+  }
+  .bg-clr-grayscale-shade-500-darkmode {
+    background-color: #64748b;
+  }
+  .clr-grayscale-shade-500-active-darkmode:active,
+.clr-grayscale-shade-500-hover-darkmode:hover,
+.clr-grayscale-shade-500-focus-darkmode:focus,
+.clr-grayscale-shade-500-visited-darkmode:visited,
+.clr-grayscale-shade-500-focus-within-darkmode,
+.clr-grayscale-shade-500-focus-visible-darkmode:focus-visible,
+.clr-grayscale-shade-500-target-darkmode:target {
+    color: #64748b;
+  }
+  .bg-clr-grayscale-shade-500-active-darkmode:active,
+.bg-clr-grayscale-shade-500-hover-darkmode:hover,
+.bg-clr-grayscale-shade-500-focus-darkmode:focus,
+.bg-clr-grayscale-shade-500-visited-darkmode:visited,
+.bg-clr-grayscale-shade-500-focus-within-darkmode:focus-within,
+.bg-clr-grayscale-shade-500-focus-visible-darkmode:focus-visible,
+.bg-clr-grayscale-shade-500-target-darkmode:target {
+    background-color: #64748b;
+  }
+}
 .clr-grayscale-shade-500 {
   color: #64748b;
 }
@@ -6243,6 +3243,32 @@
   background-color: #64748b;
 }
 
+@media (prefers-color-scheme: dark) {
+  .clr-grayscale-shade-400-darkmode {
+    color: #94a3b8;
+  }
+  .bg-clr-grayscale-shade-400-darkmode {
+    background-color: #94a3b8;
+  }
+  .clr-grayscale-shade-400-active-darkmode:active,
+.clr-grayscale-shade-400-hover-darkmode:hover,
+.clr-grayscale-shade-400-focus-darkmode:focus,
+.clr-grayscale-shade-400-visited-darkmode:visited,
+.clr-grayscale-shade-400-focus-within-darkmode,
+.clr-grayscale-shade-400-focus-visible-darkmode:focus-visible,
+.clr-grayscale-shade-400-target-darkmode:target {
+    color: #94a3b8;
+  }
+  .bg-clr-grayscale-shade-400-active-darkmode:active,
+.bg-clr-grayscale-shade-400-hover-darkmode:hover,
+.bg-clr-grayscale-shade-400-focus-darkmode:focus,
+.bg-clr-grayscale-shade-400-visited-darkmode:visited,
+.bg-clr-grayscale-shade-400-focus-within-darkmode:focus-within,
+.bg-clr-grayscale-shade-400-focus-visible-darkmode:focus-visible,
+.bg-clr-grayscale-shade-400-target-darkmode:target {
+    background-color: #94a3b8;
+  }
+}
 .clr-grayscale-shade-400 {
   color: #94a3b8;
 }
@@ -6271,6 +3297,32 @@
   background-color: #94a3b8;
 }
 
+@media (prefers-color-scheme: dark) {
+  .clr-grayscale-shade-300-darkmode {
+    color: #cbd5e1;
+  }
+  .bg-clr-grayscale-shade-300-darkmode {
+    background-color: #cbd5e1;
+  }
+  .clr-grayscale-shade-300-active-darkmode:active,
+.clr-grayscale-shade-300-hover-darkmode:hover,
+.clr-grayscale-shade-300-focus-darkmode:focus,
+.clr-grayscale-shade-300-visited-darkmode:visited,
+.clr-grayscale-shade-300-focus-within-darkmode,
+.clr-grayscale-shade-300-focus-visible-darkmode:focus-visible,
+.clr-grayscale-shade-300-target-darkmode:target {
+    color: #cbd5e1;
+  }
+  .bg-clr-grayscale-shade-300-active-darkmode:active,
+.bg-clr-grayscale-shade-300-hover-darkmode:hover,
+.bg-clr-grayscale-shade-300-focus-darkmode:focus,
+.bg-clr-grayscale-shade-300-visited-darkmode:visited,
+.bg-clr-grayscale-shade-300-focus-within-darkmode:focus-within,
+.bg-clr-grayscale-shade-300-focus-visible-darkmode:focus-visible,
+.bg-clr-grayscale-shade-300-target-darkmode:target {
+    background-color: #cbd5e1;
+  }
+}
 .clr-grayscale-shade-300 {
   color: #cbd5e1;
 }
@@ -6299,6 +3351,32 @@
   background-color: #cbd5e1;
 }
 
+@media (prefers-color-scheme: dark) {
+  .clr-grayscale-shade-200-darkmode {
+    color: #e2e8f0;
+  }
+  .bg-clr-grayscale-shade-200-darkmode {
+    background-color: #e2e8f0;
+  }
+  .clr-grayscale-shade-200-active-darkmode:active,
+.clr-grayscale-shade-200-hover-darkmode:hover,
+.clr-grayscale-shade-200-focus-darkmode:focus,
+.clr-grayscale-shade-200-visited-darkmode:visited,
+.clr-grayscale-shade-200-focus-within-darkmode,
+.clr-grayscale-shade-200-focus-visible-darkmode:focus-visible,
+.clr-grayscale-shade-200-target-darkmode:target {
+    color: #e2e8f0;
+  }
+  .bg-clr-grayscale-shade-200-active-darkmode:active,
+.bg-clr-grayscale-shade-200-hover-darkmode:hover,
+.bg-clr-grayscale-shade-200-focus-darkmode:focus,
+.bg-clr-grayscale-shade-200-visited-darkmode:visited,
+.bg-clr-grayscale-shade-200-focus-within-darkmode:focus-within,
+.bg-clr-grayscale-shade-200-focus-visible-darkmode:focus-visible,
+.bg-clr-grayscale-shade-200-target-darkmode:target {
+    background-color: #e2e8f0;
+  }
+}
 .clr-grayscale-shade-200 {
   color: #e2e8f0;
 }
@@ -6327,6 +3405,32 @@
   background-color: #e2e8f0;
 }
 
+@media (prefers-color-scheme: dark) {
+  .clr-grayscale-shade-100-darkmode {
+    color: #f1f5f9;
+  }
+  .bg-clr-grayscale-shade-100-darkmode {
+    background-color: #f1f5f9;
+  }
+  .clr-grayscale-shade-100-active-darkmode:active,
+.clr-grayscale-shade-100-hover-darkmode:hover,
+.clr-grayscale-shade-100-focus-darkmode:focus,
+.clr-grayscale-shade-100-visited-darkmode:visited,
+.clr-grayscale-shade-100-focus-within-darkmode,
+.clr-grayscale-shade-100-focus-visible-darkmode:focus-visible,
+.clr-grayscale-shade-100-target-darkmode:target {
+    color: #f1f5f9;
+  }
+  .bg-clr-grayscale-shade-100-active-darkmode:active,
+.bg-clr-grayscale-shade-100-hover-darkmode:hover,
+.bg-clr-grayscale-shade-100-focus-darkmode:focus,
+.bg-clr-grayscale-shade-100-visited-darkmode:visited,
+.bg-clr-grayscale-shade-100-focus-within-darkmode:focus-within,
+.bg-clr-grayscale-shade-100-focus-visible-darkmode:focus-visible,
+.bg-clr-grayscale-shade-100-target-darkmode:target {
+    background-color: #f1f5f9;
+  }
+}
 .clr-grayscale-shade-100 {
   color: #f1f5f9;
 }
@@ -6355,6 +3459,32 @@
   background-color: #f1f5f9;
 }
 
+@media (prefers-color-scheme: dark) {
+  .clr-grayscale-shade-abswhite-darkmode {
+    color: #ffffff;
+  }
+  .bg-clr-grayscale-shade-abswhite-darkmode {
+    background-color: #ffffff;
+  }
+  .clr-grayscale-shade-abswhite-active-darkmode:active,
+.clr-grayscale-shade-abswhite-hover-darkmode:hover,
+.clr-grayscale-shade-abswhite-focus-darkmode:focus,
+.clr-grayscale-shade-abswhite-visited-darkmode:visited,
+.clr-grayscale-shade-abswhite-focus-within-darkmode,
+.clr-grayscale-shade-abswhite-focus-visible-darkmode:focus-visible,
+.clr-grayscale-shade-abswhite-target-darkmode:target {
+    color: #ffffff;
+  }
+  .bg-clr-grayscale-shade-abswhite-active-darkmode:active,
+.bg-clr-grayscale-shade-abswhite-hover-darkmode:hover,
+.bg-clr-grayscale-shade-abswhite-focus-darkmode:focus,
+.bg-clr-grayscale-shade-abswhite-visited-darkmode:visited,
+.bg-clr-grayscale-shade-abswhite-focus-within-darkmode:focus-within,
+.bg-clr-grayscale-shade-abswhite-focus-visible-darkmode:focus-visible,
+.bg-clr-grayscale-shade-abswhite-target-darkmode:target {
+    background-color: #ffffff;
+  }
+}
 .clr-grayscale-shade-abswhite {
   color: #ffffff;
 }
