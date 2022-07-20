@@ -154,37 +154,6 @@
         line-height: #{$value};
       }
     }
-
-    @each $category, $categoryValues in $colorCategories {
-      @each $type, $shades in $categoryValues {
-        @each $shade, $value in $shades {
-          .#{$breakpoint}-clr-#{$category}-#{$type}-#{$shade} {
-            color: #{$value};
-          }
-          .#{$breakpoint}-bg-clr-#{$category}-#{$type}-#{$shade} {
-            background-color: #{$value};
-          }
-          .#{$breakpoint}-clr-#{$category}-#{$type}-#{$shade}-active:active,
-          .#{$breakpoint}-clr-#{$category}-#{$type}-#{$shade}-hover:hover,
-          .#{$breakpoint}-clr-#{$category}-#{$type}-#{$shade}-focus:focus,
-          .#{$breakpoint}-clr-#{$category}-#{$type}-#{$shade}-visited:visited,
-          .#{$breakpoint}-clr-#{$category}-#{$type}-#{$shade}-focus-within,
-          .#{$breakpoint}-clr-#{$category}-#{$type}-#{$shade}-focus-visible:focus-visible,
-          .#{$breakpoint}-clr-#{$category}-#{$type}-#{$shade}-target:target {
-            color: #{$value};
-          }
-          .#{$breakpoint}-bg-clr-#{$category}-#{$type}-#{$shade}-active:active,
-          .#{$breakpoint}-bg-clr-#{$category}-#{$type}-#{$shade}-hover:hover,
-          .#{$breakpoint}-bg-clr-#{$category}-#{$type}-#{$shade}-focus:focus,
-          .#{$breakpoint}-bg-clr-#{$category}-#{$type}-#{$shade}-visited:visited,
-          .#{$breakpoint}-bg-clr-#{$category}-#{$type}-#{$shade}-focus-within,
-          .#{$breakpoint}-bg-clr-#{$category}-#{$type}-#{$shade}-focus-visible:focus-visible,
-          .#{$breakpoint}-bg-clr-#{$category}-#{$type}-#{$shade}-target:target {
-            background-color: #{$value};
-          }
-        }
-      }
-    }
   }
 }
 
@@ -242,12 +211,4 @@
   clip: rect(0, 0, 0, 0);
   white-space: nowrap; /* added line */
   border: 0;
-}
-
-.flex {
-  display: flex;
-}
-
-.grid {
-  display: grid;
 }
