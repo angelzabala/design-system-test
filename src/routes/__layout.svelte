@@ -1,4 +1,5 @@
 <script>
+  import Icon from '../components/Icon.svelte';
   import '../global.css';
 </script>
 
@@ -10,24 +11,25 @@
       <div class="flex ft-parragraph-c"> Custom Route </div>
       <div class="flex col-xl-gap-for-xs row">
         <button
-          class="ft-parragraph-c flex col-xs-6 col-sm-4  border-0 bg-clr-secondary-brand-yellow-500 bg-clr-primary-brand-blue-500-active flex-grow-1"
+          class="ft-parragraph-c d-flex align-items-center justify-content-center col-xs-6 col-sm-4  border-0 bg-clr-secondary-brand-yellow-500 bg-clr-secondary-brand-yellow-300-active flex-grow-1"
         >
           hello there
         </button>
         <button
-          class="ft-parragraph-c flex col-xs-6 col-sm-4  border-0 bg-clr-secondary-brand-yellow-500 bg-clr-primary-brand-blue-500-active flex-grow-1"
+          class="ft-parragraph-c d-flex align-items-center justify-content-center col-xs-6 col-sm-4  border-0 bg-clr-secondary-brand-yellow-500 bg-clr-secondary-brand-yellow-300-active flex-grow-1"
         >
           hello there
         </button>
         <button
-          class="ft-parragraph-c flex col-xs-6 col-sm-4  border-0 bg-clr-secondary-brand-yellow-500 bg-clr-primary-brand-blue-500-active flex-grow-1"
+          class="ft-parragraph-c d-flex align-items-center justify-content-center col-xs-6 col-sm-4  border-0 bg-clr-secondary-brand-yellow-500 bg-clr-secondary-brand-yellow-300-active flex-grow-1"
         >
           hello there
         </button>
         <button
-          class="ft-parragraph-c flex col-xs-6 col-sm-4  border-0 bg-clr-secondary-brand-yellow-500 bg-clr-primary-brand-blue-500-active flex-grow-1"
+          class="ft-parragraph-c d-flex align-items-center justify-content-center align-items-center col-xs-6 col-sm-4  border-0 bg-clr-secondary-brand-yellow-500 bg-clr-secondary-brand-yellow-300-active flex-grow-1"
         >
-          hello there
+          <span>hello there</span>
+          <Icon icon="one" className="bp-xl-spacing-c-for-md" size="max(2rem, 1.1vw)"/>
         </button>
       </div>
     </navbar>
