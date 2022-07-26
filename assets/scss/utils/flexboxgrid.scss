@@ -18,6 +18,7 @@
   flex-direction: row;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  width: 100;
 }
 
 .row.reverse {
@@ -841,6 +842,7 @@
     flex-direction: row;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    width: 100%;
   }
   
   .row.reverse-#{$breakpoint} {
@@ -1252,11 +1254,7 @@
         flex-basis: calc((math.div(100%, $gridColumns) * ($i)) - (var(--column-gap, 0)));
       }
       .col-#{$breakpoint}-offset-#{$i} {
-        margin-left: math.div(100%, $gridColumns) * ($i);
-        box-sizing: border-box;
-        -webkit-box-flex: 0;
-        -ms-flex: 0 0 auto;
-        flex: 0 0 auto;
+        margin-left: calc((math.div(100%, $gridColumns) * ($i)) - (var(--column-gap, 0)*(($gridColumns - $i)/$gridColumns)) + (var(--column-gap)));
       }
     }
   } @else {
@@ -2072,11 +2070,7 @@
           flex-basis: calc((math.div(100%, $gridColumns) * ($i)) - (var(--column-gap, 0)));
         }
         .col-#{$breakpoint}-offset-#{$i} {
-          margin-left: math.div(100%, $gridColumns) * ($i);
-          box-sizing: border-box;
-          -webkit-box-flex: 0;
-          -ms-flex: 0 0 auto;
-          flex: 0 0 auto;
+          margin-left: calc((math.div(100%, $gridColumns) * ($i)) - (var(--column-gap, 0)*(($gridColumns - $i)/$gridColumns)) + (var(--column-gap)));
         }
       }
     }
