@@ -1,7 +1,6 @@
 <script>
   import iconFonts from '../icons/icons.json';
 
-  //  remember to add typescript notation to files
   export let description = '';
   export let color = '#000';
   export let size = '30px';
@@ -28,10 +27,6 @@
     fill: {
       regex: /fill=(["'])(?:(?=(\\?))\2.)*?\1/g,
       value: `fill="${color}"`
-    },
-    viewbox: {
-      regex: /viewbox=(["'])(?:(?=(\\?))\2.)*?\1/g,
-      value: `viewbox="0 0 ${size} ${height}"`
     },
     endtag: {
       regex: /\<\/svg>/,
