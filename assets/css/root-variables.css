@@ -194,7 +194,7 @@
   --bp-lg-spacing: 2rem;
   --bp-md-spacing: 1.5rem;
   --bp-sm-spacing: 1rem;
-  --bp-xs-spacing: 0.25rem;
+  --bp-xs-spacing: 0.5rem;
 }
 
 :root {
@@ -207,29 +207,29 @@
 
 :root {
   --bp-xl-spacing-cshrink: clamp(
-    0.25rem,
-    -0.0476190476rem + 1.9047619048vw,
+    0.5rem,
+    0.2294372294rem + 1.7316017316vw,
     3rem
   );
   --bp-lg-spacing-cshrink: clamp(
-    0.25rem,
-    0.0606060606rem + 1.2121212121vw,
+    0.5rem,
+    0.3376623377rem + 1.038961039vw,
     2rem
   );
   --bp-md-spacing-cshrink: clamp(
-    0.25rem,
-    0.1147186147rem + 0.8658008658vw,
+    0.5rem,
+    0.3917748918rem + 0.6926406926vw,
     1.5rem
   );
   --bp-sm-spacing-cshrink: clamp(
-    0.25rem,
-    0.1688311688rem + 0.5194805195vw,
+    0.5rem,
+    0.4458874459rem + 0.3463203463vw,
     1rem
   );
   --bp-xs-spacing-cshrink: clamp(
-    0.25rem,
-    0.25rem + 0vw,
-    0.25rem
+    0.5rem,
+    0.5rem + 0vw,
+    0.5rem
   );
 }
 
@@ -250,14 +250,14 @@
     1.5rem
   );
   --bp-sm-spacing-c: clamp(
-    0.25rem,
-    0.1688311688rem + 0.5194805195vw,
+    0.5rem,
+    0.4458874459rem + 0.3463203463vw,
     1rem
   );
   --bp-xs-spacing-c: clamp(
     0.25rem,
-    0.25rem + 0vw,
-    0.25rem
+    0.2229437229rem + 0.1731601732vw,
+    0.5rem
   );
 }
 

@@ -29,7 +29,7 @@
           class="ft-parragraph-c d-flex align-items-center justify-content-center align-items-center col-xs-6 col-sm-4  border-0 bg-clr-secondary-brand-yellow-500 bg-clr-secondary-brand-yellow-300-active flex-grow-1"
         >
           <span>hello there</span>
-          <Icon icon="one" className="bp-xl-spacing-c-for-md" size="max(2rem, 1.1vw)"/>
+          <Icon icon="bell-check" className="bp-xl-spacing-c-for-md" size="max(2rem, 1.1vw)"/>
         </button>
       </div>
     </navbar>
